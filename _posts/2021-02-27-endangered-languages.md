@@ -8,8 +8,6 @@ tags: [linguistics, data]
 comments: true
 ---
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
-
 On the occasion of the International Mother Language Day (21st February), I wrote an essay (in French) about the importance of preserving endangered languages and I thought of pairing that with a data science challenge. In this simple project, I analysed and visualised the global distribution of language families and dialects.
 
 * Topic: Exploratory Data Analysis & Visualisation
@@ -88,6 +86,8 @@ import matplotlib.pyplot as plt
 lang_sum.plot(kind='bar')
 ```
 
+![Barplot](../assets/img/endangered_languages_barplot.png){: .mx-auto.d-block :}
+
 ## Language status
 
 Find the total number of languages in each status:
@@ -103,6 +103,8 @@ Over 80% of languages in the dataset are safe, which leaves 14% of data on endan
 level_status = pd.crosstab(df.level, df.status)
 level_status.plot(kind='bar', stacked=True)
 ```
+
+![Status_plot](../assets/img/endangered_languages_status.png){: .mx-auto.d-block :}
 
 ## Endangered languages
 
