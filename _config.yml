@@ -9,17 +9,16 @@
 title: My Website
 
 # Your name to show in the footer
-author: Lorena Ciutacu
+author: Some Person
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About: "aboutme"
-  Work:
-    - Academia: "https://beautifuljekyll.com"
-    - Tech: "https://www.markdowntutorial.com/"
-  Blog: ""
-  Tags: "tags.html"
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -40,11 +39,29 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "contact@lorenaciutacu.com"
-  linkedin: lorena-ciutacu
-  github: lorenanda
-  twitter: alciutacu
-  goodreads: lorenasbooks
+  email: "someone@example.com"
+  facebook: deanattali
+  github: daattali
+  twitter: daattali
+  patreon: DeanAttali
+  youtube: c/daattali
+#  medium: yourname
+#  reddit: yourname
+#  linkedin: daattali
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
+#  mastodon: instance.url/@username
+#  ORCID: your ORCID ID
+#  google-scholar: your google scholar
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
@@ -57,10 +74,11 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
+  vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "MyWebsite.com"
+url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
