@@ -43,8 +43,8 @@ twitter:
 liquid:
   error_mode: strict
 
-permalink:   /:categories/:title/
-markdown:    kramdown
+permalink: /:categories/:title/
+markdown: kramdown
 feed:
   path: atom.xml
 highlighter: rouge
@@ -65,7 +65,30 @@ kramdown:
 # paginate_path: /page:num/
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+exclude:
+  [
+    "lib",
+    "config.rb",
+    "Capfile",
+    "config",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+    ".less",
+    "*.sublime-project",
+    "*.sublime-workspace",
+    "test",
+    "spec",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE",
+    "README.md",
+    "vendor",
+  ]
 
 # Search
 search_full_content: false # can have performance implications for large sites
@@ -104,7 +127,7 @@ defaults:
 
 # # Site Author
 author:
-  name: Wen Chuan Lee
+  name: Lorena
 #   picture:
 #   email:
 #   twitter:
