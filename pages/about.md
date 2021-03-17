@@ -4,9 +4,9 @@ title: About Me
 excerpt: ""
 modified: 2019-02-27T22:04:38.564948-07:00
 permalink: /about/
-image:
-    path: images/profile.jpg
-    # thumbnail: images/profile.jpg
+#image:
+#    path: images/profile.jpg
+#    thumbnail: images/profile.jpg
   
 ---
 
