@@ -148,7 +148,7 @@ footer_links:
     url: https://twitter.com/alciutacu
     icon: fab fa-twitter-square
   - title: Instagram
-    url: https:/instagram.com/datalingo
+    url: https://instagram.com/datalingo
     icon: fab fa-instagram-square
   - title: Feed
     url: atom.xml
