@@ -11,6 +11,8 @@
           {%- endif -%}
           <li><a href="{{ url }}">{{ link.title }}</a></li>
         {%- endfor -%}
+		<!-- Dark mode selector -->
+		<li><a id="theme-toggle" onclick="themeSelector()" title="Toggle dark/light mode">💡</a></li>
       </ul>
     </nav>
   </div><!-- /.navigation-wrapper -->
