@@ -19,7 +19,7 @@ locale: en-US
 title: "Lorena"
 description: "My blog"
 baseurl: # the subpath of your site, e.g. "/blog"
-# url: https://leewc.com
+# url: https://lorena.com
 logo: /images/profile.jpg
 date_format: "%B %-d, %Y"
 read_time: true
@@ -37,7 +37,7 @@ twitter:
   username: alciutacu
 
 # dangit, forgot why I added this here before the merge. :(
-# enforce_ssl: "leewc.com"
+# enforce_ssl: "lorena.com"
 
 # Liquid
 liquid:
@@ -138,15 +138,18 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Twitter
-    url: https://twitter.com/alciutacu
-    icon: fab fa-twitter-square
   - title: LinkedIn
     url: https://linkedin.com/in/lorena-ciutacu
     icon: fab fa-linkedin-in
   - title: GitHub
     url: https://github.com/lorenanda
     icon: fab fa-github-square
+  - title: Twitter
+    url: https://twitter.com/alciutacu
+    icon: fab fa-twitter-square
+  - title: Instagram
+    url: https:/instagram.com/datalingo
+    icon: fab fa-instagram-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
