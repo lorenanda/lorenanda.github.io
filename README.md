@@ -1,1 +1,1 @@
-personal website built with So Simple Jekyll theme.
+personal website built on top of the So Simple Jekyll theme.

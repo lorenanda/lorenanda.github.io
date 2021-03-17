@@ -1,13 +1,7 @@
 # Sample site navigation bar links
 
-- title: Articles
-  url: /articles/
-
 - title: Blog
   url: /blog/
-
-- title: Resume
-  url: /resume/
 
 - title: Projects
   url: /projects/
@@ -15,5 +9,5 @@
 - title: About
   url: /about/
   
-- title: Search
-  url: /search/
+- title: Tags
+  url: /tags/
