@@ -15,8 +15,7 @@ author: Lorena Ciutacu
 
 navbar-links:
   About Me: "aboutme"
-  Work:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+  Work: "work"
   Blog: "tags"
 
 # --- Logo --- #
