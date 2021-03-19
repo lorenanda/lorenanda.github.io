@@ -4,7 +4,7 @@ title: Designing Bots by Amir Shevat
 subtitle: Book review
 gh-repo: lorenanda/rasa-chatbot
 gh-badge: [star, fork, follow]
-tags: [books, nonfiction, chatbots]
+tags: [books, nonfiction]
 comments: true
 ---
 <div align="center"><strong>Title</strong>: Designing Bots</div>
