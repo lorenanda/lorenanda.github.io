@@ -5,7 +5,6 @@ tags: [books, nonfiction]
 comments: true
 ---
 
-
 Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our actions worthy of being mimicked? And should some of our ways of thinking about the world even be reinforced? If, like me, you’re concerned about these issues, here are five books to educate yourself on:
 
 <figure>

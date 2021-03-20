@@ -1,3 +1,10 @@
+---
+layout: post
+title: 12 tech books to read in 2021
+tags: [books, nonfiction, AI]
+comments: true
+---
+
 As part of my reading challenge for 2021, I aim to read 12 books related to tech, because as a data scientist and programmer, I believe it’s important to read and keep up with the research in this fast-paced industry. So here are the 12 books on my reading list, thoughtfully selected for each month:
 
 <figure>

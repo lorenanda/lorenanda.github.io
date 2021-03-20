@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Regression Challenge for Kaggle Playground
+title: January's regression challenge for Kaggle playground
 subtitle: Project
 gh-repo: lorenanda/kaggle-playground
 gh-badge: [star, fork, follow]
