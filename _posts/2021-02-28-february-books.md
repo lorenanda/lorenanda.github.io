@@ -6,7 +6,7 @@ tags: [books, fiction, nonfiction]
 comments: true
 ---
 
-![cover](../assets/img/books_feb20.jpg)
+![cover](../assets/img/books_feb21.jpg)
 
 February was a busy month for me and I feel like time flew by so fast! Nevertheless, I managed to read **7 books**. This might not seem like a lot compared to [14 books I read in January](https://lorenaciutacu.com/2021/01/27/january-books-reviewed/), but that's because one of the books had over 1300 pages, and February was a more active month (good for a change). But most importantly, I've read better books overall, and started and ended the month with five-star reads! Here are my thoughts on each of them:
 
