@@ -7,6 +7,9 @@ gh-badge: [star, fork, follow]
 tags: [books, nonfiction]
 comments: true
 ---
+
+![cover](../assets/img/designingBots.jpg)
+
 <div align="center"><strong>Title</strong>: Designing Bots</div>
 <div align="center"><strong>Author</strong> Amir Shevat</div>
 <div align="center"><strong>Publisher</strong>: O’Reilly Media</div>
