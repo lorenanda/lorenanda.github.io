@@ -47,12 +47,12 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: #008AFF;
+  color: #BD892A;
 }
 
 a:hover,
 a:focus {
-  color: #0085A1;
+  color: #BD892A;
 }
 
 blockquote {
@@ -87,12 +87,12 @@ hr.small {
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #BD892A;
 }
 ::selection {
   color: #fff;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #BD892A;
 }
 img::selection {
   color: #fff;
@@ -128,7 +128,7 @@ img {
 
 .navbar-custom {
   background-color: #FFF;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
   -webkit-transition: padding .5s ease-in-out;
@@ -274,14 +274,14 @@ img {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid #FFF;
+    border: 1px solid #EAEAEA;
     border-width: 0 1px 1px;
   }
 }
 
 @media (max-width: 1199px) {
   .navbar-custom .navbar-collapse {
-    border-top: 1px solid #FFF;
+    border-top: 1px solid #EAEAEA;
     margin: 0 -1rem;
   }
 
@@ -307,7 +307,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: #0085A1;
+  color: #BD892A;
 }
 
 .navbar-custom .avatar-container {
@@ -451,7 +451,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #BD892A;
 }
 
 .post-preview .post-title {
@@ -798,8 +798,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
   color: #FFF;
-  border: 1px solid #0085A1;
-  background-color: #0085A1;
+  border: 1px solid #BD892A;
+  background-color: #BD892A;
 }
 
 /* --- Tables --- */
