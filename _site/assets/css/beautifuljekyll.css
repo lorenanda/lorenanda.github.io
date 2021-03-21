@@ -128,7 +128,7 @@ img {
 
 .navbar-custom {
   background-color: #FFF;
-  border-bottom: 1px solid #DDDDDD;
+  border-bottom: 1px solid #FFF;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
   -webkit-transition: padding .5s ease-in-out;
@@ -274,14 +274,14 @@ img {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #FFF;
     border-width: 0 1px 1px;
   }
 }
 
 @media (max-width: 1199px) {
   .navbar-custom .navbar-collapse {
-    border-top: 1px solid #DDDDDD;
+    border-top: 1px solid #FFF;
     margin: 0 -1rem;
   }
 

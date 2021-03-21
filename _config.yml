@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: LC Website
+title: myWebsite
 
 # Your name to show in the footer
 author: Lorena Ciutacu
@@ -14,7 +14,7 @@ author: Lorena Ciutacu
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "about"
+  About: "about"
   Work: "work"
   Blog: "tags"
   Support: "support"
