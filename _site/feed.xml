@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>My Website</title>
+    
+    
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Designing Bots by Amir Shevat</title>
+        <description>
+          Book review - 
+          Title: Designing Bots Author Amir Shevat Publisher: O’Reilly Media Published: May 2017 Pages: 328 ISBN: 1491974826 Rating: 🌕🌕🌕🌕🌖 Chatbots are probably the cutest possible tech application! As soon I learned enough Python, I tried to build my own artificial friend with which to do small talk in the terminal. I...
+        </description>
+        <pubDate>Sun, 14 Mar 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-03-14-book-review-designing-bots/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-14-book-review-designing-bots/</guid>
+      </item>
+    
+      <item>
+        <title>Elmet von Fiona Mozley</title>
+        <description>
+          Buchrezension - 
+          Titel: Elmet Autorin: Fiona Mozley Verlag: btb Erschienen: November 2020 Seitenanzahl: 318 ISBN: 3442770432 Bewertung: 🌕🌕🌖🌑🌑 Danke an RandomHouse und btb Verlag für die Bereitstellung dieses Rezensionsexemplars. Mozleys Debütroman war ein Man Booker Prize Finalist (2017) und wurde als Buch des Jahres von namhaften Zeitungen gekennzeichnet. Dementsprechend hatte ich hohe...
+        </description>
+        <pubDate>Sun, 07 Mar 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-03-07-buchrezension-elmet/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-07-buchrezension-elmet/</guid>
+      </item>
+    
+      <item>
+        <title>Terror von Bernd Schmidt</title>
+        <description>
+          Buchrezension - 
+          Titel: Terror. Das Recht braucht eine Bühne Autor: Bernd Schmidt (Hrsgb.) Verlag: btb Erschienen: 12. Oktober 2020 Seitenanzahl: 192 ISBN: 3442719593 Bewertung: 🌕🌕🌕🌕🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! Das berühmte Theaterstück Terror von Ferdinand von Schirach hat mich nachhaltig beeindruckt. Darin...
+        </description>
+        <pubDate>Wed, 03 Mar 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-03-03-buchrezension-terror/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-03-buchrezension-terror/</guid>
+      </item>
+    
+      <item>
+        <title>February Books</title>
+        <description>
+          Book reviews - 
+          February was a busy month for me and I feel like time flew by so fast! Nevertheless, I managed to read 7 books. This might not seem like a lot compared to 14 books I read in January, but that’s because one of the books had over 1300 pages, and...
+        </description>
+        <pubDate>Sun, 28 Feb 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-02-28-february-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-02-28-february-books/</guid>
+      </item>
+    
+      <item>
+        <title>Exploring endangered languages with pandas</title>
+        <description>
+          Tutorial - 
+          On the occasion of the International Mother Language Day (21st February), I did and exploratory analysis and data visualisation of the World Language Family Map dataset with pandas and matplotlib. Setup The first step in the exploratory analysis is to read in the data and get an overview of the...
+        </description>
+        <pubDate>Sat, 27 Feb 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-02-27-endangered-languages/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-02-27-endangered-languages/</guid>
+      </item>
+    
+      <item>
+        <title>99 Nächte in Logar von Jamil Jan Kochai</title>
+        <description>
+          Buchrezension - 
+          Titel: 99 Nächte in Logar Autor: Jamil Jan Kochai Verlag: btb Erschienen: Februar 2021 Seitenanzahl: 320 ISBN: 978-3-442-77045-8 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! Nach Portugal bin ich in diesem Monat nach Afghanistan gereist, durch das Debütroman von Jamil Jan...
+        </description>
+        <pubDate>Wed, 24 Feb 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-02-24-buchrezension-99naechte/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-02-24-buchrezension-99naechte/</guid>
+      </item>
+    
+      <item>
+        <title>Pourquoi est-il important de protéger les langues en danger</title>
+        <description>
+          Essay - 
+          À l’occassion de la Journée internationale de la langue maternelle (21 février), j’ai écrit un essay pour attirer l’attention sur la diversité linguistique et l’importance de préserver les langues maternelles de chacun(e). Il y a 7102 langues humaines reconnues dans le monde. C’est une richesse linguistique et culturelle extraordinaire, mais...
+        </description>
+        <pubDate>Sun, 21 Feb 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-02-21-langues-en-danger/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-02-21-langues-en-danger/</guid>
+      </item>
+    
+      <item>
+        <title>Die Mauern von Porto von Mario Lima</title>
+        <description>
+          Buchrezension - 
+          Titel: Die Mauern von Porto. Ein Fall für Inspektor Fonseca #3 Autor: Mario Lima Verlag: Heyne Erschienen: 8. Februar 2021 Seitenanzahl: 368 ISBN: 978-3-453-44113-2 Bewertung: 🌕🌕🌕🌕🌑 Danke an Random House Bloggerportal und Heyne Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! Somit konnte ich auf eine spannende Reise durch Porto gehen...
+        </description>
+        <pubDate>Fri, 12 Feb 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-02-12-buchrezension-diemauernvonporto/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-02-12-buchrezension-diemauernvonporto/</guid>
+      </item>
+    
+      <item>
+        <title>January Books</title>
+        <description>
+          Book reviews - 
+          For the sixth year in a row, I’m taking on the Goodreads Reading Challenge. My goal for 2021 is to read at least 36 books, of which 12 related to tech. January is usually my most productive reading month, since there’s not much going on, while things are slowly getting...
+        </description>
+        <pubDate>Sun, 31 Jan 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-01-31-january-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-01-31-january-books/</guid>
+      </item>
+    
+      <item>
+        <title>January's regression challenge for Kaggle playground</title>
+        <description>
+          Project - 
+          At the beginning of the new year 2021, Kaggle created a new format of competitions aimed at beginners. On the 1st of each month, a month-long Playground competition is launched, where you can practice your ML skills on simple tabular datasets. Apart from competitive experience, the top 3 teams get...
+        </description>
+        <pubDate>Thu, 21 Jan 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-01-21-kaggle-playground-jan/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-01-21-kaggle-playground-jan/</guid>
+      </item>
+    
+      <item>
+        <title>12 tech books to read in 2021</title>
+        <description>
+          
+          As part of my reading challenge for 2021, I aim to read 12 books related to tech, because as a data scientist and programmer, I believe it’s important to read and keep up with the research in this fast-paced industry. So here are the 12 books on my reading list,...
+        </description>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-01-09-tech-books-to-read-in-2021/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-01-09-tech-books-to-read-in-2021/</guid>
+      </item>
+    
+      <item>
+        <title>5 eye-opening books about AI ethics</title>
+        <description>
+          
+          Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...
+        </description>
+        <pubDate>Wed, 19 Aug 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-08-19-books-ethics-ai/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-08-19-books-ethics-ai/</guid>
+      </item>
+    
+      <item>
+        <title>Die geheimen Muster der Sprache von Rottler/Martin</title>
+        <description>
+          Buchrezension - 
+          Titel: Die geheimen Muster der Sprach Autor: Patrick Rottler &amp;amp; Leo Martin Verlag: Redline Erschienen: 2020 Seitenanzahl: 238 Bewertung: 🌕🌕🌑🌑🌑 Als Linguistin und Krimiliebhaberin war ich sehr gespannt über die Veröffentlichung eines neuen Buches über forensische Linguistik! Diese Teildisziplin der Linguistik beschäftigt sich mit geschriebener Sprache im Zusammenhang von kriminalistischen...
+        </description>
+        <pubDate>Sat, 27 Jun 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-06-27-buchrezension-geheimen-muster-sprache/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-06-27-buchrezension-geheimen-muster-sprache/</guid>
+      </item>
+    
+      <item>
+        <title>Invisible Women by Caroline Criado Perez</title>
+        <description>
+          Book review - 
+          Title: Invisible Women Author Caroline Criado Perez Publisher: Vintage Published: March 2020 Pages: 432 Rating: 🌕🌕🌕🌕🌖 In her book Invisible Women, Caroline Criado Perez illustrates with tenths of real-world examples and scientific studies how women are being discriminated against in all areas of everyday life: from housing and public transport...
+        </description>
+        <pubDate>Wed, 10 Jun 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-06-10-book-review-invisible-women/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-06-10-book-review-invisible-women/</guid>
+      </item>
+    
+  </channel>
+</rss>
