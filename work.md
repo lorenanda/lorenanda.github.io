@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Work
+title: WORK
 subtitle: brain & time investments
 ---
 
 # Articles
-- *Celebrating World Poetry Day with a daily poem in Telegram (Tutorial)* on [n8n blog](https://n8n.io/blog/world-poetry-day-workflow/)  and [dev.to](https://dev.to/n8n/celebrating-world-poetry-day-with-a-daily-poem-in-telegram-1f0f)
+- *Celebrating World Poetry Day with a daily poem in Telegram (Tutorial)* on [n8n blog](https://n8n.io/blog/world-poetry-day-workflow/), [dev.to](https://dev.to/n8n/celebrating-world-poetry-day-with-a-daily-poem-in-telegram-1f0f), [HackerNoon](https://hackernoon.com/using-an-api-to-return-a-daily-poem-in-telegram-to-celebrate-world-poetry-day-vz3r35pj)
 
 
 # Papers
