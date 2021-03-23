@@ -131,6 +131,17 @@
       </item>
     
       <item>
+        <title>My year in code - 2020 review</title>
+        <description>
+          Projects - 
+          2020 has definitely been an objectively crappy year… But in terms of programming experience, this year has been by far my most productive and enriching! It was my third year of coding, and second year of doing for work. I’ve learned a lot on the job and through self-study, developed...
+        </description>
+        <pubDate>Tue, 29 Dec 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-12-29-my-year-in-code/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-12-29-my-year-in-code/</guid>
+      </item>
+    
+      <item>
         <title>5 eye-opening books about AI ethics</title>
         <description>
           
@@ -139,6 +150,28 @@
         <pubDate>Wed, 19 Aug 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-08-19-books-ethics-ai/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-08-19-books-ethics-ai/</guid>
+      </item>
+    
+      <item>
+        <title>Skills To Last A Decade</title>
+        <description>
+          Women in Data - 
+          Women in Data is an international non-profit organization dedicated to increasing diversity in data-related careers by organizing conferences, networking events, and mentorship programs around the world. The Berlin Chapter of WiD was just founded in May this year and I was very excited to join as a Marketing Coordinator. This week, 27-31 July 2020, we hosted our...
+        </description>
+        <pubDate>Fri, 31 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-07-31-womenindata-symposium/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-07-31-womenindata-symposium/</guid>
+      </item>
+    
+      <item>
+        <title>4 tips for a good data science portfolio</title>
+        <description>
+          Career - 
+          It is a truth universally acknowledged that a data scientist in possession of a good portfolio must be in want of a job. A curated selection of your projects is the best way to showcase your work, interests, and thinking to potential employers. From my experience and discussions with colleagues,...
+        </description>
+        <pubDate>Wed, 29 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-07-29-tips-for-datascience-portfolio/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-07-29-tips-for-datascience-portfolio/</guid>
       </item>
     
       <item>
@@ -161,6 +194,39 @@
         <pubDate>Wed, 10 Jun 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-06-10-book-review-invisible-women/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-06-10-book-review-invisible-women/</guid>
+      </item>
+    
+      <item>
+        <title>The Pitfalls of Deep Learning</title>
+        <description>
+          We Are Developers - 
+          We Are Developers is the world’s largest conference for software development. It’s a great opportunity for software engineers to connect with tech companies and learn about interesting advances in technology. This year, it was supposed to take place in Berlin, but due to COVID-19, it was moved online for a...
+        </description>
+        <pubDate>Tue, 26 May 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-05-26-wad-pitfalls-deeplearning/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-05-26-wad-pitfalls-deeplearning/</guid>
+      </item>
+    
+      <item>
+        <title>Diversity in IT Jobs</title>
+        <description>
+          We Are Developers - 
+          We Are Developers is the world’s largest conference for software development. It’s a great opportunity for software engineers to connect with tech companies and learn about interesting advances in technology. This year, it was supposed to take place in Berlin, but due to COVID-19, it was moved online for a Live Week...
+        </description>
+        <pubDate>Mon, 25 May 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-05-25-wad-diversity-it/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-05-25-wad-diversity-it/</guid>
+      </item>
+    
+      <item>
+        <title>10 data science books to read during lockdown</title>
+        <description>
+          Books - 
+          If you’re reading this post around its publishing date in April 2020, chances are you’re at home, responsibly isolating yourself amid COVID-19 curfews around the world. What a better time than now to read actual books on data-related topics, that you’ve been postponing for too long in favor of short...
+        </description>
+        <pubDate>Tue, 05 May 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-05-05-datascience-books-for-lockdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-05-05-datascience-books-for-lockdown/</guid>
       </item>
     
   </channel>
