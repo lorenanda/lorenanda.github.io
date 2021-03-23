@@ -2,7 +2,7 @@
 layout: post
 title: Die geheimen Muster der Sprache von Rottler/Martin
 subtitle: Buchrezension
-tags: [books, linguistics]
+tags: [books, linguistics, deutsch]
 comments: true
 ---
 
