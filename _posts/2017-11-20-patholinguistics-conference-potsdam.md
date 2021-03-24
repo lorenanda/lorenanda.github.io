@@ -8,7 +8,7 @@ comments: true
 
 Last Saturday **18th November** I attended [again](https://lorenaciutacu.com/2017/07/23/10th-meeting-of-patholinguistics-in-potsdam/) the **[Autumn Meeting of Patholinguistics](https://www.herbsttreffen.vpl-ev.de/) **in** Potsdam,** in a wonderful new location Am Neuen Palais. The theme of this edition was "**Diagnosis and treatment of dysphonia"** (also known as hoarseness), a condition of the vocal chords or the larynx which makes the voice sound breathy, strained, raspy, or lower in volume or pitch.
 
-![goodies bag](../_site/assets/img/11PatholinguisticsMeetup2.jpg)
+![goodies bag](../assets/img/11PatholinguisticsMeetup2.jpg)
 
 ## Talks
 
@@ -22,10 +22,10 @@ The most insightful part, and actually the main reason I attended the Meeting, w
 -   **Incidental Teaching:** The child is let to initiate interaction and the therapist plays along. It takes place in the natural environment, it's unstructured, but requires creativity and spontaneity for the therapist to create "teachable moments" with what's at hand. For example, a boy in Ms. Snippe's therapy was carrying objects from one room to another, uninterested in other activities, so she stepped in his "game" and started carrying toys as well, but stopped repeatedly along the way to indicate that she is tired, so that the boy would push her or point to the room.
 -   **Picture Exchange Communication System (PECS)**: The child communicates using picture cards of objects, foods, places etc. For example, the child would hand you a picture of a glass of water to "say" that he's thirsty. Gradually, it's possible to combine picture and verb cards to make sentences. For example, to say *I want to go with dad in the park,* the child would arrange cards with the verbs *want* and *go* and pictures of his dad and a park.
 
-Children with autism/Asperger's also have difficulties with **pragmatics** and n**on-verbal communication** (e.g. gestures, facial expressions, tone of voice, turn-taking, irony/sarcasm, assumptions, allusions, eye contact). These can be trained, for example by simulating social situations or analyzing the non-verbal communication in stories/movies.
+Children with autism/Asperger's also have difficulties with **pragmatics** and **non-verbal communication** (e.g. gestures, facial expressions, tone of voice, turn-taking, irony/sarcasm, assumptions, allusions, eye contact). These can be trained, for example by simulating social situations or analyzing the non-verbal communication in stories/movies.
 
 ## Poster session
 In the poster session I learned about ongoing research on dysphagia, working memory in patients with aphasia, and therapy for dysprosody in patients with apraxia of speech. Since I didn't know much about voice disorders before, this Meeting was very informative and exciting, especially because it presented mainly applied research. Looking forward to next year!
 
 
-![goodies bag](../_site/assets/img/11PatholinguisticsMeetup.jpg)
+![goodies bag](../assets/img/11PatholinguisticsMeetup.jpg)

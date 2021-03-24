@@ -6,7 +6,7 @@ tags: [linguistics, events]
 comments: true
 ---
 
-![expolingua](../_site/assets/img/expolingua.jpg)
+![expolingua](../assets/img/expolingua.jpg)
 
 Today I attended the long-awaited international fair for languages and cultures [**ExpoLingua** ](http://expolingua.com/en/)in Berlin. It's a *must* event for anyone interested in language learning and teaching, because for two days (**17-18 November**) it brings 150+ exhibitors (language schools, travel operators, cultural institutes, publishing houses, translators, associations) from 30+ countries and offers workshops, presentations, crash-courses in different languages, performances, and moderated panel discussions, from five categories: languages and cultures, presentations for teachers, learn & travel, tests, and career.
 

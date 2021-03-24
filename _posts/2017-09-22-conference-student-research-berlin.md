@@ -6,7 +6,7 @@ tags: [linguistics, events]
 comments: true
 ---
 
-![poster](../_site/assets/img/posterTranslatorsBrain.jpg)
+![poster](../assets/img/posterTranslatorsBrain.jpg)
 
 I am typing this post from a coffee shop around Humboldt University of Berlin, sipping the fifth coffee today and leafing through my notes from the [**2nd Conference for Student Research** (Forschung Vermitteln-Communicating Research)](https://www.hu-berlin.de/de/einrichtungen-organisation/verwaltung/bolognalab/zweite-konferenz-fuer-studentische-forschung). In the past two days (21-22.9.2017) I've attended 16 out of **80 talks** and **52 posters** of (under)graduate students from all over the world. The diverse programme included sessions on biology & health, film & media, environment, computer science, law, technology, sociology, and not least linguistics. I'm always eager to learn from other disciplines, so I skipped the language-related talks to attend some about winery, immunoglobin therapy for neuromuscular dystrophy, heart rate variability, the complex symptoms of Tourette syndrome, a sociological film analysis of *Her...*
 
