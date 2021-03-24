@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>Building UIs that learn with AI</title>
+        <description>
+          We Are Developers - Live - 
+          We Are Developers. Learn how to combine User Interface (UI) and Artificial Intelligence (AI) in tech applications. Build UIs that learn – discover the powerful combination of UI and AI by Eliran Natan, Tech Lead at ZorgDomein Summary: 1. 2. 3. We can implement a Machine Learning 4. We can...
+        </description>
+        <pubDate>Wed, 24 Mar 2021 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2021-03-24-wad-live-ui-and-ai/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-24-wad-live-ui-and-ai/</guid>
+      </item>
+    
+      <item>
         <title>Designing Bots by Amir Shevat</title>
         <description>
           Book review - 
@@ -216,17 +227,6 @@
         <pubDate>Mon, 25 May 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-05-25-wad-diversity-it/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-05-25-wad-diversity-it/</guid>
-      </item>
-    
-      <item>
-        <title>10 data science books to read during lockdown</title>
-        <description>
-          Books - 
-          If you’re reading this post around its publishing date in April 2020, chances are you’re at home, responsibly isolating yourself amid COVID-19 curfews around the world. What a better time than now to read actual books on data-related topics, that you’ve been postponing for too long in favor of short...
-        </description>
-        <pubDate>Tue, 05 May 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-05-05-datascience-books-for-lockdown/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-05-05-datascience-books-for-lockdown/</guid>
       </item>
     
   </channel>
