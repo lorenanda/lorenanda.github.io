@@ -5,6 +5,10 @@
 <lastmod>2015-05-20T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2016-11-23-patholinguistics-meeting-potsdam/</loc>
+<lastmod>2016-11-23T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/2016-11-28-conference-languages-of-trauma/</loc>
 <lastmod>2016-11-28T00:00:00-05:00</lastmod>
 </url>
@@ -15,10 +19,6 @@
 <url>
 <loc>http://localhost:4000/2016-12-21-xenolinguistics-book-review/</loc>
 <lastmod>2016-12-21T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2017-07-23-patholinguistics-meeting-potsdam/</loc>
-<lastmod>2017-07-23T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2017-08-04-linguistik-meetup-berlin/</loc>
@@ -143,9 +143,6 @@
 <url>
 <loc>http://localhost:4000/2021-03-14-book-review-designing-bots/</loc>
 <lastmod>2021-03-14T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/drafts/2021-03-24-wad-live-ui-and-ai/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
