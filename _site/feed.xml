@@ -186,7 +186,7 @@
       </item>
     
       <item>
-        <title>Creating a Monte-Carlo Markov Simulation of supermarket customers</title>
+        <title>Creating a Markov chain Monte Carlo simulation in Python</title>
         <description>
           Data Science Bootcamp - 
           Project completed in week 8 (16.11.-20.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This week we learned to make a Markov Chain Monte Carlo (MCMC) simulation of new customers in a supermarket, based on data about customer paths from entrance to checkout through four aisles (fruit, drinks,...
