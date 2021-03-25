@@ -9,13 +9,13 @@
 
   
 
-  <title>5 eye-opening books about AI ethics</title>
+  <title>Predicting bike share demand with linear regression</title>
 
   
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...">
+  <meta name="description" content="Data Science Bootcamp">
 
   
 
@@ -94,17 +94,17 @@
 
   
   <meta property="og:site_name" content="numbers and words">
-  <meta property="og:title" content="5 eye-opening books about AI ethics">
-  <meta property="og:description" content="Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...">
+  <meta property="og:title" content="Predicting bike share demand with linear regression">
+  <meta property="og:description" content="Data Science Bootcamp">
 
   
 
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Lorena Ciutacu">
-  <meta property="og:article:published_time" content="2020-08-19T00:00:00-04:00">
-  <meta property="og:url" content="http://localhost:4000/2020-08-19-books-ethics-ai/">
-  <link rel="canonical" href="http://localhost:4000/2020-08-19-books-ethics-ai/">
+  <meta property="og:article:published_time" content="2020-10-17T00:00:00-04:00">
+  <meta property="og:url" content="http://localhost:4000/2020-10-17-bootcamp3/">
+  <link rel="canonical" href="http://localhost:4000/2020-10-17-bootcamp3/">
   
 
   
@@ -113,8 +113,8 @@
   <meta name="twitter:site" content="@alciutacu">
   <meta name="twitter:creator" content="@alciutacu">
 
-  <meta property="twitter:title" content="5 eye-opening books about AI ethics">
-  <meta property="twitter:description" content="Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...">
+  <meta property="twitter:title" content="Predicting bike share demand with linear regression">
+  <meta property="twitter:description" content="Data Science Bootcamp">
 
   
 
@@ -175,11 +175,15 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>5 eye-opening books about AI ethics</h1>
+          <h1>Predicting bike share demand with linear regression</h1>
+          
+            
+              <h2 class="post-subheading">Data Science Bootcamp</h2>
+            
           
 
           
-            <span class="post-meta">Posted on August 19, 2020</span>
+            <span class="post-meta">Posted on October 17, 2020</span>
             
             
           
@@ -199,38 +203,100 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
 
       
+        
+        
+        
+
+        <div id="header-gh-btns">
+          
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=bike-demand-prediction&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=bike-demand-prediction&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
+              
+            
+          
+        </div>
+      
 
       
 
       <article role="main" class="blog-post">
-        <p>Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our actions worthy of being mimicked? And should some of our ways of thinking about the world even be reinforced? If, like me, you’re concerned about these issues, here are five books to educate yourself on:</p>
+        <blockquote>
+  <p>Project completed in week 3 (12.10.-16.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin.</p>
+</blockquote>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499698329l/34964830.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Automating Inequality</i> by Virginia Eubanks</strong> is a thorough investigation of data-based discrimination in healthcare, housing, and child welfare services in the USA. Through first-hand accounts and emotional personal stories, she reveals how technology affects human rights and works to the disadvantage of the poor and working-class people.</figcaption>
-</figure>
+<p>I really enjoyed this week’s project for two main reasons: it involved time series analysis and it solved a real-world practical business problem.</p>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456091964l/28186015.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Weapons of Math Destruction</i> by Cathy O'Neill</strong> explains what it means to live in the age of the algorithm, where mathematical models trained on Big Data have the power to decide our future in an instant, reinforce discrimination, and even undermine democracy.</figcaption>
-</figure>
+<h3 id="exploratory-analysis">Exploratory analysis</h3>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492944248l/34762552.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Algorithms of Oppression</i> by Safiya Umoja Noble</strong> exposes how negative biases against women of color are embedded in search engine results and algorithms, through an analysis of text, media searches, and paid online ads.</figcaption>
-</figure>
+<p>The dataset includes 12 variables, of which 3 are dependent, and 1 is actually the one I had to predict: bike count. I started by extracting the month, day, weekday, and hour from the datetime feature, so I ended up with 15 variables to help me predict the bike count.</p>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519083351l/38212110._SY475_.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Technically Wrong</i> by Sara Wachter-Boetcher</strong> demystifies the tech industry, unraveling underlying sexism, bias, and threats in popular health, dating, and shopping apps.</figcaption>
-</figure>
+<p>It’s a common assumption that the more variables you have in a dataset and include in a model, the better the predictions. But usually (as in this case) it’s exactly the contrary. The more variables you have, the higher the chance that some of them will be correlated with each other (<strong>multicollinearity</strong>) or just be irrelevant. Also, some variables that seem useless independently might be useful combined. Selecting what features to include in the model can be quite tricky, but a look at the correlation matrix or the <code class="language-plaintext highlighter-rouge">sklearn.feature_selection</code> module can help!</p>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576795927l/42527493._SY475_.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Race After Technology</i> by Ruha Benjamin</strong> illuminates how hyped technologies can advance white supremacy and social injustice, thus reinforcing racial discrimination.</figcaption>
-</figure>
+<p>In the bike dataset, I noticed a high correlation between temperature, season, windspeed, season, and month, which was not surprising. I used this information, as well as the <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html">Recursive Feature Elimination</a> (RFE), to select the most relevant variables for the bike count prediction. In the end, I included only five features: <em>temperature, hour, weather, weekday, </em>and<em> holiday</em>.</p>
 
-<p>With great power comes great responsibility. AI has been entrusted with tremendous control in many areas of our everyday life, but the responsibility for its actions has been left out of discussion, or debated at most. These five books prove the urgency of having a serious global discussion and taking measures about the ethics and responsibility for AI uses!</p>
+<h3 id="feature-engineering">Feature engineering</h3>
+
+<p>After selecting the features, I had to do a bit of feature engineering to prepare them for Linear Regression. I tried both with scaling and <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html?highlight=polynomial#sklearn.preprocessing.PolynomialFeatures">polynomial expansion</a>. For the Random Forest models, this was not necessary, since the models do feature engineering themselves. The feature engineering part was very important also for fitting the evaluation score used in the Kaggle competition, which in this case was <strong><a href="https://www.kaggle.com/carlolepelaars/understanding-the-metric-rmsle">Root Mean Squared Log Error (RMSLE)</a></strong>. In order to optimize my models against the RMSLE, I took the logarithm of the target variable(<em>bike count</em>).</p>
+
+<h3 id="regression-models">Regression models</h3>
+
+<p>Once the dirty work was done, I trained and tested four different regression models:</p>
+
+<ul>
+  <li><strong>RFR1</strong>: Random Forest Regressor with default hyperparameters</li>
+  <li><strong>RFR2</strong>: Random Forest Regressor with the best hyperparameters found with GridSearchCV</li>
+  <li><strong>RFR3</strong>: Random Forest Regressor with hyperparamenters recommended by <a href="http://epistasislab.github.io/tpot/">TPOT</a></li>
+  <li><strong>GBR</strong>: Gradient Boost Regressor</li>
+  <li><strong>SVR</strong>: Support Vector Regressor</li>
+  <li><strong>LR</strong>: Linear Regression</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>RFR1</td>
+      <td>RFR2</td>
+      <td>RFR3</td>
+      <td>GBR</td>
+      <td>SVR</td>
+      <td>LR</td>
+    </tr>
+    <tr>
+      <td>RMSLE</td>
+      <td>0.49</td>
+      <td>0.47</td>
+      <td>0.48</td>
+      <td>0.10</td>
+      <td>0.20</td>
+      <td>0.24</td>
+    </tr>
+    <tr>
+      <td>kaggle</td>
+      <td>–</td>
+      <td>0.49</td>
+      <td>–</td>
+      <td>–</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To get an idea, the best kaggle score on this competition is 0.33, so I think my 0.49 is not that bad. But of course, as always, there’s room for improvement and I might try to do just that over the weekend.</p>
+
+<h2 id="friday-lightning-talk">Friday Lightning Talk</h2>
+
+<p>At our weekly project review, I talked about the Random Forest models that I implemented, explained the choice of hyperparameters and the different results I got. As usual, listening to other people’s talks gave me more ideas on how to improve my models or other things to try out! That’s the beauty and art of Machine Learning – there are many ways to look at data, combine information, and solve a problem!</p>
 
       </article>
 
@@ -238,9 +304,9 @@
         <div class="blog-tags">
           <span>Tags:</span>
           
-            <a href="/tags#books">books</a>
+            <a href="/tags#data science">data science</a>
           
-            <a href="/tags#nonfiction">nonfiction</a>
+            <a href="/tags#bootcamp">bootcamp</a>
           
         </div>
       
@@ -257,7 +323,7 @@
   <span class="sr-only">Share: </span>
 
   
-    <a href="https://twitter.com/intent/tweet?text=5+eye-opening+books+about+AI+ethics&url=http%3A%2F%2Flocalhost%3A4000%2F2020-08-19-books-ethics-ai%2F"
+    <a href="https://twitter.com/intent/tweet?text=Predicting+bike+share+demand+with+linear+regression&url=http%3A%2F%2Flocalhost%3A4000%2F2020-10-17-bootcamp3%2F"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
@@ -265,7 +331,7 @@
   
 
   
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020-08-19-books-ethics-ai%2F"
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020-10-17-bootcamp3%2F"
       class="btn btn-social-icon btn-facebook" title="Share on Facebook">
       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
@@ -273,7 +339,7 @@
   
 
   
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2020-08-19-books-ethics-ai%2F"
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2020-10-17-bootcamp3%2F"
       class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
@@ -291,12 +357,12 @@
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/2020-07-31-womenindata-symposium/" data-toggle="tooltip" data-placement="top" title="Skills To Last A Decade">&larr; Previous Post</a>
+          <a class="page-link" href="/2020-10-10-bootcamp2/" data-toggle="tooltip" data-placement="top" title="Predicting Titanic survivors with decision tree classifiers">&larr; Previous Post</a>
         </li>
         
         
         <li class="page-item next">
-          <a class="page-link" href="/2020-10-03-bootcamp1/" data-toggle="tooltip" data-placement="top" title="Creating animated scatterplots with Python">Next Post &rarr;</a>
+          <a class="page-link" href="/2020-10-24-bootcamp4/" data-toggle="tooltip" data-placement="top" title="Building a lyrics scraper and classifier in Python">Next Post &rarr;</a>
         </li>
         
       </ul>

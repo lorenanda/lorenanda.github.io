@@ -9,13 +9,13 @@
 
   
 
-  <title>5 eye-opening books about AI ethics</title>
+  <title>Building a lyrics scraper and classifier in Python</title>
 
   
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...">
+  <meta name="description" content="Data Science Bootcamp">
 
   
 
@@ -94,17 +94,17 @@
 
   
   <meta property="og:site_name" content="numbers and words">
-  <meta property="og:title" content="5 eye-opening books about AI ethics">
-  <meta property="og:description" content="Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...">
+  <meta property="og:title" content="Building a lyrics scraper and classifier in Python">
+  <meta property="og:description" content="Data Science Bootcamp">
 
   
 
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Lorena Ciutacu">
-  <meta property="og:article:published_time" content="2020-08-19T00:00:00-04:00">
-  <meta property="og:url" content="http://localhost:4000/2020-08-19-books-ethics-ai/">
-  <link rel="canonical" href="http://localhost:4000/2020-08-19-books-ethics-ai/">
+  <meta property="og:article:published_time" content="2020-10-24T00:00:00-04:00">
+  <meta property="og:url" content="http://localhost:4000/2020-10-24-bootcamp4/">
+  <link rel="canonical" href="http://localhost:4000/2020-10-24-bootcamp4/">
   
 
   
@@ -113,8 +113,8 @@
   <meta name="twitter:site" content="@alciutacu">
   <meta name="twitter:creator" content="@alciutacu">
 
-  <meta property="twitter:title" content="5 eye-opening books about AI ethics">
-  <meta property="twitter:description" content="Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...">
+  <meta property="twitter:title" content="Building a lyrics scraper and classifier in Python">
+  <meta property="twitter:description" content="Data Science Bootcamp">
 
   
 
@@ -175,11 +175,15 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>5 eye-opening books about AI ethics</h1>
+          <h1>Building a lyrics scraper and classifier in Python</h1>
+          
+            
+              <h2 class="post-subheading">Data Science Bootcamp</h2>
+            
           
 
           
-            <span class="post-meta">Posted on August 19, 2020</span>
+            <span class="post-meta">Posted on October 24, 2020</span>
             
             
           
@@ -199,38 +203,126 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
 
       
+        
+        
+        
+
+        <div id="header-gh-btns">
+          
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=lyrics-classification&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=lyrics-classification&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
+              
+            
+          
+        </div>
+      
 
       
 
       <article role="main" class="blog-post">
-        <p>Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our actions worthy of being mimicked? And should some of our ways of thinking about the world even be reinforced? If, like me, you’re concerned about these issues, here are five books to educate yourself on:</p>
+        <blockquote>
+  <p>Project completed in week 4 (19.10.-23.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin.</p>
+</blockquote>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499698329l/34964830.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Automating Inequality</i> by Virginia Eubanks</strong> is a thorough investigation of data-based discrimination in healthcare, housing, and child welfare services in the USA. Through first-hand accounts and emotional personal stories, she reveals how technology affects human rights and works to the disadvantage of the poor and working-class people.</figcaption>
-</figure>
+<p>I was super excited about this week, because it was about language models and first steps into NLP, my favorite ML topic! The challenge was to create a Python program that scrapes lyrics from a website, preprocesses them, and predicts the artist from the text.</p>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456091964l/28186015.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Weapons of Math Destruction</i> by Cathy O'Neill</strong> explains what it means to live in the age of the algorithm, where mathematical models trained on Big Data have the power to decide our future in an instant, reinforce discrimination, and even undermine democracy.</figcaption>
-</figure>
+<h3 id="web-scraping">Web Scraping</h3>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492944248l/34762552.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Algorithms of Oppression</i> by Safiya Umoja Noble</strong> exposes how negative biases against women of color are embedded in search engine results and algorithms, through an analysis of text, media searches, and paid online ads.</figcaption>
-</figure>
+<p>The first step in this project was to build a web-scraper in Python with BeautifulSoup. I found this to be the most difficult and frustrating part, from finding a good lyrics website that doesn’t contain tens of duplicate lyrics, to implementing BeautifulSoup, and transforming the code from a JupyterNotebook into a Python file.</p>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519083351l/38212110._SY475_.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Technically Wrong</i> by Sara Wachter-Boetcher</strong> demystifies the tech industry, unraveling underlying sexism, bias, and threats in popular health, dating, and shopping apps.</figcaption>
-</figure>
+<h3 id="text-processing">Text Processing</h3>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576795927l/42527493._SY475_.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Race After Technology</i> by Ruha Benjamin</strong> illuminates how hyped technologies can advance white supremacy and social injustice, thus reinforcing racial discrimination.</figcaption>
-</figure>
+<p>Next, I had to clean and preprocess the scraped lyrics, in order to feed them to the classification model. I used TextHero and SpaCy to tokenize the text, make the words lowercase, remove punctuation, numbers, and stop words (i.e. filling words or words that don’t change the meaning of a sentence, like <em>the, a, to</em>). This step was quite easy, mainly because the lyrics were in English. But remember:</p>
 
-<p>With great power comes great responsibility. AI has been entrusted with tremendous control in many areas of our everyday life, but the responsibility for its actions has been left out of discussion, or debated at most. These five books prove the urgency of having a serious global discussion and taking measures about the ethics and responsibility for AI uses!</p>
+<blockquote>
+  <p>NLP != English NLP</p>
+</blockquote>
+
+<p>Another important part of text processing was to check for class imbalance, i.e. if and artist had far more observations than another. Class imbalance can skew the prediction in the way that the model would predict the majority. There are four main ways to deal with class imbalance:</p>
+
+<ul>
+  <li><strong>over-sampling</strong>: collect more samples for the minority class.</li>
+  <li><strong>under-sampling</strong>: reduce the number of samples in the majority class.</li>
+  <li><strong>SMOTE</strong>: generate new samples by interpolation.</li>
+  <li><strong>weighting</strong>: assign higher weights to observation from the minority class during training.</li>
+</ul>
+
+<p>In my case, I had more lyrics by Metallica than by Iron Maiden. I went with under-sampling and, after dropping the duplicates, I randomly removed 15 more songs by Metallica. This way, I ended up with 86 songs by each band.</p>
+
+<h3 id="naive-bayes-classifier">Naive Bayes Classifier</h3>
+
+<p>Now that that the dataset was made of clean lyrics, it was ready to train a classification model. I used the <a href="https://scikit-learn.org/stable/modules/naive_bayes.html#multinomial-naive-bayes">Multinomial Naive Bayes Classifier</a> (MNBC), a probabilistic model based on Bayes’ Theorem, which assumes strong independence between the features and uses a multinomial distribution for each of the features. MNBC is typically used in text classification for calculating the probability of a word occurring in a text. For this, the words are <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer">vectorized</a> or <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html">transformed</a> into numbers. My model achieved an accuracy of <strong>96.7% on the train set </strong>and <strong>68.4% on the test set</strong>. This means that the model overfit.</p>
+
+<h3 id="text-analysis-ofmetallicaandiron-maidenlyrics">Text analysis of Metallica and Iron Maiden lyrics</h3>
+
+<p>Just for fun, I also used NLTK, SpaCy, and VADER to explore the lyrics. Specifically, I looks for similarities and differences between the two bands. It turned out that <em>Iron Maiden</em> have a richer vocabulary and use more long words than <em>Metallica</em>. The latter are slightly more negative, but overall the similarity score of the two bands was 0.99.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Feature</strong></td>
+      <td><strong>Metallica</strong></td>
+      <td><strong>Iron Maiden</strong></td>
+    </tr>
+    <tr>
+      <td>lexical richness</td>
+      <td>0.05</td>
+      <td>0.08</td>
+    </tr>
+    <tr>
+      <td>long words</td>
+      <td>15</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>polarity</td>
+      <td>-0.06</td>
+      <td>0.08</td>
+    </tr>
+    <tr>
+      <td>subjectivity</td>
+      <td>0.50</td>
+      <td>0.51</td>
+    </tr>
+    <tr>
+      <td>negativity</td>
+      <td>0.24</td>
+      <td>0.18</td>
+    </tr>
+    <tr>
+      <td>neutrality</td>
+      <td>0.63</td>
+      <td>0.69</td>
+    </tr>
+    <tr>
+      <td>positivity</td>
+      <td>0.13</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <td>compound sentiment</td>
+      <td>-1</td>
+      <td>-1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The most fun part was identifying named entities in text with SpaCy. Though SpaCy recognized dates and time adverbs pretty well, it mistagged some words in hilarious/creepy ways.</p>
+
+<h2 id="friday-lightning-talk">Friday Lightning Talk</h2>
+
+<p>At the end of this week, I presented my text analysis of lyrics, to give an overview of NLTK and SpaCy functions for linguistic analysis. As usual, I also got inspiration from my colleagues’ projects on how to improve the command line interface for my webscraper/artist predictor!</p>
+
+<p><a href="https://lorenaciutacu.files.wordpress.com/2020/10/ironmaiden_wordcould.png"><img src="https://lorenaciutacu.files.wordpress.com/2020/10/ironmaiden_wordcould.png?w=369" alt="" /></a></p>
 
       </article>
 
@@ -238,9 +330,9 @@
         <div class="blog-tags">
           <span>Tags:</span>
           
-            <a href="/tags#books">books</a>
+            <a href="/tags#data science">data science</a>
           
-            <a href="/tags#nonfiction">nonfiction</a>
+            <a href="/tags#bootcamp">bootcamp</a>
           
         </div>
       
@@ -257,7 +349,7 @@
   <span class="sr-only">Share: </span>
 
   
-    <a href="https://twitter.com/intent/tweet?text=5+eye-opening+books+about+AI+ethics&url=http%3A%2F%2Flocalhost%3A4000%2F2020-08-19-books-ethics-ai%2F"
+    <a href="https://twitter.com/intent/tweet?text=Building+a+lyrics+scraper+and+classifier+in+Python&url=http%3A%2F%2Flocalhost%3A4000%2F2020-10-24-bootcamp4%2F"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
@@ -265,7 +357,7 @@
   
 
   
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020-08-19-books-ethics-ai%2F"
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020-10-24-bootcamp4%2F"
       class="btn btn-social-icon btn-facebook" title="Share on Facebook">
       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
@@ -273,7 +365,7 @@
   
 
   
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2020-08-19-books-ethics-ai%2F"
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2020-10-24-bootcamp4%2F"
       class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
@@ -291,12 +383,12 @@
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/2020-07-31-womenindata-symposium/" data-toggle="tooltip" data-placement="top" title="Skills To Last A Decade">&larr; Previous Post</a>
+          <a class="page-link" href="/2020-10-17-bootcamp3/" data-toggle="tooltip" data-placement="top" title="Predicting bike share demand with linear regression">&larr; Previous Post</a>
         </li>
         
         
         <li class="page-item next">
-          <a class="page-link" href="/2020-10-03-bootcamp1/" data-toggle="tooltip" data-placement="top" title="Creating animated scatterplots with Python">Next Post &rarr;</a>
+          <a class="page-link" href="/2020-10-31-bootcamp5/" data-toggle="tooltip" data-placement="top" title="Forecasting the weather in Berlin with ARIMA models">Next Post &rarr;</a>
         </li>
         
       </ul>

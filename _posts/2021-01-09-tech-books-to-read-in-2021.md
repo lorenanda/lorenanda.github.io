@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 12 tech books to read in 2021
-tags: [books, nonfiction, AI]
+tags: [books, nonfiction]
 comments: true
 ---
 

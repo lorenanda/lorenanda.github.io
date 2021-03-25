@@ -9,13 +9,13 @@
 
   
 
-  <title>5 eye-opening books about AI ethics</title>
+  <title>Creating a Metabase dashboard on Postgres and AWS</title>
 
   
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...">
+  <meta name="description" content="Data Science Bootcamp">
 
   
 
@@ -94,17 +94,17 @@
 
   
   <meta property="og:site_name" content="numbers and words">
-  <meta property="og:title" content="5 eye-opening books about AI ethics">
-  <meta property="og:description" content="Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...">
+  <meta property="og:title" content="Creating a Metabase dashboard on Postgres and AWS">
+  <meta property="og:description" content="Data Science Bootcamp">
 
   
 
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Lorena Ciutacu">
-  <meta property="og:article:published_time" content="2020-08-19T00:00:00-04:00">
-  <meta property="og:url" content="http://localhost:4000/2020-08-19-books-ethics-ai/">
-  <link rel="canonical" href="http://localhost:4000/2020-08-19-books-ethics-ai/">
+  <meta property="og:article:published_time" content="2020-11-07T00:00:00-05:00">
+  <meta property="og:url" content="http://localhost:4000/2020-11-07-bootcamp6/">
+  <link rel="canonical" href="http://localhost:4000/2020-11-07-bootcamp6/">
   
 
   
@@ -113,8 +113,8 @@
   <meta name="twitter:site" content="@alciutacu">
   <meta name="twitter:creator" content="@alciutacu">
 
-  <meta property="twitter:title" content="5 eye-opening books about AI ethics">
-  <meta property="twitter:description" content="Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...">
+  <meta property="twitter:title" content="Creating a Metabase dashboard on Postgres and AWS">
+  <meta property="twitter:description" content="Data Science Bootcamp">
 
   
 
@@ -175,11 +175,15 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>5 eye-opening books about AI ethics</h1>
+          <h1>Creating a Metabase dashboard on Postgres and AWS</h1>
+          
+            
+              <h2 class="post-subheading">Data Science Bootcamp</h2>
+            
           
 
           
-            <span class="post-meta">Posted on August 19, 2020</span>
+            <span class="post-meta">Posted on November 7, 2020</span>
             
             
           
@@ -199,38 +203,72 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
 
       
+        
+        
+        
+
+        <div id="header-gh-btns">
+          
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=northwind-dashboard&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=northwind-dashboard&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
+              
+            
+          
+        </div>
+      
 
       
 
       <article role="main" class="blog-post">
-        <p>Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our actions worthy of being mimicked? And should some of our ways of thinking about the world even be reinforced? If, like me, you’re concerned about these issues, here are five books to educate yourself on:</p>
+        <blockquote>
+  <p>Project completed in week 6 (02.11.-06.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin.</p>
+</blockquote>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499698329l/34964830.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Automating Inequality</i> by Virginia Eubanks</strong> is a thorough investigation of data-based discrimination in healthcare, housing, and child welfare services in the USA. Through first-hand accounts and emotional personal stories, she reveals how technology affects human rights and works to the disadvantage of the poor and working-class people.</figcaption>
-</figure>
+<p>This was another week packed with new information and experiences! In only five days, I managed to set up a Postgres database, deploy it on AWS RDS, connect it to Metabase to create a dashboard and in turn connect it to AWS EC2 to make the dashboard run continuously.</p>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456091964l/28186015.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Weapons of Math Destruction</i> by Cathy O'Neill</strong> explains what it means to live in the age of the algorithm, where mathematical models trained on Big Data have the power to decide our future in an instant, reinforce discrimination, and even undermine democracy.</figcaption>
-</figure>
+<h3 id="getting-the-data">Getting the data</h3>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492944248l/34762552.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Algorithms of Oppression</i> by Safiya Umoja Noble</strong> exposes how negative biases against women of color are embedded in search engine results and algorithms, through an analysis of text, media searches, and paid online ads.</figcaption>
-</figure>
+<p>The Northwind database is a sample database created by Microsoft for tutorials and testing purposes. It contains information about the business of “Northwind Trades”, a fictional company that sells various food products. Northwind includes information about orders, inventory, purchasing, suppliers, shipping, and employees. For my project, to make things a bit more complicated, I got the data in the form of several .csv files <a href="https://github.com/pawlodkowski/northwind_data_clean">from here</a>. I also got a .csv file with the country names and their ISO_A2 codes from here, in order to plot country data on a world map (I only realized this when creating the dashboard, so now you can spare yourself the frustration).</p>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519083351l/38212110._SY475_.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Technically Wrong</i> by Sara Wachter-Boetcher</strong> demystifies the tech industry, unraveling underlying sexism, bias, and threats in popular health, dating, and shopping apps.</figcaption>
-</figure>
+<h3 id="setting-up-a-postgres-database">Setting up a Postgres database</h3>
 
-<figure>
-    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576795927l/42527493._SY475_.jpg" alt="missing" width="200" height="300" />
-    <figcaption><strong><i>Race After Technology</i> by Ruha Benjamin</strong> illuminates how hyped technologies can advance white supremacy and social injustice, thus reinforcing racial discrimination.</figcaption>
-</figure>
+<p>I installed <a href="https://www.postgresql.org/download/">Postgres</a> (and pgAdmin, to query easier than in the command line), set up a server, and created my local Northwind database.</p>
 
-<p>With great power comes great responsibility. AI has been entrusted with tremendous control in many areas of our everyday life, but the responsibility for its actions has been left out of discussion, or debated at most. These five books prove the urgency of having a serious global discussion and taking measures about the ethics and responsibility for AI uses!</p>
+<p>First, I created tables for each of the files: each table was named like the .csv file it was designed for (e.g. <em>order_details.csv</em> file -&gt; <em>order_details</em> table). In each table, I added columns that designated the columns in the respective .csv file. Here it’s important to note that the column names in the .csv files are written in camel case (e.g. <em>orderID</em>, <em>shipCountry</em>) and in PostgreSQL unquoted names are case-insensitive, but quoted names are case-sensitive. This means that you have to either specify the column names in quotes or rename them in lowercase only, in order for the data to be imported; I chose the latter option and renamed the columns (e.g. <em>order_id</em>, <em>ship_country</em>).</p>
+
+<p>Next, I imported the .csv files into the newly created tables and set <strong>primary keys</strong> (the main key, like the index, of a table) and <strong>foreign keys</strong> (point to another table to connect) for the tables, in order to be able to query across them.</p>
+
+<h3 id="hosting-the-project-in-the-cloud">Hosting the project in the cloud</h3>
+
+<p>After the database was all set up, it was time for it to be deployed in the cloud. I used Amazon Web Services (AWS), more specifically two of their services: <a href="https://aws.amazon.com/rds/">RDS</a> and <a href="https://aws.amazon.com/ec2/?ec2-whats-new.sort-by=item.additionalFields.postDateTime&amp;ec2-whats-new.sort-order=desc">EC2</a>.</p>
+
+<p>First, I deployed my local database to RDS, which basically means that I sent my database to run on a bigger, faster, stronger computer in Frankfurt. In RDS, you can select from multiple locations around the world, and though this doesn’t alter the way your database is run, you might want to choose a location closest to your actual physical location, so that it runs faster, and also consider the data privacy measures in different countries.</p>
+
+<p>Next, I set up an EC2 instance, which basically means that I rented a virtual machine on which to run my dashboard continuously.</p>
+
+<h3 id="creating-a-dashboard">Creating a dashboard</h3>
+
+<p>Now to the creative part! I connected <a href="https://www.metabase.com/">Metabase</a> to my remote database and EC2 instance and started creating a dashboard for KPIs of Northwind Trades. I focused only on three areas from my data and split it into two parts:</p>
+
+<ul>
+  <li>The <strong>Sales</strong> part included data from the Orders and Products tables. I visualized a gauge with the total number of orders, a trend count of the total order value compared to the previous year, a line plot of the number of orders per day, a bar chart of the best-selling products, and two choropeth maps of the number of orders in the world and in the US states.</li>
+  <li>The <strong>Team</strong> part included data from the Employees, Customers, and Orders tables. I visualized a table with the name of the employee who supported most customers, one with the employee who filled most orders, and one with the names, roles, birthdays, and seniority in the company of all employees.</li>
+</ul>
+
+<h2 id="friday-lightning-talk">Friday Lightning Talk</h2>
+
+<p>A the end of this week, I presented my dashboard and talked about the challenges I’ve encountered while creating it, as well as solutions and possible improvements.</p>
+
+<p><img src="https://lorenaciutacu.files.wordpress.com/2020/11/dashboard_demo.gif?w=1400" alt="cover" /></p>
 
       </article>
 
@@ -238,9 +276,9 @@
         <div class="blog-tags">
           <span>Tags:</span>
           
-            <a href="/tags#books">books</a>
+            <a href="/tags#data science">data science</a>
           
-            <a href="/tags#nonfiction">nonfiction</a>
+            <a href="/tags#bootcamp">bootcamp</a>
           
         </div>
       
@@ -257,7 +295,7 @@
   <span class="sr-only">Share: </span>
 
   
-    <a href="https://twitter.com/intent/tweet?text=5+eye-opening+books+about+AI+ethics&url=http%3A%2F%2Flocalhost%3A4000%2F2020-08-19-books-ethics-ai%2F"
+    <a href="https://twitter.com/intent/tweet?text=Creating+a+Metabase+dashboard+on+Postgres+and+AWS&url=http%3A%2F%2Flocalhost%3A4000%2F2020-11-07-bootcamp6%2F"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
@@ -265,7 +303,7 @@
   
 
   
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020-08-19-books-ethics-ai%2F"
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020-11-07-bootcamp6%2F"
       class="btn btn-social-icon btn-facebook" title="Share on Facebook">
       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
@@ -273,7 +311,7 @@
   
 
   
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2020-08-19-books-ethics-ai%2F"
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2020-11-07-bootcamp6%2F"
       class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
@@ -291,12 +329,12 @@
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/2020-07-31-womenindata-symposium/" data-toggle="tooltip" data-placement="top" title="Skills To Last A Decade">&larr; Previous Post</a>
+          <a class="page-link" href="/2020-10-31-bootcamp5/" data-toggle="tooltip" data-placement="top" title="Forecasting the weather in Berlin with ARIMA models">&larr; Previous Post</a>
         </li>
         
         
         <li class="page-item next">
-          <a class="page-link" href="/2020-10-03-bootcamp1/" data-toggle="tooltip" data-placement="top" title="Creating animated scatterplots with Python">Next Post &rarr;</a>
+          <a class="page-link" href="/2020-11-14-bootcamp7/" data-toggle="tooltip" data-placement="top" title="Building a Slackbot for live tweets with Python and Docker">Next Post &rarr;</a>
         </li>
         
       </ul>

@@ -142,91 +142,91 @@
       </item>
     
       <item>
-        <title>5 eye-opening books about AI ethics</title>
+        <title>Detecting emotions from speech with neural networks</title>
         <description>
-          
-          Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder: does more efficiently mean better? Are some of our...
+          Data Science Bootcamp - 
+          Project completed in week 12 (14.12.-18.12.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I did it! I graduated from the Data Science Bootcamp! On Friday I presented my final project, which was about detecting emotions from speech with neural networks. It was one of the most challenging...
         </description>
-        <pubDate>Wed, 19 Aug 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-08-19-books-ethics-ai/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-08-19-books-ethics-ai/</guid>
+        <pubDate>Sun, 20 Dec 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-12-20-bootcamp12/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-12-20-bootcamp12/</guid>
       </item>
     
       <item>
-        <title>Skills To Last A Decade</title>
+        <title>Best practices for software engineering</title>
         <description>
-          Women in Data - 
-          Women in Data is an international non-profit organization dedicated to increasing diversity in data-related careers by organizing conferences, networking events, and mentorship programs around the world. The Berlin Chapter of WiD was just founded in May this year and I was very excited to join as a Marketing Coordinator. This week, 27-31 July 2020, we hosted our...
+          Data Science Bootcamp - 
+          Project completed in week 11 (06.12.-11.12.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This was the last week of lectures and assigned projects, in which we learned general software engineering techniques and best practices for individual and team coding. Software engineering metaphors Our teacher introduced us to...
         </description>
-        <pubDate>Fri, 31 Jul 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-07-31-womenindata-symposium/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-07-31-womenindata-symposium/</guid>
+        <pubDate>Sat, 12 Dec 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-12-12-bootcamp11/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-12-12-bootcamp11/</guid>
       </item>
     
       <item>
-        <title>4 tips for a good data science portfolio</title>
+        <title>Creating a movie recommender system with Python and Flask</title>
         <description>
-          Career - 
-          It is a truth universally acknowledged that a data scientist in possession of a good portfolio must be in want of a job. A curated selection of your projects is the best way to showcase your work, interests, and thinking to potential employers. From my experience and discussions with colleagues,...
+          Data Science Bootcamp - 
+          Project completed in week 10 (30.11.-04.12.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This was a really exciting week, because we had a team project which combined the power of Machine Learning algorithms with the beauty of Web Development! Making a recommender system Spotify’s Discover Weekly, Netflix’s...
         </description>
-        <pubDate>Wed, 29 Jul 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-07-29-tips-for-datascience-portfolio/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-07-29-tips-for-datascience-portfolio/</guid>
+        <pubDate>Sat, 05 Dec 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-12-05-bootcamp10/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-12-05-bootcamp10/</guid>
       </item>
     
       <item>
-        <title>Die geheimen Muster der Sprache von Rottler/Martin</title>
+        <title>Classifying clothes images with neural networks</title>
         <description>
-          Buchrezension - 
-          Titel: Die geheimen Muster der Sprach Autor: Patrick Rottler &amp;amp; Leo Martin Verlag: Redline Erschienen: 2020 Seitenanzahl: 238 Bewertung: 🌕🌕🌑🌑🌑 Als Linguistin und Krimiliebhaberin war ich sehr gespannt über die Veröffentlichung eines neuen Buches über forensische Linguistik! Diese Teildisziplin der Linguistik beschäftigt sich mit geschriebener Sprache im Zusammenhang von kriminalistischen...
+          Data Science Bootcamp - 
+          Project completed in week 9 (23.11.-27.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This week we dived into Deep Learning and learned about different types neural networks (NN) and their applications in various domains. The main goal of this project was to learn and understand what each...
         </description>
-        <pubDate>Sat, 27 Jun 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-06-27-buchrezension-geheimen-muster-sprache/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-06-27-buchrezension-geheimen-muster-sprache/</guid>
+        <pubDate>Sat, 28 Nov 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-11-28-bootcamp9/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-11-28-bootcamp9/</guid>
       </item>
     
       <item>
-        <title>Invisible Women by Caroline Criado Perez</title>
+        <title>Creating a Monte-Carlo Markov Simulation of supermarket customers</title>
         <description>
-          Book review - 
-          Title: Invisible Women Author Caroline Criado Perez Publisher: Vintage Published: March 2020 Pages: 432 Rating: 🌕🌕🌕🌕🌖 In her book Invisible Women, Caroline Criado Perez illustrates with tenths of real-world examples and scientific studies how women are being discriminated against in all areas of everyday life: from housing and public transport...
+          Data Science Bootcamp - 
+          Project completed in week 8 (16.11.-20.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This week we learned to make a Markov Chain Monte Carlo (MCMC) simulation of new customers in a supermarket, based on data about customer paths from entrance to checkout through four aisles (fruit, drinks,...
         </description>
-        <pubDate>Wed, 10 Jun 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-06-10-book-review-invisible-women/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-06-10-book-review-invisible-women/</guid>
+        <pubDate>Sat, 21 Nov 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-11-21-bootcamp8/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-11-21-bootcamp8/</guid>
       </item>
     
       <item>
-        <title>The Pitfalls of Deep Learning</title>
+        <title>Building a Slackbot for live tweets with Python and Docker</title>
         <description>
-          We Are Developers - 
-          We Are Developers is the world’s largest conference for software development. It’s a great opportunity for software engineers to connect with tech companies and learn about interesting advances in technology. This year, it was supposed to take place in Berlin, but due to COVID-19, it was moved online for a...
+          Data Science Bootcamp - 
+          Project completed in week 7 (09.11.-13.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This week’s project was the most complex and difficult I’ve worked on. As you can tell from the description, it involved new tools and many steps. Here’s the pipeline of the whole process: Creating...
         </description>
-        <pubDate>Tue, 26 May 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-05-26-wad-pitfalls-deeplearning/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-05-26-wad-pitfalls-deeplearning/</guid>
+        <pubDate>Sat, 14 Nov 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-11-14-bootcamp7/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-11-14-bootcamp7/</guid>
       </item>
     
       <item>
-        <title>Diversity in IT Jobs</title>
+        <title>Creating a Metabase dashboard on Postgres and AWS</title>
         <description>
-          We Are Developers - 
-          We Are Developers is the world’s largest conference for software development. It’s a great opportunity for software engineers to connect with tech companies and learn about interesting advances in technology. This year, it was supposed to take place in Berlin, but due to COVID-19, it was moved online for a Live Week...
+          Data Science Bootcamp - 
+          Project completed in week 6 (02.11.-06.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This was another week packed with new information and experiences! In only five days, I managed to set up a Postgres database, deploy it on AWS RDS, connect it to Metabase to create a...
         </description>
-        <pubDate>Mon, 25 May 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-05-25-wad-diversity-it/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-05-25-wad-diversity-it/</guid>
+        <pubDate>Sat, 07 Nov 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-11-07-bootcamp6/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-11-07-bootcamp6/</guid>
       </item>
     
       <item>
-        <title>10 data science books to read during lockdown</title>
+        <title>Forecasting the weather in Berlin with ARIMA models</title>
         <description>
-          Books - 
-          If you’re reading this post around its publishing date in April 2020, chances are you’re at home, responsibly isolating yourself amid COVID-19 curfews around the world. What a better time than now to read actual books on data-related topics, that you’ve been postponing for too long in favor of short...
+          Data Science Bootcamp - 
+          Project completed in week 5 (26.10.-30.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I found this week’s project quite challenging, because I haven’t worked with time series and forecasting before. But this means I had a lot of new things to learn! Map it out nicely I...
         </description>
-        <pubDate>Tue, 05 May 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-05-05-datascience-books-for-lockdown/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-05-05-datascience-books-for-lockdown/</guid>
+        <pubDate>Sat, 31 Oct 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020-10-31-bootcamp5/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-10-31-bootcamp5/</guid>
       </item>
     
   </channel>
