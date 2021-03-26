@@ -241,19 +241,20 @@
 
 <p>There are two main approaches to recommender systems:</p>
 
-<p>|  | <strong>memory-based<br />
-(heuristic, non-parametric)</strong> | <strong>model-based<br />
-(algorithmic, parametric)</strong> |  |
-| content filtering | collaborative filtering | content filtering | collaborative filtering |
-| – TF-IDF<br />
-– similarity<br />
-– clustering | – similarity<br />
-– KNN<br />
-– clustering | – Bayesian classification<br />
-– Neural Networks<br />
- | – Bayesian networks<br />
-– Neural Networks<br />
-– SVD |</p>
+<ul>
+  <li>memory-based (heuristic, non-parametric)
+    <ul>
+      <li>content filtering: TF-IDF</li>
+      <li>collaborative filtering: KNN</li>
+    </ul>
+  </li>
+  <li>model-based (algorithmic, parametric)
+    <ul>
+      <li>content filtering: Bayesian classification, neural networks</li>
+      <li>collaborative filtering: Bayesian networks, SVD, neural networks</li>
+    </ul>
+  </li>
+</ul>
 
 <p>In our movie recommender project, we used two algorithms:</p>
 
@@ -266,7 +267,7 @@
 
 <p>I chose to focus on the web development part of the project, in order to refresh my HTML and CSS skills. I built the web page with <strong>Flask</strong>, a lightweight Python framework for web-development which makes it really easy to create simple web apps. Flask also uses Jinja templates, files that contain static data or placeholders for dynamic data. In this case, I used Jinja to render the movies from our dataset and the additional information (posters, trailers) that we got with the<a href="https://developers.themoviedb.org/3/"> TMDB API.</a></p>
 
-<p>On the<strong> main page</strong>, we display 15 movies randomly selected from the 50 most rated movies in the dataset, to ensure that there is a high probability that the user knows at least some of these movies. Users are asked to rate as many of them as possible or leave the slider at 0 if they haven’t seen the movie. In the second step, we ask users what kind of movies they prefer: old, new, or any. The answers to these two questions (movie ratings and year preference) are our input data, which is used for the NMF and SVD algorithms to make predictions.</p>
+<p>On the <strong>main page</strong>, we display 15 movies randomly selected from the 50 most rated movies in the dataset, to ensure that there is a high probability that the user knows at least some of these movies. Users are asked to rate as many of them as possible or leave the slider at 0 if they haven’t seen the movie. In the second step, we ask users what kind of movies they prefer: old, new, or any. The answers to these two questions (movie ratings and year preference) are our input data, which is used for the NMF and SVD algorithms to make predictions.</p>
 
 <p>After submitting their responses (and waiting a bit, because the algorithms take a while to calculate), the users are taken to the <strong>recommendations page.</strong> Here we display 5 movies that are similar to movies the users have rated highest and belong to the preferred year category, as calculated by the algorithm.</p>
 
@@ -345,23 +346,7 @@
         
       </ul>
       
-  <div class="disqus-comments">
-  <div class="comments">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-	  var disqus_shortname = 'https-lorenanda-github-io';
-	  /* ensure that pages with query string get the same discussion */
-	  var url_parts = window.location.href.split("?");
-	  var disqus_url = url_parts[0];
-	  (function() {
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	  })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</div>
+  
   
   
 
