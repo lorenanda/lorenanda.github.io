@@ -2,7 +2,7 @@
 layout: post
 title: Die sechste Jahreszeit von Jan Soldat
 subtitle: Filmkritik
-tags: [film, events, deutsch]
+tags: [art, events, deutsch]
 comments: true
 ---
 
