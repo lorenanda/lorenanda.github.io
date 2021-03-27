@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/2013-05-25-ulrich-seidl-interview/</loc>
+<lastmod>2013-05-25T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2015-04-27-filmkritik-jan-soldat/</loc>
+<lastmod>2015-04-27T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/2015-05-20-plaidoyer-pour-ecriture-manuscrite/</loc>
 <lastmod>2015-05-20T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2015-07-01-film-review-tales-on-blindness/</loc>
+<lastmod>2015-07-01T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2016-11-23-patholinguistics-meeting-potsdam/</loc>
@@ -227,5 +239,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page5/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page6/</loc>
 </url>
 </urlset>
