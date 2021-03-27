@@ -1,7 +1,7 @@
 ---
 layout: page
-title: WORK
-subtitle: brain & time investments
+title: 🧠
+subtitle: WORK
 ---
 
 # Articles
