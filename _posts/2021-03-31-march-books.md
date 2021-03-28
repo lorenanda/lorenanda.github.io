@@ -8,7 +8,7 @@ comments: true
 
 ![cover](../assets/img/MarchBooks.jpg)
 
-Here's to another month of reading good books! In March I read **5 books** (4 fiction and 1 non-fiction), which is slightly less than in [February](2021-02-28-february-books.md) and a lot less than in [January](2021-01-31-january-books.md). At the same time, my reading list keeps on growing - there are just so many good books our there! Overall, this month was quite dark in terms of literary choices, with four crime-thrillers and one data privacy & digitalization warning. Without further ado, here are my thoughts on the five books I read this month.
+Here's to another month of reading good books! In March I read **5 books** (4 fiction and 1 non-fiction), which is slightly less than in [February]({% post_url 2021-02-28-february-books %}) and a lot less than in [January]({% post_url 2021-01-31-january-books %}). At the same time, my reading list keeps on growing - there are just so many good books our there! Overall, this month was quite dark in terms of literary choices, with four crime-thrillers and one data privacy & digitalization warning. Without further ado, here are my thoughts on the five books I read this month.
 
 ## FICTION
 
@@ -27,4 +27,4 @@ Here's to another month of reading good books! In March I read **5 books** (4 fi
 ## NON-FICTION
 ### *Die Zukunft ist smart. Du auch?* by Holger Volland
 🌕🌕🌕🌕🌕 This book answers 100 questions about digitalization in different areas of everyday life, from health and law to transportation and work. It's a great ressource for educating yourself on media literacy, data privacy, and the social implications of AI and digitalization. The author illustrates the technical information with current real-life events and discusses some situations specific to the German-speaking area. For now at least, this book is unfortunately only available in German.
-[`Deutsche Rezension`](../_posts/2021-03-28-buchrezension-die-zukunft-ist-smart.md) 
+[`Deutsche Rezension`]({% post_url 2021-03-28-buchrezension-die-zukunft-ist-smart %})
