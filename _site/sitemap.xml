@@ -231,6 +231,9 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/disclaimer/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/drafts/faq/</loc>
 </url>
 <url>
