@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>Die Zukunft ist smart. Du auch? von Holger Volland</title>
+        <description>
+          Buchrezension - 
+          Titel: Die Zukunft ist smart. Du auch? Autor: Holger Volland Verlag: mosaik Erschienen: 15. März 2021 Seitenanzahl: 416 Bewertung: 🌕🌕🌕🌕🌕 Danke an Random House Bloggerportal und mosaik Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! Ich war sehr begeistert, ein Buch zu lesen, das im direkten Zusammenhang mit meiner Arbeit und...
+        </description>
+        <pubDate>Sun, 28 Mar 2021 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2021-03-28-buchrezension-die-zukunft-ist-smart/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-28-buchrezension-die-zukunft-ist-smart/</guid>
+      </item>
+    
+      <item>
         <title>Designing Bots by Amir Shevat</title>
         <description>
           Book review - 
@@ -216,17 +227,6 @@
         <pubDate>Sat, 07 Nov 2020 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2020-11-07-bootcamp6/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-11-07-bootcamp6/</guid>
-      </item>
-    
-      <item>
-        <title>Forecasting the weather in Berlin with ARIMA models</title>
-        <description>
-          Data Science Bootcamp - 
-          Project completed in week 5 (26.10.-30.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I found this week’s project quite challenging, because I haven’t worked with time series and forecasting before. But this means I had a lot of new things to learn! Map it out nicely I...
-        </description>
-        <pubDate>Sat, 31 Oct 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-10-31-bootcamp5/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-10-31-bootcamp5/</guid>
       </item>
     
   </channel>
