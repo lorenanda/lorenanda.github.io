@@ -8,7 +8,7 @@ comments: true
 
 ![cover](../assets/img/MarchBooks.jpg)
 
-Here's to another month of reading good books! In March I read **5 books** (4 fiction and 1 non-fiction), which is slightly less than in [February](../_posts/2021-02-28-february-books.md) and a lot less than in [January](../_posts/2021-01-31-january-books.md). At the same time, my reading list keeps on growing - there are just so many good books our there! Overall, this month was quite dark in terms of literary choices, with four crime-thrillers and one data privacy & digitalization warning. Without further ado, here are my thoughts on the five books I read this month.
+Here's to another month of reading good books! In March I read **5 books** (4 fiction and 1 non-fiction), which is slightly less than in [February](2021-02-28-february-books.md) and a lot less than in [January](2021-01-31-january-books.md). At the same time, my reading list keeps on growing - there are just so many good books our there! Overall, this month was quite dark in terms of literary choices, with four crime-thrillers and one data privacy & digitalization warning. Without further ado, here are my thoughts on the five books I read this month.
 
 ## FICTION
 
