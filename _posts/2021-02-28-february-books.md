@@ -20,12 +20,12 @@ At 1325 pages, this is the longest book I’ve ever read, but also one of the mo
 
 ### *Die Mauern von Porto* by Mario Lima
 🌕🌕🌕🌕🌑 When a fire at an uninhabited house reveals two immured skeletons, Detective Fonseca and his team set to investigate a decade-old murder. The case plays is a dynamic and authentic atmosphere, with short scenes depicting the beautiful scenery, culinary specialties, daily life and struggles of the inhabitants of Bairro da Sé, the manner of speaking and values of the people. I liked that each character involved in the investigation is presented with a background story and personal life that influence their decisions. Apart from the thrilling search for the murderer, the book also includes some serious themes like family violence, the drug scene in Porto, colonial history of Portugal and Angola, and corruption in the justice system. A part that stuck with me was the four-page debate on the [statute of limitations](https://en.wikipedia.org/wiki/Statute_of_limitations) for murder, which brings arguments from both sides.\
-[`Deutsche Rezension`](2021-02-12-buchrezension-diemauernvonporto.md)
+[`Deutsche Rezension`]({% post_url 2021-02-12-buchrezension-diemauernvonporto %})
 
 
 ### *99 Nights in Logar* by Jamil Jan Kochai
 🌕🌕🌕🌑🌑 In 2005, 12-year-old Marwand returns from the USA to his hometown Logar in Afghanistan and is welcomed warmly by all his friends and extended family - except for Budabash, the terrifying and loyal dog of the family, who bites off Marwand's finger, then disappears into the night. From this moment on, Marwand sets on a lyrical adventure to find Budabash, roaming the dusty streets of Logar among bombing threats, American soldiers and talibans, and infusing the world around him with magical realism. Kochai depicts beautifully how in this land torn by war, life still goes on: children play and laugh, people fall in love and get married, they dream and talk and believe. It's a moving ode the Afghan culture and oral tradition. However, the writing style tends to impede the reading experience: there are many branching and frame stories at different points in time (*1001 Nights* vibes) and long sentences representing Marwand's stream of thought. After the first 100 pages, I didn't find it that engaging anymore. But what disturbed me most of all are the sadistic tendencies of Marwand to inflict pain on animals (warning: graphical scenes!), a trait that wasn't examined further not seemed to play a role in his coming-of-age or personality. That being said, this is a rich debut novel from a promising author.\
-[`Deutsche Rezension`](2021-02-24-buchrezension-99naechte.md)
+[`Deutsche Rezension`]({% post_url 2021-02-24-buchrezension-99naechte %})
 
 
 ### *Things Fall Apart* by Chinua Achebe
@@ -45,4 +45,4 @@ NON-FICTION
 
 ### *Terror* by Berndt Schmidt
 🌕🌕🌕🌕🌑 This anthology contains 13 essays by experts in various fields (law, theatre, philosophy) who analyse the famous play *Terror* by Ferdinand von Schirach from different perspectives. After finishing the play, I found it enlightening to read interpretations that showed me new meanings and implications I haven't considered before. Particularly interesting for me as a data scientist and AI enthusiast was the essay by Catrin Misselhorn, in which she draws an analogy between the Terror and autonomous vehicles - both facing similar challenges and heated debates.\
-[`Deutsche Rezension`](2021-03-03-buchrezension-terror.md)
+[`Deutsche Rezension`]({% post_url 2021-03-03-buchrezension-terror %})

@@ -18,7 +18,7 @@ comments: true
 
 ___
 
-Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! [Nach Portugal](https://lorenaciutacu.com/2021/02/12/buchrezenzion-die-mauern-von-porto-von-mario-lima/) bin ich in diesem Monat nach Afghanistan gereist, durch das Debütroman von Jamil Jan Kochai. Der Autor wurde in einem afghanischen Flüchtlingscamp in Pakistan geboren und wuchs in den USA auf -- Erfahrungen, die dieses Buch inspiriert haben.
+Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! [Nach Portugal]({% post_url 2021-02-12-buchrezension-diemauernvonporto %}) bin ich in diesem Monat nach Afghanistan gereist, durch das Debütroman von Jamil Jan Kochai. Der Autor wurde in einem afghanischen Flüchtlingscamp in Pakistan geboren und wuchs in den USA auf -- Erfahrungen, die dieses Buch inspiriert haben.
 
 Klappentext
 -----------
