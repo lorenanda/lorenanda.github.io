@@ -44,6 +44,10 @@ Volland beantwortet diese Fragen auf 2-5 Seiten, veranschaulicht sie mit tagesak
 
 Besonders interessant fand ich das Kapitel **Recht und Unrecht**, in dem es mehr um ethische und moralische Fragen der Datenverarbeitung und Künstliche Intelligenz geht. Anwendungen wie Bots, Fake News oder Hacking können undenkbare Einflüsse auf die Gesellschaft haben, lassen sich aber nicht so einfach regeln, denn das World Wide Web überschreitet nationale Grenzen und Justizsystemen.
 
+> Es gibt immer eine "eingebettete Ethik" in Künstlicher Intelligenz, weil wir Menschen das Trainingsmaterial bestimmen, von dem Algorithmen lernen. [...] Bevor wir also versuchen, Maschinen Moral beizubringen, müssen wir zuerst bei den Menschen ansetzen, die sie programmieren, trainieren und nutzen.
+> 
+> S. 178-180
+
 Insgesamt habe ich viele neue Informationen aus diesem Buch eingeholt und mich noch mehr für Datenschutz sensibilisiert. Der Schreibstil ist unterhaltsam, indem Volland persönliche Erlebnisse und Humor in den Antworten einbezieht und technische Details in vereinfachter Form erklärt. Die 100 Antworten kratzen aber nur an der Oberfläche. Womöglich hätte ich es besser finden, wenigere Fragen aufzunehmen, dafür aber ausführlichere Antworten anzubieten.
 
 ## Empfehlung
