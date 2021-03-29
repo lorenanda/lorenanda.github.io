@@ -34,9 +34,9 @@ Ich fand das Buch schon vom vielseitigen Inhalt her beeindruckend. Es beinhaltet
 * Wirtschaft
 * Politik
 
-Mit manchen Fragen habe ich mich schon in meinem Studium in Linguistik und Data Science (z.B. ***Warum sind Sprachassistenten immer weiblich?***) oder bei der Arbeit als Datenanalystin für Online-Marketing (z.B. ***Wieso bin ich ein Produkt?***) und Technische Autorin für Workflow-Automatisierung (z.B. ***Wird Künstliche Intelligenz zukünftig meinen Job übernehmen?***) beschäftigt. Andere Fragen hingegen habe ich mir noch nie gestellt (z.B. ***Wie erziehen Silicon-Valley-Gründer ihre Kinder?***, ***Weiß Instagram, ob ich depressiv bin?***).
+Mit manchen Fragen habe ich mich schon in meinem Studium in Linguistik und Data Science (z.B. ***Was ist Daten-Diskriminierung?***) oder bei der Arbeit als Datenanalystin für Online-Marketing (z.B. ***Wieso bin ich ein Produkt?***) und Technische Autorin für Workflow-Automatisierung (z.B. ***Wird Künstliche Intelligenz zukünftig meinen Job übernehmen?***) beschäftigt. Andere Fragen hingegen habe ich mir noch nie gestellt (z.B. ***Wie erziehen Silicon-Valley-Gründer ihre Kinder?***, ***Weiß Instagram, ob ich depressiv bin?***).
 
-Volland beantwortet diese Fragen auf 2-5 Seiten, veranschaulicht sie mit tagesaktuellen Beispielen (z.B. [George Floyds Ermordung](https://www.georgefloydmemorialfoundation.org/), [Trumps Twitter-Sperre](https://www.dw.com/de/diskussionen-um-trumps-twitter-sperre/a-56227331), Corona-Lockdowns) und gibt auch praktische Tipps zum Schutz unserer Privatsphäre im digitalen Leben.
+Volland beantwortet diese Fragen auf 2-5 Seiten, veranschaulicht sie mit tagesaktuellen Beispielen (z.B. [George Floyds Tötung](https://www.georgefloydmemorialfoundation.org/), [Trumps Twitter-Sperre](https://www.dw.com/de/diskussionen-um-trumps-twitter-sperre/a-56227331), Corona-Lockdowns) und gibt auch praktische Tipps zum Schutz unserer Privatsphäre im digitalen Leben.
 
 > Der Deal, den wir online tagtäglich eingehen, lautet also vereinfacht: Privatsphäre gegen digitale Dienstleistung.
 > 
