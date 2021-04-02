@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 🧠
-subtitle: WORK
+title: WORK
+subtitle: 🧠
 ---
 
 # Articles
