@@ -209,6 +209,7 @@ img {
 .navbar-toggler {
   font-size: 1rem;
   margin: 0.5rem 0;
+  border-color: white !important;
 }
 .navbar-custom .navbar-toggler:focus,
 .navbar-custom .navbar-toggler:hover {
@@ -217,6 +218,7 @@ img {
 
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
   background-color: white;
+  border-color: white;
 }
 
 .dropdown-toggle::after {
@@ -294,6 +296,7 @@ img {
   .navbar-custom .navbar-collapse {
     border-top: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
     margin: 0 -1rem;
+    border-color: white;
   }
 
   .navbar-custom .navbar-nav {
