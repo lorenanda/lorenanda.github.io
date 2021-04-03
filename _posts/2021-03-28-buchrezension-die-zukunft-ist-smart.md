@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Die Zukunft ist smart. Du auch? von Holger Volland
+title: Die Zukunft ist smart von Holger Volland
 subtitle: Buchrezension
 tags: [books, nonfiction, deutsch]
 comments: true
