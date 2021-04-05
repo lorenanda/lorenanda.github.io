@@ -88,15 +88,15 @@ keywords: "data science, linguistics, book reviewer, berlin"
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#FFF"
-navbar-text-col: "#404040"
+navbar-text-col: "#212529"
 navbar-border-col: "#EAEAEA"
 page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#BD892A"
-hover-col: "#BD892A"
+text-col: "#212529"
+link-col: "#926c15"
+hover-col: "#926c15"
 footer-col: "#FFF"
 footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-link-col: "#212529"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -178,7 +178,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/

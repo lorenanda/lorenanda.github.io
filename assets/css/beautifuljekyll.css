@@ -13,7 +13,7 @@ html {
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#212529" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
   {% if site.page-img %}
@@ -204,7 +204,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 600;
-  color: {{ site.navbar-text-col | default: "#404040" }};
+  color: {{ site.navbar-text-col | default: "#212529" }};
 }
 
 .navbar-toggler {
@@ -403,7 +403,7 @@ footer p.text-muted {
 }
 
 footer a {
-  color: {{ site.footer-link-col | default: "#404040" }};
+  color: {{ site.footer-link-col | default: "#212529" }};
 }
 
 footer .list-inline {
@@ -463,7 +463,7 @@ footer .footer-custom-content {
 .post-preview a {
   text-decoration: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#212529" }};
 }
 
 .post-preview a:focus,
@@ -570,12 +570,12 @@ footer .footer-custom-content {
 }
 
 .blog-tags span {
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#212529" }};
   opacity: 0.8;
 }
 
 .blog-tags a {
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#212529" }};
   text-decoration: none;
   padding: 0 0.3125rem;
   opacity: 0.8;
@@ -585,8 +585,8 @@ footer .footer-custom-content {
 
 .blog-tags a:hover {
   opacity: 1;
-  color: {{ site.text-col | default: "#404040" }};
-  border-color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#212529" }};
+  border-color: {{ site.text-col | default: "#212529" }};
 }
 
 .post-preview .blog-tags {
@@ -605,13 +605,13 @@ footer .footer-custom-content {
 .tag-btn {
   margin: 0.3125rem;
   background-color: #FFF;
-  border-color: #404040;
-  color: #404040;
+  border-color: #212529;
+  color: #212529;
 }
 
 .tag-btn:hover {
   margin: 0.3125rem;
-  background-color: #404040;
+  background-color: #212529;
   border-color: #FFF;
   color: #FFF;
 }
@@ -626,12 +626,12 @@ footer .footer-custom-content {
 
 #full-tags-list .tag-entry a {
   font-size: 1.25rem;
-  color: #404040;
+  color: #212529;
 }
 
 #full-tags-list .tag-entry a:hover {
   font-size: 1.25rem;
-  color: #BD892A;
+  color: #926c15;
 }
 
 #full-tags-list .tag-entry .entry-date {
@@ -820,7 +820,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   padding: 0.625rem 0.3125rem;
   background-color: #FFF;
   border-radius: 0;
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#212529" }};
 }
 @media (min-width: 768px) {
   .pagination .page-item .page-link {
