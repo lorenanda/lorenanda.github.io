@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>Klima von David Klass</title>
+        <description>
+          Buchrezension - 
+          Titel: Klima Autor: David Klass Verlag: Goldmann Erschienen: April 2021 Seitenanzahl: 416 Bewertung: 🌕🌕🌕🌗🌑 Danke an Random House Bloggerportal und Goldmann Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! Letzter Monat habe ich ausschließlich Thrillers/Krimis gelesen und ich habe diesen Monat auch mit einem Thriller angefangen. Bisher habe ich noch kein...
+        </description>
+        <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-04-07-buchrezension-klima/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-04-07-buchrezension-klima/</guid>
+      </item>
+    
+      <item>
         <title>March Books</title>
         <description>
           Book reviews - 
@@ -216,17 +227,6 @@
         <pubDate>Sat, 21 Nov 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2020-11-21-bootcamp8/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-11-21-bootcamp8/</guid>
-      </item>
-    
-      <item>
-        <title>Building a Slackbot for live tweets with Python and Docker</title>
-        <description>
-          Data Science Bootcamp - 
-          Project completed in week 7 (09.11.-13.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This week’s project was the most complex and difficult I’ve worked on. As you can tell from the description, it involved new tools and many steps. Here’s the pipeline of the whole process: Creating...
-        </description>
-        <pubDate>Sat, 14 Nov 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020-11-14-bootcamp7/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-11-14-bootcamp7/</guid>
       </item>
     
   </channel>
