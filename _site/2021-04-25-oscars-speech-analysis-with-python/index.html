@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>6 Findings From Analysing the Oscars Speeches of the Best Directors</title>
+
+  
+  <meta name="author" content="Lorena Ciutacu">
+  
+
+  <meta name="description" content="Data analysis">
+
+  
+
+  
+  <meta name="keywords" content="data science, linguistics, book reviewer, berlin">
+  
+
+  <link rel="alternate" type="application/rss+xml" title="numbers & words" href="http://localhost:4000/feed.xml">
+
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B4RTHP9QL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0B4RTHP9QL');
+</script>
+
+
+  
+
+  
+<!-- Google Analytics -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-119170762-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="numbers & words">
+  <meta property="og:title" content="6 Findings From Analysing the Oscars Speeches of the Best Directors">
+  <meta property="og:description" content="Data analysis">
+
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Lorena Ciutacu">
+  <meta property="og:article:published_time" content="2021-04-25T00:00:00+02:00">
+  <meta property="og:url" content="http://localhost:4000/2021-04-25-oscars-speech-analysis-with-python/">
+  <link rel="canonical" href="http://localhost:4000/2021-04-25-oscars-speech-analysis-with-python/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@alciutacu">
+  <meta name="twitter:creator" content="@alciutacu">
+
+  <meta property="twitter:title" content="6 Findings From Analysing the Oscars Speeches of the Best Directors">
+  <meta property="twitter:description" content="Data analysis">
+
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand navbar-brand-logo" href="http://localhost:4000/"><img alt="numbers & words Logo" src="/assets/img/homelogo.png"/></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tags">Blog</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>6 Findings From Analysing the Oscars Speeches of the Best Directors</h1>
+          
+            
+              <h2 class="post-subheading">Data analysis</h2>
+            
+          
+
+          
+            <span class="post-meta">Posted on April 25, 2021</span>
+            
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md ">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
+      
+
+      
+
+      <article role="main" class="blog-post">
+        <p><strong>Cinephiles and lovers of glam rejoice this Sunday – it’s Oscars Award Ceremony time!</strong> Due to Corona, this year’s 93rd edition was postponed from February to April 25th – the latest in the history of the award. I was personally happy about the delay, because it gave me more time to analyse some data and come up with this blog post.</p>
+
+<p>On this ocassion, I was curious to do some text mining on the acceptance speeches. Specifically, I analysed the speeches of the Best Directors between 1941 and 2019. I used a dataset from <a href="https://www.kaggle.com/unanimad/the-oscar-award">Kaggle</a> and added missing data for 2017, 2018, and 2019 directly from the <a href="http://aaspeechesdb.oscars.org/">Academy Awards Acceptance Speech database</a>.</p>
+
+<p>In total, 74 Best Directors have been awarded and almost all of them gave acceptance speeches, which I analysed with Python and the NLTK library. Let’s see what the words reveal about the Best Directors and the Oscars!</p>
+
+<h3 id="1-average-speech-length">1. Average speech length</h3>
+<p>The speech of a Best Director has 104 words on average, but speeches range widely from 8 to 267 words.</p>
+
+<p>Here’s how to calculate the number of words in a text:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">directing</span><span class="p">[</span><span class="s">"words"</span><span class="p">]</span> <span class="o">=</span> <span class="n">directing</span><span class="p">[</span><span class="s">'Speech_clean'</span><span class="p">].</span><span class="nb">str</span><span class="p">.</span><span class="n">split</span><span class="p">().</span><span class="nb">str</span><span class="p">.</span><span class="nb">len</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h3 id="2-longest--shortest-speeches">2. Longest &amp; shortest speeches</h3>
+<p>The longest speech runs at 267 words and was given by Mel Gibson at the 68th Academy Awards in 1995 for his film <em>Braveheart</em>. This guy had a looot of people to thank to and seems to have used up all his words for saying pretty much nothing:</p>
+<blockquote>
+  <p>Oh, I don’t write speeches but I would like to thank a few people. And I have it on a list, not a long list. Not too long anyway. I mean, I’d like to thank the Academy first of all, and Alan Ladd, Jr. and Randall Wallace who first came to me with the script. Randy wrote it, Laddy was attached as the producer. And they had no problem with giving the reins to a fiscal imbecile. You know, this takes real courage. My production company at Icon – Bruce Davey, Steve McEveety, Dean Lopata, my right hand man. And everyone at Icon. Paramount and Fox, who both went in, they double dipped, Sherry Lansing, Jon Dolgen, Barry London, Peter Chernin, Bill Mechanic, Jim Gianopulos. It’s one of the best cast and crews I’ve ever worked with. John Toll, who’s already been honored here tonight. Tom Sanders, Charles Knode, Steve Rosenblum, David Tomblin – thanks for dragging me through the mud sometimes. James Horner, Mic Rodgers, Simon Crane, and the clan Wallace. We mustn’t forget the clan Wallace. Nigel Sinclair, Ed Limato, Jeff Berg, Alan Nierob, Paul Bloch, Rod Lurie, my wife and family for indulging me. And God, for indulging me in this tiny moment. And every director I’ve ever worked with, they were my film school. And now that I’m a bona fide director with a golden boy, I uh, well, like most directors I suppose what I really want to do is act. Is that right? Thank you from the bottom of my heart. This is a truly wonderful evening for me. Thank you.</p>
+</blockquote>
+
+<p>The shortest speech was summed up in 8 words by Delbert Mann at the 28th Academy Awards in 1955 for his film <em>Marty</em>. I really like his efficient “I came. I won. I thanked.” structured speech:</p>
+<blockquote>
+  <p>Thank you. Thank you very much. Appreciate it.</p>
+</blockquote>
+
+<p>Here’s how to find the longest and shortest text in a dataframe with pandas:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">directing</span><span class="p">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s">"words"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="3-lexical-richness">3. Lexical richness</h3>
+<p>Lexical richness is a measure of how many unique words are used in the text. Lexical richness is calculated as the total number of unique words divided by the total number of words. The higher the score, the richer the vocabulary–and viceversa. Here’s to calculate lexical richness for each speech in the dataframe with Python:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">lexical_richness</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">round</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">text</span><span class="p">)))</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">text</span><span class="p">)),</span> <span class="mi">3</span><span class="p">)</span>
+
+<span class="n">directing</span><span class="p">[</span><span class="s">"lex_rich"</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">lexical_richness</span><span class="p">(</span><span class="n">directing</span><span class="p">[</span><span class="s">"Speech_clean"</span><span class="p">][</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">directing</span><span class="p">))]</span>
+</code></pre></div></div>
+
+<p>The speech with the highest lexical richness (0.408) is Delbert Mann’s, the director of <em>Marty</em>, awarded in 1955. This means that 40.8% of the words he used are distinct.</p>
+
+<p>At the other end, the speech with the lowest lexical richness (0.034) is Mel Gibson’s, the director of <em>Braveheart</em>, awarded in 1995. This means that 3.4% of the words he used are distinct.</p>
+
+<h3 id="4-longest-words">4. Longest words</h3>
+<p>The longest words used in directors’ speeches have 15 words: <em>administrations</em>, <em>cinematographer</em>, and <em>czechoslovakian</em>.</p>
+
+<p>Here’s how to select the longest words in a text:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">long_words</span> <span class="o">=</span> <span class="p">[</span><span class="n">w</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">all_speeches_tokenized</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">14</span><span class="p">]</span>
+<span class="nb">sorted</span><span class="p">(</span><span class="n">long_words</span><span class="p">)</span>
+
+<span class="c1">### 5. Most common words
+</span><span class="n">The</span> <span class="n">top</span> <span class="mi">10</span> <span class="n">most</span> <span class="n">common</span> <span class="n">words</span> <span class="ow">in</span> <span class="nb">all</span> <span class="n">acceptance</span> <span class="n">speeches</span> <span class="n">are</span><span class="p">:</span> <span class="o">*</span><span class="n">thank</span><span class="o">*</span> <span class="p">(</span><span class="mi">201</span> <span class="n">occurences</span><span class="p">),</span> <span class="o">*</span><span class="n">much</span><span class="o">*</span> <span class="p">(</span><span class="mi">56</span><span class="p">),</span> <span class="o">*</span><span class="n">like</span><span class="o">*</span> <span class="p">(</span><span class="mi">50</span><span class="p">),</span> <span class="o">*</span><span class="n">people</span><span class="o">*</span> <span class="p">(</span><span class="mi">48</span><span class="p">),</span> <span class="o">*</span><span class="n">want</span><span class="o">*</span> <span class="p">(</span><span class="mi">42</span><span class="p">),</span> <span class="o">*</span><span class="n">would</span><span class="o">*</span> <span class="p">(</span><span class="mi">30</span><span class="p">),</span> <span class="o">*</span><span class="n">movie</span><span class="o">*</span> <span class="p">(</span><span class="mi">26</span><span class="p">),</span> <span class="o">*</span><span class="n">film</span><span class="o">*</span> <span class="p">(</span><span class="mi">26</span><span class="p">),</span> <span class="o">*</span><span class="n">say</span><span class="o">*</span> <span class="p">(</span><span class="mi">24</span><span class="p">),</span> <span class="ow">and</span> <span class="o">*</span><span class="n">many</span><span class="o">*</span> <span class="p">(</span><span class="mi">22</span><span class="p">).</span>
+
+<span class="n">Interestingly</span><span class="p">,</span> <span class="n">out</span> <span class="n">of</span> <span class="n">these</span> <span class="mi">10</span> <span class="n">words</span><span class="p">,</span> <span class="mi">3</span> <span class="n">are</span> <span class="n">nouns</span> <span class="p">(</span><span class="n">referring</span> <span class="n">to</span> <span class="o">*</span><span class="n">people</span><span class="o">*</span> <span class="ow">and</span> <span class="o">*</span><span class="n">film</span><span class="o">*/*</span><span class="n">movie</span><span class="o">*</span><span class="p">),</span> <span class="mi">2</span> <span class="n">express</span> <span class="n">large</span> <span class="n">quantities</span> <span class="p">(</span><span class="o">*</span><span class="n">much</span><span class="o">*</span> <span class="ow">and</span> <span class="o">*</span><span class="n">many</span><span class="o">*</span><span class="p">),</span> <span class="ow">and</span> <span class="mi">5</span> <span class="n">are</span> <span class="n">verbs</span> <span class="n">that</span> <span class="n">express</span> <span class="n">personal</span> <span class="n">feelings</span> <span class="p">(</span><span class="o">*</span><span class="n">want</span><span class="o">*</span><span class="p">,</span> <span class="o">*</span><span class="n">like</span><span class="o">*</span><span class="p">)</span> <span class="ow">or</span> <span class="n">actions</span> <span class="p">(</span><span class="o">*</span><span class="n">say</span><span class="o">*</span><span class="p">,</span> <span class="o">*</span><span class="n">thank</span><span class="o">*</span><span class="p">).</span> <span class="n">It</span><span class="s">'s also worth noting that the word *thank* has a significantly higher frequency than the following common words, which is however understandable.
+
+Here'</span><span class="n">s</span> <span class="n">how</span> <span class="n">to</span> <span class="n">find</span> <span class="n">the</span> <span class="n">frequency</span> <span class="n">distribution</span> <span class="n">of</span> <span class="n">words</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">text</span> <span class="k">with</span> <span class="n">NLTK</span><span class="p">:</span>
+<span class="sb">``</span><span class="err">`</span><span class="n">python</span>
+<span class="n">FreqDist</span><span class="p">(</span><span class="n">all_speeches_tokenized</span><span class="p">).</span><span class="n">most_common</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="6-thank-to">6. “Thank” to…</h3>
+<p>Ok, winners thank a lot, but who do they thank to? It turns out… to <em>you</em>, but also to <em>the Pacific Command of the United States</em>, <em>Mr. harry Cohn</em>, <em>Marlon</em>, <em>the producers</em>, and <em>each one of them</em>.</p>
+
+<p>Here’s see the location of a word in context with NLTK:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Text</span><span class="p">(</span><span class="n">word_tokenize</span><span class="p">(</span><span class="n">all_speeches</span><span class="p">)).</span><span class="n">concordance</span><span class="p">(</span><span class="s">'thank'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>That’s all, folks! Could/should I have analysed anything else? Let me know what you think in the comments below ⬇️</p>
+
+      </article>
+
+      
+        <div class="blog-tags">
+          <span>Tags:</span>
+          
+            <a href="/tags#data science">data science</a>
+          
+            <a href="/tags#projects">projects</a>
+          
+        </div>
+      
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=6+Findings+From+Analysing+the+Oscars+Speeches+of+the+Best+Directors&url=http%3A%2F%2Flocalhost%3A4000%2F2021-04-25-oscars-speech-analysis-with-python%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2021-04-25-oscars-speech-analysis-with-python%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2021-04-25-oscars-speech-analysis-with-python%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a class="page-link" href="/2021-04-07-buchrezension-klima/" data-toggle="tooltip" data-placement="top" title="Klima von David Klass">&larr; Klima von David Klass</a>
+        </li>
+        
+        
+      </ul>
+      
+  <div class="disqus-comments">
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+	  var disqus_shortname = 'https-lorenanda-github-io';
+	  /* ensure that pages with query string get the same discussion */
+	  var url_parts = window.location.href.split("?");
+	  var disqus_url = url_parts[0];
+	  (function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	  })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="https://linkedin.com/in/lorena-ciutacu" title="LinkedIn">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">LinkedIn</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/lorenanda" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/alciutacu" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.instagram.com/datalingo" title="Instagram">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Instagram</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.goodreads.com/lorenasbooks" title="Goodreads">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-goodreads fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Goodreads</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+        Lorena Ciutacu
+        &nbsp;&bull;&nbsp;
+      
+      2021
+
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Built with
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

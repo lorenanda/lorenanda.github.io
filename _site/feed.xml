@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>6 Findings From Analysing the Oscars Speeches of the Best Directors</title>
+        <description>
+          Data analysis - 
+          Cinephiles and lovers of glam rejoice this Sunday – it’s Oscars Award Ceremony time! Due to Corona, this year’s 93rd edition was postponed from February to April 25th – the latest in the history of the award. I was personally happy about the delay, because it gave me more time...
+        </description>
+        <pubDate>Sun, 25 Apr 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-04-25-oscars-speech-analysis-with-python/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-04-25-oscars-speech-analysis-with-python/</guid>
+      </item>
+    
+      <item>
         <title>Klima von David Klass</title>
         <description>
           Buchrezension - 
@@ -218,17 +229,6 @@
         <pubDate>Sat, 28 Nov 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2020-11-28-bootcamp9/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-11-28-bootcamp9/</guid>
-      </item>
-    
-      <item>
-        <title>Creating a Markov chain Monte Carlo simulation in Python</title>
-        <description>
-          Data Science Bootcamp - 
-          Project completed in week 8 (16.11.-20.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This week we learned to make a Markov Chain Monte Carlo (MCMC) simulation of new customers in a supermarket, based on data about customer paths from entrance to checkout through four aisles (fruit, drinks,...
-        </description>
-        <pubDate>Sat, 21 Nov 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020-11-21-bootcamp8/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-11-21-bootcamp8/</guid>
       </item>
     
   </channel>
