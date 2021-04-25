@@ -39,7 +39,6 @@ Lexical richness is a measure of how many unique words are used in the text. Lex
 ```python
 def lexical_richness(text):
     return round(len(set(str(text))) / len(str(text)), 3)
-
 directing["lex_rich"] = [lexical_richness(directing["Speech_clean"][i]) for i in range(len(directing))]
 ```
 
@@ -54,6 +53,7 @@ Here's how to select the longest words in a text:
 ```python
 long_words = [w for w in all_speeches_tokenized if len(w) > 14]
 sorted(long_words)
+```
 
 ### 5. Most common words
 The top 10 most common words in all acceptance speeches are: *thank* (201 occurences), *much* (56), *like* (50), *people* (48), *want* (42), *would* (30), *movie* (26), *film* (26), *say* (24), and *many* (22).
