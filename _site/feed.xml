@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>April Books</title>
+        <description>
+          Book reviews - 
+          Here’s to another month of reading good books! In April I read 6 books (4 fiction and 2 non-fiction), which is slightly more than in March. Without further ado, here are my thoughts on the five books I read this month. FICTION Out Of Time by David Klass 🌕🌕🌕🌗🌑 A...
+        </description>
+        <pubDate>Wed, 28 Apr 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-04-28-april-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-04-28-april-books/</guid>
+      </item>
+    
+      <item>
         <title>6 findings from analysing the Oscars speeches of the best directors</title>
         <description>
           Data analysis - 
@@ -218,17 +229,6 @@
         <pubDate>Sat, 05 Dec 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2020-12-05-bootcamp10/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-12-05-bootcamp10/</guid>
-      </item>
-    
-      <item>
-        <title>Classifying clothes images with neural networks</title>
-        <description>
-          Data Science Bootcamp - 
-          Project completed in week 9 (23.11.-27.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This week we dived into Deep Learning and learned about different types neural networks (NN) and their applications in various domains. The main goal of this project was to learn and understand what each...
-        </description>
-        <pubDate>Sat, 28 Nov 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020-11-28-bootcamp9/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-11-28-bootcamp9/</guid>
       </item>
     
   </channel>
