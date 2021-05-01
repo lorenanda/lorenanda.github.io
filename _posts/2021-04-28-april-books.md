@@ -13,7 +13,7 @@ Here's to another month of reading good books! In April I read **6 books** (4 fi
 ## FICTION
 
 ### *Out Of Time* by David Klass
-🌕🌕🌕🌗🌑 A conflicted young FBI analyst tries to outsmart a self-styled "eco-terrorist" who bombs seemingly random locations across the USA. If this sounds like a typical Hollywood action thriller–it is indeed. The story in itself is quite engaging, especially in the beginning, and it raises some important questions about climate change, but fails to deliver substantial morals or entertainment.
+🌕🌕🌕🌑🌑 A conflicted young FBI analyst tries to outsmart a self-styled "eco-terrorist" who bombs seemingly random locations across the USA. If this sounds like a typical Hollywood action thriller–it is indeed. The story in itself is quite engaging, especially in the beginning, and it raises some important questions about climate change, but fails to deliver substantial morals or entertainment.
 [`Deutsche Rezension`]({% post_url 2021-04-07-buchrezension-klima %})
 
 ### *The Death Of Vivek Oji* by Akwaeke Emezi
@@ -28,7 +28,7 @@ Here's to another month of reading good books! In April I read **6 books** (4 fi
 
 ## NON-FICTION
 ### *Never Split The Difference* by Chris Voss
-🌕🌕🌕🌑🌑  
+🌕🌕🌕🌑🌑  The author is a former international hostage negotiator for the FBI who seems to have thought that putting his self-boasting attitude on paper is the key to success. In this book, he shares nine principles (tactics and strategies) about how to negotiate and persuade people, exemplified with situations from his personal and professional life. I found most of the techniques useful, while some seemed unrealistic and far-fetched. Regardless the content, what spoiled my reading experience was his bette-than-anyone attitude and sprinkled salesy messages, which made me not take him seriously at times.
 
 ### *No Filter* by Sarah Frier
-🌕🌕🌕🌑🌑 This is the story of Instagram: from idyllic idea to the predator acquisition by Facebook and the increasingly toxic relationship between the two companies, until the forced/inevitable departure of the original founders. I finished this book with more knowledge about startups, more disdain towards Zuckerberg, and less motivation to use Instagram. 
+🌕🌕🌕🌕🌕 This book tells the thoroughly documented story of Instagram: from idealised concept to the predatory acquisition by Facebook and the evolving toxic relationship between the two companies, until the inevitable departure of the original founders. I finished this book with more knowledge about startup culture and funding, more antipathy towards Zuckerberg, and less motivation to use Instagram, knowing the new interests behind it and the role it assumes in the users' lives. Particularly surprising were the approaches of the two companies to managing hate speech online and their views on privacy. I recommend this book to anyone who has an Facebook/Instagram account!
