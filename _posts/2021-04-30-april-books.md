@@ -8,7 +8,7 @@ comments: true
 
 ![cover](../assets/img/aprilbooks.jpg)
 
-Here's to another month of reading good books! In April I read **6 books** (4 fiction and 2 non-fiction), which is slightly more than in [March]({% post_url 2021-03-31-march-books %}).  Without further ado, here are my thoughts on the five books I read this month.
+Here's to another month of reading good books! In April I read **6 books** (4 fiction and 2 non-fiction) amounting to **1930 pages** and a **3.6 average rating**. Without further ado, here are my thoughts on the five books I read this month.
 
 ## FICTION
 
