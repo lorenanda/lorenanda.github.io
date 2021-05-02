@@ -17,7 +17,7 @@ comments: true
 
 ___
 
-Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich war sehr gespannt auf dieses Psycho-Thriller, besonders weil die Autorin anscheinend professionelles Wissen zum Thema Trauma und psychiatrie hat: sie hat Psychologie studiert, in der Psychiatrie mit Menschen mit traumatischen Ereignissen gearbeitet, und ist nun Psychotherapeutin. Ihr Fachwissen reflektiert sich aber nicht in ihrem kreativen Schreiben.
+Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich war sehr gespannt auf dieses Psycho-Thriller, besonders weil die Autorin anscheinend professionelles Wissen zum Thema Trauma und Psychiatrie hat: sie hat Psychologie studiert, in der Psychiatrie mit Menschen mit traumatischen Ereignissen gearbeitet, und ist nun Psychotherapeutin.
 
 ## Klappentext
 Leila wacht auf, und ihr Leben ist nicht mehr dasselbe. Wie ist sie an diesen Ort geraten, in dieses Bett, in diese Psychiatrie? Erinnerungen mischen sich mit Ahnungen, sie hat Angst, sie weiß nicht mehr, wer sie wirklich ist. Wann ist ihr Traum zum Alptraum geworden? Und was hat sie wirklich getan?
@@ -25,7 +25,7 @@ Leila wacht auf, und ihr Leben ist nicht mehr dasselbe. Wie ist sie an diesen Or
 ## Meinung
 *Eine Mörderin zu sein ist leicht.* Mit diesem spannungsvollen Satz eröffnet die Protagonistin die Geschichte und beschreibt weiter eine blutige Mordtat aus erster Perspektive. Von hier an versucht sie über fast 200 Seiten festzustellen, ob ihre Erinnerung nur ein Alptraum war, ob sie eine wahre Mörderin ist, oder ob sie auf die eine oder andere Weise in den Mord verwickelt ist. 
 
-Um sich zu erinnern, stellt sie (sich) viele Fragen und nimmt die LeserInnen in ihr Gedankenkarussel mit. Auf viele Rundgänge davon hätte ich gerne verzichtet, denn es fühlt sich eher wie Rauschstörung als aufschlussreiche Introspektion. Klar, Denkstörungen sind auch mögliche Anzeichen einiger psychiatrischen Störungen, aber den schriftlichen Ausdruck ist nicht so gut gelungen. Ich fand den Schreibstil ermüdend und lästig: zu viele kurze Sätze. Unterbrochen. Ohne Verb. Ob etwas, ob jemand...? Ein Name. Ein Objekt. Pause. 
+Um sich zu erinnern, stellt sie (sich) viele Fragen und nimmt die LeserInnen in ihr Gedankenkarussel mit. Auf viele Rundgänge hätte ich gerne verzichtet, denn es fühlt sich eher wie Rauschstörung als aufschlussreiche Introspektion. Klar, Denkstörungen sind auch mögliche Anzeichen einiger psychiatrischen Störungen, aber der schriftliche Ausdruck ist nicht so gut gelungen. Ich fand den Schreibstil ermüdend und lästig: zu viele kurze Sätze. Unterbrochen. Ohne Verb. Ob etwas, ob jemand...? Ein Name. Ein Objekt. Pause. 
 
 > Ich bin durchgedreht.
 > Vollständig.
@@ -36,7 +36,7 @@ Um sich zu erinnern, stellt sie (sich) viele Fragen und nimmt die LeserInnen in 
 >
 > S. 105
 
-Die Figuren sind ziemlich eindimensional und stereotypisch gezeichnet, besonders das Paar reicher-kontrollierender-Geschäftsmann und träumerische-ratlose-Musikerin. Wenn die Protagonistin sich wieder besinnt, spricht sie zwar in kohärenteren Sätzen, aber macht auch kindische Witze:
+Die Figuren sind ziemlich eindimensional und stereotypisch gezeichnet, besonders das Ehepaar reicher-kontrollierender-Geschäftsmann und träumerische-ratlose-Musikerin. Wenn die Protagonistin sich wieder besinnt, spricht sie zwar in kohärenteren Sätzen, aber macht auch kindische Witze:
 
 > In diesem Moment schwingt  die Badezimmertür quietschend auf [...] Maya und Friederike zucken erschrokend zurück, als sei Godzilla höchstpersönlich durch die Wand gebrochen.
 > 
