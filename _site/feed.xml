@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Trauma von Angélique Mundt</title>
+        <description>
+          Buchrezension - 
+          Titel: Trauma Autorin: Angélique Mundt Verlag: btb Erschienen: 13. April 2021 Seitenanzahl: 352 Bewertung: 🌕🌕🌑🌑🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich war sehr gespannt auf dieses Psycho-Thriller, besonders weil die Autorin anscheinend professionelles Wissen zum Thema Trauma und Psychiatrie hat: sie...
+        </description>
+        <pubDate>Sun, 02 May 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-05-02-buchrezension-trauma/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-05-02-buchrezension-trauma/</guid>
+      </item>
+    
+      <item>
         <title>April Books</title>
         <description>
           Book reviews - 
@@ -218,17 +229,6 @@
         <pubDate>Sat, 12 Dec 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2020-12-12-bootcamp11/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-12-12-bootcamp11/</guid>
-      </item>
-    
-      <item>
-        <title>Creating a movie recommender system with Python and Flask</title>
-        <description>
-          Data Science Bootcamp - 
-          Project completed in week 10 (30.11.-04.12.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This was a really exciting week, because we had a team project which combined the power of Machine Learning algorithms with the beauty of Web Development! Making a recommender system Spotify’s Discover Weekly, Netflix’s...
-        </description>
-        <pubDate>Sat, 05 Dec 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020-12-05-bootcamp10/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-12-05-bootcamp10/</guid>
       </item>
     
   </channel>
