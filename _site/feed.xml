@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Die Tote im Kaffeehaus von Beate Maxian</title>
+        <description>
+          Buchrezension - 
+          Titel: Die Tote im Kaffeehaus Autorin: Beate Maxian Verlag: Goldmann Erschienen: 19. April 2021 Seitenanzahl: 416 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich habe dieses Buch ausgewählt, weil es drei meiner Lieblingsdinge thematisiert: Krimis, Kaffee und Wien, mein zweites Zuhause....
+        </description>
+        <pubDate>Sun, 09 May 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-05-09-buchrezension-die-tote-im-kaffeehaus/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-05-09-buchrezension-die-tote-im-kaffeehaus/</guid>
+      </item>
+    
+      <item>
         <title>Trauma von Angélique Mundt</title>
         <description>
           Buchrezension - 
@@ -218,17 +229,6 @@
         <pubDate>Sun, 20 Dec 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2020-12-20-bootcamp12/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-12-20-bootcamp12/</guid>
-      </item>
-    
-      <item>
-        <title>Best practices for software engineering</title>
-        <description>
-          Data Science Bootcamp - 
-          Project completed in week 11 (06.12.-11.12.20) of the Data Science Bootcamp at Spiced Academy in Berlin. This was the last week of lectures and assigned projects, in which we learned general software engineering techniques and best practices for individual and team coding. Software engineering metaphors Our teacher introduced us to...
-        </description>
-        <pubDate>Sat, 12 Dec 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020-12-12-bootcamp11/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-12-12-bootcamp11/</guid>
       </item>
     
   </channel>
