@@ -23,8 +23,8 @@ Here's to another month of reading good books! In April I read **6 books** (4 fi
 🌕🌕🌕🌕🌑Four young women whose lives intertwine navigate daily life in South Korea, charged with rigid gender roles, increasingly unattainable beauty standards, and career limitations, and social expectations of women. This is one of the most original stories I've read recently. I was particularly surprised to learn about the wide use of plastic surgery for pretty much any tiny body part, to such an extent that it is regarded as a rite of passage. "I would live your life so much better if I had your face." is the quote that sums up best this book. The only thing that seemed a bit off was Wonna's story–it seems like her character was included only to thematise more issues (conceiving, childcare, and parental leave), but her story didn't merge well with the others.
 
 ### *Trauma* by Angélique Mundt
-🌕🌕🌑🌑🌑 Leila wakes up confined in a psychiatry room, suspected of a murder she dreamed about, from a night she can't (or doesn't want to) recall. The story sounds thrilling, but the writing ruined it. Leila's immature personality is insufferable whether under trauma or normal conditions, the numerous questions she asks herself in her head are more noise than relevant to the plot, and the depiction of staff and patients at the psychiatric ward seems taken out of an old feelgood movie.
-
+🌕🌕🌑🌑🌑 Leila wakes up confined in a psychiatry room, suspected of a murder she dreamed about, from a night she can't (or doesn't want to) recall. The story sounds thrilling, but the writing ruined it. Leila's immature personality is insufferable whether under trauma or normal conditions, the numerous questions she asks herself in her head are more noise than relevant to the plot, and the depiction of staff and patients at the psychiatric ward seems taken out of an old feelgood movie. 
+[`Deutsche Rezension`]({% post_url 2021-05-02-buchrezension-trauma %})
 
 ## NON-FICTION
 ### *Never Split The Difference* by Chris Voss
