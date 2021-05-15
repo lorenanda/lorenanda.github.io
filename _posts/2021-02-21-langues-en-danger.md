@@ -10,7 +10,7 @@ comments: true
 
 Il y a **7102 langues humaines** reconnues dans le monde. C'est une richesse linguistique et culturelle extraordinaire, mais elle est toutefois ménacée, car environ **[3000 langues sont en danger](https://www.ethnologue.com/endangered-languages)**.
 
-L'[UNESCO distingue](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/linguistic-diversity-andmultilingualism-on-internet/atlas-of-languages-in-danger/) **[cinque degrés de danger](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/linguistic-diversity-andmultilingualism-on-internet/atlas-of-languages-in-danger/) **pour une langue:
+L'UNESCO distingue [cinque degrés de danger](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/linguistic-diversity-andmultilingualism-on-internet/atlas-of-languages-in-danger/) pour une langue:
 
 1.  **Vulnérable**: la plupart des enfants parlent la langue, mais elle peut être restreinte à certains domaines (par exemple: la maison).
 2.  **En danger**: les enfants n'apprennent plus la langue comme langue maternelle à la maison.

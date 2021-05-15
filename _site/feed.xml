@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Achtsam morden am Rande der Welt von Karsten Dusse</title>
+        <description>
+          Buchrezension - 
+          Titel: Achtsam morden am Rande der Welt Autor: Karsten Dusse Verlag: Heyne Erschienen: 26. April 2021 Seitenanzahl: 384 Bewertung: 🌕🌕🌕🌕🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich habe dieses Buch wie kein anderes in diesem Jahr erwartet, nachdem ich die ersten zwei...
+        </description>
+        <pubDate>Sat, 15 May 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-05-15-buchrezension-achtsam-morden/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-05-15-buchrezension-achtsam-morden/</guid>
+      </item>
+    
+      <item>
         <title>Die Tote im Kaffeehaus von Beate Maxian</title>
         <description>
           Buchrezension - 
@@ -218,17 +229,6 @@
         <pubDate>Tue, 29 Dec 2020 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2020-12-29-my-year-in-code/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-12-29-my-year-in-code/</guid>
-      </item>
-    
-      <item>
-        <title>Detecting emotions from speech with neural networks</title>
-        <description>
-          Data Science Bootcamp - 
-          Project completed in week 12 (14.12.-18.12.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I did it! I graduated from the Data Science Bootcamp! On Friday I presented my final project, which was about detecting emotions from speech with neural networks. It was one of the most challenging...
-        </description>
-        <pubDate>Sun, 20 Dec 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020-12-20-bootcamp12/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-12-20-bootcamp12/</guid>
       </item>
     
   </channel>

@@ -32,6 +32,6 @@ Ein zentraler Punkt der Geschichte ist die Symbolik, veranschaulicht durch Lesen
 Insgesamt war für mich dieses Buch ein gemütlicher Krimi mit Wiener Charme und ich würde gerne auch andere Bücher in dieser Reihe lesen, am liebsten bei einem Kleinen Schwarzer im Café Central.
 
 ## Empfehlung
-Wenn du Wien bzw. Wiener Kaffeekultur liebst, dich für Kaffeezubereitung und Symbolik interessierst und Lust auf ein gemütlicher und atmosphärischer Krimi hast, dann empfehle ich dir *Die Tote im kaffeehaus*.
+Wenn du Wien bzw. Wiener Kaffeekultur liebst, dich für Kaffeezubereitung und Symbolik interessierst und Lust auf ein gemütlicher und atmosphärischer Krimi hast, dann empfehle ich dir *Die Tote im Kaffeehaus*.
 
 ![book inside](../assets/img/DieToteImKaffeehaus2.jpg)
