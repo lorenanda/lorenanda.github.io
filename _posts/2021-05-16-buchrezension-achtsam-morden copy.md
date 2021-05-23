@@ -17,7 +17,7 @@ comments: true
 
 ___
 
-Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich habe dieses Buch wie kein anderes in diesem Jahr erwartet, nachdem ich die ersten zwei Teile (*Achtsam morden* und *Das Kind in mir will achtsam morden*) in zwei Tagen [Anfang Januar]({% post_url 2021-01-31-january-books %}) fertig gelesen habe. Karsten Dusse ist ein deutscher Rechtsanwalt, Fernseh- und Buchautor – eine Kombination Beschäftigungen, die großartig die dreiteilige Serie *Achtsam morden*, die über den Weg eines Strafvereidigers zur Achtsamkeit und Leichtigkeit des Mordens erzählt, inspirieren.
+Danke an Random House Bloggerportal und Heyne Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich habe dieses Buch wie kein anderes in diesem Jahr erwartet, nachdem ich die ersten zwei Teile (*Achtsam morden* und *Das Kind in mir will achtsam morden*) in zwei Tagen [Anfang Januar]({% post_url 2021-01-31-january-books %}) fertig gelesen habe. Karsten Dusse ist ein deutscher Rechtsanwalt, Fernseh- und Buchautor – eine Kombination Beschäftigungen, die großartig die dreiteilige Serie *Achtsam morden*, die über den Weg eines Strafvereidigers zur Achtsamkeit und Leichtigkeit des Mordens erzählt, inspirieren.
 
 ## Klappentext
 Um der Midlifecrisis zu entgehen, begibt sich Björn Diemel auf Anraten seines Therapeuten auf Pilgerreise. Schnell stellt sich als Erkenntnis auf dem Jakobsweg heraus, dass Björns Leben die Mitte bereits längst überschritten haben könnte: Ein unbekannter Mitpilger versucht, ihn zu töten.
