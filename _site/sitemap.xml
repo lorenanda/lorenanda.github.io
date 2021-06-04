@@ -257,10 +257,14 @@
 <lastmod>2021-05-23T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/drafts/2021-04-31-may-books/</loc>
+<loc>http://localhost:4000/2021-05-31-may-books/</loc>
+<lastmod>2021-05-31T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/drafts/2021-05-08-reasons-%20i-love-being-a-technical-writer/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/drafts/2021-06-30-june-books/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
