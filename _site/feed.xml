@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Der Weg des Siegers von Ronny Schönig</title>
+        <description>
+          Buchrezension - 
+          Titel: Der Weg des Siegers Autor: Ronny Schönig Verlag: Lotos Erschienen: 17. Mai 2021 Seitenanzahl: 304 Bewertung: 🌕🌕🌕🌕🌖 Danke an Random House Bloggerportal und Lotos Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Der Titel hat mich sofort angezogen, denn ich praktiziere selbst Kampfkunst und interessiere mich besonders für die Philosophie...
+        </description>
+        <pubDate>Sun, 20 Jun 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-06-20-buchrezension-der-weg-des-siegers/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-06-20-buchrezension-der-weg-des-siegers/</guid>
+      </item>
+    
+      <item>
         <title>May Books</title>
         <description>
           Book reviews - 
@@ -218,17 +229,6 @@
         <pubDate>Sun, 31 Jan 2021 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2021-01-31-january-books/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-01-31-january-books/</guid>
-      </item>
-    
-      <item>
-        <title>January's regression challenge for Kaggle playground</title>
-        <description>
-          Project - 
-          At the beginning of the new year 2021, Kaggle created a new format of competitions aimed at beginners. On the 1st of each month, a month-long Playground competition is launched, where you can practice your ML skills on simple tabular datasets. Apart from competitive experience, the top 3 teams get...
-        </description>
-        <pubDate>Thu, 21 Jan 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2021-01-21-kaggle-playground-jan/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-01-21-kaggle-playground-jan/</guid>
       </item>
     
   </channel>
