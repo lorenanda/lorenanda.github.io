@@ -1,6 +1,6 @@
 ---
 layout: post
-title: April Books
+title: April books wrap-up
 subtitle: Book reviews
 tags: [books, fiction, nonfiction]
 comments: true

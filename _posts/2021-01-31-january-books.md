@@ -1,6 +1,6 @@
 ---
 layout: post
-title: January Books
+title: January books wrap-up
 subtitle: Book reviews
 tags: [books, fiction, nonfiction]
 comments: true
