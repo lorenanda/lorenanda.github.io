@@ -1,6 +1,6 @@
 ---
 layout: post
-title: June Books wrap-up
+title: June books wrap-up
 subtitle: Book reviews
 tags: [books, fiction, nonfiction]
 comments: true
