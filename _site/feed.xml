@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>June Books wrap-up</title>
+        <description>
+          Book reviews - 
+          What a disappointing reading month June was! I read 5 books (4 fiction and 1 non-fiction) amounting to 1,715 pages and a 2.7 average rating, with ratings between 1 and 3. I haven’t read such weak books, and so many in a row, since… never! I don’t know how I...
+        </description>
+        <pubDate>Wed, 30 Jun 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-06-30-june-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-06-30-june-books/</guid>
+      </item>
+    
+      <item>
         <title>Der Weg des Siegers von Ronny Schönig</title>
         <description>
           Buchrezension - 
@@ -218,17 +229,6 @@
         <pubDate>Fri, 12 Feb 2021 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2021-02-12-buchrezension-diemauernvonporto/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-02-12-buchrezension-diemauernvonporto/</guid>
-      </item>
-    
-      <item>
-        <title>January books wrap-up</title>
-        <description>
-          Book reviews - 
-          For the sixth year in a row, I’m taking on the Goodreads Reading Challenge. My goal for 2021 is to read at least 36 books, of which 12 related to tech. January is usually my most productive reading month, since there’s not much going on, while things are slowly getting...
-        </description>
-        <pubDate>Sun, 31 Jan 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2021-01-31-january-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-01-31-january-books/</guid>
       </item>
     
   </channel>
