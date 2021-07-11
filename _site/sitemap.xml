@@ -269,7 +269,14 @@
 <lastmod>2021-06-30T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2021-07-11-buchrezension-auf-erden-sind-wir-kurz-grandios/</loc>
+<lastmod>2021-07-11T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/drafts/august-books/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/drafts/clap/</loc>
@@ -285,6 +292,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/drafts/july-books/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/drafts/psych-verbs/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/drafts/reasons-i-love-being-a-technical-writer/</loc>
