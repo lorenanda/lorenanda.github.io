@@ -38,7 +38,6 @@ title-img: "/assets/img/homelogo.png"
 social-network-links:
   linkedin: lorena-ciutacu
   github: lorenanda
-  medium: lorenaciutacu
   twitter: alciutacu
   instagram: datalingo
   goodreads: lorenasbooks
@@ -81,7 +80,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "data science, linguistics, book reviewer, berlin"
+keywords: "data scientist, women in data, linguistics research projects, buchrezensionen, berlin startup"
 
 # --- Colours / background image --- #
 
