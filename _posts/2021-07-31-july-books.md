@@ -8,7 +8,7 @@ comments: true
 
 ![cover](../assets/img/julybooks.jpg)
 
-This month I managed to read (only) **3 books** (2 fiction, 1 non-fiction), amounting to **884 pages** and an **average rating of 3**.
+This month I managed to read (only) **4 books** (2 fiction, 2 non-fiction), amounting to **1383 pages** and an **average rating of 3.25**.
 
 # FICTION
 ## *Playing Nice* by J.P. Delaney
@@ -25,3 +25,7 @@ At the core of the book is the clash between the opposing world views of the two
 ## *On Earth We're Briefly Gorgeous* by Ocean Vuong
 🌕🌕🌕🌑🌑 This book is written as a letter from a son to a mother who cannot read, confessing his memories and feelings of shame, anger, appreciation from childhood to young adulthood, as the family moves from Vietnam to the USA, experiences by language and cultural clashes, more or less violent racism, rejection and love. Like [*The Nickel Boys*](#the-nickel-boys-by-colston-whitehead), this is no doubt a life worth putting into words, both for personal catharsis and challenging once more the treatment of immigrants. But Vuong, lik ethe poet that he is, focuses too much (for my taste) on style, in the detriment of substance, and I found this to weaken the story itself.  
 [`Deutsche Rezension`]({% post_url 2021-07-11-buchrezension-auf-erden-sind-wir-kurz-grandios %})
+
+
+## *The Lean Startup* by Eric Ries
+🌕🌕🌕🌕🌑 This is *the* book to read for anyone involved in the startup world in some way, and as I'm currently working at one, I thought it was the right read at the right time. Ries draws on his experience and a startup founder and advisor to explain why most startups fail, what entrepreneurs can/should do to pave the way for success, how to create innovative products and implement the build-measure-learn process for accelerated growth. I found the ideas and examples insightful and inspiring, and I sure did take a lot of useful notes for both work and personal growth. 
