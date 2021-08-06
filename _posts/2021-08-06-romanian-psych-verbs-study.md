@@ -27,8 +27,8 @@ In this blog post, I want to share with you the fascinating topic of psych-verbs
 |*Jack scares Wendy.*|*Wendy fears Jack.*|
 |--------------------|-------------------|
 |Wendy is the OE of an action (emotion) inflicted by Jack upon her.|Wendy is the SE of an emotion that arises within her in response to Jack being perceived as a threat.|
- 
-![Jack and Wendy the shining](https://screenqueens.files.wordpress.com/2014/06/1.jpg)
+
+<figure><img src="https://screenqueens.files.wordpress.com/2014/06/1.jpg" alt="Here's Johnny!" style="width:100%"><figcaption align = "center"><i>Here's Johnny!</i></figcaption></figure>
 
 Even though the two verbs express the same emotion of fear, they have different syntactic structures, depending on the experiencer form. 
 
@@ -68,15 +68,14 @@ First, I ran a **descriptive analysis**, where I looked at the distribution of v
 - Are SE verbs more positive than OE verbs?
 - Is there a correlation betwee the duration and valence of an emotion verb?
 
-![psych verbs descriptive analysis plot](../assets/img/psychverbs_cumplot.svg)
+<figure><img src="../assets/img/psychverbs_cumplot.svg" alt="psych verbs descriptive analysis plot" style="width:100%"><figcaption align = "center"><i>Pair plot of psych verbs by feature</i></figcaption></figure>
 
 The pair plot above depicts three histograms of Duration, Arousal, and Value, as well as six scatterplots with regression lines of the combinations of the three features.
 
 ### Clustering
 Second, I used **K-Means clustering** to identify clusters of verbs based on their duration, arousal, and valence ratings. The question here was whether some emotion verbs are closer (i.e. more similar) based on their values, rather than on the emotion category they belong to. The K-means
 
-![psych verbs kmeans](../assets/img/psychverbs_kmeans.svg)
-
+<figure><img src="../assets/img/psychverbs_kmeans.svg" alt="psych verbs kmeans" style="width:100%"><figcaption align = "center"><i>K-Means clustering of psych-verbs by feature</i></figcaption></figure>
 
 The scatterplot represents the three verb clusters formed based on the three features Duration, Arousal, and Valence.
 
@@ -88,8 +87,8 @@ K-Means clustering has some limitations: it builds clusters of the same size and
 
 As an alternative to K-Means clustering, I also generated a dendogram to illustrate **hierarchical clustering**, or what is the distance between verbs based on their duration, arousal, and valence values.
 
-![psych verbs dendogram](../assets/img/psychverbs_dendrogram.svg)
 
+<figure><img src="../assets/img/psychverbs_dendrogram.svg" alt="psych verbs dendrogram" style="width:100%"><figcaption align = "center"><i>Hierarchical clustering (dendrogram) of psych-verbs</i></figcaption></figure>
 
 The x-axis represents the indices of the verbs and the y-axis represents the distance between the verbs. The vertical blue line build the maximum distance. I choose a threshold of 8 to separate the maximum distance and thus form two main clusters (orange and green), or three considering the two green subclusters separate.
 
@@ -134,7 +133,8 @@ Third, I attempted to classify psych-vers by using K-Nearest Neighbor (KNN), log
 |LR|70.37%|
 |DT|72.73%|
 
-![psych verbs decision tree](../assets/img/psychverbs_decisiontree.svg)
+
+<figure><img src="../assets/img/psychverbs_decisiontree.svg" alt="psych verbs decision tree" style="width:100%"><figcaption align = "center"><i>Decision tree for psych-verbs</i></figcaption></figure>
 
 ## Findings on Romanian psych-verbs
 ### Means
@@ -150,13 +150,13 @@ Third, I attempted to classify psych-vers by using K-Nearest Neighbor (KNN), log
 ### Experiencer
 - While OE and SE verbs have similar Duration and Arousal values, they differ significantly in terms of Valence. OE verbs have low Valence (mean 2.18, median 1.75), whereas SE verbs have positive Valence (mean 3.19, median 3.55). This means that emotions that are caused by external factors are perceived as negative, whereas emotions that arise within the experiencer are rather positive.
 
-![psych verbs by experiencer](../assets/img/psychverbs_experiencer.svg)
+<figure><img src="../assets/img/psychverbs_experiencer.svg" alt="psych verbs by experiencer" style="width:100%"><figcaption align = "center"><i>Pair plot of psych-verbs by experiencer</i></figcaption></figure>
 
 ### Emotion domains
 - The emotions that last longest express Happiness in SE form, and the shortes ones express Fear in SE form.
 - The verbs with extreme Arousal levels express Happiness but also Sadness, in both OE and SE form. The most intense emotions, both positive and negative, belong to the Happiness and Sadness domains.
 
-![psych verbs by domain](../assets/img/psychverbs_domain.svg)
+<figure><img src="../assets/img/psychverbs_domain.svg" alt="psych verbs by domain" style="width:100%"><figcaption align = "center"><i>Box plot of psych-verbs by domain and feature</i></figcaption></figure>
 
 - The most positive emotions express Surprise in OE form, while the most negative ones express Fear and Anger also in OE form.
 - Panic is to Surprise as Satisfaction is to Suffering. 
