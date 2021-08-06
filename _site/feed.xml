@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Fear and loathing in Romanian (psych-verbs)</title>
+        <description>
+          Research study - 
+          I’ve been interested in emotions ever since I’ve become aware of them. Maybe because I was unsure how to process and interpret them, in both myself and others. How do people express emotions and why do they do it so differently? Is being scared the same as fearing? Can I...
+        </description>
+        <pubDate>Fri, 06 Aug 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-08-06-romanian-psych-verbs-study/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-08-06-romanian-psych-verbs-study/</guid>
+      </item>
+    
+      <item>
         <title>July books wrap-up</title>
         <description>
           Book reviews - 
@@ -218,17 +229,6 @@
         <pubDate>Sat, 27 Feb 2021 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2021-02-27-endangered-languages/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-02-27-endangered-languages/</guid>
-      </item>
-    
-      <item>
-        <title>99 Nächte in Logar von Jamil Jan Kochai</title>
-        <description>
-          Buchrezension - 
-          Titel: 99 Nächte in Logar Autor: Jamil Jan Kochai Verlag: btb Erschienen: Februar 2021 Seitenanzahl: 320 ISBN: 978-3-442-77045-8 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! Nach Portugal bin ich in diesem Monat nach Afghanistan gereist, durch das Debütroman von Jamil Jan...
-        </description>
-        <pubDate>Wed, 24 Feb 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2021-02-24-buchrezension-99naechte/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-02-24-buchrezension-99naechte/</guid>
       </item>
     
   </channel>
