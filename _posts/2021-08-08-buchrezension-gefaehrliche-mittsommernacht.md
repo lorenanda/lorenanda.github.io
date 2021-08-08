@@ -6,7 +6,7 @@ tags: [books, fiction, deutsch]
 comments: true
 ---
 
-<figure><img src="../assets/img/mittsommernacht.jpg" alt="Gefährliche Mittsommernacht von Christoffer Holst" style="width:100%"><figcaption align = "center"><i>Gefährliche Mittsommernacht von Christoffer Holst</i></figcaption></figure>
+<figure><img src="../assets/img/mittsommernacht.jpg" alt="Gefährliche Mittsommernacht von Christoffer Holst" style="width:100%"></figure>
 
 <div align="center"><strong>Titel: </strong>Gefährliche Mittsommernacht</div>
 <div align="center"><strong>Autor: </strong>Christoffer Holst</div>
@@ -41,4 +41,4 @@ Zum Mordermittlung bleibt mir nicht viel zu sagen. Eine langsame und nicht beson
 Wenn du ein leichtes Buch als Zug-/Flugbegleiter brauchst und *Sex and the City* vibes mags bzw. erträgst, dann empfehle ich dir *Gefährliche Mitsommernacht* zu lesen.
 
 
-<figure><img src="../assets/img/mittsommernacht_open.jpg" alt="Gefährliche Mittsommernacht von Christoffer Holst" style="width:100%"><figcaption align = "center"><i>Gefährliche Mittsommernacht von Christoffer Holst</i></figcaption></figure>
+<figure><img src="../assets/img/mittsommernacht_open.jpg" alt="Gefährliche Mittsommernacht von Christoffer Holst" style="width:100%"></figure>
