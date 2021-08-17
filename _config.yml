@@ -40,6 +40,7 @@ social-network-links:
   github: lorenanda
   twitter: alciutacu
   instagram: datalingo
+  deviantart: dontstopnow
   goodreads: lorenasbooks
 #  reddit: yourname
 #  xing: yourname
@@ -56,7 +57,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: Stay up to date with the blog posts
+#rss-description: Stay up to date with the blog posts
 
 # --- General options --- #
 
