@@ -119,6 +119,15 @@ img {
   margin-top: -1.5625rem;
 }
 
+img.about-photo {
+  max-width: 50%;
+}
+
+div.about-description {
+  display: inline-block;
+  float: left;
+}
+
 /* Comments */
 
 .disqus-comments {
