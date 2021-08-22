@@ -113,16 +113,11 @@ img {
 }
 
 img.about-photo {
-  max-width: 40%;
+  max-width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-}
-
-div.about-description {
-  display: inline-block;
-  float: left;
 }
 
 /* Comments */
