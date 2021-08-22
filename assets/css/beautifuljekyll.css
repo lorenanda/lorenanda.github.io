@@ -120,7 +120,11 @@ img {
 }
 
 img.about-photo {
-  max-width: 50%;
+  max-width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 div.about-description {
