@@ -112,6 +112,16 @@ img::-moz-selection {
 
 img {
   max-width: 100%;
+  text-align: center;
+}
+
+figure {
+  max-width: 80%;
+  text-align: center;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .linked-section {
