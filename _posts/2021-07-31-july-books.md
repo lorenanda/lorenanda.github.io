@@ -16,7 +16,7 @@ This month I managed to read (only) **4 books** (2 fiction, 2 non-fiction), amou
 This story serves to thematize topics such as psychopathology, the cumbersome childcare/family law and social services, while also taking a critical look at the NHS administration and parenting roles. It was an entertaining read, but sometimes the decision of the parents made little common sense and the ending was quite far-fetched. Overall, I think this story would make a better TV series than book.
 
 
-## *The Nickel Boys* by Colston Whitehead
+## *The Nickel Boys* by Colson Whitehead
 🌕🌕🌕🌑🌑 Two teenagers, Elwood and Turner, befriend at the Nickel Academy, a segregated reform school that claims to turn its inmates into honourable men for the society, but by nightmarish measures that are brought to light decades later.  
 At the core of the book is the clash between the opposing world views of the two friends: following Dr. Martin Luther King's words "Throw us in jail, and we will still love you."  vs. emulating the cruelty and cinicism of their oppressors as a way of survival. These views are put to the test by the cruel treatment the boys endure at the house and the consequences of their escape attempts. Though I consider it an important (and dark) read, as it touches on social inequality, violent racism, and PTSD; I think the story could have been structured better and even extended a bit, to explore these issues more deeply.
 
