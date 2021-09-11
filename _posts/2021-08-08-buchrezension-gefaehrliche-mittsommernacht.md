@@ -23,7 +23,7 @@ Danke an Random House Bloggerportal und Heyne Verlag für die freundliche Bereit
 Endlich entspannen und ihren Liebeskummer vergessen, denkt Journalistin Cilla Storm, als sie auf Bullholmen ankommt. Und wo sollte das besser gehen als auf einer idyllischen Schäreninsel, die nach den leckeren Zimtschnecken benannt ist? Doch als ein junges Mädchen am Morgen nach dem Mittsommerfest tot im Meer treibt, ist es vorbei mit der Urlaubsstimmung. Denn Cilla war die Letzte, die das Mädchen lebend gesehen hat. Dass ausgerechnet der attraktive Sohn ihrer Nachbarin die Ermittlungen leitet, macht die Sache auch nicht leichter. Dann erschüttert ein zweiter Mord die beschauliche Insel.
 
 ## Meinung
-Der Klappentext hat mich mit einer spannenden Geschichte und einen atmosphärischen Tatort an einem Feiertag gelockt. Ich habe ein dunkles Krimi/Thriller à la [MIDSOMMAR](https://www.youtube.com/watch?v=1Vnghdsjmd0) erwartet. Leider habe ich nur ein paar Fragmente davon bekommen.
+Der Klappentext hat mich mit einer spannenden Geschichte und einen atmosphärischen Tatort an einem Feiertag gelockt. Ich habe ein dunkles Krimi/Thriller à la [*MIDSOMMAR*](https://www.youtube.com/watch?v=1Vnghdsjmd0) erwartet. Leider habe ich nur ein paar Fragmente davon bekommen.
 
 Der Autor beschreibt sich selbst als "unverbesslicher Romantiker", der gern "ein Glas Chardonnay genießt oder romantische Komödien guckt" und findet, "dass das Leben mehr wie ein Film oder ein Buch sein sollte". (Wir könnten bestimmt nicht befreundet sein.) Sein Lebensstil bzw. Lebensvorstellung dringt sein Schreiben durch, auch wenn es um eine Mordermittlung geht. Vielleicht kann diese Genre-Kombination irgendwie klappen, aber in *Gefährliche Mittsommernacht* ist es ihm nicht so gut gelungen. 
 
