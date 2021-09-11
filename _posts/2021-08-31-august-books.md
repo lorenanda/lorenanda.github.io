@@ -8,7 +8,7 @@ comments: true
 
 ![cover](../assets/img/augustbooks.JPG)
 
-This month I read **4 fiction books** of ** pages** and a **3 average rating**. Two of them were some of the most depressing books I've read in a long while, one was . Quite a mix, so here are my thoughts on each of them:
+This month I read **4 fiction books** of **1602 pages** and a **3.4 average rating**. Two of them were some of the most depressing books I've read in a long while, one was one of the most enlightening, and another one was just a boring book. Quite a mix, so here are my thoughts on each of them:
 
 # FICTION
 ## *Exhalation* by Ted Chiang
