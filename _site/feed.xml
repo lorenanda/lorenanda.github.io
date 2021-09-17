@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>August books wrap-up</title>
+        <description>
+          Book reviews - 
+          This month I read 4 fiction books of 1602 pages and a 3.4 average rating. Two of them were some of the most depressing books I’ve read in a long while, one was one of the most enlightening, and another one was just a boring book. Quite a mix, so...
+        </description>
+        <pubDate>Tue, 31 Aug 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-08-31-august-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-08-31-august-books/</guid>
+      </item>
+    
+      <item>
         <title>Photography in the instant gratification economy</title>
         <description>
           Essay - 
@@ -216,17 +227,6 @@
         <pubDate>Sun, 14 Mar 2021 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2021-03-14-book-review-designing-bots/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-03-14-book-review-designing-bots/</guid>
-      </item>
-    
-      <item>
-        <title>Elmet von Fiona Mozley</title>
-        <description>
-          Buchrezension - 
-          Titel: Elmet Autorin: Fiona Mozley Verlag: btb Erschienen: November 2020 Seitenanzahl: 318 ISBN: 3442770432 Bewertung: 🌕🌕🌖🌑🌑 Danke an RandomHouse und btb Verlag für die Bereitstellung dieses Rezensionsexemplars. Mozleys Debütroman war ein Man Booker Prize Finalist (2017) und wurde als Buch des Jahres von namhaften Zeitungen gekennzeichnet. Dementsprechend hatte ich hohe...
-        </description>
-        <pubDate>Sun, 07 Mar 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2021-03-07-buchrezension-elmet/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-03-07-buchrezension-elmet/</guid>
       </item>
     
   </channel>
