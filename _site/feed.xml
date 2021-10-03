@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>September books wrap-up</title>
+        <description>
+          Book reviews - 
+          The beginning of autumn found me in a reading slump. I couldn’t decide what to read next and didn’t feel like reading the books I had started. Eventually, I went to my local library and simply picked up three books that caught my eye. They turned out to be ok,...
+        </description>
+        <pubDate>Thu, 30 Sep 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-09-30-september-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-09-30-september-books/</guid>
+      </item>
+    
+      <item>
         <title>August books wrap-up</title>
         <description>
           Book reviews - 
@@ -216,17 +227,6 @@
         <pubDate>Sun, 28 Mar 2021 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2021-03-28-buchrezension-die-zukunft-ist-smart/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-03-28-buchrezension-die-zukunft-ist-smart/</guid>
-      </item>
-    
-      <item>
-        <title>Designing Bots by Amir Shevat</title>
-        <description>
-          Book review - 
-          Title: Designing Bots Author Amir Shevat Publisher: O’Reilly Media Published: May 2017 Pages: 328 ISBN: 1491974826 Rating: 🌕🌕🌕🌕🌖 Chatbots are probably the cutest possible tech application! As soon I learned enough Python, I tried to build my own artificial friend with which to do small talk in the terminal. I...
-        </description>
-        <pubDate>Sun, 14 Mar 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2021-03-14-book-review-designing-bots/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-03-14-book-review-designing-bots/</guid>
       </item>
     
   </channel>
