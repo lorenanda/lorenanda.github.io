@@ -8,7 +8,7 @@ comments: true
 
 ![cover](../assets/img/septemberbooks.JPG)
 
-The beginning of autumn found me in a reading slump. I couldn't decide what to read next and didn't feel like reading the books I had started. Eventually, I went to my local library and simply picked up three books that caught my eye. They turned out to be ok, if not spectacular then at least quick-and-easily readable. In numbers, this month I read **3 books** (2 fiction, 1 non-fiction) totalling **pages**, with a **3.3 average rating**.
+The beginning of autumn found me in a reading slump. I couldn't decide what to read next and didn't feel like reading the books I had started. Eventually, I went to my local library and simply picked up three books that caught my eye. They turned out to be ok, if not spectacular then at least quick-and-easily readable. In numbers, this month I read **3 books** (2 fiction, 1 non-fiction) totalling **547 pages**, with a **3.3 average rating**.
 
 ## *On Photography* by Susan Sontag
 🌕🌕🌕🌕🌑 In this collection of seven essays, Sontag talks about the role of photography in the American society (1970s) and how it had evolved historically. Each essay has a broad theme, such as the perception and depiction of marginalized communities through the lens of Diane Arbus, the power of photography and its (superficial) adoption as a leisure activity (a topic I wrote about in [this post]({% post_url 2021-08-19-photography-and-instant-gratification-economy %}), or the parallels between surrealists and photographers.
