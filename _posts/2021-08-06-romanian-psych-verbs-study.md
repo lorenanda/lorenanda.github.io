@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fear and loathing in Romanian (psych-verbs)
+title: Clustering and classification of emotion verbs
 subtitle: Research study
 gh-repo: lorenanda/psych-verbs
 gh-badge: [star, fork, follow]
