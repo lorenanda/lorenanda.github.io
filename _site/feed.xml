@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>Making product recommendations using Spectral Biclustering in Python</title>
+        <description>
+          Project - 
+          My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from...
+        </description>
+        <pubDate>Sun, 03 Oct 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-10-03-spectral-biclustering-for-marketing-in-python/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-10-03-spectral-biclustering-for-marketing-in-python/</guid>
+      </item>
+    
+      <item>
         <title>September books wrap-up</title>
         <description>
           Book reviews - 
@@ -216,17 +227,6 @@
         <pubDate>Wed, 31 Mar 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2021-03-31-march-books/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-03-31-march-books/</guid>
-      </item>
-    
-      <item>
-        <title>Die Zukunft ist smart von Holger Volland</title>
-        <description>
-          Buchrezension - 
-          Titel: Die Zukunft ist smart. Du auch? Autor: Holger Volland Verlag: mosaik Erschienen: 15. März 2021 Seitenanzahl: 416 Bewertung: 🌕🌕🌕🌕🌕 Danke an Random House Bloggerportal und mosaik Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! Ich war sehr begeistert, ein Buch zu lesen, das im direkten Zusammenhang mit meiner Arbeit und...
-        </description>
-        <pubDate>Sun, 28 Mar 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2021-03-28-buchrezension-die-zukunft-ist-smart/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-03-28-buchrezension-die-zukunft-ist-smart/</guid>
       </item>
     
   </channel>

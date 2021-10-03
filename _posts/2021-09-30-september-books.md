@@ -2,7 +2,7 @@
 layout: post
 title: September books wrap-up
 subtitle: Book reviews
-tags: [books, nonfiction]
+tags: [books, nonfiction, fiction]
 comments: true
 ---
 
