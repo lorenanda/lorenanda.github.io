@@ -11,8 +11,9 @@ My roles in data analytics/science so far have always been focused on online mar
 In my search for resources that bridge data science and marketing, I found the chapter *Clustering and Unsupervised Models for Marketing*[$$^1$$](#references), which explains how to use spectral biclustering for making product recommendations. In this post, I share with you my learnings about this algorithm and its implementation in Python. 
 
 - [Biclustering methods](#biclustering-methods)
-- [Spectral Biclustering algorithm](#theory-spectral-biclustering-algorithm)
-- [Spectral Biclustering for marketing](#practice-spectral-biclustering-for-marketin)
+- [Theory: Spectral Biclustering algorithm](#theory-spectral-biclustering-algorithm)
+- [Practice: Spectral Biclustering for marketing](#practice-spectral-biclustering-for-marketing)
+- [References](#references)
 
 ## Biclustering methods
 Biclustering is a clustering method that concomitently operates on two levels that are correlated by the presence of a medium (e.g., customers and products by rating). Biclustering aims to find the regions where the medium is cohesive (e.g., the rating is high or low) by rearranging the structure of both levels.
@@ -79,14 +80,14 @@ sbc = SpectralBiclustering(n_clusters = 10,
 sbc.fit(ratings)
 ```
 
-Next, we need to copmute the final matrix using the outer product of the sorted row and column indices:
+Next, we need to compute the final matrix using the outer product of the sorted row and column indices:
 
 ```python
 rc = np.outer(np.sort(sbc.row_labels_) + 1,
               np.sort(sbc.column_labels_) + 1)
 ```
 
-Finally, we can use the matrix for a practical marketing use case: determining the group of users that rated a group of eight products and in order to send those users a newsletter with product recommendations. To do this, we need to select all the rows and columns associatd with the biclusters with an index of 8 (because 0 means no rating).
+Finally, we can use the matrix for a practical marketing use case: determining the group of users that rated a group of eight products in order to send those users a newsletter with product recommendations. To do this, we need to select all the rows and columns associatd with the biclusters with an index of 8 (because 0 means no rating).
 
 ```python
 print("Users: {}".format(np.where(sbc.rows_[8, :] == True)))
@@ -101,7 +102,7 @@ Products: (array([ 8, 14, 26, 28, 30, 31, 39, 42, 43, 73, 80, 81, 83]),)
 
 This means that we need to check the products in the `Products` array, select other products that are similar to those, and send them to the users in the `Users` array.
 
-There you have it–Spectral Biclustering implemented in Python with scikit-learn for marketing analysis.
+There you have it–Spectral Biclustering implemented in Python with scikit-learn for marketing recommendations.
 
 -------
 ## References
