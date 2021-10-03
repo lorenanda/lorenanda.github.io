@@ -8,7 +8,7 @@ comments: true
 
 My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from user data and establish connections between their features or actions that otherwise would go unnoticed.  
 
-In my search for resources that bridge data science and marketing, I found the chapter *Clustering and Unsupervised Models for Marketing*[$$^1$$](#references), which explains how to use spectral biclustering for making product recommendations. In this post, I share with you my learnings about this algorithm and its implementation in Python. 
+In my search for resources that bridge data science and marketing, I found the chapter *Clustering and Unsupervised Models for Marketing*[$$^1$$](#references), which explains how to use spectral biclustering for making product recommendations. In this post, I share with you my learnings about this algorithm and its implementation in Python, as taken from the book. 
 
 - [Biclustering methods](#biclustering-methods)
 - [Theory: Spectral Biclustering algorithm](#theory-spectral-biclustering-algorithm)
@@ -21,7 +21,7 @@ Biclustering is a clustering method that concomitently operates on two levels th
 Biclustering operates on a matrice \\( A ∈ R^{n \times m} \\). In a marketing example, the rows and columns can represent customers and products. Each element $$a_{ij} ∈ A$$ indicates a rating (or zero) for the product $$p_j$$ given by the customer $$c_i$$. $$A$$ has an underlying checkerboard structure, where the compact regions (biclusters) represent sub-matrices.
 
 ## Theory: Spectral Biclustering algorithm
-Spectral Biclustering is an algorithm developed by [Kluger et al. (2003)](https://pubmed.ncbi.nlm.nih.gov/12671006/). Spectral Biclustering relies on Singular Value Decomposition (SVD) and was initially applied to bioinformatics tasks, but has found applications in other fields as well.
+Spectral Biclustering is an algorithm developed by [Kluger et al. (2003)](https://pubmed.ncbi.nlm.nih.gov/12671006/) for classifying genes and conditions. Spectral Biclustering relies on Singular Value Decomposition (SVD) and was initially applied to bioinformatics tasks, but has found applications in other fields as well.
 
 The algorithm consists of five steps:
 
@@ -45,7 +45,7 @@ nb_users = 100
 nb_products = 100
 
 items = [i for i in range(nb_products)]
-transactions = [
+transactions = []
 ratings = np.zeros(shape=(nb_users, nb_products), dtype=np.int)
 
 for i in range(nb_users):
