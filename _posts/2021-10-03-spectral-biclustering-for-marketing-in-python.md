@@ -113,5 +113,5 @@ There you have it–Spectral Biclustering implemented in Python with scikit-lear
 
 -------
 ## References
-1. Bonaccorso, Giuseppe (2020). Clustering and Unsupervised Models for Marketing. In: *Mastering Machine Learning Algorithms*, 233–246. UK: Packt Publishing.
+1. Bonaccorso, G. (2020). Clustering and Unsupervised Models for Marketing. In: *Mastering Machine Learning Algorithms*, 233–246. UK: Packt Publishing.
 2. Kluger, Y. et al. (2003). Spectral biclustering of microarray data: coclustering genes and conditions. *Genome research, 13*(4), 703–716.

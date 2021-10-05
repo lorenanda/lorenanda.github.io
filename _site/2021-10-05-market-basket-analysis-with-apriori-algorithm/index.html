@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Market basket analysis with the Apriori algorithm in Python</title>
+
+  
+  <meta name="author" content="Lorena Ciutacu">
+  
+
+  <meta name="description" content="Project">
+
+  
+
+  
+  <meta name="keywords" content="data scientist, women in data, linguistics research projects, buchrezensionen, berlin startup">
+  
+
+  <link rel="alternate" type="application/rss+xml" title="numbers & words" href="http://localhost:4000/feed.xml">
+
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B4RTHP9QL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0B4RTHP9QL');
+</script>
+
+
+  
+
+  
+<!-- Google Analytics -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-119170762-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="numbers & words">
+  <meta property="og:title" content="Market basket analysis with the Apriori algorithm in Python">
+  <meta property="og:description" content="Project">
+
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Lorena Ciutacu">
+  <meta property="og:article:published_time" content="2021-10-05T00:00:00+02:00">
+  <meta property="og:url" content="http://localhost:4000/2021-10-05-market-basket-analysis-with-apriori-algorithm/">
+  <link rel="canonical" href="http://localhost:4000/2021-10-05-market-basket-analysis-with-apriori-algorithm/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@alciutacu">
+  <meta name="twitter:creator" content="@alciutacu">
+
+  <meta property="twitter:title" content="Market basket analysis with the Apriori algorithm in Python">
+  <meta property="twitter:description" content="Project">
+
+  
+
+  
+
+
+  
+
+  
+
+  
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand navbar-brand-logo" href="http://localhost:4000/"><img alt="numbers & words Logo" src="/assets/img/LC.png"/></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tags">Blog</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>Market basket analysis with the Apriori algorithm in Python</h1>
+          
+            
+              <h2 class="post-subheading">Project</h2>
+            
+          
+
+          
+            <span class="post-meta">Posted on October 5, 2021</span>
+            
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md ">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
+      
+
+      
+
+      <article role="main" class="blog-post">
+        <p>In my previous post, I wrote about . In this post, I’ll build on that marketing example and introduce a new algorithm, Apriori, 
+from Giuseppe Bonaccorso’s book<a href="#references">\(^1\)</a>.</p>
+
+<ul>
+  <li><a href="#market-basket-analysis">Market Basket Analysis</a></li>
+  <li><a href="#theory-apriori-algorithm">Theory: Apriori algorithm</a></li>
+  <li><a href="#practice-apriori-algorithm-for-marketing">Practice: Apriori algorithm for marketing</a></li>
+  <li><a href="#references">References</a></li>
+</ul>
+
+<h2 id="market-basket-analysis">Market Basket Analysis</h2>
+<p>Given a set of products \(P = \{p_1, p_2, ..., p_n\}\), a transaction \(T_i\) is a subset of \(P\), expressed as \(P \supseteq T_i = \{p_i, p_j, ..., p_k\}\). A collection of transactions (or database) is a set of subsets, \(T_i\), expressed as \(C = \{T_1, T_2, ..., T_p\}\).</p>
+
+<p>Now, given a transaction containing a set of items, what is the probability of another item \(p_t\) being bought? Easier put, if a customer purchased lemons and salt, what product are they likely to purchase next (or how likely is it that they will purchase a bottle of tequila for the mix)?</p>
+
+<p>This is the question at the core of market basket analysis, which aims to mine all existing association rules expressed as \(if (p_i, p_j, ..., p_k) \in T_g \Rightarrow P(p_t) \gt \pi\). than a discriminant threshold \(\pi\)</p>
+
+<h2 id="theory-apriori-algorithm">Theory: Apriori algorithm</h2>
+<p>The Apriori algorithm was proposed by Agrawal and Srikant (1994)<a href="#references">\(^2\)</a>.</p>
+
+<blockquote>
+  <p>Apriori is an efficient solution for performing market basket analysis on large transaction data sets. It enables discovery of the most important association rules existing in the dataset, so as to plan optimal marketing strategies. Classical applications are product segmentation and promotion planning.</p>
+</blockquote>
+
+<blockquote>
+  <p>The apriori algorithm uncovers hidden structures in categorical data. The classical example is a database containing purchases from a supermarket. Every purchase has a number of items associated with it. We would like to uncover association rules such as {bread, eggs} -&gt; {bacon} from the data. This is the goal of association rule learning, and the Apriori algorithm is arguably the most famous algorithm for this problem.</p>
+</blockquote>
+
+<h2 id="practice-apriori-algorithm-for-marketing">Practice: Apriori algorithm for marketing</h2>
+
+<p>First of all, we need to install the Python library <a href="https://pypi.org/project/efficient-apriori/"><code class="language-plaintext highlighter-rouge">efficient-apriori</code></a>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pip</span> <span class="n">install</span> <span class="n">efficient</span><span class="o">-</span><span class="n">apriori</span>
+</code></pre></div></div>
+
+<p>Now we can mine the shopping transaction data set introduced in the previous post. We want to detect all rules that have a maximum length of 2.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">efficient_apriori</span> <span class="kn">import</span> <span class="n">apriori</span>
+
+<span class="n">_</span><span class="p">,</span> <span class="n">rules</span> <span class="o">=</span> <span class="n">apriori</span><span class="p">(</span><span class="n">transactions</span><span class="p">,</span>
+                   <span class="n">min_support</span> <span class="o">=</span> <span class="mf">0.15</span><span class="p">,</span>
+                   <span class="n">min_confidence</span> <span class="o">=</span> <span class="mf">0.75</span><span class="p">,</span>
+                   <span class="n">max_length</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span>
+                   <span class="n">verbosity</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="c1">#show messages throughout the learning process
+</span></code></pre></div></div>
+
+<p>The code above outputs the following result:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Generating itemsets.
+ Counting itemsets of length 1.
+  Found 100 candidate itemsets of length 1.
+  Found 100 large itemsets of length 1.
+ Counting itemsets of length 2.
+  Found 4950 candidate itemsets of length 2.
+  Found 1672 large itemsets of length 2.
+ Counting itemsets of length 3.
+  Found 14634 candidate itemsets of length 3.
+  Found 170 large itemsets of length 3.
+Itemset generation terminated.
+
+Generating rules from itemsets.
+ Generating rules of size 2.
+ Generating rules of size 3.
+Rule generation terminated.
+</code></pre></div></div>
+
+<p>This code output describes the steps enumerated in the theoretical part. The Apriori algorithm defines the item sets, starting with 1 and ending with 3 (the set limit), filters out the elements with support below 0.15 (the set threshold), and generates rules from the item sets. Now we want to see the generated rules:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Number of rules: {}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rules</span><span class="p">)))</span>
+<span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">rules</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The code above returns the following result:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Number of rules: 233
+{P92} -&gt; {P36} (conf: 0.750, supp: 0.240, lift: 1.923, conv: 2.440)
+{P23} -&gt; {P20} (conf: 0.769, supp: 0.200, lift: 2.137, conv: 2.773)
+{P93} -&gt; {P33} (conf: 0.765, supp: 0.260, lift: 2.012, conv: 2.635)
+{P19, P64} -&gt; {P10} (conf: 0.750, supp: 0.150, lift: 1.875, conv: 2.400)
+{P10, P20} -&gt; {P64} (conf: 0.789, supp: 0.150, lift: 2.134, conv: 2.992)
+{P10, P64} -&gt; {P31} (conf: 0.773, supp: 0.170, lift: 1.981, conv: 2.684)
+{P10, P31} -&gt; {P64} (conf: 0.810, supp: 0.170, lift: 2.188, conv: 3.307)
+{P33, P39} -&gt; {P10} (conf: 0.750, supp: 0.150, lift: 1.875, conv: 2.400)
+...
+</code></pre></div></div>
+
+<p>This means that the Apriori algorithm found 233 rules with confidence between 0.75 and 1.00, and support between 0.15 and 0.26 (close to the set value 0.15). The results can be read like this:</p>
+<ul>
+  <li>If a customer bought product 92, there is a 75% chance that they will buy product 36.</li>
+  <li>If a customer bought the products 10 and 31, there is an 81% chance that they will buy product 64.</li>
+</ul>
+
+<p>The high confidence is helpful for excluding all the rules with a low probability. However, confidence is not enough. We should also consider the <strong>lift</strong> value, which is calculated as:</p>
+
+\[L(I) = \frac{C(I)}{S(B)} = \frac{S(I)}{S(A)S(B)}\]
+
+<hr />
+<h2 id="references">References</h2>
+<ol>
+  <li>Bonaccorso, G. (2020). Clustering and Unsupervised Models for Marketing. In: <em>Mastering Machine Learning Algorithms</em>, 233–246. UK: Packt Publishing.</li>
+  <li>Agrawal, R.  &amp; Srikant, R. (1994). Fast Algorithms for Mining Association Rules in Large Databases. In: <em>Proceedings of the 20th International Conference on Very Large Data Bases (VLDB ‘94)</em>, 487–499. Morgan Kaufmann Publishers Inc.</li>
+</ol>
+
+      </article>
+
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
+
+      
+        <div class="blog-tags">
+          <span>Tags:</span>
+          
+            <a href="/tags#data science">data science</a>
+          
+            <a href="/tags#projects">projects</a>
+          
+        </div>
+      
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Market+basket+analysis+with+the+Apriori+algorithm+in+Python&url=http%3A%2F%2Flocalhost%3A4000%2F2021-10-05-market-basket-analysis-with-apriori-algorithm%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2021-10-05-market-basket-analysis-with-apriori-algorithm%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2021-10-05-market-basket-analysis-with-apriori-algorithm%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a class="page-link" href="/2021-10-03-spectral-biclustering-for-marketing-in-python/" data-toggle="tooltip" data-placement="top" title="Making product recommendations using Spectral Biclustering in Python">&larr; Making product recommendations using Spectral Biclustering in Python</a>
+        </li>
+        
+        
+      </ul>
+      
+  <div class="disqus-comments">
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+	  var disqus_shortname = 'https-lorenanda-github-io';
+	  /* ensure that pages with query string get the same discussion */
+	  var url_parts = window.location.href.split("?");
+	  var disqus_url = url_parts[0];
+	  (function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	  })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="https://linkedin.com/in/lorena-ciutacu" title="LinkedIn">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">LinkedIn</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/lorenanda" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/alciutacu" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.instagram.com/datalingo" title="Instagram">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Instagram</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://deviantart.com/dontstopnow" title="DeviantArt">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-deviantart fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">DeviantArt</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.goodreads.com/lorenasbooks" title="Goodreads">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-goodreads fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Goodreads</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+        Lorena Ciutacu
+        &nbsp;&bull;&nbsp;
+      
+      2021
+
+      
+
+      
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>
