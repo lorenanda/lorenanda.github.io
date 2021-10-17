@@ -13,11 +13,11 @@
         <title>Market basket analysis with the Apriori algorithm in Python</title>
         <description>
           Project - 
-          In my previous post, I wrote about . In this post, I’ll build on that marketing example and introduce a new algorithm, Apriori, from Giuseppe Bonaccorso’s book\(^1\). Market Basket Analysis Theory: Apriori algorithm Practice: Apriori algorithm for marketing References Market Basket Analysis Given a set of products \(P = \{p_1,...
+          In my previous post, I wrote about using spectral biclustering for making product recommendations. In this post, I’ll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso’s book Mastering Machine Learning Algorithms\(^1\). Market Basket Analysis Theory: Apriori...
         </description>
-        <pubDate>Tue, 05 Oct 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-10-05-market-basket-analysis-with-apriori-algorithm/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-10-05-market-basket-analysis-with-apriori-algorithm/</guid>
+        <pubDate>Sun, 17 Oct 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-10-17-market-basket-analysis-with-apriori-algorithm/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-10-17-market-basket-analysis-with-apriori-algorithm/</guid>
       </item>
     
       <item>
