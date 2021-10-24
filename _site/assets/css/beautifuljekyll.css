@@ -131,6 +131,10 @@ img {
   transition: linear 0.5s;
 }
 
+img.about-photo {
+  max-width: 70%;
+}
+
 img:hover {
   box-shadow: 0 0 10px rgb(182, 182, 182);
 }
@@ -149,13 +153,7 @@ figure {
   margin-top: -1.5625rem;
 }
 
-img.about-photo {
-  max-width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-}
+
 
 /* Comments */
 
