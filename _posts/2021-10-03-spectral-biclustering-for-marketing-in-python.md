@@ -14,7 +14,7 @@ In my search for resources that bridge data science and marketing, I found the c
     <summary><strong>Table of contents</strong></summary>
     <a href= "#biclustering-methods">Biclustering methods</a><br>
     <a href= "#theory-spectral-biclustering-algorithm">Theory: Spectral Biclustering algorithm</a><br>
-    <a href= "#practice-spectral-biclustering-for-marketing">Practice: Spectral Biclustering for marketing</a><br>
+    <a href= "#practice-spectral-biclustering-in-python">Practice: Spectral Biclustering in Python</a><br>
     <a href= "#references">References</a>
 </details>
 
@@ -34,7 +34,7 @@ The algorithm consists of five steps:
 4. **Projection** of the data set onto the sub-space spanned by the columns of $$P_k$$.
 5. **Application of K-Means** to find the labelling for the $$k$$ clusters. This operation yields two label vectors, $$\bar{r}$$ and $$\bar{c}$$. 
 
-## Practice: Spectral Biclustering for marketing
+## Practice: Spectral Biclustering in Python
 To implement spectral biclustering, we first need a data set. For practical reasons, we can generate an artificial data set that consists of:
 - 100 users
 - 100 transactions (purchases)

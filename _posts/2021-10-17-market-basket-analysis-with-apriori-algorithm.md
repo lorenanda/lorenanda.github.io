@@ -12,7 +12,7 @@ In my [previous post]({% post_url 2021-10-03-spectral-biclustering-for-marketing
     <summary><strong>Table of contents</strong></summary>
     <a href= "#market-basket-analysis">Market Basket Analysis</a><br>
     <a href= "#theory-apriori-algorithm">Theory: Apriori algorithm</a><br>
-    <a href= "#practice-apriori-algorithm-for-marketing">Practice: Apriori algorithm for marketing</a><br>
+    <a href= "#practice-apriori-algorithm-in-python">Practice: Apriori algorithm in Python</a><br>
     <a href= "#references">References</a>
 </details>
 
@@ -41,7 +41,7 @@ Given the maximum number of items in a transaction, the Apriori algorithm procee
 
 The Apriori algorithm has proven to be simple and effective in practice. However, it also has the drawback that it needs larget thresholds for very large datasets. Therefore, it's recommended to segment the customers and apply Apriori to to each subset of transactions.
 
-## Practice: Apriori algorithm for marketing
+## Practice: Apriori algorithm in Python
 Let's put the theory into practice! For this example, we have a data set that contains information about 100 users and 100 transactions (purchases) of 100 different products. Every purchase has a number of items associated with it. For example, Purchase 1 consists of two products (Product 2 and Product 5), Purchase 2 consists of five products, and so on. We want to know what other product could be associated with each transaction.
 
 First of all, we need to install the Python library [`efficient-apriori`](https://pypi.org/project/efficient-apriori/):

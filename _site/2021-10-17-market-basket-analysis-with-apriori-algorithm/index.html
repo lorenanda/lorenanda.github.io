@@ -213,7 +213,7 @@
     <summary><strong>Table of contents</strong></summary>
     <a href="#market-basket-analysis">Market Basket Analysis</a><br />
     <a href="#theory-apriori-algorithm">Theory: Apriori algorithm</a><br />
-    <a href="#practice-apriori-algorithm-for-marketing">Practice: Apriori algorithm for marketing</a><br />
+    <a href="#practice-apriori-algorithm-in-python">Practice: Apriori algorithm in Python</a><br />
     <a href="#references">References</a>
 </details>
 
@@ -243,7 +243,7 @@ Given the association rules, we also need to know the confidence of a rule, i.e.
 
 <p>The Apriori algorithm has proven to be simple and effective in practice. However, it also has the drawback that it needs larget thresholds for very large datasets. Therefore, it’s recommended to segment the customers and apply Apriori to to each subset of transactions.</p>
 
-<h2 id="practice-apriori-algorithm-for-marketing">Practice: Apriori algorithm for marketing</h2>
+<h2 id="practice-apriori-algorithm-in-python">Practice: Apriori algorithm in Python</h2>
 <p>Let’s put the theory into practice! For this example, we have a data set that contains information about 100 users and 100 transactions (purchases) of 100 different products. Every purchase has a number of items associated with it. For example, Purchase 1 consists of two products (Product 2 and Product 5), Purchase 2 consists of five products, and so on. We want to know what other product could be associated with each transaction.</p>
 
 <p>First of all, we need to install the Python library <a href="https://pypi.org/project/efficient-apriori/"><code class="language-plaintext highlighter-rouge">efficient-apriori</code></a>:</p>
