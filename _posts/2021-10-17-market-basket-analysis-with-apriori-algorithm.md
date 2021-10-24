@@ -11,8 +11,8 @@ In my [previous post]({% post_url 2021-10-03-spectral-biclustering-for-marketing
 <details>
     <summary><strong>Table of contents</strong></summary>
     <a href= "#market-basket-analysis">Market Basket Analysis</a><br>
-    <a href= "#theory-apriori-algorithm">Theory: Apriori algorithm</a><br>
-    <a href= "#practice-apriori-algorithm-in-python">Practice: Apriori algorithm in Python</a><br>
+    <a href= "#understanding-the-apriori-algorithm">Understanding the Apriori algorithm</a><br>
+    <a href= "#implementing-the-apriori-algorithm-in-python">Implementing the Apriori algorithm in Python</a><br>
     <a href= "#references">References</a>
 </details>
 
@@ -28,7 +28,7 @@ Now, given a transaction containing a set of items, what is the probability of a
 
 This is the question at the core of market basket analysis, which aims to mine all existing association rules expressed as $$if (p_i, p_j, ..., p_k) \in T_g \Rightarrow P(p_t) \gt \pi$$. This expressions means that for a transaction of products, the probability of finding the item $$P(p_t)$$ is greater than a discriminant threshold $$\pi$$.
 
-## Theory: Apriori algorithm
+## Understanding the Apriori algorithm
 The Apriori algorithm was proposed by Agrawal and Srikant (1994)[$$^2$$](#references) as a solution for performing market basket analysis on large transaction data sets. This algorithm can reveal the most important association rules in the dataset, thus guding the planning of marketing strategies, such as product segmentation or promotion.
 
 Given the maximum number of items in a transaction, the Apriori algorithm proceeds in 4 steps:
@@ -41,7 +41,7 @@ Given the maximum number of items in a transaction, the Apriori algorithm procee
 
 The Apriori algorithm has proven to be simple and effective in practice. However, it also has the drawback that it needs larget thresholds for very large datasets. Therefore, it's recommended to segment the customers and apply Apriori to to each subset of transactions.
 
-## Practice: Apriori algorithm in Python
+## Implementing the Apriori algorithm in Python
 Let's put the theory into practice! For this example, we have a data set that contains information about 100 users and 100 transactions (purchases) of 100 different products. Every purchase has a number of items associated with it. For example, Purchase 1 consists of two products (Product 2 and Product 5), Purchase 2 consists of five products, and so on. We want to know what other product could be associated with each transaction.
 
 First of all, we need to install the Python library [`efficient-apriori`](https://pypi.org/project/efficient-apriori/):

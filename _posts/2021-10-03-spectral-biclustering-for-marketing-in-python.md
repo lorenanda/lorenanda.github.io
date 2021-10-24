@@ -13,8 +13,8 @@ In my search for resources that bridge data science and marketing, I found the c
 <details>
     <summary><strong>Table of contents</strong></summary>
     <a href= "#biclustering-methods">Biclustering methods</a><br>
-    <a href= "#theory-spectral-biclustering-algorithm">Theory: Spectral Biclustering algorithm</a><br>
-    <a href= "#practice-spectral-biclustering-in-python">Practice: Spectral Biclustering in Python</a><br>
+    <a href= "#understanding-the-spectral-biclustering-algorithm">Understanding the Spectral Biclustering algorithm</a><br>
+    <a href= "#implementing-spectral-biclustering-in-python">Implementing Spectral Biclustering in Python</a><br>
     <a href= "#references">References</a>
 </details>
 
@@ -23,7 +23,7 @@ Biclustering is a clustering method that concomitently operates on two levels th
 
 Biclustering operates on a matrice \\( A ∈ R^{n \times m} \\). In a marketing example, the rows and columns can represent customers and products. Each element $$a_{ij} ∈ A$$ indicates a rating (or zero) for the product $$p_j$$ given by the customer $$c_i$$. $$A$$ has an underlying checkerboard structure, where the compact regions (biclusters) represent sub-matrices.
 
-## Theory: Spectral Biclustering algorithm
+## Understanding the Spectral Biclustering algorithm
 Spectral Biclustering is an algorithm developed by [Kluger et al. (2003)](https://pubmed.ncbi.nlm.nih.gov/12671006/) for classifying genes and conditions. Spectral Biclustering relies on Singular Value Decomposition (SVD) and was initially applied to bioinformatics tasks, but has found applications in other fields as well.
 
 The algorithm consists of five steps:
@@ -34,7 +34,7 @@ The algorithm consists of five steps:
 4. **Projection** of the data set onto the sub-space spanned by the columns of $$P_k$$.
 5. **Application of K-Means** to find the labelling for the $$k$$ clusters. This operation yields two label vectors, $$\bar{r}$$ and $$\bar{c}$$. 
 
-## Practice: Spectral Biclustering in Python
+## Implementing Spectral Biclustering in Python
 To implement spectral biclustering, we first need a data set. For practical reasons, we can generate an artificial data set that consists of:
 - 100 users
 - 100 transactions (purchases)

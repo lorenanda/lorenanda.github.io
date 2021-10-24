@@ -6,7 +6,7 @@ tags: [art]
 comments: true
 ---
 
-## A triggering realization
+
 A few weeks ago I checked the shutter count on my DSLR camera, a Nikon D7000 that I got for my birthday 9 years ago. The shutter count represents the total number of times the camera's shutter has been clicked, so basically how many photos you've taken with the camera. DSLR cameras have a lifetime of 150,000 to 300,000 shutters, depending on the model (entry-level to professional). Now imagine my surprise when I read my **shutter count: 12,366**. This means that I've used around 7% of my camera's shooting capacity. Over 9 years. What does that say about me (and the world)?
 
 Had I given up on photography? Yes and no. Photography has been a constant hobby of mine since 2008. I used to carry a camera with me almost everywhere, taking photos of my friends, on the streets, at home, on holidays, and eventually even putting on [exhibitions](../work/#photography). As much as I enjoyed it, I admit it was sometimes cumbersome to carry a chunky camera with me. Once I got to university and time became a constraint as well, my Nikon began to gather dust on a shelf. No, I hadn't given up photography entirely – I had just slowly transitioned to a more comfortable device: **the smartphone**.
