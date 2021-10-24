@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Photography in the instant gratification economy
-subtitle: Essay
+subtitle: Shower thoughts
 tags: [art]
 comments: true
 ---

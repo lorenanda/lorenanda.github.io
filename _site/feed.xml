@@ -12,7 +12,7 @@
       <item>
         <title>Market basket analysis with the Apriori algorithm in Python</title>
         <description>
-          Project - 
+          Tutorial - 
           In my previous post, I wrote about using spectral biclustering for making product recommendations. In this post, I’ll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso’s book Mastering Machine Learning Algorithms\(^1\). Market Basket Analysis Theory: Apriori...
         </description>
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0200</pubDate>
@@ -23,7 +23,7 @@
       <item>
         <title>Making product recommendations using Spectral Biclustering in Python</title>
         <description>
-          Project - 
+          Tutorial - 
           My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from...
         </description>
         <pubDate>Sun, 03 Oct 2021 00:00:00 +0200</pubDate>
@@ -56,7 +56,7 @@
       <item>
         <title>Photography in the instant gratification economy</title>
         <description>
-          Essay - 
+          Shower thoughts - 
           A triggering realization The rise and fall of photo cameras Framing instant gratification A case for mindful photography A triggering realization A few weeks ago I checked the shutter count on my DSLR camera, a Nikon D7000 that I got for my birthday 9 years ago. The shutter count represents...
         </description>
         <pubDate>Thu, 19 Aug 2021 00:00:00 +0200</pubDate>
