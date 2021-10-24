@@ -14,18 +14,21 @@ In a felt previous life, I've studied Theater, Film, and Media Studies at the Un
 
 In this post, I want to share you with you my film analysis and how emotions can be be illustrated with technical camera choices. If you're interested in the detailed, more academic analysis, you can read my 28-page paper [here](https://drive.google.com/file/d/1ZR_UlcBCMUSncjCA2R5VZI-9GI_TU-_L/view?usp=sharing).
 
-- [Loneliness in film](#loneliness-in-film)
-- [Introducing *The Man of the Crowd*](#introducing-the-man-of-the-crowd)
-- [Film analysis](#film-analysis)
-  - [Format](#format)
-  - [Framing](#framing)
-  - [Affect images](#affect-images)
-  - [Length of takes](#length-of-takes)
-  - [Reflections](#reflections)
-  - [Extreme over-the-shoulder shots](#extreme-over-the-shoulder-shots)
-- [*The Man of the Crowd* in numbers](#the-man-of-the-crowd-in-numbers)
-- [Conclusion](#conclusion)
-- [References](#references)
+<details>
+    <summary><strong>Table of contents</strong></summary>
+    <a href= "#loneliness-in-film">Loneliness in film</a><br>
+    <a href= "#introducing-the-man-of-the-crowd">Introducing <i>The Man of the Crowd</i></a><br>
+    <a href= "#film-analysis">Film analysis</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#format">Format</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#framing">Framing</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#affect-images">Affect images</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#length-of-takes">Length of takes</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#reflections">Reflections</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#over-the-shoulder-shots">Over-the-shoulder shots</a><br>
+    <a href= "#the-man-of-the-crowd-in-numbers"><i>The Man of the Crowd</i> in number</a><br>
+    <a href= "#conclusion">Conclusion</a><br>
+    <a href= "#references">References</a>
+</details>
 
 ## Loneliness in film
 The themes of urban loneliness and isolation have been explored in many films throughout the years. Despite the different ages, locations, nationalities and styles of the directors and protagonists, their common denominator is the inner and outer world of the characters: the protagonists reside in big cities with large populations, they are part of a crowd in their daily activities, and still they find themselves emotionally alone. In expressing their feelings, they resort to verbal or body language. 
@@ -48,12 +51,12 @@ Translating the physical and emotional loneliness into a cinematic experience se
 ## Film analysis
 In my view, the aesthetics is what renders this film unique. In my analysis, I focused on six techniques that depict the most vivid emotion in the film–solitude:
 
-  - [Format](#format)
-  - [Framing](#framing)
-  - [Affect images](#affect-images)
-  - [Length of takes](#length-of-takes)
-  - [Reflections](#reflections)
-  - [Extreme over-the-shoulder shots](#extreme-over-the-shoulder-shots)
+<a href= "#format">Format</a><br>
+<a href= "#framing">Framing</a><br>
+<a href= "#affect-images">Affect images</a><br>
+<a href= "#length-of-takes">Length of takes</a><br>
+<a href= "#reflections">Reflections</a><br>
+<a href= "#over-the-shoulder-shots">Over-the-shoulder shots</a><br>
 
 ### Format
 One of the most significant and immediately recognizable formal features of *The Man of the Crowd* is the aspect ratio: the square format of 3x3, with rounded corners, which reminds of the cinemascope films. This aspect ratio allows minimum space for multiple characters. It creates a claustrophobic effect of a closed, limited universe, in which the characters have little freedom to move, like lions in a cage, walking to and fro but never really able to go past the (self-)imposed borders. Furthermore, the square can also be transposed into the four walls of a room, which is the space where both protagonists spend almost their entire time.
@@ -100,7 +103,7 @@ Perhaps the most original technique used in this film is the cinematographic use
 
 <figure><img src="../assets/img/ohdm8.png" alt="ohdm8" style="width:50%"><figcaption><i>The reflection in the window brings together and at the same time separates Margo and Juvenal. The reflection represents the invisible, protective wall that the two characters try to keep between them and the rest of the world.</i></figcaption></figure>
 
-### Extreme over-the-shoulder shots 
+### Over-the-shoulder shots 
 As a technique of framing, an over-the-shoulder shot is a shot of a person or an object taken from the perspective (or camera angle) of the shoulder of another person. In extreme over-the-shoulder shots, the shoulder and head (or the bust) of one person takes up the majority of the frame, leaving a narrow space for the image of the person/object that the camera is pointing at, so that the person/object is enclosed or crammed at the margins of the frame. Figuratively, this way of framing evokes imprisonment, constraint, limitation, or stiffness.
 
 <figure><img src="../assets/img/ohdm11.png" alt="ohdm11" style="width:50%"><figcaption><i>Juvenal is an outsider at Margo's wedding, when the guests around him embrace and kiss each other, while he is standing alone. At times, the guests block the view completely, giving the impression that Juvenal is being walked over or ignored by the other people.</i></figcaption></figure>

@@ -20,6 +20,26 @@ Since 2018, when I started working on this project, I've had the chance to prese
 
 In this blog post, I want to share with you the fascinating topic of psych-verbs, how I designed my research experiment, how I analyzed the collected data, and most importantly what I found out about Romanian psych-verbs. 
 
+
+<details>
+    <summary><strong>Table of contents</strong></summary>
+    <a href= "#a-brief-theory-of-psych-verbs">A brief theory of psych-verbs </a><br>
+    <a href= "#experiment-design">Experiment design</a><br>
+    <a href= "#data-analysis">Data analysis</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#descriptive-analysis">Descriptive analysis</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#clustering">Clustering</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#classification-regression">Classification / Regression</a><br>
+    <a href= "#findings">Findings</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#means">Means</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#correlations">Correlations</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#experiencer">Experiencer</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#emotions">Emotions</a><br>
+    <a href= "#whats-next">What's next?</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#limitations">Limitations</a><br>
+    &nbsp;&nbsp;&nbsp;<a href= "#applications">Applications</a><br>
+</details>
+
+
 ## A brief theory of psych-verbs 
 
 **Psych-verbs** (also psychological verbs or experiencer verbs/predicates) express the mental state or emotion of an experiencer. The experiencer role refers to a participant that undergoes an event affecting consciousness. The experiencer can appear in one of two positions: as subject (**subject experiencer - SE**) or as object (**object experiencer - OE**). Take for example two illustrative sentences:
@@ -38,10 +58,9 @@ At the point of writing (early 2019), theoretical and experimental research has 
 
 Therefore, my aim was to fill this research gap by conducting an experiment that reveals the semantic properties of psych-verbs in my native language, Romanian.
 
-## How I researched Romanian psych-verbs
+## Experiment design
 To research how people perceive psych-verbs, I designed an experiment, carried it on native Romanian speakers, and analyzed the resulted data.
 
-### Designing the research experiment
 I composed a list of 54 Romanian verbs myself. I chose verbs that have been included in research studies in other languages, but also new verbs that haven't been investigated before. Importantly, I assigned the verbs to six emotion categories (based on [Paul Ekman's theory of basic emotions](https://www.tandfonline.com/doi/abs/10.1080/02699939208411068)): anger, disgust, fear, happiness, sadness, and surprise.
 
 Each verb had to be rated from 1 (least) to 5 (most) on four criteria: 
@@ -50,7 +69,6 @@ Each verb had to be rated from 1 (least) to 5 (most) on four criteria:
 - **duration**: how long is the emotion expressed by the verb likely to last
 - **cause**: whether the emotion expressed by the verb is perceived to be caused by external or internal factors
 
-### Getting participants
 For this experiment, I selected participants through word of mouth. I gave them the verb list in paper-form or sent email it to them, and asked them to complete it in one sitting. The verb list was randomized for each participant, so that the order of the verbs could not influence the ratings. 
 
 In total, I had 30 participants:
@@ -58,7 +76,7 @@ In total, I had 30 participants:
 - 17 females, 6 males (self-identified)
 - 32 years old on average
 
-## Analyzing the data
+## Data analysis
 After collecting responses from each participant, I went into the deep work: analyzing the data. I did all data analysis in Python with libraries such as pandas, seaborn, and scikit-learn. If you're interested in seeing the detailed data analysis, check out this [Jupyther Notebook](https://github.com/lorenanda/psych-verbs/blob/master/psych-verbs.ipynb).
 
 ### Descriptive analysis
@@ -136,7 +154,7 @@ Third, I attempted to classify psych-vers by using K-Nearest Neighbor (KNN), log
 
 <figure><img src="../assets/img/psychverbs_decisiontree.svg" alt="psych verbs decision tree" style="width:100%"><figcaption align = "center"><i>Decision tree for psych-verbs</i></figcaption></figure>
 
-## Findings on Romanian psych-verbs
+## Findings
 ### Means
 - The average and median **duration** of the verbs is 2.2, and most commonly 1.8, so the verbs in the dataset express emotions that are perceived to last only a short time.
 - The average, median, and mode of **arousal** is around 3.3, which means that the verbs express emotions that are not particularly intense.
@@ -152,7 +170,7 @@ Third, I attempted to classify psych-vers by using K-Nearest Neighbor (KNN), log
 
 <figure><img src="../assets/img/psychverbs_experiencer.svg" alt="psych verbs by experiencer" style="width:100%"><figcaption align = "center"><i>Pair plot of psych-verbs by experiencer</i></figcaption></figure>
 
-### Emotion domains
+### Emotions
 - The emotions that last longest express Happiness in SE form, and the shortes ones express Fear in SE form.
 - The verbs with extreme Arousal levels express Happiness but also Sadness, in both OE and SE form. The most intense emotions, both positive and negative, belong to the Happiness and Sadness domains.
 
@@ -167,7 +185,7 @@ Third, I attempted to classify psych-vers by using K-Nearest Neighbor (KNN), log
 ### Limitations
 Though this experiment revealed new findings, this subject can be explored further. The main limitation of this study is the small sample size of participants. Moreover, it would be interesting to explore how verb ratings differ by gender or age of the speakers.
 
-### Applications of psych-verbs
+### Applications
 Initially, my main interest was to explore the linguistic structure of psych-verbs, but while working on the data analysis and reading research on emotions, I realized the findings of my study could be used for natural language processing (NLP) tasks, such as sentiment analysis and emotion recognition. For example, detecting signs of depression or anxiety in texts (e.g., forums, clinical notes).
 
 ---

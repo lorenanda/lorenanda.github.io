@@ -8,10 +8,14 @@ comments: true
 
 In my [previous post]({% post_url 2021-10-03-spectral-biclustering-for-marketing-in-python %}), I wrote about using spectral biclustering for making product recommendations. In this post, I'll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso's book *Mastering Machine Learning Algorithms*[$$^1$$](#references).
 
-- [Market Basket Analysis](#market-basket-analysis)
-- [Theory: Apriori algorithm](#theory-apriori-algorithm)
-- [Practice: Apriori algorithm for marketing](#practice-apriori-algorithm-for-marketing)
-- [References](#references)
+<details>
+    <summary><strong>Table of contents</strong></summary>
+    <a href= "#market-basket-analysis">Market Basket Analysis</a><br>
+    <a href= "#theory-apriori-algorithm">Theory: Apriori algorithm</a><br>
+    <a href= "#practice-apriori-algorithm-for-marketing">Practice: Apriori algorithm for marketing</a><br>
+    <a href= "#references">References</a>
+</details>
+
 
 ## Market Basket Analysis
 Market basket analysis is a data mining technique used by retailers to understand purchasing patterns of their customers. This technique is usually applied on large data sets, such as purchase history in a supermarket, and can reveal how products are grouped and what products are likely to be purchased together.

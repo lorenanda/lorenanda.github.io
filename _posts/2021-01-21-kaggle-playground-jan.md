@@ -12,7 +12,7 @@ comments: true
 
 At the beginning of the new year 2021, Kaggle created a new format of competitions aimed at beginners. On the 1st of each month, a month-long Playground competition is launched, where you can practice your ML skills on simple tabular datasets. Apart from competitive experience, the top 3 teams get to win some Kaggle merchandise!
 
-# Exploratory Analysis
+## Exploratory Analysis
 
 [January's challenge](https://www.kaggle.com/c/tabular-playground-series-jan-2021) is about regression and contains a tabular dataset split into train and test sets.
 
@@ -22,7 +22,7 @@ First of all, I did a quick exploratory analysis. I was mainly interested in the
 
 ![Matrixplot](../assets/img/kaggle-challenge-jan-matrix.png){: .mx-auto.d-block :}
 
-# ML Models
+## Machine Learning Models
 
 Moving on to the modelling part, I first split the train set further into a train and test set, then tried out four models:
 
@@ -31,7 +31,7 @@ Moving on to the modelling part, I first split the train set further into a trai
 - **Gradient Boosting Regressor** with 100 estimators and a depth of 5 was slightly better that RFR.
 - **XGBoost with GridSearchCV** for finding the optimal hyperparameters. As expected, this model performed best, with little tweaking and from what I see it’s widely used in Kaggle competitions.
 
-# Results
+## Results
 
 I submitted the predictions made by each model on Kaggle and here are the RMSE scores I achieved:
 

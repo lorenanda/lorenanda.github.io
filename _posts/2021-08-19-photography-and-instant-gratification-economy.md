@@ -6,11 +6,6 @@ tags: [art]
 comments: true
 ---
 
-- [A triggering realization](#a-triggering-realization)
-- [The rise and fall of photo cameras](#the-rise-and-fall-of-photo-cameras)
-- [Framing instant gratification](#framing-instant-gratification)
-- [A case for mindful photography](#a-case-for-mindful-photography)
-
 ## A triggering realization
 A few weeks ago I checked the shutter count on my DSLR camera, a Nikon D7000 that I got for my birthday 9 years ago. The shutter count represents the total number of times the camera's shutter has been clicked, so basically how many photos you've taken with the camera. DSLR cameras have a lifetime of 150,000 to 300,000 shutters, depending on the model (entry-level to professional). Now imagine my surprise when I read my **shutter count: 12,366**. This means that I've used around 7% of my camera's shooting capacity. Over 9 years. What does that say about me (and the world)?
 
