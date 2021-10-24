@@ -130,8 +130,16 @@ img::-moz-selection {
 }
 
 img {
-  max-width: 100%;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+  transition: linear 0.5s;
+}
+
+img:hover {
+  box-shadow: 0 0 20px rgb(182, 182, 182);
+
 }
 
 figure {
