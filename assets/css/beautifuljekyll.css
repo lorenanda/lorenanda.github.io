@@ -134,12 +134,12 @@ img {
   margin-right: auto;
   display: block;
   border-radius: 5px;
+  box-shadow: 0 0 5px rgb(182, 182, 182);
   transition: linear 0.5s;
 }
 
 img:hover {
-  box-shadow: 0 0 20px rgb(182, 182, 182);
-
+  box-shadow: 0 0 10px rgb(182, 182, 182);
 }
 
 figure {
