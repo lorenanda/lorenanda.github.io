@@ -21,10 +21,7 @@ directing["words"] = directing['Speech_clean'].str.split().str.len()
 ```
 
 ### 2. Longest & shortest speeches
-The longest speech runs at 267 words and was given by Mel Gibson at the 68th Academy Awards in 1995 for his film *Braveheart*. This guy had a looot of people to thank to and seems to have used up all his words for saying pretty much nothing:
-> Oh, I don't write speeches but I would like to thank a few people. And I have it on a list, not a long list. Not too long anyway. I mean, I'd like to thank the Academy first of all, and Alan Ladd, Jr. and Randall Wallace who first came to me with the script. Randy wrote it, Laddy was attached as the producer. And they had no problem with giving the reins to a fiscal imbecile. You know, this takes real courage. My production company at Icon -- Bruce Davey, Steve McEveety, Dean Lopata, my right hand man. And everyone at Icon. Paramount and Fox, who both went in, they double dipped, Sherry Lansing, Jon Dolgen, Barry London, Peter Chernin, Bill Mechanic, Jim Gianopulos. It's one of the best cast and crews I've ever worked with. John Toll, who's already been honored here tonight. Tom Sanders, Charles Knode, Steve Rosenblum, David Tomblin -- thanks for dragging me through the mud sometimes. James Horner, Mic Rodgers, Simon Crane, and the clan Wallace. We mustn't forget the clan Wallace. Nigel Sinclair, Ed Limato, Jeff Berg, Alan Nierob, Paul Bloch, Rod Lurie, my wife and family for indulging me. And God, for indulging me in this tiny moment. And every director I've ever worked with, they were my film school. And now that I'm a bona fide director with a golden boy, I uh, well, like most directors I suppose what I really want to do is act. Is that right? Thank you from the bottom of my heart. This is a truly wonderful evening for me. Thank you.
-
-The shortest speech was summed up in 8 words by Delbert Mann at the 28th Academy Awards in 1955 for his film *Marty*. I really like his efficient "I came. I won. I thanked." structured speech:
+The longest speech runs at 267 words and was given by Mel Gibson at the 68th Academy Awards in 1995 for his film *Braveheart*. This guy had a looot of people to thank to and seems to have used up all his words for saying pretty much nothing. The shortest speech was summed up in 8 words by Delbert Mann at the 28th Academy Awards in 1955 for his film *Marty*. I really like his efficient "I came. I won. I thanked." structured speech:
 > Thank you. Thank you very much. Appreciate it.
 
 Here's how to find the longest and shortest text in a dataframe with pandas:
@@ -73,4 +70,4 @@ Here's see the location of a word in context with NLTK:
 Text(word_tokenize(all_speeches)).concordance('thank')
 ```
 
-That's all, folks! Could/should I have analysed anything else? Let me know what you think in the comments below ⬇️
+That's all, folks! 
