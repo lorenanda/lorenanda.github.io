@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Xenolinguistics by D.R. Slattery
-subtitle: Book review
-tags: [linguistics, books]
+tags: [linguistics, books, reviews]
 comments: true
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Making product recommendations using Spectral Biclustering in Python
-subtitle: Tutorial
-tags: [data science, projects]
+tags: [data science, tutorials]
 comments: true
 ---
 

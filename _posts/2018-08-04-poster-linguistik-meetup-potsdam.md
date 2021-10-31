@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Talking about psych-verbs @ 5th Linguistics Meetup in Potsdam
-subtitle: Conference
 gh-repo: lorenanda/psych-verbs
 gh-badge: [star, fork, follow]
-tags: [linguistics, data science]
+tags: [linguistics, data science, events]
 comments: true
 ---
 

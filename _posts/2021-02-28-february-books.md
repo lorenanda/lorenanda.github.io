@@ -1,8 +1,7 @@
 ---
 layout: post
 title: February books wrap-up
-subtitle: Book reviews
-tags: [books, fiction, nonfiction]
+tags: [books, fiction, nonfiction, reviews]
 comments: true
 ---
 

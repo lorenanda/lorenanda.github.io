@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Achtsam morden am Rande der Welt von Karsten Dusse
-subtitle: Buchrezension
-tags: [books, fiction, deutsch]
+tags: [books, fiction, deutsch, reviews]
 comments: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Talking about semantic dementia @ 4th Linguistics Meetup in Berlin
-subtitle: Conference
 tags: [linguistics, events]
 comments: true
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Art of Akume @ Crush XV
-subtitle: Exhibition
+title: Exhibition of Art of Akume
 tags: [art, events]
 comments: true
 ---

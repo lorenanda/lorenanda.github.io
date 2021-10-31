@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 6 findings from analysing the Oscars speeches of the best directors
-subtitle: Data analysis
 tags: [data science, projects]
 comments: true
 ---

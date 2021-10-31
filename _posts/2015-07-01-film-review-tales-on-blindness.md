@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Tales on Blindness by Cláudia Alves
-subtitle: Film review
-tags: [art, events]
+tags: [art, reviews]
 comments: true
 ---
 

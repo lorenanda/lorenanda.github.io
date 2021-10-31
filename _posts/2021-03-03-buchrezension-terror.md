@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Terror von Bernd Schmidt
-subtitle: Buchrezension
-tags: [books, nonfiction, deutsch]
+tags: [books, nonfiction, deutsch, reviews]
 comments: true
 ---
 

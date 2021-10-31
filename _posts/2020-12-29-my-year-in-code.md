@@ -1,8 +1,7 @@
 ---
 layout: post
 title: My year in code - 2020 review
-subtitle: Projects
-tags: [data science]
+tags: [data science, projects]
 comments: true
 ---
 

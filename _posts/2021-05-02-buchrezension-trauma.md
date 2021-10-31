@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Trauma von Angélique Mundt
-subtitle: Buchrezension
-tags: [books, fiction, deutsch]
+tags: [books, fiction, deutsch, reviews]
 comments: true
 ---
 

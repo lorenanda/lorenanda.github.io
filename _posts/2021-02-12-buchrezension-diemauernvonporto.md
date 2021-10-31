@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Die Mauern von Porto von Mario Lima
-subtitle: Buchrezension
-tags: [books, fiction, deutsch]
+tags: [books, fiction, deutsch, reviews]
 comments: true
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Elmet von Fiona Mozley
-subtitle: Buchrezension
-tags: [books, fiction, deutsch]
+tags: [books, fiction, deutsch, reviews]
 comments: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
-title: The Pitfalls of Deep Learning
-subtitle: We Are Developers
+title: The Pitfalls of Deep Learning (WAD talk)
 tags: [data science, events]
 comments: true
 ---

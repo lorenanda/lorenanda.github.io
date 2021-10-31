@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Learning about languages of trauma
-subtitle: Conference
 tags: [linguistics, events]
 comments: true
 ---

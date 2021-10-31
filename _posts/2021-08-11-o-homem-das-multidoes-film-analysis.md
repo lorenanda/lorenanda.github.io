@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Framing loneliness in the film "O Homem das Multidões"
-subtitle: Film analysis
-tags: [art]
+tags: [art, projects]
 comments: true
 ---
 

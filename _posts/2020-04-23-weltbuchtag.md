@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Der Stand der Bibliotheken in Deutschland
-subtitle: Datenanalyse
-tags: [data science, projects, deutsch]
+tags: [data science, deutsch]
 comments: true
 ---
 

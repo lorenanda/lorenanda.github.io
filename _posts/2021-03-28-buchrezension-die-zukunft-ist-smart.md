@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Die Zukunft ist smart von Holger Volland
-subtitle: Buchrezension
-tags: [books, nonfiction, deutsch]
+tags: [books, nonfiction, deutsch, reviews]
 comments: true
 ---
 

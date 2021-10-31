@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Talking about the brains of interpreters @ 2nd Conference for Student Research in Berlin
-subtitle: Conference
 tags: [linguistics, events]
 comments: true
 ---

@@ -10,9 +10,20 @@
     
     
       <item>
+        <title>October books wrap-up</title>
+        <description>
+          
+          Breath: The New Science of a Lost Art by James Nestor 🌕🌕🌗🌑🌑 Journalist James Nestor travels the world to learn and experiment how to breathe properly. From his readings and talks with pulmonauts (people who use breathing techniques for self-improvement), yogis, and athletes, Nestor makes the case that the way...
+        </description>
+        <pubDate>Sun, 31 Oct 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-10-31-october-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-10-31-october-books/</guid>
+      </item>
+    
+      <item>
         <title>Market basket analysis with the Apriori algorithm in Python</title>
         <description>
-          Tutorial - 
+          
           In my previous post, I wrote about using spectral biclustering for making product recommendations. In this post, I’ll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso’s book Mastering Machine Learning Algorithms\(^1\). Table of contents Market Basket...
         </description>
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0200</pubDate>
@@ -23,7 +34,7 @@
       <item>
         <title>Making product recommendations using Spectral Biclustering in Python</title>
         <description>
-          Tutorial - 
+          
           My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from...
         </description>
         <pubDate>Sun, 03 Oct 2021 00:00:00 +0200</pubDate>
@@ -34,7 +45,7 @@
       <item>
         <title>September books wrap-up</title>
         <description>
-          Book reviews - 
+          
           The beginning of autumn found me in a reading slump. I couldn’t decide what to read next and didn’t feel like reading the books I had started. Eventually, I went to my local library and simply picked up three books that caught my eye. They turned out to be ok,...
         </description>
         <pubDate>Thu, 30 Sep 2021 00:00:00 +0200</pubDate>
@@ -45,7 +56,7 @@
       <item>
         <title>August books wrap-up</title>
         <description>
-          Book reviews - 
+          
           This month I read 4 fiction books of 1602 pages and a 3.4 average rating. Two of them were some of the most depressing books I’ve read in a long while, one was one of the most enlightening, and another one was just a boring book. Quite a mix, so...
         </description>
         <pubDate>Tue, 31 Aug 2021 00:00:00 +0200</pubDate>
@@ -56,8 +67,8 @@
       <item>
         <title>Photography in the instant gratification economy</title>
         <description>
-          Shower thoughts - 
-          A triggering realization A few weeks ago I checked the shutter count on my DSLR camera, a Nikon D7000 that I got for my birthday 9 years ago. The shutter count represents the total number of times the camera’s shutter has been clicked, so basically how many photos you’ve taken...
+          
+          A few weeks ago I checked the shutter count on my DSLR camera, a Nikon D7000 that I got for my birthday 9 years ago. The shutter count represents the total number of times the camera’s shutter has been clicked, so basically how many photos you’ve taken with the camera....
         </description>
         <pubDate>Thu, 19 Aug 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2021-08-19-photography-and-instant-gratification-economy/</link>
@@ -67,7 +78,7 @@
       <item>
         <title>Framing loneliness in the film &quot;O Homem das Multidões&quot;</title>
         <description>
-          Film analysis - 
+          
           We are all so much together, but we are all dying of loneliness. (Albert Schweitzer) In a felt previous life, I’ve studied Theater, Film, and Media Studies at the University of Vienna. One of my favourite classes was a seminar on film analysis, where I learned to observe films and...
         </description>
         <pubDate>Wed, 11 Aug 2021 00:00:00 +0200</pubDate>
@@ -78,7 +89,7 @@
       <item>
         <title>Gefährliche Mittsommernacht von Christoffer Holst</title>
         <description>
-          Buchrezension - 
+          
           Titel: Gefährliche Mittsommernacht Autor: Christoffer Holst Verlag: Heyne Erschienen: May 2021 Seitenanzahl: 320 Bewertung: 🌕🌕🌑🌑🌑 Danke an Random House Bloggerportal und Heyne Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Klappentext Endlich entspannen und ihren Liebeskummer vergessen, denkt Journalistin Cilla Storm, als sie auf Bullholmen ankommt. Und wo sollte das besser...
         </description>
         <pubDate>Sun, 08 Aug 2021 00:00:00 +0200</pubDate>
@@ -89,7 +100,7 @@
       <item>
         <title>Clustering and classification of emotion verbs</title>
         <description>
-          Research study - 
+          
           I’ve been interested in emotions ever since I’ve become aware of them. Maybe because I was unsure how to process and interpret them, in both myself and others. How do people express emotions and why do they do it so differently? Is being scared the same as fearing? Can I...
         </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0200</pubDate>
@@ -100,7 +111,7 @@
       <item>
         <title>July books wrap-up</title>
         <description>
-          Book reviews - 
+          
           This month I managed to read (only) 4 books (2 fiction, 2 non-fiction), amounting to 1383 pages and an average rating of 3.25. FICTION Playing Nice by J.P. Delaney 🌕🌕🌕🌑🌑 A couple’s pleasant little life is turned upside down by the revelation that their son was switched at birth. Though...
         </description>
         <pubDate>Sat, 31 Jul 2021 00:00:00 +0200</pubDate>
@@ -111,7 +122,7 @@
       <item>
         <title>Auf Erden sind wir kurz grandios von Ocean Vuong</title>
         <description>
-          Buchrezension - 
+          
           Titel: Auf Erden sind wir kurz grandios Autor: Ocean Vuong Verlag: btb Erschienen: Juli 2021 Seitenanzahl: 272 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Klappentext Ein Roman, der die amerikanische Identität neu definiert. Und der Brief eines Sohnes an die vietnamesische...
         </description>
         <pubDate>Sun, 11 Jul 2021 00:00:00 +0200</pubDate>
@@ -122,7 +133,7 @@
       <item>
         <title>June books wrap-up</title>
         <description>
-          Book reviews - 
+          
           What a disappointing reading month June was! I read 5 books (4 fiction and 1 non-fiction) amounting to 1,715 pages and a 2.7 average rating, with ratings between 1 and 3. I haven’t read such weak books, and so many in a row, since… never! I don’t know how I...
         </description>
         <pubDate>Wed, 30 Jun 2021 00:00:00 +0200</pubDate>
@@ -133,7 +144,7 @@
       <item>
         <title>Der Weg des Siegers von Ronny Schönig</title>
         <description>
-          Buchrezension - 
+          
           Titel: Der Weg des Siegers Autor: Ronny Schönig Verlag: Lotos Erschienen: 17. Mai 2021 Seitenanzahl: 304 Bewertung: 🌕🌕🌕🌕🌖 Danke an Random House Bloggerportal und Lotos Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Der Titel hat mich sofort angezogen, denn ich praktiziere selbst Kampfkunst und interessiere mich besonders für die Philosophie...
         </description>
         <pubDate>Sun, 20 Jun 2021 00:00:00 +0200</pubDate>
@@ -144,7 +155,7 @@
       <item>
         <title>May books wrap-up</title>
         <description>
-          Book reviews - 
+          
           Here’s to another month of reading good books! In May I read 5 books (2 fiction and 3 non-fiction) amounting to 1846 pages and a 3.8 average rating. To be honest, I slid into a reading slump this month. If it weren’t for the ARCs from Bloggerportal that I needed...
         </description>
         <pubDate>Mon, 31 May 2021 00:00:00 +0200</pubDate>
@@ -155,7 +166,7 @@
       <item>
         <title>Roboterland von Jenny Kleeman</title>
         <description>
-          Buchrezension - 
+          
           Titel: Roboterland Autorin: Jenny Kleeman Verlag: Goldmann Erschienen: 10. Mai 2021 Seitenanzahl: 416 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und Goldmann Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Der Buchumschlag macht schon auf den ersten Blick einen starken Eindruck, mit dem originellen Design einer neon-orangen Schablonne mit Menschen-, Tieren-,...
         </description>
         <pubDate>Sun, 23 May 2021 00:00:00 +0200</pubDate>
@@ -166,7 +177,7 @@
       <item>
         <title>Achtsam morden am Rande der Welt von Karsten Dusse</title>
         <description>
-          Buchrezension - 
+          
           Titel: Achtsam morden am Rande der Welt Autor: Karsten Dusse Verlag: Heyne Erschienen: 26. April 2021 Seitenanzahl: 384 Bewertung: 🌕🌕🌕🌕🌑 Danke an Random House Bloggerportal und Heyne Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich habe dieses Buch wie kein anderes in diesem Jahr erwartet, nachdem ich die ersten zwei...
         </description>
         <pubDate>Sun, 16 May 2021 00:00:00 +0200</pubDate>
@@ -177,7 +188,7 @@
       <item>
         <title>Die Tote im Kaffeehaus von Beate Maxian</title>
         <description>
-          Buchrezension - 
+          
           Titel: Die Tote im Kaffeehaus Autorin: Beate Maxian Verlag: Goldmann Erschienen: 19. April 2021 Seitenanzahl: 416 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und Goldmann Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich habe dieses Buch ausgewählt, weil es drei meiner Lieblingsdinge thematisiert: Krimis, Kaffee und Wien, mein zweites Zuhause....
         </description>
         <pubDate>Sun, 09 May 2021 00:00:00 +0200</pubDate>
@@ -188,7 +199,7 @@
       <item>
         <title>Trauma von Angélique Mundt</title>
         <description>
-          Buchrezension - 
+          
           Titel: Trauma Autorin: Angélique Mundt Verlag: btb Erschienen: 13. April 2021 Seitenanzahl: 352 Bewertung: 🌕🌕🌑🌑🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich war sehr gespannt auf dieses Psycho-Thriller, besonders weil die Autorin anscheinend professionelles Wissen zum Thema Trauma und Psychiatrie hat: sie...
         </description>
         <pubDate>Sun, 02 May 2021 00:00:00 +0200</pubDate>
@@ -199,7 +210,7 @@
       <item>
         <title>April books wrap-up</title>
         <description>
-          Book reviews - 
+          
           Here’s to another month of reading good books! In April I read 6 books (4 fiction and 2 non-fiction) amounting to 1930 pages and a 3.6 average rating. Without further ado, here are my thoughts on the five books I read this month. FICTION Out Of Time by David Klass...
         </description>
         <pubDate>Fri, 30 Apr 2021 00:00:00 +0200</pubDate>
@@ -210,23 +221,12 @@
       <item>
         <title>6 findings from analysing the Oscars speeches of the best directors</title>
         <description>
-          Data analysis - 
+          
           Cinephiles and lovers of glam rejoice this Sunday – it’s Oscars Award Ceremony time! Due to Corona, this year’s 93rd edition was postponed from February to April 25th – the latest in the history of the award. I was personally happy about the delay, because it gave me more time...
         </description>
         <pubDate>Sun, 25 Apr 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2021-04-25-oscars-speech-analysis-with-python/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-04-25-oscars-speech-analysis-with-python/</guid>
-      </item>
-    
-      <item>
-        <title>Klima von David Klass</title>
-        <description>
-          Buchrezension - 
-          Titel: Klima Autor: David Klass Verlag: Goldmann Erschienen: April 2021 Seitenanzahl: 416 Bewertung: 🌕🌕🌕🌗🌑 Danke an Random House Bloggerportal und Goldmann Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars! Letzter Monat habe ich ausschließlich Thrillers/Krimis gelesen und ich habe diesen Monat auch mit einem Thriller angefangen. Bisher habe ich noch kein...
-        </description>
-        <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-04-07-buchrezension-klima/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-04-07-buchrezension-klima/</guid>
       </item>
     
   </channel>

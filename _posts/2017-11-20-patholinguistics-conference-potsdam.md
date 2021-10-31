@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Learnings from the 11th Meeting of Patholinguistics in Potsdam
-subtitle: Conference
 tags: [linguistics, events]
 comments: true
 ---

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Exploring endangered languages with pandas
-subtitle: Tutorial
 gh-repo: lorenanda/world-languages
 gh-badge: [star, fork, follow]
-tags: [linguistics, data science]
+tags: [linguistics, data science, tutorials]
 comments: true
 ---
 

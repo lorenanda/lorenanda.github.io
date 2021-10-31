@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Der Weg des Siegers von Ronny Schönig
-subtitle: Buchrezension
-tags: [books, nonfiction, deutsch]
+tags: [books, nonfiction, deutsch, reviews]
 comments: true
 ---
 

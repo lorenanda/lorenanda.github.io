@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Invisible Women by Caroline Criado Perez
-subtitle: Book review
-tags: [books, data science]
+tags: [books, data science, reviews]
 comments: true
 ---
 

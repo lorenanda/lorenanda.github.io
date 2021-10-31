@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 10 data science books to read during lockdown
-subtitle: Books
 tags: [data science, books, nonfiction]
 comments: true
 ---

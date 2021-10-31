@@ -1,8 +1,7 @@
 ---
 layout: post
 title: August books wrap-up
-subtitle: Book reviews
-tags: [books, fiction]
+tags: [books, fiction, reviews]
 comments: true
 ---
 

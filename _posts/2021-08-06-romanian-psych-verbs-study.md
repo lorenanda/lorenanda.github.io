@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Clustering and classification of emotion verbs
-subtitle: Research study
 gh-repo: lorenanda/psych-verbs
 gh-badge: [star, fork, follow]
 tags: [data science, linguistics, projects]

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Analysing my reading habits from Goodreads data
-subtitle: Data visualisation
 tags: [data science, projects]
 comments: true
 ---

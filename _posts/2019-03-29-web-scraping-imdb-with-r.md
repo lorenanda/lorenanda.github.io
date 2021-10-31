@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Web-scraping IMDb with R
-subtitle: Tutorial
-tags: [data science, projects]
+tags: [data science, projects, tutorials]
 comments: true
 ---
 

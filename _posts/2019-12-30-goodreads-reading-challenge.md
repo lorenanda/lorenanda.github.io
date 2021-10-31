@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Goodreads Reading Challenge 2019
-subtitle: Data analysis
-tags: [data science, projects, books]
+tags: [data science, books]
 comments: true
 ---
 

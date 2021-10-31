@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Auf Erden sind wir kurz grandios von Ocean Vuong
-subtitle: Buchrezension
-tags: [books, nonfiction, deutsch]
+tags: [books, nonfiction, deutsch, reviews]
 comments: true
 ---
 

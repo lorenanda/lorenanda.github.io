@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Talking about autism in Austrian newspapers @ 8th ULAB Conference in Edinburgh
-subtitle: Conference
 tags: [linguistics, events]
 comments: true
 ---

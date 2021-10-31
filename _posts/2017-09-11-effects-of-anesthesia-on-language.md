@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The effects of anesthesia on language
-subtitle: Literature review
 tags: [linguistics]
 comments: true
 ---

@@ -15,7 +15,7 @@
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="Tutorial">
+  <meta name="description" content="My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from...">
 
   
 
@@ -97,7 +97,7 @@
   
   <meta property="og:site_name" content="Lorena Ciutacu">
   <meta property="og:title" content="Making product recommendations using Spectral Biclustering in Python">
-  <meta property="og:description" content="Tutorial">
+  <meta property="og:description" content="My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from...">
 
   
 
@@ -116,7 +116,7 @@
   <meta name="twitter:creator" content="@alciutacu">
 
   <meta property="twitter:title" content="Making product recommendations using Spectral Biclustering in Python">
-  <meta property="twitter:description" content="Tutorial">
+  <meta property="twitter:description" content="My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from...">
 
   
 
@@ -177,10 +177,6 @@
         <div class="post-heading">
           <h1>Making product recommendations using Spectral Biclustering in Python</h1>
           
-            
-              <h2 class="post-subheading">Tutorial</h2>
-            
-          
 
           
             <span class="post-meta">Posted on October 3, 2021</span>
@@ -214,8 +210,8 @@
 <details>
     <summary><strong>Table of contents</strong></summary>
     <a href="#biclustering-methods">Biclustering methods</a><br />
-    <a href="#theory-spectral-biclustering-algorithm">Theory: Spectral Biclustering algorithm</a><br />
-    <a href="#practice-spectral-biclustering-in-python">Practice: Spectral Biclustering in Python</a><br />
+    <a href="#understanding-the-spectral-biclustering-algorithm">Understanding the Spectral Biclustering algorithm</a><br />
+    <a href="#implementing-spectral-biclustering-in-python">Implementing Spectral Biclustering in Python</a><br />
     <a href="#references">References</a>
 </details>
 
@@ -224,7 +220,7 @@
 
 <p>Biclustering operates on a matrice \( A ∈ R^{n \times m} \). In a marketing example, the rows and columns can represent customers and products. Each element \(a_{ij} ∈ A\) indicates a rating (or zero) for the product \(p_j\) given by the customer \(c_i\). \(A\) has an underlying checkerboard structure, where the compact regions (biclusters) represent sub-matrices.</p>
 
-<h2 id="theory-spectral-biclustering-algorithm">Theory: Spectral Biclustering algorithm</h2>
+<h2 id="understanding-the-spectral-biclustering-algorithm">Understanding the Spectral Biclustering algorithm</h2>
 <p>Spectral Biclustering is an algorithm developed by <a href="https://pubmed.ncbi.nlm.nih.gov/12671006/">Kluger et al. (2003)</a> for classifying genes and conditions. Spectral Biclustering relies on Singular Value Decomposition (SVD) and was initially applied to bioinformatics tasks, but has found applications in other fields as well.</p>
 
 <p>The algorithm consists of five steps:</p>
@@ -237,7 +233,7 @@
   <li><strong>Application of K-Means</strong> to find the labelling for the \(k\) clusters. This operation yields two label vectors, \(\bar{r}\) and \(\bar{c}\).</li>
 </ol>
 
-<h2 id="practice-spectral-biclustering-in-python">Practice: Spectral Biclustering in Python</h2>
+<h2 id="implementing-spectral-biclustering-in-python">Implementing Spectral Biclustering in Python</h2>
 <p>To implement spectral biclustering, we first need a data set. For practical reasons, we can generate an artificial data set that consists of:</p>
 <ul>
   <li>100 users</li>
@@ -330,7 +326,7 @@
           
             <a href="/tags#data science">data science</a>
           
-            <a href="/tags#projects">projects</a>
+            <a href="/tags#tutorials">tutorials</a>
           
         </div>
       

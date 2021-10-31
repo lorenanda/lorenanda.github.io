@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Roboterland von Jenny Kleeman
-subtitle: Buchrezension
-tags: [books, nonfiction, deutsch]
+tags: [books, nonfiction, deutsch, reviews]
 comments: true
 ---
 

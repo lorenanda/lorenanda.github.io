@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 4 tips for a good data science portfolio
-subtitle: Career
-tags: [data science, projects]
+tags: [data science, career]
 comments: true
 ---
 

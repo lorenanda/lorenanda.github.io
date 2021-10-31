@@ -15,7 +15,7 @@
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="Tutorial">
+  <meta name="description" content="In my previous post, I wrote about using spectral biclustering for making product recommendations. In this post, I’ll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso’s book Mastering Machine Learning Algorithms\(^1\). Table of contents Market Basket...">
 
   
 
@@ -97,7 +97,7 @@
   
   <meta property="og:site_name" content="Lorena Ciutacu">
   <meta property="og:title" content="Market basket analysis with the Apriori algorithm in Python">
-  <meta property="og:description" content="Tutorial">
+  <meta property="og:description" content="In my previous post, I wrote about using spectral biclustering for making product recommendations. In this post, I’ll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso’s book Mastering Machine Learning Algorithms\(^1\). Table of contents Market Basket...">
 
   
 
@@ -116,7 +116,7 @@
   <meta name="twitter:creator" content="@alciutacu">
 
   <meta property="twitter:title" content="Market basket analysis with the Apriori algorithm in Python">
-  <meta property="twitter:description" content="Tutorial">
+  <meta property="twitter:description" content="In my previous post, I wrote about using spectral biclustering for making product recommendations. In this post, I’ll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso’s book Mastering Machine Learning Algorithms\(^1\). Table of contents Market Basket...">
 
   
 
@@ -177,10 +177,6 @@
         <div class="post-heading">
           <h1>Market basket analysis with the Apriori algorithm in Python</h1>
           
-            
-              <h2 class="post-subheading">Tutorial</h2>
-            
-          
 
           
             <span class="post-meta">Posted on October 17, 2021</span>
@@ -212,8 +208,8 @@
 <details>
     <summary><strong>Table of contents</strong></summary>
     <a href="#market-basket-analysis">Market Basket Analysis</a><br />
-    <a href="#theory-apriori-algorithm">Theory: Apriori algorithm</a><br />
-    <a href="#practice-apriori-algorithm-in-python">Practice: Apriori algorithm in Python</a><br />
+    <a href="#understanding-the-apriori-algorithm">Understanding the Apriori algorithm</a><br />
+    <a href="#implementing-the-apriori-algorithm-in-python">Implementing the Apriori algorithm in Python</a><br />
     <a href="#references">References</a>
 </details>
 
@@ -228,7 +224,7 @@
 
 <p>This is the question at the core of market basket analysis, which aims to mine all existing association rules expressed as \(if (p_i, p_j, ..., p_k) \in T_g \Rightarrow P(p_t) \gt \pi\). This expressions means that for a transaction of products, the probability of finding the item \(P(p_t)\) is greater than a discriminant threshold \(\pi\).</p>
 
-<h2 id="theory-apriori-algorithm">Theory: Apriori algorithm</h2>
+<h2 id="understanding-the-apriori-algorithm">Understanding the Apriori algorithm</h2>
 <p>The Apriori algorithm was proposed by Agrawal and Srikant (1994)<a href="#references">\(^2\)</a> as a solution for performing market basket analysis on large transaction data sets. This algorithm can reveal the most important association rules in the dataset, thus guding the planning of marketing strategies, such as product segmentation or promotion.</p>
 
 <p>Given the maximum number of items in a transaction, the Apriori algorithm proceeds in 4 steps:</p>
@@ -243,7 +239,7 @@ Given the association rules, we also need to know the confidence of a rule, i.e.
 
 <p>The Apriori algorithm has proven to be simple and effective in practice. However, it also has the drawback that it needs larget thresholds for very large datasets. Therefore, it’s recommended to segment the customers and apply Apriori to to each subset of transactions.</p>
 
-<h2 id="practice-apriori-algorithm-in-python">Practice: Apriori algorithm in Python</h2>
+<h2 id="implementing-the-apriori-algorithm-in-python">Implementing the Apriori algorithm in Python</h2>
 <p>Let’s put the theory into practice! For this example, we have a data set that contains information about 100 users and 100 transactions (purchases) of 100 different products. Every purchase has a number of items associated with it. For example, Purchase 1 consists of two products (Product 2 and Product 5), Purchase 2 consists of five products, and so on. We want to know what other product could be associated with each transaction.</p>
 
 <p>First of all, we need to install the Python library <a href="https://pypi.org/project/efficient-apriori/"><code class="language-plaintext highlighter-rouge">efficient-apriori</code></a>:</p>
@@ -338,7 +334,7 @@ Rule generation terminated.
           
             <a href="/tags#data science">data science</a>
           
-            <a href="/tags#projects">projects</a>
+            <a href="/tags#tutorials">tutorials</a>
           
         </div>
       
@@ -392,6 +388,10 @@ Rule generation terminated.
           <a class="page-link" href="/2021-10-03-spectral-biclustering-for-marketing-in-python/" data-toggle="tooltip" data-placement="top" title="Making product recommendations using Spectral Biclustering in Python">&larr; Making product recommendations using Spectral Biclustering in Python</a>
         </li>
         
+        
+        <li class="page-item next">
+          <a class="page-link" href="/2021-10-31-october-books/" data-toggle="tooltip" data-placement="top" title="October books wrap-up">October books wrap-up &rarr;</a>
+        </li>
         
       </ul>
       

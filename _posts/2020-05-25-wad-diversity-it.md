@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Diversity in IT Jobs
-subtitle: We Are Developers
-tags: [data science, events]
+title: Diversity in IT Jobs (WAD talk)
+tags: [data science, events, career]
 comments: true
 ---
 
