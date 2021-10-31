@@ -231,58 +231,294 @@
 
 <p>I did it! I graduated from the Data Science Bootcamp! On Friday I presented my final project, which was about detecting emotions from speech with neural networks. It was one of the most challenging project I’ve worked on, because I had to learn something new (how to process audio data and make live voice predictions) and prepare everything nicely in only 7 days. Here’s how it went…</p>
 
-<h2 id="planning">Planning</h2>
+<details>
+    <summary><strong>Table of contents</strong></summary>
+    <a href="#project-planning">Project planning</a><br />
+    <a href="#data-set">Data set</a><br />
+    &nbsp;&nbsp;&nbsp;<a href="#oversampling">Oversampling</a><br />
+    &nbsp;&nbsp;&nbsp;<a href="#feature-extraction">Feature extraction</a><br />
+    <a href="#machine-learning-models">Machine Learning models</a><br />
+    <a href="#predictions">Predictions</a><br />
+    <a href="#next-steps">Next steps</a>
+</details>
 
-<p>First and foremost, I designed a project plan, after having a brief look at the dataset. From my work experience and the assignments completed in the past three months, I’ve learned that this step is crucial for the success of a coding project. Planning helps me (and the team) organize my ideas, break down the big project into smaller tasks, identify issues, and track the progress – and not despair at the amount of work to be done in a short time. For this purpose, I created a simple <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjEp7_GwP_tAhXD6aQKHXP5ClMQFjAAegQIAhAC&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKanban_(development)&amp;usg=AOvVaw2B54c6DIMX8rua56XtMTP9">Kanban board </a>directly in the GitHub repository of my project, so that I have the code and tasks in one place.</p>
+<h2 id="project-planning">Project planning</h2>
 
-<p><a href="https://lorenaciutacu.files.wordpress.com/2021/01/screenshot_2020-12-11-lorenanda-speech-emotion-recognition.png"><img src="https://lorenaciutacu.files.wordpress.com/2021/01/screenshot_2020-12-11-lorenanda-speech-emotion-recognition.png?w=1024" alt="" /></a></p>
+<p>First and foremost, I designed a project plan, after having a brief look at the data set. From my work experience and the assignments completed in the past three months, I’ve learned that this step is crucial for the success of a coding project. Planning helps me (and the team) organize my ideas, break down the big project into smaller tasks, identify issues, and track the progress – and not despair at the amount of work to be done in a short time.</p>
 
-<h2 id="data">Data</h2>
+<p>For this purpose, I created a simple <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjEp7_GwP_tAhXD6aQKHXP5ClMQFjAAegQIAhAC&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKanban_(development)&amp;usg=AOvVaw2B54c6DIMX8rua56XtMTP9">Kanban board</a> directly in the GitHub repository of my project, so that I have the code and tasks in one place.</p>
 
-<p>I used the <strong>RAVDESS dataset</strong>, which contains 1440 audio files. These are voice recordings of 24 actors (12 male, 12 female) who say two sentences in two different intensities (normal and strong) with eight intonations that express different emotions: calm, happy, sad, angry, fearful, surprised, disgusted, and neutral. There are 192 recordings for each emotion, except for neutral, which doesn’t have recordings in strong intensity. For this reason, the dataset was imbalanced, so I used the <code class="language-plaintext highlighter-rouge">RandomOversample</code> method to create new features for the neutral class. Oversampling added 96 new datapoints, so in the end I had <strong>1536 audio file</strong>s to work with. There were also slightly more recordings by males and in normal intensity, but I didn’t deal with this imbalance because it wasn’t significant and it wouldn’t have affected my analysis, since I wanted to predict the emotion.</p>
+<figure><img src="https://lorenaciutacu.files.wordpress.com/2021/01/screenshot_2020-12-11-lorenanda-speech-emotion-recognition.png" alt="Project board in GitHub" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;" /><figcaption><em>Project board in GitHub</em></figcaption></figure>
 
-<p><a href="https://lorenaciutacu.files.wordpress.com/2020/12/plot_emotions.png"><img src="https://lorenaciutacu.files.wordpress.com/2020/12/plot_emotions.png?w=1000" alt="" /></a></p>
+<p>To create a project board linked to a repository in GitHub:</p>
+<ol>
+  <li>In your desired repository, click on the tab <code class="language-plaintext highlighter-rouge">Projects</code>, then on <code class="language-plaintext highlighter-rouge">Create project</code>.</li>
+  <li>Enter the <code class="language-plaintext highlighter-rouge">Project board name</code>.</li>
+  <li>(Optional) Enter a <code class="language-plaintext highlighter-rouge">Description</code> of the project and select a <code class="language-plaintext highlighter-rouge">Project template</code>.</li>
+  <li>Click on <code class="language-plaintext highlighter-rouge">Create project</code>.</li>
+</ol>
 
-<h2 id="features">Features</h2>
+<h2 id="data-set">Data set</h2>
 
-<p>There are many features that can be extracted from audio files. I decided to work with the <strong>Mel Frequency Cepstral Coefficient (MFCC)</strong>, which is typically used in automatic speech and speaker recognition.</p>
+<p>I used the <strong>RAVDESS data set</strong>, which contains 1440 audio files. These are voice recordings of 24 actors (12 male, 12 female) who say two sentences in two different intensities (normal and strong) with eight intonations that express different emotions: calm, happy, sad, angry, fearful, surprised, disgusted, and neutral. There are 192 recordings for each emotion, except for neutral, which doesn’t have recordings in strong intensity.</p>
 
-<p><img src="https://lorenaciutacu.files.wordpress.com/2020/12/mfcc1.png" alt="" /></p>
+<p>To sum up, the original RAVDESS data set includes:</p>
 
-<h2 id="models">Models</h2>
+<ul>
+  <li>1440 recordings</li>
+  <li>24 speakers</li>
+  <li>12 male, 12 female</li>
+  <li>2 sentences</li>
+  <li>2 intensities</li>
+  <li>8 intonations / emotions</li>
+  <li>192 recordings for 7 emotions</li>
+  <li>96 recordings for 1 emotion</li>
+</ul>
+
+<figure><img src="https://lorenaciutacu.files.wordpress.com/2020/12/plot_emotions.png" alt="RAVDESS data set distribution" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;" /><figcaption><em>RAVDESS data set distribution</em></figcaption></figure>
+
+<h3 id="oversampling">Oversampling</h3>
+<p>The data set was imbalanced, so I used the <code class="language-plaintext highlighter-rouge">RandomOversample</code> method to create new features for the neutral class.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">oversample</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">X</span> <span class="o">=</span> <span class="n">joblib</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="s">"speech_emotion_recognition/features/X.joblib"</span><span class="p">)</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">joblib</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="s">"speech_emotion_recognition/features/y.joblib"</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">Counter</span><span class="p">(</span><span class="n">y</span><span class="p">))</span> 
+
+    <span class="n">oversample</span> <span class="o">=</span> <span class="n">RandomOverSampler</span><span class="p">(</span><span class="n">sampling_strategy</span><span class="o">=</span><span class="s">"minority"</span><span class="p">)</span>
+    <span class="n">X_over</span><span class="p">,</span> <span class="n">y_over</span> <span class="o">=</span> <span class="n">oversample</span><span class="p">.</span><span class="n">fit_resample</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+    <span class="n">X_over_save</span><span class="p">,</span> <span class="n">y_over_save</span> <span class="o">=</span> <span class="s">"X_over.joblib"</span><span class="p">,</span> <span class="s">"y_over.joblib"</span>
+    <span class="n">joblib</span><span class="p">.</span><span class="n">dump</span><span class="p">(</span><span class="n">X_over</span><span class="p">,</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="s">"speech_emotion_recognition/features/"</span><span class="p">,</span> <span class="n">X_over_save</span><span class="p">))</span>
+    <span class="n">joblib</span><span class="p">.</span><span class="n">dump</span><span class="p">(</span><span class="n">y_over</span><span class="p">,</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="s">"speech_emotion_recognition/features/"</span><span class="p">,</span> <span class="n">y_over_save</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Oversampling added 96 new datapoints, so in the end I had <strong>1536 audio files</strong> to work with.</p>
+
+<p>Another imbalance was gender-related: there were slightly more recordings by males and in normal intensity. I didn’t deal with this imbalance because it wasn’t significant to my project, since I only wanted to predict the emotion. However, it would be interesting to explore in the future.</p>
+
+<h3 id="feature-extraction">Feature extraction</h3>
+<p>There are many features that can be extracted from audio files, but I decided to work with the <strong>Mel Frequency Cepstral Coefficient (MFCC)</strong>.</p>
+
+<blockquote>
+  <p>Mel-frequency cepstrum (MFC) is a representation of the short-term power spectrum of a sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency. Mel-frequency cepstral coefficients (MFCCs) are coefficients that collectively make up an MFC.</p>
+
+  <p>The difference between the cepstrum and the mel-frequency cepstrum is that in the MFC, the frequency bands are equally spaced on the mel scale, which approximates the human auditory system’s response more closely than the linearly-spaced frequency bands used in the normal spectrum. This frequency warping can allow for better representation of sound, for example, in audio compression.</p>
+
+  <p><a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum">source</a></p>
+</blockquote>
+
+<p>To extract the MFCC from the audio files, I used the Python library <a href="https://librosa.org/doc/latest/index.html"><code class="language-plaintext highlighter-rouge">librosa</code></a>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">extract_features</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">save_dir</span><span class="p">):</span>
+    <span class="n">feature_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+    <span class="k">for</span> <span class="nb">dir</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">os</span><span class="p">.</span><span class="n">walk</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+        <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+            <span class="n">y_lib</span><span class="p">,</span> <span class="n">sample_rate</span> <span class="o">=</span> <span class="n">librosa</span><span class="p">.</span><span class="n">load</span><span class="p">(</span>
+                <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="nb">dir</span><span class="p">,</span> <span class="nb">file</span><span class="p">),</span> <span class="n">res_type</span><span class="o">=</span><span class="s">"kaiser_fast"</span>
+            <span class="p">)</span>
+            <span class="n">mfccs</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span>
+                <span class="n">librosa</span><span class="p">.</span><span class="n">feature</span><span class="p">.</span><span class="n">mfcc</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">y_lib</span><span class="p">,</span> <span class="n">sr</span><span class="o">=</span><span class="n">sample_rate</span><span class="p">,</span> <span class="n">n_mfcc</span><span class="o">=</span><span class="mi">40</span><span class="p">).</span><span class="n">T</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span>
+            <span class="p">)</span>
+
+            <span class="nb">file</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">file</span><span class="p">[</span><span class="mi">7</span><span class="p">:</span><span class="mi">8</span><span class="p">])</span> <span class="o">-</span> <span class="mi">1</span>
+            <span class="n">arr</span> <span class="o">=</span> <span class="n">mfccs</span><span class="p">,</span> <span class="nb">file</span>
+            <span class="n">feature_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+
+    <span class="k">print</span><span class="p">(</span><span class="s">"Data loaded in %s seconds."</span> <span class="o">%</span> <span class="p">(</span><span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span><span class="p">))</span>
+
+    <span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">feature_list</span><span class="p">)</span>
+    <span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">X</span><span class="p">),</span> <span class="n">np</span><span class="p">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">y</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
+
+    <span class="n">X_save</span><span class="p">,</span> <span class="n">y_save</span> <span class="o">=</span> <span class="s">"X.joblib"</span><span class="p">,</span> <span class="s">"y.joblib"</span>
+    <span class="n">joblib</span><span class="p">.</span><span class="n">dump</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">save_dir</span><span class="p">,</span> <span class="n">X_save</span><span class="p">))</span>
+    <span class="n">joblib</span><span class="p">.</span><span class="n">dump</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">save_dir</span><span class="p">,</span> <span class="n">y_save</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="s">"Preprocessing completed."</span>
+</code></pre></div></div>
+
+<p>The visual representation of MFCC looks like this:</p>
+
+<figure><img src="https://lorenaciutacu.files.wordpress.com/2020/12/mfcc1.png" alt="MFCC of " width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;" /><figcaption><em>MFCC of</em></figcaption></figure>
+
+<h2 id="machine-learning-models">Machine Learning Models</h2>
 
 <p>I trained three different neural networks models on the MFCC and emotion labels:</p>
 
 <ul>
-  <li><strong>Multi-Layer Perceptron (MLP)</strong> with default settings</li>
-  <li><strong>Convolutional Neural Network (CNN)</strong> with 2 Conv1D layers, 2 Dense layers, and 1 Dropout 0.1 layer</li>
-  <li><strong>Long Short-Term Memory (LSTM)</strong> with 2 LSTM layers and 1 Dense layer</li>
+  <li><strong>Multi-Layer Perceptron (MLP)</strong> 
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">mlp_classifier</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span>
+    <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span>
+<span class="p">)</span>
+
+<span class="n">mlp_model</span> <span class="o">=</span> <span class="n">MLPClassifier</span><span class="p">(</span>
+    <span class="n">hidden_layer_sizes</span><span class="o">=</span><span class="p">(</span><span class="mi">100</span><span class="p">,),</span>
+    <span class="n">solver</span><span class="o">=</span><span class="s">"adam"</span><span class="p">,</span>
+    <span class="n">alpha</span><span class="o">=</span><span class="mf">0.001</span><span class="p">,</span>
+    <span class="n">shuffle</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+    <span class="n">verbose</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+    <span class="n">momentum</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span>
+<span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Convolutional Neural Network (CNN)</strong>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">cnn_model</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span>
+    <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span>
+<span class="p">)</span>
+
+<span class="n">x_traincnn</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">x_testcnn</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">Sequential</span><span class="p">()</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Conv1D</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s">"same"</span><span class="p">,</span> <span class="n">input_shape</span><span class="o">=</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">1</span><span class="p">)))</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Activation</span><span class="p">(</span><span class="s">"relu"</span><span class="p">))</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Conv1D</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s">"same"</span><span class="p">))</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Activation</span><span class="p">(</span><span class="s">"relu"</span><span class="p">))</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span>
+    <span class="n">Conv1D</span><span class="p">(</span>
+        <span class="mi">8</span><span class="p">,</span>
+        <span class="mi">5</span><span class="p">,</span>
+        <span class="n">padding</span><span class="o">=</span><span class="s">"same"</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Activation</span><span class="p">(</span><span class="s">"relu"</span><span class="p">))</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">BatchNormalization</span><span class="p">())</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Activation</span><span class="p">(</span><span class="s">"relu"</span><span class="p">))</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Flatten</span><span class="p">())</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dense</span><span class="p">(</span><span class="mi">8</span><span class="p">))</span>
+<span class="n">model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Activation</span><span class="p">(</span><span class="s">"softmax"</span><span class="p">))</span>
+
+<span class="n">model</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span>
+    <span class="n">loss</span><span class="o">=</span><span class="s">"categorical_crossentropy"</span><span class="p">,</span>
+    <span class="n">optimizer</span><span class="o">=</span><span class="s">"adam"</span><span class="p">,</span> 
+    <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s">"accuracy"</span><span class="p">],</span>
+<span class="p">)</span>
+
+<span class="n">cnn_history</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span>
+    <span class="n">x_traincnn</span><span class="p">,</span>
+    <span class="n">y_train</span><span class="p">,</span>
+    <span class="n">batch_size</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> 
+    <span class="n">epochs</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+    <span class="n">validation_data</span><span class="o">=</span><span class="p">(</span><span class="n">x_testcnn</span><span class="p">,</span> <span class="n">y_test</span><span class="p">),</span>
+<span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Long Short-Term Memory (LSTM)</strong>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">lstm_model</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span>
+    <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span>
+<span class="p">)</span>
+<span class="n">X_train_lstm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">X_test_lstm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="n">lstm_model</span> <span class="o">=</span> <span class="n">Sequential</span><span class="p">()</span>
+<span class="n">lstm_model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">LSTM</span><span class="p">(</span><span class="mi">64</span><span class="p">,</span> <span class="n">input_shape</span><span class="o">=</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">return_sequences</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+<span class="n">lstm_model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">LSTM</span><span class="p">(</span><span class="mi">32</span><span class="p">))</span>
+<span class="n">lstm_model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dense</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s">"relu"</span><span class="p">))</span>
+<span class="n">lstm_model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dropout</span><span class="p">(</span><span class="mf">0.1</span><span class="p">))</span>
+<span class="n">lstm_model</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dense</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s">"softmax"</span><span class="p">))</span>
+
+<span class="n">lstm_model</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span>
+    <span class="n">optimizer</span><span class="o">=</span><span class="s">"adam"</span><span class="p">,</span> <span class="n">loss</span><span class="o">=</span><span class="s">"categorical_crossentropy"</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s">"accuracy"</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="n">lstm_model</span><span class="p">.</span><span class="n">summary</span><span class="p">()</span>
+<span class="n">lstm_history</span> <span class="o">=</span> <span class="n">lstm_model</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_lstm</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">32</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
 </ul>
 
-<p>After several iterations of tweaking the hyperparameters, I found that generally the models performed better with low learning rates (0.001), <code class="language-plaintext highlighter-rouge">adam</code> optimizer, and less layers. Here is the accuracy achieved by the models on the train and test set:</p>
+<p>After several iterations of tweaking the hyperparameters, I found that generally the models performed better with low learning rates (0.001), <code class="language-plaintext highlighter-rouge">adam</code> optimizer, and less layers. All models overfit (they couldn’t generalize on unseen data), but this seems to be a common issue in neural networks and on audio data.</p>
 
-<p><a href="https://lorenaciutacu.files.wordpress.com/2020/12/models_accuracy.png"><img src="https://lorenaciutacu.files.wordpress.com/2020/12/models_accuracy.png?w=1024" alt="" /></a></p>
+<p>As expected, MLP had the lowest accuracy, since it’s a very basic model (a simple feed-forward artificial neural network). CNN and LSTM had similar train accuracy (80%), but CNN performed better on test data (60%) than LSTM (51%). To give you some context, state-of-the-art models for speech classification have an accuracy of 70-80%, so I was quite happy with my CNN model accuracy.</p>
 
-<p>All models overfit, which means they couldn’t generalize on unseen data, but this is a common issue in neural networks and on audio data. As expected, MLP had the lowest accuracy, since it’s a very basic model (a simple feed-forward artificial neural network). CNN and LSTM had similar train accuracy (80%), but CNN performed better on test data (60%) than LSTM (51%). To give you some context, state-of-the-art models for speech classification have an accuracy of 70-80%, so I was quite happy with my CNN model accuracy.</p>
+<figure><img src="https://lorenaciutacu.files.wordpress.com/2020/12/models_accuracy.png" alt="Accuracy of different ML models" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;" /><figcaption><em>Accuracy of different ML models</em></figcaption></figure>
 
 <p>It was particularly interesting to look at the actual vs. predicted emotions, to see what emotions were misclassified. From the correlations matrices of CNN and LSTM, I noticed that both models misclassified emotions that sound similar or are ambiguous (even for humans), like sad-calm or angry-happy.</p>
 
-<p><img src="https://lorenaciutacu.files.wordpress.com/2020/12/lstm_confusionmatrix.png" alt="" /></p>
+<figure><img src="https://lorenaciutacu.files.wordpress.com/2020/12/lstm_confusionmatrix.png" alt="Confusion matrix of LSTM" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;" /><figcaption><em>Confusion matrix of LSTM</em></figcaption></figure>
 
-<p><img src="https://lorenaciutacu.files.wordpress.com/2020/12/cnn_confusionmatrix.png" alt="" /></p>
+<figure><img src="https://lorenaciutacu.files.wordpress.com/2020/12/cnn_confusionmatrix.png" alt="Confusion matrix of CNN" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;" /><figcaption><em>Confusion matrix of CNN</em></figcaption></figure>
 
-<h2 id="results">Results</h2>
+<h2 id="predictions">Predictions</h2>
 
-<p>The exciting part was to make predictions on new data. First, I tried the CNN and LSTM models on a couple of <a href="http://www.moviesoundclips.net/">movies sound clips</a> and both models identified the plausible emotion. Next, I used the <a href="https://python-sounddevice.readthedocs.io/en/0.4.1/">sounddevice library</a> to record my voice and classify it in real-time, and again both models recognized my expressed emotion!</p>
+<p>The exciting part was to make predictions on new data, more specifically on <a href="http://www.moviesoundclips.net/">movie sound clips</a> and my own voice in real-time. To record my voice, I used the Python library <a href="https://python-sounddevice.readthedocs.io/en/0.4.1/"><code class="language-plaintext highlighter-rouge">sounddevice</code></a>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">soundfile</span> <span class="k">as</span> <span class="n">sf</span>
+<span class="kn">import</span> <span class="nn">sounddevice</span> <span class="k">as</span> <span class="n">sd</span>
+<span class="kn">from</span> <span class="nn">scipy.io.wavfile</span> <span class="kn">import</span> <span class="n">write</span>
+
+
+<span class="k">def</span> <span class="nf">record_voice</span><span class="p">():</span>
+    <span class="n">fs</span> <span class="o">=</span> <span class="mi">44100</span>  <span class="c1"># Sample rate
+</span>    <span class="n">seconds</span> <span class="o">=</span> <span class="mi">3</span>  <span class="c1"># Duration of recording
+</span>    <span class="c1"># sd.default.device = "Built-in Audio"  # Speakers full name here
+</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Say something:"</span><span class="p">)</span>
+    <span class="n">myrecording</span> <span class="o">=</span> <span class="n">sd</span><span class="p">.</span><span class="n">rec</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">seconds</span> <span class="o">*</span> <span class="n">fs</span><span class="p">),</span> <span class="n">samplerate</span><span class="o">=</span><span class="n">fs</span><span class="p">,</span> <span class="n">channels</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">sd</span><span class="p">.</span><span class="n">wait</span><span class="p">()</span>  <span class="c1"># Wait until recording is finished
+</span>    <span class="n">write</span><span class="p">(</span><span class="s">"speech_emotion_recognition/recordings/myvoice.wav"</span><span class="p">,</span> <span class="n">fs</span><span class="p">,</span> <span class="n">myrecording</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Voice recording saved."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>I then tested the CNN and LSTM models on pre- and live-recorded audio files:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">make_predictions</span><span class="p">(</span><span class="nb">file</span><span class="p">):</span>
+    <span class="n">cnn_model</span> <span class="o">=</span> <span class="n">keras</span><span class="p">.</span><span class="n">models</span><span class="p">.</span><span class="n">load_model</span><span class="p">(</span>
+        <span class="s">"speech_emotion_recognition/models/cnn_model.h5"</span>
+    <span class="p">)</span>
+    <span class="n">lstm_model</span> <span class="o">=</span> <span class="n">keras</span><span class="p">.</span><span class="n">models</span><span class="p">.</span><span class="n">load_model</span><span class="p">(</span>
+        <span class="s">"speech_emotion_recognition/models/lstm_model.h5"</span>
+    <span class="p">)</span>
+    <span class="n">prediction_data</span><span class="p">,</span> <span class="n">prediction_sr</span> <span class="o">=</span> <span class="n">librosa</span><span class="p">.</span><span class="n">load</span><span class="p">(</span>
+        <span class="nb">file</span><span class="p">,</span>
+        <span class="n">res_type</span><span class="o">=</span><span class="s">"kaiser_fast"</span><span class="p">,</span>
+        <span class="n">duration</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+        <span class="n">sr</span><span class="o">=</span><span class="mi">22050</span><span class="p">,</span>
+        <span class="n">offset</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">mfccs</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span>
+        <span class="n">librosa</span><span class="p">.</span><span class="n">feature</span><span class="p">.</span><span class="n">mfcc</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">prediction_data</span><span class="p">,</span> <span class="n">sr</span><span class="o">=</span><span class="n">prediction_sr</span><span class="p">,</span> <span class="n">n_mfcc</span><span class="o">=</span><span class="mi">40</span><span class="p">).</span><span class="n">T</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span>
+    <span class="p">)</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">mfccs</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">predictions</span> <span class="o">=</span> <span class="n">lstm_model</span><span class="p">.</span><span class="n">predict_classes</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+    <span class="n">emotions_dict</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s">"0"</span><span class="p">:</span> <span class="s">"neutral"</span><span class="p">,</span>
+        <span class="s">"1"</span><span class="p">:</span> <span class="s">"calm"</span><span class="p">,</span>
+        <span class="s">"2"</span><span class="p">:</span> <span class="s">"happy"</span><span class="p">,</span>
+        <span class="s">"3"</span><span class="p">:</span> <span class="s">"sad"</span><span class="p">,</span>
+        <span class="s">"4"</span><span class="p">:</span> <span class="s">"angry"</span><span class="p">,</span>
+        <span class="s">"5"</span><span class="p">:</span> <span class="s">"fearful"</span><span class="p">,</span>
+        <span class="s">"6"</span><span class="p">:</span> <span class="s">"disgusted"</span><span class="p">,</span>
+        <span class="s">"7"</span><span class="p">:</span> <span class="s">"surprised"</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">emotions_dict</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">key</span><span class="p">)</span> <span class="o">==</span> <span class="n">predictions</span><span class="p">:</span>
+            <span class="n">label</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="k">print</span><span class="p">(</span><span class="s">"This voice sounds"</span><span class="p">,</span> <span class="n">predictions</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Both models identified the correct or plausible emotion from recorded speech!</p>
 
 <h2 id="next-steps">Next steps</h2>
 
-<p>Cool as it may be, there are several limitations and aspects of this project that I’d like to improve:</p>
+<p>It was super exciting to work on this project and I’m already thinking of improving and extending it in some ways:</p>
 
 <ul>
   <li>Try other models (not necessarily neural networks).</li>
   <li>Extract other audio features to see if they are better predictors than the MFCC.</li>
-  <li>Train on larger datasets, since 1500 files and only 200 samples per emotion is not enough.</li>
+  <li>Train on larger data sets, since 1500 files and only 200 samples per emotion is not enough.</li>
   <li>Train on natural data, i.e. on recordings of people speaking in unstaged situations, so that the emotional speech sounds more realistic.</li>
   <li>Train on more diverse data, i.e. on recordings of people of different cultures and languages. This is important because the expression of emotions varies across cultures and is influenced also by individual experiences.</li>
   <li>Combine speech with facial expressions and text (speech-to-text) for multimodal sentiment analysis.</li>
