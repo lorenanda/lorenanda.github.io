@@ -11,19 +11,46 @@ html {
   src: url("../fonts/alliance_no2_light.otf");
 }
 
+:root {
+  --primary-bg-color:  var(--light);
+  --secondary-bg-color:  #eee;
+  --primary-text-color: #000;
+
+}
+
+@media screen and (prefers-color-scheme: dark)  {
+  :root {
+    --primary-bg-color: var(--dark);
+    --secondary-bg-color: #666;
+    --primary-text-color:  #CCC;
+  }
+
+}
+
+
+
 
 body {
   font-family: 'Alliance No. 2', 'Alliance No. 1', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
   color: #212529;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: var(--primary-bg-color);
   
 }
 
 p {
   line-height: 1.5;
   margin: 1.875rem 0;
+}
+
+p, h1,h2,h3,h4,h5, blockquote, article, ul, li, pre,
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .navbar-brand,
+.blog-tags * ,
+.page-item a{
+
+  color: var(--primary-text-color) !important;
 }
 
 @font-face {
@@ -170,7 +197,7 @@ figure {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #FFF;
+  background-color: var(--primary-bg-color);
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Alliance No. 2', 'Alliance No. 1', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
@@ -251,7 +278,7 @@ figure {
 }
 
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
-  background-color: white;
+  background-color: var(--primary-bg-color);
   border-color: white;
 }
 
@@ -424,7 +451,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: #FFF;
+  background-color: var(--primary-bg-color);
   
 }
 
@@ -433,8 +460,13 @@ footer p.text-muted {
 }
 
 footer a {
-  color: #212529;
+  color: var(--primary-bg-color);
 }
+
+footer i.fa-inverse {
+  color: var(--primary-text-color);
+}
+
 
 footer .list-inline {
   margin: 0;
@@ -476,7 +508,7 @@ footer .footer-custom-content {
 
 .post-preview {
   padding: 1.25rem 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--secondary-bg-color);
   overflow: hidden;
 }
 
@@ -634,7 +666,7 @@ footer .footer-custom-content {
 
 .tag-btn {
   margin: 0.3125rem;
-  background-color: #FFF;
+  background-color: var(--primary-bg-color);
   border-color: #212529;
   color: #212529;
 }
@@ -848,7 +880,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-weight: 600;
   letter-spacing: 1px;
   padding: 0.625rem 0.3125rem;
-  background-color: #FFF;
+  background-color: var(--primary-bg-color);
   border-radius: 0;
   color: #212529;
 }
@@ -871,7 +903,7 @@ table {
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
   margin: 0;
   padding: 0;
 }
