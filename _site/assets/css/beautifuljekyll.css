@@ -26,6 +26,18 @@ p {
   margin: 1.875rem 0;
 }
 
+p, h1,h2,h3,h4,h5, blockquote, article, ul, li, pre,
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .navbar-brand,
+.btn,
+.tag-entry a,
+.blog-tags * ,
+.text-muted,
+.page-item a{
+
+  color: var(--primary-text-color) !important;
+}
+
 @font-face {
   font-family: 'Black Signature';
   src: url("../fonts/black_signature.otf");
