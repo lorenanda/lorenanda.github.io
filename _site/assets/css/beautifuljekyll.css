@@ -32,7 +32,7 @@ p, h1,h2,h3,h4,h5, blockquote, article, ul, li, pre,
 .btn,
 .tag-entry a,
 .blog-tags * ,
-.text-muted,
+.p.text-muted,
 .page-item a{
 
   color: var(--primary-text-color) !important;
