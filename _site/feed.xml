@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>5 ways to keep your skills fresh after finishing a coding bootcamp</title>
+        <description>
+          
+          One year ago at this time, I was nervously making last-minute changes to slides for a presentation. Not just any presentation, but one of my final project for the Data Science Bootcamp at SPICED Academy, where I spent three full months learning about different machine learning algorithms and Python best...
+        </description>
+        <pubDate>Sun, 14 Nov 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2021-11-14-keep-your-skills-fresh-after-coding-bootcamp/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-11-14-keep-your-skills-fresh-after-coding-bootcamp/</guid>
+      </item>
+    
+      <item>
         <title>October books wrap-up</title>
         <description>
           
@@ -216,17 +227,6 @@
         <pubDate>Fri, 30 Apr 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2021-04-30-april-books/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-04-30-april-books/</guid>
-      </item>
-    
-      <item>
-        <title>6 findings from analysing the Oscars speeches of the best directors</title>
-        <description>
-          
-          Cinephiles and lovers of glam rejoice this Sunday – it’s Oscars Award Ceremony time! Due to Corona, this year’s 93rd edition was postponed from February to April 25th – the latest in the history of the award. I was personally happy about the delay, because it gave me more time...
-        </description>
-        <pubDate>Sun, 25 Apr 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-04-25-oscars-speech-analysis-with-python/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-04-25-oscars-speech-analysis-with-python/</guid>
       </item>
     
   </channel>
