@@ -3,6 +3,7 @@ layout: post
 title: August books wrap-up
 tags: [books, fiction, reviews]
 comments: true
+thumbnail-img: ../assets/img/augustbooks.JPG
 ---
 
 ![cover](../assets/img/augustbooks.JPG)

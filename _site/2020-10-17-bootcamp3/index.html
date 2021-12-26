@@ -150,7 +150,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/tags">Archive</a>
-          </li></ul>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
   </div>
 
   
@@ -158,6 +164,669 @@
   
 
 </nav>
+
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "5 ways to keep your skills fresh after finishing a coding bootcamp", \
+          "category" : "careerdata science", \
+          "url"      : "/2021-11-14-keep-your-skills-fresh-after-coding-bootcamp/", \
+          "date"     : "November 14, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "October books wrap-up", \
+          "category" : "booksnonfictionreviews", \
+          "url"      : "/2021-10-31-october-books/", \
+          "date"     : "October 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Market basket analysis with the Apriori algorithm in Python", \
+          "category" : "data sciencetutorials", \
+          "url"      : "/2021-10-17-market-basket-analysis-with-apriori-algorithm/", \
+          "date"     : "October 17, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Making product recommendations using Spectral Biclustering in Python", \
+          "category" : "data sciencetutorials", \
+          "url"      : "/2021-10-03-spectral-biclustering-for-marketing-in-python/", \
+          "date"     : "October  3, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "September books wrap-up", \
+          "category" : "booksnonfictionfictionreviews", \
+          "url"      : "/2021-09-30-september-books/", \
+          "date"     : "September 30, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "August books wrap-up", \
+          "category" : "booksfictionreviews", \
+          "url"      : "/2021-08-31-august-books/", \
+          "date"     : "August 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Photography in the instant gratification economy", \
+          "category" : "artthoughts", \
+          "url"      : "/2021-08-19-photography-and-instant-gratification-economy/", \
+          "date"     : "August 19, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Framing loneliness in the film &quot;O Homem das Multidões&quot;", \
+          "category" : "artprojects", \
+          "url"      : "/2021-08-11-o-homem-das-multidoes-film-analysis/", \
+          "date"     : "August 11, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Gefährliche Mittsommernacht von Christoffer Holst", \
+          "category" : "booksfictiondeutschreviews", \
+          "url"      : "/2021-08-08-buchrezension-gefaehrliche-mittsommernacht/", \
+          "date"     : "August  8, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Clustering and classification of emotion verbs", \
+          "category" : "data sciencelinguisticsprojects", \
+          "url"      : "/2021-08-06-romanian-psych-verbs-study/", \
+          "date"     : "August  6, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "July books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/2021-07-31-july-books/", \
+          "date"     : "July 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Auf Erden sind wir kurz grandios von Ocean Vuong", \
+          "category" : "booksnonfictiondeutschreviews", \
+          "url"      : "/2021-07-11-buchrezension-auf-erden-sind-wir-kurz-grandios/", \
+          "date"     : "July 11, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "June books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/2021-06-30-june-books/", \
+          "date"     : "June 30, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Der Weg des Siegers von Ronny Schönig", \
+          "category" : "booksnonfictiondeutschreviews", \
+          "url"      : "/2021-06-20-buchrezension-der-weg-des-siegers/", \
+          "date"     : "June 20, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "May books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/2021-05-31-may-books/", \
+          "date"     : "May 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Roboterland von Jenny Kleeman", \
+          "category" : "booksnonfictiondeutschreviews", \
+          "url"      : "/2021-05-23-buchrezension-roboterland/", \
+          "date"     : "May 23, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Achtsam morden am Rande der Welt von Karsten Dusse", \
+          "category" : "booksfictiondeutschreviews", \
+          "url"      : "/2021-05-16-buchrezension-achtsam-morden/", \
+          "date"     : "May 16, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Die Tote im Kaffeehaus von Beate Maxian", \
+          "category" : "booksfictiondeutschreviews", \
+          "url"      : "/2021-05-09-buchrezension-die-tote-im-kaffeehaus/", \
+          "date"     : "May  9, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Trauma von Angélique Mundt", \
+          "category" : "booksfictiondeutschreviews", \
+          "url"      : "/2021-05-02-buchrezension-trauma/", \
+          "date"     : "May  2, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "April books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/2021-04-30-april-books/", \
+          "date"     : "April 30, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "6 findings from analysing the Oscars speeches of the best directors", \
+          "category" : "data scienceprojects", \
+          "url"      : "/2021-04-25-oscars-speech-analysis-with-python/", \
+          "date"     : "April 25, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Klima von David Klass", \
+          "category" : "booksfictiondeutschreviews", \
+          "url"      : "/2021-04-07-buchrezension-klima/", \
+          "date"     : "April  7, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "March books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/2021-03-31-march-books/", \
+          "date"     : "March 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Die Zukunft ist smart von Holger Volland", \
+          "category" : "booksnonfictiondeutschreviews", \
+          "url"      : "/2021-03-28-buchrezension-die-zukunft-ist-smart/", \
+          "date"     : "March 28, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Designing Bots by Amir Shevat", \
+          "category" : "booksnonfictionreviews", \
+          "url"      : "/2021-03-14-book-review-designing-bots/", \
+          "date"     : "March 14, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Elmet von Fiona Mozley", \
+          "category" : "booksfictiondeutschreviews", \
+          "url"      : "/2021-03-07-buchrezension-elmet/", \
+          "date"     : "March  7, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Terror von Bernd Schmidt", \
+          "category" : "booksnonfictiondeutschreviews", \
+          "url"      : "/2021-03-03-buchrezension-terror/", \
+          "date"     : "March  3, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "February books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/2021-02-28-february-books/", \
+          "date"     : "February 28, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Exploring endangered languages with pandas", \
+          "category" : "linguisticsdata sciencetutorials", \
+          "url"      : "/2021-02-27-endangered-languages/", \
+          "date"     : "February 27, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "99 Nächte in Logar von Jamil Jan Kochai", \
+          "category" : "booksfictiondeutschreviews", \
+          "url"      : "/2021-02-24-buchrezension-99naechte/", \
+          "date"     : "February 24, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Pourquoi est-il important de protéger les langues en danger", \
+          "category" : "linguisticsfrancaisthoughts", \
+          "url"      : "/2021-02-21-langues-en-danger/", \
+          "date"     : "February 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Die Mauern von Porto von Mario Lima", \
+          "category" : "booksfictiondeutschreviews", \
+          "url"      : "/2021-02-12-buchrezension-diemauernvonporto/", \
+          "date"     : "February 12, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "January books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/2021-01-31-january-books/", \
+          "date"     : "January 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "January&#39;s regression challenge for Kaggle playground", \
+          "category" : "data sciencetutorials", \
+          "url"      : "/2021-01-21-kaggle-playground-jan/", \
+          "date"     : "January 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "12 tech books to read in 2021", \
+          "category" : "booksnonfiction", \
+          "url"      : "/2021-01-09-tech-books-to-read-in-2021/", \
+          "date"     : "January  9, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "My year in code - 2020 review", \
+          "category" : "data scienceprojects", \
+          "url"      : "/2020-12-29-my-year-in-code/", \
+          "date"     : "December 29, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Detecting emotions from speech with neural networks", \
+          "category" : "data scienceprojectsbootcamp", \
+          "url"      : "/2020-12-20-bootcamp12/", \
+          "date"     : "December 20, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Best practices for software engineering", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-12-12-bootcamp11/", \
+          "date"     : "December 12, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating a movie recommender system with Python and Flask", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-12-05-bootcamp10/", \
+          "date"     : "December  5, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Classifying clothes images with neural networks", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-11-28-bootcamp9/", \
+          "date"     : "November 28, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating a Markov chain Monte Carlo simulation in Python", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-11-21-bootcamp8/", \
+          "date"     : "November 21, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Building a Slackbot for live tweets with Python and Docker", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-11-14-bootcamp7/", \
+          "date"     : "November 14, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating a Metabase dashboard on Postgres and AWS", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-11-07-bootcamp6/", \
+          "date"     : "November  7, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Forecasting the weather in Berlin with ARIMA models", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-10-31-bootcamp5/", \
+          "date"     : "October 31, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Building a lyrics scraper and classifier in Python", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-10-24-bootcamp4/", \
+          "date"     : "October 24, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Predicting bike share demand with linear regression", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-10-17-bootcamp3/", \
+          "date"     : "October 17, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Predicting Titanic survivors with decision tree classifiers", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-10-10-bootcamp2/", \
+          "date"     : "October 10, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating animated scatterplots with Python", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/2020-10-03-bootcamp1/", \
+          "date"     : "October  3, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "5 eye-opening books about AI ethics", \
+          "category" : "booksnonfictionAI", \
+          "url"      : "/2020-08-19-books-ethics-ai/", \
+          "date"     : "August 19, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Women in Data Symposium - Skills to Last a Decade", \
+          "category" : "data scienceevents", \
+          "url"      : "/2020-07-31-womenindata-symposium/", \
+          "date"     : "July 31, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "4 tips for creating a great data science portfolio", \
+          "category" : "data sciencecareer", \
+          "url"      : "/2020-07-29-tips-for-datascience-portfolio/", \
+          "date"     : "July 29, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Die geheimen Muster der Sprache von Rottler/Martin", \
+          "category" : "bookslinguisticsdeutschreviews", \
+          "url"      : "/2020-06-27-buchrezension-geheimen-muster-sprache/", \
+          "date"     : "June 27, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Invisible Women by Caroline Criado Perez", \
+          "category" : "booksdata sciencereviews", \
+          "url"      : "/2020-06-10-book-review-invisible-women/", \
+          "date"     : "June 10, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "The Pitfalls of Deep Learning (WAD talk)", \
+          "category" : "data scienceevents", \
+          "url"      : "/2020-05-26-wad-pitfalls-deeplearning/", \
+          "date"     : "May 26, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Diversity in IT Jobs (WAD talk)", \
+          "category" : "data scienceeventscareer", \
+          "url"      : "/2020-05-25-wad-diversity-it/", \
+          "date"     : "May 25, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "10 data science books to read during lockdown", \
+          "category" : "data sciencebooksnonfiction", \
+          "url"      : "/2020-05-05-datascience-books-for-lockdown/", \
+          "date"     : "May  5, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Der Stand der Bibliotheken in Deutschland", \
+          "category" : "data sciencedeutsch", \
+          "url"      : "/2020-04-23-weltbuchtag/", \
+          "date"     : "April 23, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Goodreads Reading Challenge 2019", \
+          "category" : "data sciencebooks", \
+          "url"      : "/2019-12-30-goodreads-reading-challenge/", \
+          "date"     : "December 30, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Exhibition of Art of Akume", \
+          "category" : "artevents", \
+          "url"      : "/2019-03-31-art-of-akume-exhibition/", \
+          "date"     : "March 31, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Web-scraping IMDb with R", \
+          "category" : "data scienceprojectstutorials", \
+          "url"      : "/2019-03-29-web-scraping-imdb-with-r/", \
+          "date"     : "March 29, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Analysing my reading habits from Goodreads data", \
+          "category" : "data scienceprojects", \
+          "url"      : "/2018-10-21-tableau-visualisation-goodreads/", \
+          "date"     : "October 21, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "Talking about psych-verbs @ 5th Linguistics Meetup in Potsdam", \
+          "category" : "linguisticsdata scienceevents", \
+          "url"      : "/2018-08-04-poster-linguistik-meetup-potsdam/", \
+          "date"     : "August  4, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "Talking about autism in Austrian newspapers @ 8th ULAB Conference in Edinburgh", \
+          "category" : "linguisticsevents", \
+          "url"      : "/2018-04-11-ulab-conference-edinburgh/", \
+          "date"     : "April 11, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "Learnings from the 11th Meeting of Patholinguistics in Potsdam", \
+          "category" : "linguisticsevents", \
+          "url"      : "/2017-11-20-patholinguistics-conference-potsdam/", \
+          "date"     : "November 20, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Expolingua Berlin", \
+          "category" : "linguisticsevents", \
+          "url"      : "/2017-11-17-expolingua-berlin/", \
+          "date"     : "November 17, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Talking about the brains of interpreters @ 2nd Conference for Student Research in Berlin", \
+          "category" : "linguisticsevents", \
+          "url"      : "/2017-09-22-conference-student-research-berlin/", \
+          "date"     : "September 22, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "The effects of anesthesia on language", \
+          "category" : "linguistics", \
+          "url"      : "/2017-09-11-effects-of-anesthesia-on-language/", \
+          "date"     : "September 11, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Talking about semantic dementia @ 4th Linguistics Meetup in Berlin", \
+          "category" : "linguisticsevents", \
+          "url"      : "/2017-08-04-linguistik-meetup-berlin/", \
+          "date"     : "August  4, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Xenolinguistics by D.R. Slattery", \
+          "category" : "linguisticsbooksreviews", \
+          "url"      : "/2016-12-21-xenolinguistics-book-review/", \
+          "date"     : "December 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Research findings about bilingualism in 2016", \
+          "category" : "linguistics", \
+          "url"      : "/2016-12-21-bilingualism-research-2016/", \
+          "date"     : "December 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Learning about languages of trauma", \
+          "category" : "linguisticsevents", \
+          "url"      : "/2016-11-28-conference-languages-of-trauma/", \
+          "date"     : "November 28, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Learnings from the 10th Meeting of Patholinguistics in Potsdam", \
+          "category" : "linguisticsevents", \
+          "url"      : "/2016-11-23-patholinguistics-meeting-potsdam/", \
+          "date"     : "November 23, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Tales on Blindness by Cláudia Alves", \
+          "category" : "artreviews", \
+          "url"      : "/2015-07-01-film-review-tales-on-blindness/", \
+          "date"     : "July  1, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Plaidoyer pour l’écriture manuscrite", \
+          "category" : "linguisticsfrancaisthoughts", \
+          "url"      : "/2015-05-20-plaidoyer-pour-ecriture-manuscrite/", \
+          "date"     : "May 20, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Die sechste Jahreszeit von Jan Soldat", \
+          "category" : "artdeutschreviews", \
+          "url"      : "/2015-04-27-filmkritik-jan-soldat/", \
+          "date"     : "April 27, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Alexander Rodchenko @ Westlicht Wien", \
+          "category" : "arteventsfrancaisdeutschreviews", \
+          "url"      : "/2013-10-30-alexander-rodchenko-westlicht/", \
+          "date"     : "October 30, 2013" \
+        }, \
+       \
+        { \
+          "title"    : "Linda McCartney @ Kunsthaus Wien", \
+          "category" : "arteventsfrancaisdeutschreviews", \
+          "url"      : "/2013-07-26-linda-mccartney-kunsthaus/", \
+          "date"     : "July 26, 2013" \
+        }, \
+       \
+        { \
+          "title"    : "Photo and camera auction @ Westlicht Wien", \
+          "category" : "arteventsfrancais", \
+          "url"      : "/2013-05-30-foto-auktion-westlicht-wien/", \
+          "date"     : "May 30, 2013" \
+        }, \
+       \
+        { \
+          "title"    : "An evening with Ulrich Seidl in Vienna", \
+          "category" : "arteventsfrancais", \
+          "url"      : "/2013-05-25-ulrich-seidl-interview/", \
+          "date"     : "May 25, 2013" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "ABOUT", \
+          "category" : "page", \
+          "url"      : "/about/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "DISCLAIMER", \
+          "category" : "page", \
+          "url"      : "/disclaimer/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "ARCHIVE", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "WORK", \
+          "category" : "page", \
+          "url"      : "/work/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/page2/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/page3/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/page4/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/page5/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/page6/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/page7/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/page8/", \
+          "date"     : "January 1 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
+
 
 
   <!-- TODO this file has become a mess, refactor it -->
@@ -181,6 +850,18 @@
           
             <span class="post-meta">Posted on October 17, 2020</span>
             
+            
+              <!--- "ReadTime on GitHub Jekyll" (c) 2020 Ruby Griffith Ramirez, MIT License -->
+
+
+
+
+
+
+  
+  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> 2 minute read</span>
+
+
             
           
         </div>
@@ -386,6 +1067,14 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
     <a href="https://linkedin.com/in/lorena-ciutacu" title="LinkedIn">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>

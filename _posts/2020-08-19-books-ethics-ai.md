@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 eye-opening books about AI ethics
-tags: [books, nonfiction]
+tags: [books, nonfiction, AI]
 comments: true
 ---
 

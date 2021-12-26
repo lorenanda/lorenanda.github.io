@@ -3,6 +3,7 @@ layout: post
 title: September books wrap-up
 tags: [books, nonfiction, fiction, reviews]
 comments: true
+thumbnail-img: ../assets/img/septemberbooks.JPG
 ---
 
 ![cover](../assets/img/septemberbooks.JPG)

@@ -3,6 +3,8 @@ layout: post
 title: 5 ways to keep your skills fresh after finishing a coding bootcamp
 tags: [career, data science]
 comments: true
+thumbnail-img: ../assets/img/RazerGreenKeyboard.JPG
+readtime: true
 ---
 
 ![cover image](../assets/img/RazerGreenKeyboard.JPG)

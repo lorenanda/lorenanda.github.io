@@ -31,6 +31,9 @@ round-avatar: true
 # then specify the following parameter
 #title-img: "/assets/img/LC.png"
 
+# Add a search button to the navbar
+post_search: true
+
 # --- Footer social media links --- #
 
 # Select the social network links that you want to show in the footer.
@@ -57,7 +60,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-#rss-description: Stay up to date with the blog posts
+rss-description: Stay up to date with the blog posts
 
 # --- General options --- #
 
@@ -140,9 +143,6 @@ google_analytics: "UA-119170762-2"
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 #disqus: "https-lorenanda-github-io"
 
-# To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-#fb_comment_id: ""
-
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
@@ -172,8 +172,6 @@ google_analytics: "UA-119170762-2"
 # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
 
-# Facebook App ID
-#fb_app_id: ""
 
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
@@ -196,6 +194,7 @@ defaults:
       layout: "post"
       comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      readtime: true
   - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
