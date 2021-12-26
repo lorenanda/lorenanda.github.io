@@ -3,7 +3,6 @@ layout: post
 title: October books wrap-up
 tags: [books, nonfiction, reviews]
 comments: true
-thumbnail-img: ./assets/img/octoberbooks.jpg
 ---
 
 ![cover image of october books](../assets/img/octoberbooks.jpg)
