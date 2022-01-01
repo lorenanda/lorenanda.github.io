@@ -14,9 +14,10 @@ author: Lorena Ciutacu
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About: "about"
   Work: "work"
-  Archive: "tags"
+  Blog: "blog"
+  Contact: "contact"
+ 
 
 # --- Logo --- #
 
