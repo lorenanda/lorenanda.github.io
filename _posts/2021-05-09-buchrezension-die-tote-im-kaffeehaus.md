@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Die Tote im Kaffeehaus von Beate Maxian
-tags: [books, fiction, deutsch, reviews]
+tags: [books, fiction, deutsch, reviews, bloggerportal]
 comments: true
 ---
 

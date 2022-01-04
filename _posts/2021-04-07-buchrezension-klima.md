@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Klima von David Klass
-tags: [books, fiction, deutsch, reviews]
+tags: [books, fiction, deutsch, reviews, bloggerportal]
 comments: true
 ---
 

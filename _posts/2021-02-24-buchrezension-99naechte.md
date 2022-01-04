@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 99 Nächte in Logar von Jamil Jan Kochai
-tags: [books, fiction, deutsch, reviews]
+tags: [books, fiction, deutsch, reviews, bloggerportal]
 comments: true
 ---
 

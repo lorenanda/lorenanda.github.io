@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gefährliche Mittsommernacht von Christoffer Holst
-tags: [books, fiction, deutsch, reviews]
+tags: [books, fiction, deutsch, reviews, bloggerportal]
 comments: true
 ---
 
