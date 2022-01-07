@@ -7,7 +7,7 @@ comments: true
 
 [Goodreads](goodreads.com) is an amazing platform for tracking and organizing your reading, discovering new books, and sharing reviews or recommandations with friends. I downloaded my library (from My Books > Tools > Import and Export > Export Library), which included the book titles, authors' names, publishing year, number of pages, the average book rating on goodreads and my rating. For extra fun, I added two dimensions to the dataset: the author's country of origin and the language in which I've read the book.
 
-On my quest to becoming a data scientist, I've recently played with [my goodreads](https://www.goodreads.com/Lorenanda) data to get some insights into my reading habits in the past six years. You can have a look [here](https://github.com/lorenanda/goodreads) at the full dataset and basic analysis with Python. For a quick and colorful overview, I create two interactive dashboards: [one in Google Data Studio](https://datastudio.google.com/embed/reporting/1G4jH00ImVcFU1c8X_wFyWRNP2SN6v5WH/page/Ivkh) and one in [Tableau](https://public.tableau.com/profile/lorena.ciutacu).
+On my quest to becoming a data scientist, I've recently played with [my goodreads](https://www.goodreads.com/lorenasbooks) data to get some insights into my reading habits in the past six years. You can have a look [in the GitHub repo](https://github.com/lorenanda/goodreads) at the full dataset and basic analysis with Python. For a quick and colorful overview, I create two interactive dashboards: [one in Google Data Studio](https://datastudio.google.com/embed/reporting/1G4jH00ImVcFU1c8X_wFyWRNP2SN6v5WH/page/Ivkh) and one in [Tableau](https://public.tableau.com/profile/lorena.ciutacu).
 
 In this post I'll focus only Tableau. First of all, I mapped the books I've read to have an overview of **my global library**. The color gradient represents the count of books read from that country -- the darker the color, the more books. In the Tableau viz you can hover over each country to see the exact number of books.
 
@@ -29,4 +29,4 @@ I'm a polyglot and reading literature is my favorite way to learn languages. Whe
 
 ![languages](https://lorenaciutacu.files.wordpress.com/2018/10/languages-e1539946580647.jpg?w=736)
 
-This is my first Tableau viz and it was exciting to learn the software with the goodreads data. Tableau is quite intuitive to use and offers some [helpful tutorials and datasets](https://www.tableau.com/learn/training)[, ](https://www.tableau.com/learn/training)which makes data analysis so playful!
+This is my first Tableau viz and it was exciting to learn the software with the goodreads data.

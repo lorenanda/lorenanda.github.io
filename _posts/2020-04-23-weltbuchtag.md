@@ -7,7 +7,7 @@ comments: true
 
 ![cover](../assets/img/weltbuchtag.jpg){: .mx-auto.d-block :}
 
-Am 23. April 2020 feiern alle Bücherwürmer den [Welttag des Buches](https://www.welttag-des-buches.de/)! Letztes Jahr habe ich zu diesem Anlass eine [Infografik zum Stand der Buchproduktion in Österreich](https://lorenaciutacu.com/2019/04/23/weltbuchtag-2019-oesterreich/) erstellt. Dieses Jahr liegt mein Fokus auf der Situation der Bibliotheken in Deutschland.
+Am 23. April 2020 feiern alle Bücherwürmer den [Welttag des Buches](https://www.welttag-des-buches.de/)! Letztes Jahr habe ich zu diesem Anlass eine Infografik zum Stand der Buchproduktion in Österreich erstellt. Dieses Jahr liegt mein Fokus auf der Situation der Bibliotheken in Deutschland.
 
 Auf der [Webseite des Statistischen Bundesamtes](https://www-genesis.destatis.de/genesis/online?levelindex=3&levelid=1587381269102&downloadname=&operation=ergebnistabelleDiagramm&option=diagramm&diagrammTyp=0&zeichnePunkte=false#abreadcrumb) habe ich Daten zu Haupt- und Zweigstellen der Bibliotheken in Deutschland von 2000 bis 2018 gefunden. Ich habe die Daten heruntergeladen, analysiert und sie auf einem [Dashboard in Google Data Studio ](https://datastudio.google.com/s/hjMWSwuxXN0)visualisiert. Hier sind die wichtigsten Erkenntnisse, die ich aus der Datenanalyse gewonnen habe:
 

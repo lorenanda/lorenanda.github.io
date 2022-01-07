@@ -9,7 +9,7 @@ comments: true
 
 On the occasion of the [International Mother Language Day](https://www.un.org/en/observances/mother-language-day) (21st February), I did and exploratory analysis and data visualisation of the [World Language Family Map dataset](https://www.kaggle.com/rtatman/world-language-family-map) with pandas and matplotlib.
 
-# Setup
+## Setup
 
 The first step in the exploratory analysis is to read in the data and get an overview of the features: how many rows and columns are included and what are the names of the columns.
 
@@ -27,9 +27,9 @@ The dataset contains 23243 observations and 18 language features. For this proje
 lns_df = df[['level', 'name', 'status']]
 ```
 
-# Exploratory Analysis
+## Exploratory Analysis
 
-## Overview
+### Overview
 
 I start the exploratory analysis with an overview of the selected features in `lns_df`, so I want to see how many unique values each feature has:
 
@@ -56,7 +56,7 @@ lns_df['status'].unique()
 - **critically endangered**: the youngest speakers are grandparents and older, and they speak the language partially and infrequently.
 - **extinct**: there are no speakers left.
 
-## Language level
+### Language level
 
 Next, more specifically I want to see how many language families, languages, and dialects are in the dataset:
 
@@ -74,7 +74,7 @@ lang_sum.plot(kind='bar')
 
 ![Barplot](../assets/img/endangered_languages_barplot.png){: .mx-auto.d-block :}
 
-## Language status
+### Language status
 
 Now let's see the total number of languages in each status:
 
@@ -92,7 +92,7 @@ level_status.plot(kind='bar', stacked=True)
 
 ![Status_plot](../assets/img/endangered_languages_status.png){: .mx-auto.d-block :}
 
-## Endangered languages
+### Endangered languages
 
 After getting an overview of the language status and level situations, I want to see what specific languages are in each group. Specifically, I was curious what language families were extinct:
 
@@ -103,6 +103,6 @@ ext_fam_names = ext_fam[['name']]
 
 There are three extinct language families: Chimakuan, Djiwarli-Thiin, and Garrwan.
 
-# Next steps
+## Next steps
 
 This exploratory analysis is only a starting point, there are many other questions you can explore from this dataset. For example, find what dialects are critically endangered, what is the geographic distribution of endangered languages, or maybe analyse and visualise the data with other libraries than pandas and matplotlib. Have a look at my [Jupyter notebook](https://github.com/lorenanda/world-languages) and play around with the data!

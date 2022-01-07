@@ -772,55 +772,6 @@
           "category" : "page", \
           "url"      : "/work/", \
           "date"     : "January 1 1970" \
-        }, \
-       \
-        { \
-          "title"    : "", \
-          "category" : "page", \
-          "url"      : "/page2/", \
-          "date"     : "January 1 1970" \
-        }, \
-       \
-        { \
-          "title"    : "", \
-          "category" : "page", \
-          "url"      : "/page3/", \
-          "date"     : "January 1 1970" \
-        }, \
-       \
-        { \
-          "title"    : "", \
-          "category" : "page", \
-          "url"      : "/page4/", \
-          "date"     : "January 1 1970" \
-        }, \
-       \
-        { \
-          "title"    : "", \
-          "category" : "page", \
-          "url"      : "/page5/", \
-          "date"     : "January 1 1970" \
-        }, \
-       \
-        { \
-          "title"    : "", \
-          "category" : "page", \
-          "url"      : "/page6/", \
-          "date"     : "January 1 1970" \
-        }, \
-       \
-        { \
-          "title"    : "", \
-          "category" : "page", \
-          "url"      : "/page7/", \
-          "date"     : "January 1 1970" \
-        }, \
-       \
-        { \
-          "title"    : "", \
-          "category" : "page", \
-          "url"      : "/page8/", \
-          "date"     : "January 1 1970" \
         } \
        \
     ]';
@@ -915,7 +866,7 @@
       <article role="main" class="blog-post">
         <p>On the occasion of the <a href="https://www.un.org/en/observances/mother-language-day">International Mother Language Day</a> (21st February), I did and exploratory analysis and data visualisation of the <a href="https://www.kaggle.com/rtatman/world-language-family-map">World Language Family Map dataset</a> with pandas and matplotlib.</p>
 
-<h1 id="setup">Setup</h1>
+<h2 id="setup">Setup</h2>
 
 <p>The first step in the exploratory analysis is to read in the data and get an overview of the features: how many rows and columns are included and what are the names of the columns.</p>
 
@@ -931,9 +882,9 @@
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">lns_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s">'level'</span><span class="p">,</span> <span class="s">'name'</span><span class="p">,</span> <span class="s">'status'</span><span class="p">]]</span>
 </code></pre></div></div>
 
-<h1 id="exploratory-analysis">Exploratory Analysis</h1>
+<h2 id="exploratory-analysis">Exploratory Analysis</h2>
 
-<h2 id="overview">Overview</h2>
+<h3 id="overview">Overview</h3>
 
 <p>I start the exploratory analysis with an overview of the selected features in <code class="language-plaintext highlighter-rouge">lns_df</code>, so I want to see how many unique values each feature has:</p>
 
@@ -962,7 +913,7 @@
   <li><strong>extinct</strong>: there are no speakers left.</li>
 </ul>
 
-<h2 id="language-level">Language level</h2>
+<h3 id="language-level">Language level</h3>
 
 <p>Next, more specifically I want to see how many language families, languages, and dialects are in the dataset:</p>
 
@@ -978,7 +929,7 @@
 
 <p><img src="../assets/img/endangered_languages_barplot.png" alt="Barplot" class="mx-auto d-block" /></p>
 
-<h2 id="language-status">Language status</h2>
+<h3 id="language-status">Language status</h3>
 
 <p>Now let’s see the total number of languages in each status:</p>
 
@@ -994,7 +945,7 @@
 
 <p><img src="../assets/img/endangered_languages_status.png" alt="Status_plot" class="mx-auto d-block" /></p>
 
-<h2 id="endangered-languages">Endangered languages</h2>
+<h3 id="endangered-languages">Endangered languages</h3>
 
 <p>After getting an overview of the language status and level situations, I want to see what specific languages are in each group. Specifically, I was curious what language families were extinct:</p>
 
@@ -1004,7 +955,7 @@
 
 <p>There are three extinct language families: Chimakuan, Djiwarli-Thiin, and Garrwan.</p>
 
-<h1 id="next-steps">Next steps</h1>
+<h2 id="next-steps">Next steps</h2>
 
 <p>This exploratory analysis is only a starting point, there are many other questions you can explore from this dataset. For example, find what dialects are critically endangered, what is the geographic distribution of endangered languages, or maybe analyse and visualise the data with other libraries than pandas and matplotlib. Have a look at my <a href="https://github.com/lorenanda/world-languages">Jupyter notebook</a> and play around with the data!</p>
 

@@ -7,7 +7,7 @@ comments: true
 
 ![cover](../assets/img/womenindata.png){: .mx-auto.d-block :}
 
-[Women in Data](https://www.womenindata.org/) is an international non-profit organization dedicated to increasing diversity in data-related careers by organizing conferences, networking events, and mentorship programs around the world. The **Berlin Chapter of WiD** was just [founded in May](https://lorenaciutacu.com/2020/05/15/women-in-data-berlin-chapter-kick-off/) this year and I was very excited to join as a Marketing Coordinator.
+[Women in Data](https://www.womenindata.org/) is an international non-profit organization dedicated to increasing diversity in data-related careers by organizing conferences, networking events, and mentorship programs around the world. The **Berlin Chapter of WiD** was just founded in May this year and I was very excited to join as a Marketing Coordinator.
 
 This week, **27-31 July 2020**, we hosted our first event: the **online symposium "Skills To Last A Decade"**. Sixteen incredible women working in tech and data roles, mainly in Germany, shared their knowledge and advice in 14 talks on different topics, from data journalism to Artifical Intelligence and career skills.
 
