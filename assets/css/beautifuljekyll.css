@@ -975,8 +975,11 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   margin: 0.625rem 0 0;
   justify-content: space-between;
   display: inline;
-  border-color: red !important;
 }
+
+.pagination.blog-pager a.page-link{
+  border: none ;
+} 
 
 .pagination.blog-pager {
   margin-top: 0;
