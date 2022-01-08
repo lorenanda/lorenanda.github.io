@@ -15,9 +15,9 @@ html {
 body {
   font-family: 'Alliance No. 2', 'Alliance No. 1', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
-  color: #212529;
+  color: #000;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #FFF;
   
 }
 
@@ -54,14 +54,14 @@ h2 {
 }
 
 
-section {
+.work-details section {
   max-width: var(--sectionWidth);
   margin: 40px auto;
   width: 97%;
   color: #000;
 }
 
-summary {
+.work-details summary {
   display: block;
   cursor: pointer;
   padding: 10px;
@@ -196,12 +196,24 @@ h1, h2, h3, h4 {
 
 
 a {
-  color: #926c15;
+  color: #716d6d; /*#716d6d;*/
+  /*background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgba(0, 255, 0, 0.35) calc(50% - 9px), rgba(0, 255, 0, 0.35) 100%);
+  transition: all 120ms ease-in-out 0s;
+  padding: 2px 0px 1px;
+  background-size: 100% 200%;
+  word-break: break-word;
+  background-position: 0px 0px;*/
 }
 
 a:hover,
 a:focus {
-  color: #926c15;
+  font-weight: bold;
+  text-decoration: none;
+  color: #716d6d;/*#716d6d;*/
+  /*text-shadow:: rgb(0, 187, 0) 1px 1px 0px;
+  background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgb(0, 255, 0) calc(50% - 9px), rgb(0, 255, 0) 100%);
+  background-position: 0px 100%;
+  transition: all 120ms ease-in-out 0s;*/
 }
 
 blockquote {
@@ -228,12 +240,12 @@ blockquote p:first-child {
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
-  background-color: #926c15;
+  background-color: #716d6d;
 }
 ::selection {
   color: #fff;
   text-shadow: none;
-  background-color: #926c15;
+  background-color: #716d6d;
 }
 img::selection {
   color: #fff;
@@ -294,7 +306,7 @@ figure {
 
 .navbar-custom {
   background-color: #FFF;
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 1px solid #FFF;
   font-family: 'Alliance No. 2', 'Alliance No. 1', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
   
@@ -360,7 +372,7 @@ figure {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 600;
-  color: #212529;
+  color: #000;
 }
 
 .navbar-toggler {
@@ -434,7 +446,7 @@ figure {
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
-  color: #212529;
+  color: #000;
 }
 
 @media (min-width: 1200px) {
@@ -444,14 +456,14 @@ figure {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid #EAEAEA;
+    border: 1px solid #FFF;
     border-width: 0 1px 1px;
   }
 }
 
 @media (max-width: 1199px) {
   .navbar-custom .navbar-collapse {
-    border-top: 1px solid #EAEAEA;
+    border-top: 1px solid #FFF;
     margin: 0 -1rem;
     border-color: white;
   }
@@ -478,7 +490,7 @@ figure {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: #926c15;
+  color: #716d6d;
 }
 
 .navbar-custom .avatar-container {
@@ -551,11 +563,11 @@ footer {
 }
 
 footer p.text-muted {
-  color: #777777 !important;
+  color: #716d6d !important;
 }
 
 footer a {
-  color: #212529;
+  color: #000;
 }
 
 footer .list-inline {
@@ -615,13 +627,13 @@ footer .footer-custom-content {
 .post-preview a {
   text-decoration: none;
   font-family: 'Alliance No. 2', 'Alliance No. 1','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #212529;
+  color: #000;
 }
 
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #926c15;
+  color: #716d6d;
 }
 
 .post-preview .post-title {
@@ -722,12 +734,12 @@ footer .footer-custom-content {
 }
 
 .blog-tags span {
-  color: #212529;
+  color: #000;
   opacity: 0.8;
 }
 
 .blog-tags a {
-  color: #212529;
+  color: #000;
   text-decoration: none;
   padding: 0 0.3125rem;
   opacity: 0.8;
@@ -737,8 +749,8 @@ footer .footer-custom-content {
 
 .blog-tags a:hover {
   opacity: 1;
-  color: #212529;
-  border-color: #212529;
+  color: #000;
+  border-color: #000;
 }
 
 .post-preview .blog-tags {
@@ -972,7 +984,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   padding: 0.625rem 0.3125rem;
   background-color: #FFF;
   border-radius: 0;
-  color: #212529;
+  color: #000;
 }
 @media (min-width: 768px) {
   .pagination .page-item .page-link {
@@ -982,8 +994,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
   color: #FFF;
-  border: 1px solid #926c15;
-  background-color: #926c15;
+  border: 1px solid #716d6d;
+  background-color: #716d6d;
 }
 
 /* --- Tables --- */

@@ -91,15 +91,15 @@ keywords: "data scientist, women in data, linguistics research projects, buchrez
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#FFF"
-navbar-text-col: "#212529"
-navbar-border-col: "#EAEAEA"
-page-col: "#FFFFFF"
-text-col: "#212529"
-link-col: "#926c15"
-hover-col: "#926c15"
+navbar-text-col: "#000"
+navbar-border-col: "#FFF"
+page-col: "#FFF"
+text-col: "#000"
+link-col: "#716d6d"
+hover-col: "#716d6d"
 footer-col: "#FFF"
-footer-text-col: "#777777"
-footer-link-col: "#212529"
+footer-text-col: "#716d6d"
+footer-link-col: "#000"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour

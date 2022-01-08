@@ -61,14 +61,14 @@ h2 {
 }
 
 
-section {
+.work-details section {
   max-width: var(--sectionWidth);
   margin: 40px auto;
   width: 97%;
   color: #000;
 }
 
-summary {
+.work-details summary {
   display: block;
   cursor: pointer;
   padding: 10px;
@@ -203,12 +203,24 @@ h1, h2, h3, h4 {
 
 
 a {
-  color: {{ site.link-col | default: "#008AFF" }};
+  color: {{ site.link-col}}; /*{{ site.link-col | default: "#008AFF" }};*/
+  /*background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgba(0, 255, 0, 0.35) calc(50% - 9px), rgba(0, 255, 0, 0.35) 100%);
+  transition: all 120ms ease-in-out 0s;
+  padding: 2px 0px 1px;
+  background-size: 100% 200%;
+  word-break: break-word;
+  background-position: 0px 0px;*/
 }
 
 a:hover,
 a:focus {
-  color: {{ site.hover-col | default: "#0085A1" }};
+  font-weight: bold;
+  text-decoration: none;
+  color: {{ site.link-col }};/*{{ site.hover-col | default: "#0085A1" }};*/
+  /*text-shadow:: rgb(0, 187, 0) 1px 1px 0px;
+  background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgb(0, 255, 0) calc(50% - 9px), rgb(0, 255, 0) 100%);
+  background-position: 0px 100%;
+  transition: all 120ms ease-in-out 0s;*/
 }
 
 blockquote {
