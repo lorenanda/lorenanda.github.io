@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>How to write in accessible language</title>
+        <description>
+          
+          As a technical writer creating tutorials and courses for users of all levels, I’m constantly re-evaluating my content, looking for ways to make it more accessible and easy to understand. I had one such oportunity yesterday, when I attended the workshop Improve Your Writing Using Accessible Language, held by Amy...
+        </description>
+        <pubDate>Sat, 15 Jan 2022 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2022-01-15-accessible-language/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-01-15-accessible-language/</guid>
+      </item>
+    
+      <item>
         <title>5 ways to keep your skills fresh after finishing a coding bootcamp</title>
         <description>
           
@@ -218,17 +229,6 @@
         <pubDate>Sun, 02 May 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2021-05-02-buchrezension-trauma/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-05-02-buchrezension-trauma/</guid>
-      </item>
-    
-      <item>
-        <title>April books wrap-up</title>
-        <description>
-          
-          Here’s to another month of reading good books! In April I read 6 books (4 fiction and 2 non-fiction) amounting to 1930 pages and a 3.6 average rating. Without further ado, here are my thoughts on the five books I read this month. FICTION Out Of Time by David Klass...
-        </description>
-        <pubDate>Fri, 30 Apr 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-04-30-april-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-04-30-april-books/</guid>
       </item>
     
   </channel>
