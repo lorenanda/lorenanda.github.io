@@ -59,7 +59,7 @@ In the second step, the incoming message from Telegram has to be analyzed with P
 
 -   *Operation*: Analyze Content\
     This operation analyzes the incoming text message.
--   *Text*: {{$json["message"]["text"]}}\
+-   *Text*: {% raw %} `{{$json["message"]["text"]}}` {% endraw %}
     This expression selects the incoming Telegram message to be analyzed.
 
 In the section *Attributes to Analyze* you can add one or more attributes supported by Perspective that you want to be detected in the incoming message. If you don't add any attribute, all will be returned by default. For this example, the node is configured to detect profanities and identity attacks in the text, so two attributes are added with the properties:
@@ -79,7 +79,7 @@ Now if you execute the *Google Perspective node*, the output should look like th
 
 In the third step, the toxic messages with a probability higher that 0.7 have to be filtered out. For this, you need to set up an *IF node* with the following parameters:
 
--   *Value 1:* {{$json["attributeScores"]["PROFANITY"]["summaryScore"]["value"]}}\
+-   *Value 1:* {% raw %} `{{$json["attributeScores"]["PROFANITY"]["summaryScore"]["value"]}}` {% endraw %} \
     This expression selects the score value of the respective attribute.
 -   ***Operation:* Larger**
 -   *Value 2*: 0.7\
@@ -97,9 +97,9 @@ The final step is taking action against the toxic message. A mild action would b
 
 -   *Resource*: Message
 -   *Operation*: Send Message
--   *Chat ID*: {{$node["Telegram Trigger"].json["message"]["chat"]["id"]}}
+-   *Chat ID*: {% raw %} `{{$node["Telegram Trigger"].json["message"]["chat"]["id"]}}` {% endraw %}
 -   *Text*: I don't tolerate toxic language!
--   *Add Field > Reply to Message ID*: {{$node["Telegram Trigger"].json["message"]["message_id"]}}
+-   *Add Field > Reply to Message ID*: {% raw %} `{{$node["Telegram Trigger"].json["message"]["message_id"]}}` {% endraw %}
 
 ![Configuration of the Telegram node](https://lh4.googleusercontent.com/wA7GLd-yBfCEzNKH4hYxGC1Y7oV46KLpObgeDiPo7lBZjTnqyc02B01Ja_gNwbFZLeh_CTPtjVqUz_VlkPHvg2PO6SW2-5qzevSlYc0F6SeDve8bUp_NYJ9pddmKrKdgLcd26_57=s0)
 

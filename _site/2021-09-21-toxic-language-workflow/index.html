@@ -925,7 +925,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Create a toxic language detector for Telegram in 4 steps" />
 <script type="application/ld+json">
-{"description":"When was the last time you talked to someone online, be it friends, coworkers, or even strangers? Nowadays, you most likely do it every day.","@type":"BlogPosting","headline":"Create a toxic language detector for Telegram in 4 steps","dateModified":"2021-09-21T00:00:00+02:00","datePublished":"2021-09-21T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://n8n.io/blog/create-a-toxic-language-detector-for-telegram/"},"author":{"@type":"Person","name":"Lorena Ciutacu"},"url":"https://n8n.io/blog/create-a-toxic-language-detector-for-telegram/","@context":"https://schema.org"}</script>
+{"dateModified":"2021-09-21T00:00:00+02:00","datePublished":"2021-09-21T00:00:00+02:00","description":"When was the last time you talked to someone online, be it friends, coworkers, or even strangers? Nowadays, you most likely do it every day.","mainEntityOfPage":{"@type":"WebPage","@id":"https://n8n.io/blog/create-a-toxic-language-detector-for-telegram/"},"@type":"BlogPosting","headline":"Create a toxic language detector for Telegram in 4 steps","author":{"@type":"Person","name":"Lorena Ciutacu"},"url":"https://n8n.io/blog/create-a-toxic-language-detector-for-telegram/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -992,7 +992,7 @@
 <ul>
   <li><em>Operation</em>: Analyze Content<br />
 This operation analyzes the incoming text message.</li>
-  <li><em>Text</em>: <br />
+  <li><em>Text</em>:  <code class="language-plaintext highlighter-rouge">{{$json["message"]["text"]}}</code> 
 This expression selects the incoming Telegram message to be analyzed.</li>
 </ul>
 
@@ -1015,7 +1015,7 @@ This value sets the score above which to return results. The score is a value be
 <p>In the third step, the toxic messages with a probability higher that 0.7 have to be filtered out. For this, you need to set up an <em>IF node</em> with the following parameters:</p>
 
 <ul>
-  <li><em>Value 1:</em> <br />
+  <li><em>Value 1:</em>  <code class="language-plaintext highlighter-rouge">{{$json["attributeScores"]["PROFANITY"]["summaryScore"]["value"]}}</code>  <br />
 This expression selects the score value of the respective attribute.</li>
   <li><strong><em>Operation:</em> Larger</strong></li>
   <li><em>Value 2</em>: 0.7<br />
@@ -1035,9 +1035,9 @@ This is the value we want to compare the score with.</li>
 <ul>
   <li><em>Resource</em>: Message</li>
   <li><em>Operation</em>: Send Message</li>
-  <li><em>Chat ID</em>:</li>
+  <li><em>Chat ID</em>:  <code class="language-plaintext highlighter-rouge">{{$node["Telegram Trigger"].json["message"]["chat"]["id"]}}</code></li>
   <li><em>Text</em>: I don’t tolerate toxic language!</li>
-  <li><em>Add Field &gt; Reply to Message ID</em>:</li>
+  <li><em>Add Field &gt; Reply to Message ID</em>:  <code class="language-plaintext highlighter-rouge">{{$node["Telegram Trigger"].json["message"]["message_id"]}}</code></li>
 </ul>
 
 <p><img src="https://lh4.googleusercontent.com/wA7GLd-yBfCEzNKH4hYxGC1Y7oV46KLpObgeDiPo7lBZjTnqyc02B01Ja_gNwbFZLeh_CTPtjVqUz_VlkPHvg2PO6SW2-5qzevSlYc0F6SeDve8bUp_NYJ9pddmKrKdgLcd26_57=s0" alt="Configuration of the Telegram node" /></p>

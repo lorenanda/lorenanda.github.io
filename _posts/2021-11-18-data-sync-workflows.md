@@ -129,14 +129,13 @@ To update contact information in HubSpot, configure the following parameters in 
 
 -   *Resource*: Contact
 -   *Operation*: Create/Update
--   *Email > Add Expression > Current Node > Output Data > JSON > email > [Item: 0] > value*: `{{$json["email"][0]["value"]}}`
--   *Additional Fields > Add Field > First Name > Add Expression > Current Node > Output Data > JSON > first_name*: `{{$json["first_name"]}}`
+-   *Email > Add Expression > Current Node > Output Data > JSON > email > [Item: 0] > value*: {% raw %}`{{$json["email"][0]["value"]}}`{% endraw %}
+-   *Additional Fields > Add Field > First Name > Add Expression > Current Node > Output Data > JSON > first_name*: {% raw %}`{{$json["first_name"]}}`{% endraw %}
 
 ![Configuration of HubSpot node to update data](https://lh4.googleusercontent.com/nrBLg2_gGG1VMjmcdt79gjVxvNs1vMR774UAJiEDhpmgin759JZwd9uJRkuJml_Ev7PdX6fa1889yy68PnM8x7lktiaESIKzc7m6ApaNFxFdmhs3WRN2awKTMolqHnJXhOuTChsa)
 
 
 ## Two-way synchronization
------------------------
 
 In a **two-way sync (or bidirectional sync)**, information is updated in both directions. This means that if the information is updated in the first location, then it will be automatically updated in the second location as well -- and vice-versa. This is assuming that both systems are actively used, so users can enter data in both systems.
 
@@ -205,15 +204,15 @@ To update person information in Pipedrive, configure the following parameters in
 
 -   *Resource*: Person
 -   *Operation*: Create
--   *Name > Add Expression*: `{{$json["properties"]["firstname"]["value"]}}`
--   *Additional Fields > Email > Add item > Add Expression*: `{{$json["identity-profiles"][0]["identities"][0]["value"]}}`
+-   *Name > Add Expression*: {% raw %}`{{$json["properties"]["firstname"]["value"]}}`{% endraw %}
+-   *Additional Fields > Email > Add item > Add Expression*: {% raw %}`{{$json["identity-profiles"][0]["identities"][0]["value"]}}`{% endraw %}
 
 To update contact information in HubSpot, configure the following parameters in the *HubSpot node*:
 
 -   *Resource*: Contact
 -   *Operation*: Create/Update
--   *Email > Add Expression*: `{{$json["email"][0]["value"]}}`
--   *Additional Fields > Add Field > First Name > Add Expression*: `{{$json["properties"]["firstname"]["value"]}}`
+-   *Email > Add Expression*: {% raw %}`{{$json["email"][0]["value"]}}`{% endraw %}
+-   *Additional Fields > Add Field > First Name > Add Expression*: {% raw %}`{{$json["properties"]["firstname"]["value"]}}`{% endraw %}
 
 ![Output of updated HubSpot node](https://lh5.googleusercontent.com/x1qJVl98Xge8U5CvoiiTCtilRr2HdHb67JBTy0W0Tpze0DtwUblelTAchKFetNUUzXmS2KYgwakyxmaqQixQ3uGTcck5I3_fB9BvOjC8UoTHZP7dx_n9h_OKCwfVHn_u2Es1EvTB)
 

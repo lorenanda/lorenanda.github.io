@@ -113,12 +113,14 @@ Here comes my personal favourite part of this workflow: analysing the sentiment 
 
 Both results are returned as documentSentiment in JSON format:
 
-```
+{% raw %}
+```json
 {
 "magnitude": number,
 "score": number
 }
 ```
+{% endraw %}
 
 Before configuring the node, you have to sign up on the [Google Cloud Platform](https://cloud.google.com/) to enable the API and get the necessary credentials (Client ID and Client Secret). Follow the instructions in [our reference docs](https://docs.n8n.io/credentials/google/#prerequisites) to set up your account and the node credentials.
 
@@ -140,9 +142,9 @@ Now that we have sentiment scores for each tweet, we want to insert the text, se
 
 For this, we use the **Set node**, which allows us to set new values based on the data we already have. In the node parameters, set three values:
 
--   **Score** (number): *Current Node  Input Data  JSON  documentSentiment  score*
--   **Magnitude** (number): *Current Node  Input Data  JSON  documentSentiment  score*
--   **Text** (string):* **Current Node  Input Data  JSON  sentences  [Item: 0]  text  content***
+-   **Score** (number): *Current > Node > Input Data > JSON  documentSentiment > score*
+-   **Magnitude** (number): *Current Node > Input Data > JSON  >documentSentiment > score*
+-   **Text** (string): *Current Node > Input Data > JSON > sentences > [Item: 0] > text > content*
 
 ![](https://lh5.googleusercontent.com/TGiCiuzI7T0I1vzsCKqI9K6HKL040hSPqXMnq-bYgSB3Hp-t6iKXbxc_W8jbg2njiV5BMl8ztpgZbpEAvg1ulpVror7ln-mxIgbYejaDZC8BJW5EafnZILkkxijuHoSr7aO-e4ax)
 
@@ -150,33 +152,10 @@ For this, we use the **Set node**, which allows us to set new values based on th
 
 Next, we want to insert the newly set data values into a Postgres database. First, you need to [install Postgres](https://www.postgresql.org/download/), then create a database and a table for tweets. The process is quite similar to the MongoDB setup and you can do this from your terminal:
 
-1.  Connect to Postgres:
-
-```
-psql
-
-```
-
-1.  Create a database:
-
-```
-createdb twitter
-
-```
-
-1.  Go into the created database:
-
-```
-psql twitter
-
-```
-
-1.  Create columns in the database. The columns have to be named like the values defined in the Set node, in order to be matched.
-
-```
-CREATE TABLE tweets (text varchar(280), score numeric(4,3), magnitude numeric(4,3));
-
-```
+1.  Connect to Postgres: `psql`
+2.  Create a database: `createdb twitter`
+3. Go into the created database: `psql twitter`
+4. Create columns in the database. The columns have to be named like the values defined in the Set node, in order to be matched. `CREATE TABLE tweets (text varchar(280), score numeric(4,3), magnitude numeric(4,3));`
 
 Now we can go ahead and configure the **Postgres node**. Fill in the name of your database, username, and password in the *Credential Data* fields, then configure the node parameters:
 
@@ -193,7 +172,7 @@ After executing the node, you can check if the tweets have been inserted in the 
 
 Here comes another fun part related to sentiment analysis: filtering negative tweets. For this, we use the **IF node**, which allows us to split the workflow conditionally based on comparison operations. We define positive tweets as those with a sentiment score above 0. To configure the IF node with this condition, configure the parameters:
 
--   *Value 1*: Current Node  Input Data  JSON  score
+-   *Value 1*: Current Node > Input Data > JSON > score
 -   *Operation:* Larger
 -   *Value 2:* 0
 
@@ -210,8 +189,7 @@ Once you have the Slack node credentials set up, configure the parameters:
 -   *Resource*: Message
 -   *Operation*: Post
 -   *Channel*: YourSlackChannelName
--   *Text*: 🐦 NEW TWEET with sentiment score {{$json["score"]}} and magnitude {{$json["magnitude"]}} ⬇️\
-    {{$json["text"]}}
+-   *Text*: 🐦 NEW TWEET with sentiment score {% raw %}`{{$json["score"]}}`{% endraw %} and magnitude {% raw %}`{{$json["magnitude"]}}`{% endraw %}  {% raw %}`{{$json["text"]}}`{% endraw %}
 
 ![](https://lh3.googleusercontent.com/CU1W4OcN0xfGqQyxntlVVDEUzEndcftzYF-utzWb29pt3tGqibEyWMj7JTypmGhOJBWo3K0FVSnkd-O2-OyYhpj33705_MPo9S0sZ_NXmkDYa65Og13xf8yqbHYmjmjKC0JGghcU)
 

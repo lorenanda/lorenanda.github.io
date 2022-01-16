@@ -925,7 +925,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="How to synchronize data between two systems (one-way vs. two-way sync)" />
 <script type="application/ld+json">
-{"description":"Whether you work in marketing, sales, or data engineering, you most likely use several apps or services for collecting and storing data from different sources. To boost productivity and reduce errors, you can automate various tasks in each system – from lead capturing in CRMs to e-commerce workflows and data processing pipelines.","@type":"BlogPosting","headline":"How to synchronize data between two systems (one-way vs. two-way sync)","dateModified":"2021-11-18T00:00:00+01:00","datePublished":"2021-11-18T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://n8n.io/blog/how-to-sync-data-between-two-systems/"},"author":{"@type":"Person","name":"Lorena Ciutacu"},"url":"https://n8n.io/blog/how-to-sync-data-between-two-systems/","@context":"https://schema.org"}</script>
+{"dateModified":"2021-11-18T00:00:00+01:00","datePublished":"2021-11-18T00:00:00+01:00","description":"Whether you work in marketing, sales, or data engineering, you most likely use several apps or services for collecting and storing data from different sources. To boost productivity and reduce errors, you can automate various tasks in each system – from lead capturing in CRMs to e-commerce workflows and data processing pipelines.","mainEntityOfPage":{"@type":"WebPage","@id":"https://n8n.io/blog/how-to-sync-data-between-two-systems/"},"@type":"BlogPosting","headline":"How to synchronize data between two systems (one-way vs. two-way sync)","author":{"@type":"Person","name":"Lorena Ciutacu"},"url":"https://n8n.io/blog/how-to-sync-data-between-two-systems/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1064,14 +1064,13 @@ The source key column is passed in <em>Property Input 1</em> and the target key 
 <ul>
   <li><em>Resource</em>: Contact</li>
   <li><em>Operation</em>: Create/Update</li>
-  <li><em>Email &gt; Add Expression &gt; Current Node &gt; Output Data &gt; JSON &gt; email &gt; [Item: 0] &gt; value</em>: ``</li>
-  <li><em>Additional Fields &gt; Add Field &gt; First Name &gt; Add Expression &gt; Current Node &gt; Output Data &gt; JSON &gt; first_name</em>: ``</li>
+  <li><em>Email &gt; Add Expression &gt; Current Node &gt; Output Data &gt; JSON &gt; email &gt; [Item: 0] &gt; value</em>: <code class="language-plaintext highlighter-rouge">{{$json["email"][0]["value"]}}</code></li>
+  <li><em>Additional Fields &gt; Add Field &gt; First Name &gt; Add Expression &gt; Current Node &gt; Output Data &gt; JSON &gt; first_name</em>: <code class="language-plaintext highlighter-rouge">{{$json["first_name"]}}</code></li>
 </ul>
 
 <p><img src="https://lh4.googleusercontent.com/nrBLg2_gGG1VMjmcdt79gjVxvNs1vMR774UAJiEDhpmgin759JZwd9uJRkuJml_Ev7PdX6fa1889yy68PnM8x7lktiaESIKzc7m6ApaNFxFdmhs3WRN2awKTMolqHnJXhOuTChsa" alt="Configuration of HubSpot node to update data" /></p>
 
 <h2 id="two-way-synchronization">Two-way synchronization</h2>
-<hr />
 
 <p>In a <strong>two-way sync (or bidirectional sync)</strong>, information is updated in both directions. This means that if the information is updated in the first location, then it will be automatically updated in the second location as well – and vice-versa. This is assuming that both systems are actively used, so users can enter data in both systems.</p>
 
@@ -1149,8 +1148,8 @@ The source key column is passed in <em>Property Input 1</em> and the target key 
 <ul>
   <li><em>Resource</em>: Person</li>
   <li><em>Operation</em>: Create</li>
-  <li><em>Name &gt; Add Expression</em>: ``</li>
-  <li><em>Additional Fields &gt; Email &gt; Add item &gt; Add Expression</em>: ``</li>
+  <li><em>Name &gt; Add Expression</em>: <code class="language-plaintext highlighter-rouge">{{$json["properties"]["firstname"]["value"]}}</code></li>
+  <li><em>Additional Fields &gt; Email &gt; Add item &gt; Add Expression</em>: <code class="language-plaintext highlighter-rouge">{{$json["identity-profiles"][0]["identities"][0]["value"]}}</code></li>
 </ul>
 
 <p>To update contact information in HubSpot, configure the following parameters in the <em>HubSpot node</em>:</p>
@@ -1158,8 +1157,8 @@ The source key column is passed in <em>Property Input 1</em> and the target key 
 <ul>
   <li><em>Resource</em>: Contact</li>
   <li><em>Operation</em>: Create/Update</li>
-  <li><em>Email &gt; Add Expression</em>: ``</li>
-  <li><em>Additional Fields &gt; Add Field &gt; First Name &gt; Add Expression</em>: ``</li>
+  <li><em>Email &gt; Add Expression</em>: <code class="language-plaintext highlighter-rouge">{{$json["email"][0]["value"]}}</code></li>
+  <li><em>Additional Fields &gt; Add Field &gt; First Name &gt; Add Expression</em>: <code class="language-plaintext highlighter-rouge">{{$json["properties"]["firstname"]["value"]}}</code></li>
 </ul>
 
 <p><img src="https://lh5.googleusercontent.com/x1qJVl98Xge8U5CvoiiTCtilRr2HdHb67JBTy0W0Tpze0DtwUblelTAchKFetNUUzXmS2KYgwakyxmaqQixQ3uGTcck5I3_fB9BvOjC8UoTHZP7dx_n9h_OKCwfVHn_u2Es1EvTB" alt="Output of updated HubSpot node" /></p>
