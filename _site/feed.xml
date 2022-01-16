@@ -23,6 +23,17 @@
       </item>
     
       <item>
+        <title>How to synchronize data between two systems (one-way vs. two-way sync)</title>
+        <description>
+          
+          Whether you work in marketing, sales, or data engineering, you most likely use several apps or services for collecting and storing data from different sources. To boost productivity and reduce errors, you can automate various tasks in each system – from lead capturing in CRMs to e-commerce workflows and data...
+        </description>
+        <pubDate>Thu, 18 Nov 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2021-11-18-data-sync-workflows/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-11-18-data-sync-workflows/</guid>
+      </item>
+    
+      <item>
         <title>5 ways to keep your skills fresh after finishing a coding bootcamp</title>
         <description>
           
@@ -75,6 +86,50 @@
         <pubDate>Thu, 30 Sep 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2021-09-30-september-books/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-09-30-september-books/</guid>
+      </item>
+    
+      <item>
+        <title>6 features of tasks that can be automated</title>
+        <description>
+          
+          You’re working long hours now, six in the morning to six in the afternoon. Sometimes even eight in the afternoon, six days a week. Sometimes seven days a week. It’s a long hustle but it keeps you busy. Busy but unfulfilled, because many of the things you do are plain...
+        </description>
+        <pubDate>Tue, 28 Sep 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-09-28-automatable-tasks/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-09-28-automatable-tasks/</guid>
+      </item>
+    
+      <item>
+        <title>Create a toxic language detector for Telegram in 4 steps</title>
+        <description>
+          
+          When was the last time you talked to someone online, be it friends, coworkers, or even strangers? Nowadays, you most likely do it every day. Toxic language online Online communication platforms like Telegram, Reddit, or Discord have made it possible for people from all over the world to connect and...
+        </description>
+        <pubDate>Tue, 21 Sep 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-09-21-toxic-language-workflow/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-09-21-toxic-language-workflow/</guid>
+      </item>
+    
+      <item>
+        <title>How to get started with CRM automation (with 3 no-code workflow ideas)</title>
+        <description>
+          
+          If you run a business, sell a product, or offer services, you know how important it is to nurture the relationship with your customers and gain new ones. Whether you operate alone or with a sales team, you probably also know how difficult it can be to keep track of...
+        </description>
+        <pubDate>Tue, 14 Sep 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-09-14-crm-workflows/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-09-14-crm-workflows/</guid>
+      </item>
+    
+      <item>
+        <title>6 e-commerce workflows to power up your Shopify store</title>
+        <description>
+          
+          The online shopping trend has been driven by increasing digitalization in the past years, and the COVID-19 outbreak has only fueled e-commerce growth. Consumers around the world are turning to online stores for pretty much all product categories, due to in-person restrictions or contamination concerns. In 2020, retail e-commerce sales...
+        </description>
+        <pubDate>Thu, 02 Sep 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-09-02-ecommerce-workflows/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-09-02-ecommerce-workflows/</guid>
       </item>
     
       <item>
@@ -174,61 +229,6 @@
         <pubDate>Sun, 20 Jun 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2021-06-20-buchrezension-der-weg-des-siegers/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-06-20-buchrezension-der-weg-des-siegers/</guid>
-      </item>
-    
-      <item>
-        <title>May books wrap-up</title>
-        <description>
-          
-          Here’s to another month of reading good books! In May I read 5 books (2 fiction and 3 non-fiction) amounting to 1846 pages and a 3.8 average rating. To be honest, I slid into a reading slump this month. If it weren’t for the ARCs from Bloggerportal that I needed...
-        </description>
-        <pubDate>Mon, 31 May 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-05-31-may-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-05-31-may-books/</guid>
-      </item>
-    
-      <item>
-        <title>Roboterland von Jenny Kleeman</title>
-        <description>
-          
-          Titel: Roboterland Autorin: Jenny Kleeman Verlag: Goldmann Erschienen: 10. Mai 2021 Seitenanzahl: 416 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und Goldmann Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Der Buchumschlag macht schon auf den ersten Blick einen starken Eindruck, mit dem originellen Design einer neon-orangen Schablonne mit Menschen-, Tieren-,...
-        </description>
-        <pubDate>Sun, 23 May 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-05-23-buchrezension-roboterland/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-05-23-buchrezension-roboterland/</guid>
-      </item>
-    
-      <item>
-        <title>Achtsam morden am Rande der Welt von Karsten Dusse</title>
-        <description>
-          
-          Titel: Achtsam morden am Rande der Welt Autor: Karsten Dusse Verlag: Heyne Erschienen: 26. April 2021 Seitenanzahl: 384 Bewertung: 🌕🌕🌕🌕🌑 Danke an Random House Bloggerportal und Heyne Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich habe dieses Buch wie kein anderes in diesem Jahr erwartet, nachdem ich die ersten zwei...
-        </description>
-        <pubDate>Sun, 16 May 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-05-16-buchrezension-achtsam-morden/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-05-16-buchrezension-achtsam-morden/</guid>
-      </item>
-    
-      <item>
-        <title>Die Tote im Kaffeehaus von Beate Maxian</title>
-        <description>
-          
-          Titel: Die Tote im Kaffeehaus Autorin: Beate Maxian Verlag: Goldmann Erschienen: 19. April 2021 Seitenanzahl: 416 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und Goldmann Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich habe dieses Buch ausgewählt, weil es drei meiner Lieblingsdinge thematisiert: Krimis, Kaffee und Wien, mein zweites Zuhause....
-        </description>
-        <pubDate>Sun, 09 May 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-05-09-buchrezension-die-tote-im-kaffeehaus/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-05-09-buchrezension-die-tote-im-kaffeehaus/</guid>
-      </item>
-    
-      <item>
-        <title>Trauma von Angélique Mundt</title>
-        <description>
-          
-          Titel: Trauma Autorin: Angélique Mundt Verlag: btb Erschienen: 13. April 2021 Seitenanzahl: 352 Bewertung: 🌕🌕🌑🌑🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Ich war sehr gespannt auf dieses Psycho-Thriller, besonders weil die Autorin anscheinend professionelles Wissen zum Thema Trauma und Psychiatrie hat: sie...
-        </description>
-        <pubDate>Sun, 02 May 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-05-02-buchrezension-trauma/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-05-02-buchrezension-trauma/</guid>
       </item>
     
   </channel>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Market basket analysis with the Apriori algorithm in Python
-tags: [data science, tutorials]
+tags: [data science, tutorial]
 comments: true
 ---
 
