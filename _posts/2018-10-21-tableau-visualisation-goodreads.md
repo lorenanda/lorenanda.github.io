@@ -5,7 +5,7 @@ tags: [data science, projects]
 comments: true
 ---
 
-[Goodreads](goodreads.com) is an amazing platform for tracking and organizing your reading, discovering new books, and sharing reviews or recommandations with friends. I downloaded my library (from My Books > Tools > Import and Export > Export Library), which included the book titles, authors' names, publishing year, number of pages, the average book rating on goodreads and my rating. For extra fun, I added two dimensions to the dataset: the author's country of origin and the language in which I've read the book.
+[Goodreads](https://www.goodreads.com) is an amazing platform for tracking and organizing your reading, discovering new books, and sharing reviews or recommandations with friends. I downloaded my library (from My Books > Tools > Import and Export > Export Library), which included the book titles, authors' names, publishing year, number of pages, the average book rating on goodreads and my rating. For extra fun, I added two dimensions to the dataset: the author's country of origin and the language in which I've read the book.
 
 On my quest to becoming a data scientist, I've recently played with [my goodreads](https://www.goodreads.com/lorenasbooks) data to get some insights into my reading habits in the past six years. You can have a look [in the GitHub repo](https://github.com/lorenanda/goodreads) at the full dataset and basic analysis with Python. For a quick and colorful overview, I create two interactive dashboards: [one in Google Data Studio](https://datastudio.google.com/embed/reporting/1G4jH00ImVcFU1c8X_wFyWRNP2SN6v5WH/page/Ivkh) and one in [Tableau](https://public.tableau.com/profile/lorena.ciutacu).
 
