@@ -15,7 +15,7 @@
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="Project completed in week 1 (28.09.-02.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I started the first day of the bootcamp in the comfort of my home! Due to the COVID-19 restrictions, the other 14 students and I were split into two groups, alternating daily between online...">
+  <meta name="description" content="Learn how animate seaborn/matplotlib scatterplots with imageio.">
 
   
 
@@ -97,7 +97,7 @@
   
   <meta property="og:site_name" content="Lorena Ciutacu">
   <meta property="og:title" content="Creating animated scatterplots with Python">
-  <meta property="og:description" content="Project completed in week 1 (28.09.-02.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I started the first day of the bootcamp in the comfort of my home! Due to the COVID-19 restrictions, the other 14 students and I were split into two groups, alternating daily between online...">
+  <meta property="og:description" content="Learn how animate seaborn/matplotlib scatterplots with imageio.">
 
   
 
@@ -116,7 +116,7 @@
   <meta name="twitter:creator" content="@alciutacu">
 
   <meta property="twitter:title" content="Creating animated scatterplots with Python">
-  <meta property="twitter:description" content="Project completed in week 1 (28.09.-02.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I started the first day of the bootcamp in the comfort of my home! Due to the COVID-19 restrictions, the other 14 students and I were split into two groups, alternating daily between online...">
+  <meta property="twitter:description" content="Learn how animate seaborn/matplotlib scatterplots with imageio.">
 
   
 
@@ -894,7 +894,7 @@
 
 
   
-  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> 1 minute read</span>
+  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> 2 minute read</span>
 
 
             
@@ -964,45 +964,166 @@
   <p>Project completed in week 1 (28.09.-02.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin.</p>
 </blockquote>
 
-<p>I started the first day of the bootcamp in the comfort of my home! Due to the COVID-19 restrictions, the other 14 students and I were split into two groups, alternating daily between online and on-site attendance. It’s not the best experience, but so far it went pretty well. The first day started at 9:30 sharp with a short welcome and information presentation from our project manager and teachers.</p>
+<p>Our first bootcamp project was creating an animated scatterplot, using the libraries <code class="language-plaintext highlighter-rouge">matplotlib</code> or <code class="language-plaintext highlighter-rouge">seaborn</code> and <code class="language-plaintext highlighter-rouge">imageio</code>. The scatterplot illustrates the relationship between life expectancy and fertility rate of world’s countries from 1960 to 2015, based on the <a href="https://www.gapminder.org/tag/download-data/">Gapminder data set</a>:</p>
 
-<p>We then introduced ourselves, and I was surprised at how diverse our <strong>Stochastic Sage cohort </strong>was, including people with backgrounds in Physics, Math, Finance, and Social Sciences, from coding newbies to experts. Another surprising fact was the even split between Linux, Mac, and Windows users! I’m curious whether this will change by the end of the course…</p>
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>country</th>
+      <th>year</th>
+      <th>population</th>
+      <th>life_expectancy</th>
+      <th>fertility_rate</th>
+      <th>continent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>Afghanistan</td>
+      <td>1800</td>
+      <td>3280000.0</td>
+      <td>28.21</td>
+      <td>7.0</td>
+      <td>Asia</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>Soon afterwards, the actual coding (and bugs) started – right from the <strong>basics</strong>. One day we spent several hours on writing a FizzBuzz function. On another day, two hours only for cloning two repos and creating a branch. Another class on how to use the command line. And several session of setting up Python and Jupyter Notebooks.</p>
+<p>The animated scatterplot is basically made of several overlapping static plots. The animation consists of <strong>four steps</strong>:</p>
 
-<p>Then we dived into descriptive statistics and data visualization with pandas and seaborn. Our challenge for the week was to create an animated scatterplot with matplotlib/seaborn and imageio to illustrate the relationship between life expectancy and fertility rate of world’s countries from 1960 to 2015, based on data from <a href="https://www.gapminder.org/tag/download-data/">Gapminder datasets</a>. Here’s the result:</p>
+<p><strong>1. Create static scatterplots for each year in the data set.</strong></p>
 
-<p><a href="https://lorenaciutacu.files.wordpress.com/2020/10/scatterplot-1.gif"><img src="https://lorenaciutacu.files.wordpress.com/2020/10/scatterplot-1.gif?w=432" alt="" /></a></p>
+<p>Thescatterplots depict <code class="language-plaintext highlighter-rouge">life_expectancy</code> on the x axis and <code class="language-plaintext highlighter-rouge">fertility_rate</code> on the y rate. To make the plots even more insightful, the size of the points illustrates the <code class="language-plaintext highlighter-rouge">population</code> number and the color of the points illustrates the <code class="language-plaintext highlighter-rouge">continent</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span> 
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="n">sns</span>
+
+<span class="n">sns</span><span class="p">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'life_expectancy'</span><span class="p">,</span>
+                <span class="n">y</span><span class="o">=</span><span class="s">'fertility_rate'</span><span class="p">,</span>
+                <span class="n">hue</span><span class="o">=</span><span class="s">'continent'</span><span class="p">,</span>
+                <span class="n">size</span><span class="o">=</span><span class="s">'population'</span><span class="p">,</span>
+                <span class="n">sizes</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1000</span><span class="p">),</span>
+                <span class="n">legend</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+                <span class="n">data</span><span class="o">=</span><span class="n">gapminder_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">gapminder_df</span><span class="p">[</span><span class="s">'year'</span><span class="p">]</span><span class="o">==</span><span class="n">year</span><span class="p">],</span>
+                <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span>
+                <span class="n">palette</span><span class="o">=</span><span class="s">'Set2'</span><span class="p">)</span>
+    
+<span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s">'</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s">'center'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">'Life expectancy'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">'Fertility rate'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>2. Export the scatterplot images to a designated folder.</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">imageio</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">images</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">folder</span><span class="o">=</span><span class="s">'/path/to/folder/images'</span>
+
+<span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">exists</span><span class="p">(</span><span class="n">folder</span><span class="p">):</span>
+    <span class="n">os</span><span class="p">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">folder</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>3. Join the individual images in chronological order.</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filename</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'lifeexp_</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s">.png'</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="n">filename</span><span class="p">))</span>
+<span class="n">images</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">imageio</span><span class="p">.</span><span class="n">imread</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="n">filename</span><span class="p">)))</span>
+</code></pre></div></div>
+
+<p><strong>4. Export the scatterplots sequence as a gif.</strong><br />
+The <code class="language-plaintext highlighter-rouge">fps</code> (frames per second) parameter sets the speed of the animation.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">imageio</span><span class="p">.</span><span class="n">mimsave</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="s">'scatterplot.gif'</span><span class="p">),</span> <span class="n">images</span><span class="p">,</span> <span class="n">fps</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Now, putting everything together, here’s the full code and the animated scatterplot:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span> 
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="n">sns</span>
+<span class="kn">import</span> <span class="nn">imageio</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">images</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">folder</span><span class="o">=</span><span class="s">'/home/lorena/Documents/bootcamp/W1/images'</span>
+
+<span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">exists</span><span class="p">(</span><span class="n">folder</span><span class="p">):</span>
+    <span class="n">os</span><span class="p">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">folder</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1960</span><span class="p">,</span> <span class="mi">2016</span><span class="p">):</span>
+    
+    <span class="n">plt</span><span class="p">.</span><span class="n">axis</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+    
+    <span class="n">sns</span><span class="p">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'life_expectancy'</span><span class="p">,</span>
+                    <span class="n">y</span><span class="o">=</span><span class="s">'fertility_rate'</span><span class="p">,</span>
+                    <span class="n">hue</span><span class="o">=</span><span class="s">'continent'</span><span class="p">,</span>
+                    <span class="n">size</span><span class="o">=</span><span class="s">'population'</span><span class="p">,</span>
+                    <span class="n">sizes</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1000</span><span class="p">),</span>
+                    <span class="n">legend</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+                    <span class="n">data</span><span class="o">=</span><span class="n">gapminder_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">gapminder_df</span><span class="p">[</span><span class="s">'year'</span><span class="p">]</span><span class="o">==</span><span class="n">year</span><span class="p">],</span>
+                    <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span>
+                    <span class="n">palette</span><span class="o">=</span><span class="s">'Set2'</span><span class="p">)</span>
+    
+    <span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s">'</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s">'center'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">)</span>
+    <span class="c1">#plt.title(f'inspired by Hans Rosling', loc='right', fontsize=10, color='grey', style='italic', pad=-20)
+</span>
+    <span class="c1">#plt.legend(bbox_to_anchor=(0.74, 0.85), loc='center')
+</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">'Life expectancy'</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">'Fertility rate'</span><span class="p">)</span>
+    <span class="c1">#plt.annotate({country}, )
+</span>    
+    <span class="n">filename</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'lifeexp_</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s">.png'</span>
+    
+    <span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="n">filename</span><span class="p">))</span>
+    
+    <span class="n">images</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">imageio</span><span class="p">.</span><span class="n">imread</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="n">filename</span><span class="p">)))</span>
+    
+    <span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">()</span>
+    
+<span class="n">imageio</span><span class="p">.</span><span class="n">mimsave</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="s">'scatterplot.gif'</span><span class="p">),</span> <span class="n">images</span><span class="p">,</span> <span class="n">fps</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="https://github.com/lorenanda/animated-scatterplot/raw/main/scatterplot.gif" alt="animated scatterplot" /></p>
 
 <h3 id="friday-lightning-talk">Friday Lightning Talk</h3>
 
 <p>Each week, we get a main dataset and several tasks to apply the concepts learned throughout the week. On Fridays, we present in 5 minutes a particular finding from our weekly challenge project, a chart, new library, (un)solved bugs, or anything that is worth sharing and helpful for others. This Friday, I chose to talk about five new <strong>bash commands</strong> for checking the installed Python libraries, their versions and dependencies.</p>
 
 <table>
+  <thead>
+    <tr>
+      <th>function</th>
+      <th>command</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td><strong><em>function</em></strong></td>
-      <td><strong><em>command</em></strong></td>
-    </tr>
-    <tr>
       <td>to list all installed libraries</td>
-      <td>pip list</td>
+      <td><code class="language-plaintext highlighter-rouge">pip list</code></td>
     </tr>
     <tr>
       <td>to list only outdated libraries</td>
-      <td>pip list -o (or –outdated)</td>
+      <td><code class="language-plaintext highlighter-rouge">pip list -o</code> (or <code class="language-plaintext highlighter-rouge">--outdated</code>)</td>
     </tr>
     <tr>
       <td>to list only the latest / up to date libraries</td>
-      <td>pip list -u (or –uptodate)</td>
+      <td><code class="language-plaintext highlighter-rouge">pip list -u</code> (or <code class="language-plaintext highlighter-rouge">--uptodate</code>)</td>
     </tr>
     <tr>
       <td>to show all information about a library</td>
-      <td>pip show <package-name></package-name></td>
+      <td><code class="language-plaintext highlighter-rouge">pip show &lt;package-name&gt;</code></td>
     </tr>
     <tr>
       <td>to list all libraries installed in a specific environment</td>
-      <td>conda list -n <environment-name></environment-name></td>
+      <td><code class="language-plaintext highlighter-rouge">conda list -n &lt;environment-name&gt;</code></td>
     </tr>
   </tbody>
 </table>
@@ -1080,14 +1201,6 @@
         
       </ul>
       
-  
-  
-  
-
-  
-
-
-
 
     </div>
   </div>
