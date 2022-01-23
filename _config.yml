@@ -1,7 +1,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Lorena Ciutacu
+title: LC
 
 # Your name to show in the footer
 author: Lorena Ciutacu
@@ -12,7 +12,6 @@ navbar-links:
   Work: "work"
   Blog: "blog"
   Contact: "contact"
- 
 
 # --- Logo --- #
 
