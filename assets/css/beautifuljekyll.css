@@ -1003,7 +1003,6 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   letter-spacing: 1px;
   background-color: {{ site.page-col }};
   color: {{ site.text-col }};
-  text-decoration: underline dotted;
 }
 
 @media (min-width: 768px) {

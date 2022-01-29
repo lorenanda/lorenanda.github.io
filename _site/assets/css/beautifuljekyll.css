@@ -990,7 +990,6 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   letter-spacing: 1px;
   background-color: #FFF;
   color: #000;
-  text-decoration: underline dotted;
 }
 
 @media (min-width: 768px) {

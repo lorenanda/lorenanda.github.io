@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="ahrefs-site-verification" content="a93710dfb78b4003a90dbc831e6a339e0e4e6b6d5593721f0b473b85966e116f">
+  
+
+  
+
+  <title>Creating animated scatterplots with Python</title>
+
+  
+  <meta name="author" content="Lorena Ciutacu">
+  
+
+  <meta name="description" content="Learn how animate seaborn/matplotlib scatterplots with imageio.">
+
+  
+
+  
+  <meta name="keywords" content="technical writer, data scientist, women in data, berlin startup">
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Lorena Ciutacu" href="http://localhost:4000/feed.xml">
+
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B4RTHP9QL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0B4RTHP9QL');
+</script>
+
+
+  
+
+  
+<!-- Google Analytics -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-119170762-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="Lorena Ciutacu">
+  <meta property="og:title" content="Creating animated scatterplots with Python">
+  <meta property="og:description" content="Learn how animate seaborn/matplotlib scatterplots with imageio.">
+
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Lorena Ciutacu">
+  <meta property="og:article:published_time" content="2020-10-03T00:00:00+02:00">
+  <meta property="og:url" content="http://localhost:4000/bootcamp1/">
+  <link rel="canonical" href="http://localhost:4000/bootcamp1/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@bayesnbagels">
+  <meta name="twitter:creator" content="@bayesnbagels">
+
+  <meta property="twitter:title" content="Creating animated scatterplots with Python">
+  <meta property="twitter:description" content="Learn how animate seaborn/matplotlib scatterplots with imageio.">
+
+  
+
+  
+
+
+  
+
+  
+
+  
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">Lorena Ciutacu</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    &#9778;
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "Im Auftrag der Toten von Axel Petermann", \
+          "category" : "booksnonfictiondeutschbloggerportal", \
+          "url"      : "/buchrezension-imauftragdertoten/", \
+          "date"     : "January 29, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Rituale von Christine Dohler", \
+          "category" : "booksnonfictiondeutschbloggerportal", \
+          "url"      : "/buchrezension-rituale/", \
+          "date"     : "January 22, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to write in accessible language", \
+          "category" : "events", \
+          "url"      : "/accessible-language/", \
+          "date"     : "January 15, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to synchronize data between two systems (one-way vs. two-way sync)", \
+          "category" : "tutorialn8n", \
+          "url"      : "/data-sync-workflows/", \
+          "date"     : "November 18, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "5 ways to keep your skills fresh after finishing a coding bootcamp", \
+          "category" : "data science", \
+          "url"      : "/keep-your-skills-fresh-after-coding-bootcamp/", \
+          "date"     : "November 14, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "October books wrap-up", \
+          "category" : "booksnonfictionreviews", \
+          "url"      : "/october-books/", \
+          "date"     : "October 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Market basket analysis with the Apriori algorithm in Python", \
+          "category" : "data sciencetutorial", \
+          "url"      : "/market-basket-analysis-with-apriori-algorithm/", \
+          "date"     : "October 17, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Making product recommendations using Spectral Biclustering in Python", \
+          "category" : "data sciencetutorial", \
+          "url"      : "/spectral-biclustering-for-marketing-in-python/", \
+          "date"     : "October  3, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "September books wrap-up", \
+          "category" : "booksnonfictionfictionreviews", \
+          "url"      : "/september-books/", \
+          "date"     : "September 30, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "6 features of tasks that can be automated", \
+          "category" : "n8n", \
+          "url"      : "/automatable-tasks/", \
+          "date"     : "September 28, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Create a toxic language detector for Telegram in 4 steps", \
+          "category" : "tutorialn8n", \
+          "url"      : "/toxic-language-workflow/", \
+          "date"     : "September 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "How to get started with CRM automation (with 3 no-code workflow ideas)", \
+          "category" : "tutorialn8n", \
+          "url"      : "/crm-workflows/", \
+          "date"     : "September 14, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "6 e-commerce workflows to power up your Shopify store", \
+          "category" : "tutorialn8n", \
+          "url"      : "/ecommerce-workflows/", \
+          "date"     : "September  2, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "August books wrap-up", \
+          "category" : "booksfictionreviews", \
+          "url"      : "/august-books/", \
+          "date"     : "August 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Photography in the instant gratification economy", \
+          "category" : "artthoughts", \
+          "url"      : "/photography-and-instant-gratification-economy/", \
+          "date"     : "August 19, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Framing loneliness in the film &quot;O Homem das Multidões&quot;", \
+          "category" : "artprojects", \
+          "url"      : "/o-homem-das-multidoes-film-analysis/", \
+          "date"     : "August 11, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Gefährliche Mittsommernacht von Christoffer Holst", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-gefaehrliche-mittsommernacht/", \
+          "date"     : "August  8, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Clustering and classification of emotion verbs", \
+          "category" : "data sciencelinguisticsprojects", \
+          "url"      : "/romanian-psych-verbs-study/", \
+          "date"     : "August  6, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "July books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/july-books/", \
+          "date"     : "July 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Auf Erden sind wir kurz grandios von Ocean Vuong", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-auf-erden-sind-wir-kurz-grandios/", \
+          "date"     : "July 11, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "June books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/june-books/", \
+          "date"     : "June 30, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Der Weg des Siegers von Ronny Schönig", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-der-weg-des-siegers/", \
+          "date"     : "June 20, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "5 tasks you can automate with the new Notion API", \
+          "category" : "tutorialn8n", \
+          "url"      : "/notion-workflows/", \
+          "date"     : "June  8, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "May books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/may-books/", \
+          "date"     : "May 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Roboterland von Jenny Kleeman", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-roboterland/", \
+          "date"     : "May 23, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Achtsam morden am Rande der Welt von Karsten Dusse", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-achtsam-morden/", \
+          "date"     : "May 16, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "15 Google apps you can combine and automate to increase productivity", \
+          "category" : "tutorialn8n", \
+          "url"      : "/google-apps-workflows/", \
+          "date"     : "May 12, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Die Tote im Kaffeehaus von Beate Maxian", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-die-tote-im-kaffeehaus/", \
+          "date"     : "May  9, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Automate your data processing pipeline in 9 steps", \
+          "category" : "tutorialn8n", \
+          "url"      : "/etl-pipeline-workflow/", \
+          "date"     : "May  4, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Trauma von Angélique Mundt", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-trauma/", \
+          "date"     : "May  2, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "April books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/april-books/", \
+          "date"     : "April 30, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "6 findings from analysing the Oscars speeches of the best directors", \
+          "category" : "data scienceprojects", \
+          "url"      : "/oscars-speech-analysis-with-python/", \
+          "date"     : "April 25, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "5 workflow automations for Mattermost that we love at n8n", \
+          "category" : "n8n", \
+          "url"      : "/mattermost-workflows/", \
+          "date"     : "April  9, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Klima von David Klass", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-klima/", \
+          "date"     : "April  7, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "March books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/march-books/", \
+          "date"     : "March 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Die Zukunft ist smart von Holger Volland", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-die-zukunft-ist-smart/", \
+          "date"     : "March 28, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "How to automate your reading habit just in time for World Poetry Day", \
+          "category" : "tutorialn8n", \
+          "url"      : "/poetry-workflow/", \
+          "date"     : "March 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Designing Bots by Amir Shevat", \
+          "category" : "booksnonfictionreviews", \
+          "url"      : "/book-review-designing-bots/", \
+          "date"     : "March 14, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Elmet von Fiona Mozley", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-elmet/", \
+          "date"     : "March  7, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Terror von Bernd Schmidt", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-terror/", \
+          "date"     : "March  3, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "February books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/february-books/", \
+          "date"     : "February 28, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Exploring endangered languages with pandas", \
+          "category" : "linguisticsdata sciencetutorial", \
+          "url"      : "/endangered-languages/", \
+          "date"     : "February 27, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "99 Nächte in Logar von Jamil Jan Kochai", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-99naechte/", \
+          "date"     : "February 24, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Pourquoi est-il important de protéger les langues en danger", \
+          "category" : "linguisticsfrancaisthoughts", \
+          "url"      : "/langues-en-danger/", \
+          "date"     : "February 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Die Mauern von Porto von Mario Lima", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-diemauernvonporto/", \
+          "date"     : "February 12, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "January books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/january-books/", \
+          "date"     : "January 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "January&#39;s regression challenge for Kaggle playground", \
+          "category" : "data sciencetutorial", \
+          "url"      : "/kaggle-playground-jan/", \
+          "date"     : "January 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "12 tech books to read in 2021", \
+          "category" : "booksnonfiction", \
+          "url"      : "/tech-books-to-read-in-2021/", \
+          "date"     : "January  9, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "My year in code - 2020 review", \
+          "category" : "data scienceprojects", \
+          "url"      : "/my-year-in-code/", \
+          "date"     : "December 29, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Detecting emotions from speech with neural networks", \
+          "category" : "data scienceprojectsbootcamp", \
+          "url"      : "/bootcamp12/", \
+          "date"     : "December 20, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Best practices for software engineering", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp11/", \
+          "date"     : "December 12, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating a movie recommender system with Python and Flask", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp10/", \
+          "date"     : "December  5, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Classifying clothes images with neural networks", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp9/", \
+          "date"     : "November 28, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating a Markov chain Monte Carlo simulation in Python", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp8/", \
+          "date"     : "November 21, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Building a Slackbot for live tweets with Python and Docker", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp7/", \
+          "date"     : "November 14, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating a Metabase dashboard on Postgres and AWS", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp6/", \
+          "date"     : "November  7, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Forecasting the weather in Berlin with ARIMA models", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp5/", \
+          "date"     : "October 31, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Building a lyrics scraper and classifier in Python", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp4/", \
+          "date"     : "October 24, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Predicting bike share demand with linear regression", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp3/", \
+          "date"     : "October 17, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Predicting Titanic survivors with decision tree classifiers", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp2/", \
+          "date"     : "October 10, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating animated scatterplots with Python", \
+          "category" : "data sciencebootcampprojects", \
+          "url"      : "/bootcamp1/", \
+          "date"     : "October  3, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "5 eye-opening books about AI ethics", \
+          "category" : "booksnonfiction", \
+          "url"      : "/books-ethics-ai/", \
+          "date"     : "August 19, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Women in Data Symposium - Skills to Last a Decade", \
+          "category" : "data scienceevents", \
+          "url"      : "/womenindata-symposium/", \
+          "date"     : "July 31, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "4 tips for creating a great data science portfolio", \
+          "category" : "data science", \
+          "url"      : "/tips-for-datascience-portfolio/", \
+          "date"     : "July 29, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Die geheimen Muster der Sprache von Rottler/Martin", \
+          "category" : "bookslinguisticsdeutschreviews", \
+          "url"      : "/buchrezension-geheimen-muster-sprache/", \
+          "date"     : "June 27, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Invisible Women by Caroline Criado Perez", \
+          "category" : "booksdata sciencereviews", \
+          "url"      : "/book-review-invisible-women/", \
+          "date"     : "June 10, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "The Pitfalls of Deep Learning (WAD talk)", \
+          "category" : "data scienceevents", \
+          "url"      : "/wad-pitfalls-deeplearning/", \
+          "date"     : "May 26, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Diversity in IT Jobs (WAD talk)", \
+          "category" : "data scienceevents", \
+          "url"      : "/wad-diversity-it/", \
+          "date"     : "May 25, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "10 data science books to read during lockdown", \
+          "category" : "data sciencebooksnonfiction", \
+          "url"      : "/datascience-books-for-lockdown/", \
+          "date"     : "May  5, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Der Stand der Bibliotheken in Deutschland", \
+          "category" : "data sciencedeutsch", \
+          "url"      : "/weltbuchtag/", \
+          "date"     : "April 23, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Goodreads Reading Challenge 2019", \
+          "category" : "data sciencebooks", \
+          "url"      : "/goodreads-reading-challenge/", \
+          "date"     : "December 30, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Exhibition of Art of Akume", \
+          "category" : "artevents", \
+          "url"      : "/art-of-akume-exhibition/", \
+          "date"     : "March 31, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Web-scraping IMDb with R", \
+          "category" : "data scienceprojectstutorial", \
+          "url"      : "/web-scraping-imdb-with-r/", \
+          "date"     : "March 29, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Analysing my reading habits from Goodreads data", \
+          "category" : "data scienceprojects", \
+          "url"      : "/tableau-visualisation-goodreads/", \
+          "date"     : "October 21, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "Talking about psych-verbs @ 5th Linguistics Meetup in Potsdam", \
+          "category" : "linguisticsdata scienceevents", \
+          "url"      : "/poster-linguistik-meetup-potsdam/", \
+          "date"     : "August  4, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "Talking about autism in Austrian newspapers @ 8th ULAB Conference in Edinburgh", \
+          "category" : "linguisticsevents", \
+          "url"      : "/ulab-conference-edinburgh/", \
+          "date"     : "April 11, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "Learnings from the 11th Meeting of Patholinguistics in Potsdam", \
+          "category" : "linguisticsevents", \
+          "url"      : "/patholinguistics-conference-potsdam/", \
+          "date"     : "November 20, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Expolingua Berlin", \
+          "category" : "linguisticsevents", \
+          "url"      : "/expolingua-berlin/", \
+          "date"     : "November 17, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Talking about the brains of interpreters @ 2nd Conference for Student Research in Berlin", \
+          "category" : "linguisticsevents", \
+          "url"      : "/conference-student-research-berlin/", \
+          "date"     : "September 22, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "The effects of anesthesia on language", \
+          "category" : "linguistics", \
+          "url"      : "/effects-of-anesthesia-on-language/", \
+          "date"     : "September 11, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Talking about semantic dementia @ 4th Linguistics Meetup in Berlin", \
+          "category" : "linguisticsevents", \
+          "url"      : "/linguistik-meetup-berlin/", \
+          "date"     : "August  4, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Xenolinguistics by D.R. Slattery", \
+          "category" : "linguisticsbooksreviews", \
+          "url"      : "/xenolinguistics-book-review/", \
+          "date"     : "December 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Research findings about bilingualism in 2016", \
+          "category" : "linguistics", \
+          "url"      : "/bilingualism-research-2016/", \
+          "date"     : "December 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Learning about languages of trauma", \
+          "category" : "linguisticsevents", \
+          "url"      : "/conference-languages-of-trauma/", \
+          "date"     : "November 28, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Learnings from the 10th Meeting of Patholinguistics in Potsdam", \
+          "category" : "linguisticsevents", \
+          "url"      : "/patholinguistics-meeting-potsdam/", \
+          "date"     : "November 23, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Tales on Blindness by Cláudia Alves", \
+          "category" : "artreviews", \
+          "url"      : "/film-review-tales-on-blindness/", \
+          "date"     : "July  1, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Plaidoyer pour l’écriture manuscrite", \
+          "category" : "linguisticsfrancaisthoughts", \
+          "url"      : "/plaidoyer-pour-ecriture-manuscrite/", \
+          "date"     : "May 20, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Die sechste Jahreszeit von Jan Soldat", \
+          "category" : "artdeutschreviews", \
+          "url"      : "/filmkritik-jan-soldat/", \
+          "date"     : "April 27, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Alexander Rodchenko @ Westlicht Wien", \
+          "category" : "arteventsfrancaisdeutschreviews", \
+          "url"      : "/alexander-rodchenko-westlicht/", \
+          "date"     : "October 30, 2013" \
+        }, \
+       \
+        { \
+          "title"    : "Linda McCartney @ Kunsthaus Wien", \
+          "category" : "arteventsfrancaisdeutschreviews", \
+          "url"      : "/linda-mccartney-kunsthaus/", \
+          "date"     : "July 26, 2013" \
+        }, \
+       \
+        { \
+          "title"    : "Photo and camera auction @ Westlicht Wien", \
+          "category" : "arteventsfrancais", \
+          "url"      : "/foto-auktion-westlicht-wien/", \
+          "date"     : "May 30, 2013" \
+        }, \
+       \
+        { \
+          "title"    : "An evening with Ulrich Seidl in Vienna", \
+          "category" : "arteventsfrancais", \
+          "url"      : "/ulrich-seidl-interview/", \
+          "date"     : "May 25, 2013" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "BLOG", \
+          "category" : "page", \
+          "url"      : "/blog/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "CONTACT", \
+          "category" : "page", \
+          "url"      : "/contact/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "ARCHIVE", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "WORK", \
+          "category" : "page", \
+          "url"      : "/work/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "booksnonfictiondeutschbloggerportal", \
+          "url"      : "/drafts/yyyy-mm-dd-buchrezension/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "tag", \
+          "url"      : "/new-post", \
+          "date"     : "January 1 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>Creating animated scatterplots with Python</h1>
+          
+
+          
+            <span class="post-meta">Posted on 3 October 2020</span>
+            
+            
+              <!--- "ReadTime on GitHub Jekyll" (c) 2020 Ruby Griffith Ramirez, MIT License -->
+
+
+
+
+
+
+  
+  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> 2 minute read</span>
+
+
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md ">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
+      
+        
+        
+        
+
+        <div id="header-gh-btns">
+          
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=animated-scatterplot&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=animated-scatterplot&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                
+            
+              
+                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
+              
+            
+          
+        </div>
+      
+
+      
+
+      <article role="main" class="blog-post">
+        <blockquote>
+  <p>Project completed in week 1 (28.09.-02.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin.</p>
+</blockquote>
+
+<p>Our first bootcamp project was creating an animated scatterplot, using the libraries <code class="language-plaintext highlighter-rouge">matplotlib</code> or <code class="language-plaintext highlighter-rouge">seaborn</code> and <code class="language-plaintext highlighter-rouge">imageio</code>. The scatterplot illustrates the relationship between life expectancy and fertility rate of world’s countries from 1960 to 2015, based on the <a href="https://www.gapminder.org/tag/download-data/">Gapminder data set</a>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>country</th>
+      <th>year</th>
+      <th>population</th>
+      <th>life_expectancy</th>
+      <th>fertility_rate</th>
+      <th>continent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>Afghanistan</td>
+      <td>1800</td>
+      <td>3280000.0</td>
+      <td>28.21</td>
+      <td>7.0</td>
+      <td>Asia</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The animated scatterplot is basically made of several overlapping static plots. The animation consists of <strong>four steps</strong>:</p>
+
+<p><strong>1. Create static scatterplots for each year in the data set.</strong></p>
+
+<p>Thescatterplots depict <code class="language-plaintext highlighter-rouge">life_expectancy</code> on the x axis and <code class="language-plaintext highlighter-rouge">fertility_rate</code> on the y rate. To make the plots even more insightful, the size of the points illustrates the <code class="language-plaintext highlighter-rouge">population</code> number and the color of the points illustrates the <code class="language-plaintext highlighter-rouge">continent</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span> 
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="n">sns</span>
+
+<span class="n">sns</span><span class="p">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'life_expectancy'</span><span class="p">,</span>
+                <span class="n">y</span><span class="o">=</span><span class="s">'fertility_rate'</span><span class="p">,</span>
+                <span class="n">hue</span><span class="o">=</span><span class="s">'continent'</span><span class="p">,</span>
+                <span class="n">size</span><span class="o">=</span><span class="s">'population'</span><span class="p">,</span>
+                <span class="n">sizes</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1000</span><span class="p">),</span>
+                <span class="n">legend</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+                <span class="n">data</span><span class="o">=</span><span class="n">gapminder_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">gapminder_df</span><span class="p">[</span><span class="s">'year'</span><span class="p">]</span><span class="o">==</span><span class="n">year</span><span class="p">],</span>
+                <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span>
+                <span class="n">palette</span><span class="o">=</span><span class="s">'Set2'</span><span class="p">)</span>
+    
+<span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s">'</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s">'center'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">'Life expectancy'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">'Fertility rate'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>2. Export the scatterplot images to a designated folder.</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">imageio</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">images</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">folder</span><span class="o">=</span><span class="s">'/path/to/folder/images'</span>
+
+<span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">exists</span><span class="p">(</span><span class="n">folder</span><span class="p">):</span>
+    <span class="n">os</span><span class="p">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">folder</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>3. Join the individual images in chronological order.</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filename</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'lifeexp_</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s">.png'</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="n">filename</span><span class="p">))</span>
+<span class="n">images</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">imageio</span><span class="p">.</span><span class="n">imread</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="n">filename</span><span class="p">)))</span>
+</code></pre></div></div>
+
+<p><strong>4. Export the scatterplots sequence as a gif.</strong><br />
+The <code class="language-plaintext highlighter-rouge">fps</code> (frames per second) parameter sets the speed of the animation.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">imageio</span><span class="p">.</span><span class="n">mimsave</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="s">'scatterplot.gif'</span><span class="p">),</span> <span class="n">images</span><span class="p">,</span> <span class="n">fps</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Now, putting everything together, here’s the full code and the animated scatterplot:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span> 
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="n">sns</span>
+<span class="kn">import</span> <span class="nn">imageio</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">images</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">folder</span><span class="o">=</span><span class="s">'/home/lorena/Documents/bootcamp/W1/images'</span>
+
+<span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">exists</span><span class="p">(</span><span class="n">folder</span><span class="p">):</span>
+    <span class="n">os</span><span class="p">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">folder</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1960</span><span class="p">,</span> <span class="mi">2016</span><span class="p">):</span>
+    
+    <span class="n">plt</span><span class="p">.</span><span class="n">axis</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+    
+    <span class="n">sns</span><span class="p">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'life_expectancy'</span><span class="p">,</span>
+                    <span class="n">y</span><span class="o">=</span><span class="s">'fertility_rate'</span><span class="p">,</span>
+                    <span class="n">hue</span><span class="o">=</span><span class="s">'continent'</span><span class="p">,</span>
+                    <span class="n">size</span><span class="o">=</span><span class="s">'population'</span><span class="p">,</span>
+                    <span class="n">sizes</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1000</span><span class="p">),</span>
+                    <span class="n">legend</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+                    <span class="n">data</span><span class="o">=</span><span class="n">gapminder_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">gapminder_df</span><span class="p">[</span><span class="s">'year'</span><span class="p">]</span><span class="o">==</span><span class="n">year</span><span class="p">],</span>
+                    <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span>
+                    <span class="n">palette</span><span class="o">=</span><span class="s">'Set2'</span><span class="p">)</span>
+    
+    <span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s">'</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s">'center'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">)</span>
+    <span class="c1">#plt.title(f'inspired by Hans Rosling', loc='right', fontsize=10, color='grey', style='italic', pad=-20)
+</span>
+    <span class="c1">#plt.legend(bbox_to_anchor=(0.74, 0.85), loc='center')
+</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">'Life expectancy'</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">'Fertility rate'</span><span class="p">)</span>
+    <span class="c1">#plt.annotate({country}, )
+</span>    
+    <span class="n">filename</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'lifeexp_</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s">.png'</span>
+    
+    <span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="n">filename</span><span class="p">))</span>
+    
+    <span class="n">images</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">imageio</span><span class="p">.</span><span class="n">imread</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="n">filename</span><span class="p">)))</span>
+    
+    <span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">()</span>
+    
+<span class="n">imageio</span><span class="p">.</span><span class="n">mimsave</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">folder</span><span class="p">,</span><span class="s">'scatterplot.gif'</span><span class="p">),</span> <span class="n">images</span><span class="p">,</span> <span class="n">fps</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="https://github.com/lorenanda/animated-scatterplot/raw/main/scatterplot.gif" alt="animated scatterplot" /></p>
+
+<h3 id="friday-lightning-talk">Friday Lightning Talk</h3>
+
+<p>Each week, we get a main dataset and several tasks to apply the concepts learned throughout the week. On Fridays, we present in 5 minutes a particular finding from our weekly challenge project, a chart, new library, (un)solved bugs, or anything that is worth sharing and helpful for others. This Friday, I chose to talk about five new <strong>bash commands</strong> for checking the installed Python libraries, their versions and dependencies.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>function</th>
+      <th>command</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>to list all installed libraries</td>
+      <td><code class="language-plaintext highlighter-rouge">pip list</code></td>
+    </tr>
+    <tr>
+      <td>to list only outdated libraries</td>
+      <td><code class="language-plaintext highlighter-rouge">pip list -o</code> (or <code class="language-plaintext highlighter-rouge">--outdated</code>)</td>
+    </tr>
+    <tr>
+      <td>to list only the latest / up to date libraries</td>
+      <td><code class="language-plaintext highlighter-rouge">pip list -u</code> (or <code class="language-plaintext highlighter-rouge">--uptodate</code>)</td>
+    </tr>
+    <tr>
+      <td>to show all information about a library</td>
+      <td><code class="language-plaintext highlighter-rouge">pip show &lt;package-name&gt;</code></td>
+    </tr>
+    <tr>
+      <td>to list all libraries installed in a specific environment</td>
+      <td><code class="language-plaintext highlighter-rouge">conda list -n &lt;environment-name&gt;</code></td>
+    </tr>
+  </tbody>
+</table>
+
+      </article>
+
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
+
+      
+        <div class="blog-tags">
+          <span>Tags:</span>
+          
+            <a href="/tags#data science">data science</a>
+          
+            <a href="/tags#bootcamp">bootcamp</a>
+          
+            <a href="/tags#projects">projects</a>
+          
+        </div>
+      
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Creating+animated+scatterplots+with+Python&url=http%3A%2F%2Flocalhost%3A4000%2Fbootcamp1%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fbootcamp1%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fbootcamp1%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a class="page-link" href="/books-ethics-ai/" data-toggle="tooltip" data-placement="top" title="5 eye-opening books about AI ethics">&larr; 5 eye-opening books about AI ethics</a>
+        </li>
+        
+        
+        <li class="page-item next">
+          <a class="page-link" href="/bootcamp2/" data-toggle="tooltip" data-placement="top" title="Predicting Titanic survivors with decision tree classifiers">Predicting Titanic survivors with decision tree classifiers &rarr;</a>
+        </li>
+        
+      </ul>
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="https://linkedin.com/in/lorena-ciutacu" title="LinkedIn">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">LinkedIn</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/lorenanda" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://medium.com/@lorenaciutacu" title="Medium">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Medium</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/bayesnbagels" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.goodreads.com/lorenasbooks" title="Goodreads">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-goodreads fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Goodreads</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+    
+      
+        Lorena Ciutacu
+        ©
+      
+      2012-2022
+
+      
+
+      
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

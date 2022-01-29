@@ -12,14 +12,25 @@
     
     
       <item>
+        <title>Im Auftrag der Toten von Axel Petermann</title>
+        <description>
+          
+          Titel: Im Auftrag der Toten Autor: Axel Petermann Verlag: Heyne Erschienen: September 2021 Seitenanzahl: 384 Bewertung: 🌕🌕🌕🌕🌑 Danke an Random House Bloggerportal und Heyne Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Klappentext Ein Mann wird wegen Mordes an seiner reichen Tante zu lebenslanger Haft verurteilt – doch die Ermittlungsunterlagen offenbaren...
+        </description>
+        <pubDate>Sat, 29 Jan 2022 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/buchrezension-imauftragdertoten/</link>
+        <guid isPermaLink="true">http://localhost:4000/buchrezension-imauftragdertoten/</guid>
+      </item>
+    
+      <item>
         <title>Rituale von Christine Dohler</title>
         <description>
           
           Titel: Rituale. Wie sie unser Leben stärken Autor: Christine Dohler Verlag: Goldmann Erschienen: September 2021 Seitenanzahl: 224 Bewertung: 🌕🌕🌗🌑🌑 Danke an Random House Bloggerportal und Goldmann Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Auf der Suche nach Bücher über Achtsamkeit und Meditation, habe ich Christine Dohlers Buch gefunden. Die Autorin...
         </description>
         <pubDate>Sat, 22 Jan 2022 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2022-01-22-buchrezension-rituale/</link>
-        <guid isPermaLink="true">http://localhost:4000/2022-01-22-buchrezension-rituale/</guid>
+        <link>http://localhost:4000/buchrezension-rituale/</link>
+        <guid isPermaLink="true">http://localhost:4000/buchrezension-rituale/</guid>
       </item>
     
       <item>
@@ -29,8 +40,8 @@
           As a technical writer creating tutorials and courses for users of all levels, I’m constantly re-evaluating my content, looking for ways to make it more accessible and easy to understand. I had one such oportunity yesterday, when I attended the workshop Improve Your Writing Using Accessible Language, held by Amy...
         </description>
         <pubDate>Sat, 15 Jan 2022 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2022-01-15-accessible-language/</link>
-        <guid isPermaLink="true">http://localhost:4000/2022-01-15-accessible-language/</guid>
+        <link>http://localhost:4000/accessible-language/</link>
+        <guid isPermaLink="true">http://localhost:4000/accessible-language/</guid>
       </item>
     
       <item>
@@ -40,8 +51,8 @@
           Whether you work in marketing, sales, or data engineering, you most likely use several apps or services for collecting and storing data from different sources. To boost productivity and reduce errors, you can automate various tasks in each system – from lead capturing in CRMs to e-commerce workflows and data...
         </description>
         <pubDate>Thu, 18 Nov 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2021-11-18-data-sync-workflows/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-11-18-data-sync-workflows/</guid>
+        <link>http://localhost:4000/data-sync-workflows/</link>
+        <guid isPermaLink="true">http://localhost:4000/data-sync-workflows/</guid>
       </item>
     
       <item>
@@ -51,8 +62,8 @@
           One year ago at this time, I was nervously making last-minute changes to slides for a presentation. Not just any presentation, but one of my final project for the Data Science Bootcamp at SPICED Academy, where I spent three full months learning about different machine learning algorithms and Python best...
         </description>
         <pubDate>Sun, 14 Nov 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2021-11-14-keep-your-skills-fresh-after-coding-bootcamp/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-11-14-keep-your-skills-fresh-after-coding-bootcamp/</guid>
+        <link>http://localhost:4000/keep-your-skills-fresh-after-coding-bootcamp/</link>
+        <guid isPermaLink="true">http://localhost:4000/keep-your-skills-fresh-after-coding-bootcamp/</guid>
       </item>
     
       <item>
@@ -62,8 +73,8 @@
           Breath: The New Science of a Lost Art by James Nestor 🌕🌕🌗🌑🌑 Journalist James Nestor travels the world to learn and experiment how to breathe properly. From his readings and talks with pulmonauts (people who use breathing techniques for self-improvement), yogis, and athletes, Nestor makes the case that the way...
         </description>
         <pubDate>Sun, 31 Oct 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-10-31-october-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-10-31-october-books/</guid>
+        <link>http://localhost:4000/october-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/october-books/</guid>
       </item>
     
       <item>
@@ -73,8 +84,8 @@
           In my previous post, I wrote about using spectral biclustering for making product recommendations. In this post, I’ll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso’s book Mastering Machine Learning Algorithms\(^1\). Table of contents Market Basket...
         </description>
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-10-17-market-basket-analysis-with-apriori-algorithm/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-10-17-market-basket-analysis-with-apriori-algorithm/</guid>
+        <link>http://localhost:4000/market-basket-analysis-with-apriori-algorithm/</link>
+        <guid isPermaLink="true">http://localhost:4000/market-basket-analysis-with-apriori-algorithm/</guid>
       </item>
     
       <item>
@@ -84,8 +95,8 @@
           My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from...
         </description>
         <pubDate>Sun, 03 Oct 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-10-03-spectral-biclustering-for-marketing-in-python/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-10-03-spectral-biclustering-for-marketing-in-python/</guid>
+        <link>http://localhost:4000/spectral-biclustering-for-marketing-in-python/</link>
+        <guid isPermaLink="true">http://localhost:4000/spectral-biclustering-for-marketing-in-python/</guid>
       </item>
     
       <item>
@@ -95,8 +106,8 @@
           The beginning of autumn found me in a reading slump. I couldn’t decide what to read next and didn’t feel like reading the books I had started. Eventually, I went to my local library and simply picked up three books that caught my eye. They turned out to be ok,...
         </description>
         <pubDate>Thu, 30 Sep 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-09-30-september-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-09-30-september-books/</guid>
+        <link>http://localhost:4000/september-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/september-books/</guid>
       </item>
     
       <item>
@@ -106,8 +117,8 @@
           You’re working long hours now, six in the morning to six in the afternoon. Sometimes even eight in the afternoon, six days a week. Sometimes seven days a week. It’s a long hustle but it keeps you busy. Busy but unfulfilled, because many of the things you do are plain...
         </description>
         <pubDate>Tue, 28 Sep 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-09-28-automatable-tasks/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-09-28-automatable-tasks/</guid>
+        <link>http://localhost:4000/automatable-tasks/</link>
+        <guid isPermaLink="true">http://localhost:4000/automatable-tasks/</guid>
       </item>
     
       <item>
@@ -117,8 +128,8 @@
           When was the last time you talked to someone online, be it friends, coworkers, or even strangers? Nowadays, you most likely do it every day. Toxic language online Online communication platforms like Telegram, Reddit, or Discord have made it possible for people from all over the world to connect and...
         </description>
         <pubDate>Tue, 21 Sep 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-09-21-toxic-language-workflow/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-09-21-toxic-language-workflow/</guid>
+        <link>http://localhost:4000/toxic-language-workflow/</link>
+        <guid isPermaLink="true">http://localhost:4000/toxic-language-workflow/</guid>
       </item>
     
       <item>
@@ -128,8 +139,8 @@
           If you run a business, sell a product, or offer services, you know how important it is to nurture the relationship with your customers and gain new ones. Whether you operate alone or with a sales team, you probably also know how difficult it can be to keep track of...
         </description>
         <pubDate>Tue, 14 Sep 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-09-14-crm-workflows/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-09-14-crm-workflows/</guid>
+        <link>http://localhost:4000/crm-workflows/</link>
+        <guid isPermaLink="true">http://localhost:4000/crm-workflows/</guid>
       </item>
     
       <item>
@@ -139,8 +150,8 @@
           The online shopping trend has been driven by increasing digitalization in the past years, and the COVID-19 outbreak has only fueled e-commerce growth. Consumers around the world are turning to online stores for pretty much all product categories, due to in-person restrictions or contamination concerns. In 2020, retail e-commerce sales...
         </description>
         <pubDate>Thu, 02 Sep 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-09-02-ecommerce-workflows/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-09-02-ecommerce-workflows/</guid>
+        <link>http://localhost:4000/ecommerce-workflows/</link>
+        <guid isPermaLink="true">http://localhost:4000/ecommerce-workflows/</guid>
       </item>
     
       <item>
@@ -150,8 +161,8 @@
           This month I read 4 fiction books of 1602 pages and a 3.4 average rating. Two of them were some of the most depressing books I’ve read in a long while, one was one of the most enlightening, and another one was just a boring book. Quite a mix, so...
         </description>
         <pubDate>Tue, 31 Aug 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-08-31-august-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-08-31-august-books/</guid>
+        <link>http://localhost:4000/august-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/august-books/</guid>
       </item>
     
       <item>
@@ -161,8 +172,8 @@
           A few weeks ago I checked the shutter count on my DSLR camera, a Nikon D7000 that I got for my birthday 9 years ago. The shutter count represents the total number of times the camera’s shutter has been clicked, so basically how many photos you’ve taken with the camera....
         </description>
         <pubDate>Thu, 19 Aug 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-08-19-photography-and-instant-gratification-economy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-08-19-photography-and-instant-gratification-economy/</guid>
+        <link>http://localhost:4000/photography-and-instant-gratification-economy/</link>
+        <guid isPermaLink="true">http://localhost:4000/photography-and-instant-gratification-economy/</guid>
       </item>
     
       <item>
@@ -172,8 +183,8 @@
           We are all so much together, but we are all dying of loneliness. (Albert Schweitzer) In a felt previous life, I’ve studied Theater, Film, and Media Studies at the University of Vienna. One of my favourite classes was a seminar on film analysis, where I learned to observe films and...
         </description>
         <pubDate>Wed, 11 Aug 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-08-11-o-homem-das-multidoes-film-analysis/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-08-11-o-homem-das-multidoes-film-analysis/</guid>
+        <link>http://localhost:4000/o-homem-das-multidoes-film-analysis/</link>
+        <guid isPermaLink="true">http://localhost:4000/o-homem-das-multidoes-film-analysis/</guid>
       </item>
     
       <item>
@@ -183,8 +194,8 @@
           Titel: Gefährliche Mittsommernacht Autor: Christoffer Holst Verlag: Heyne Erschienen: May 2021 Seitenanzahl: 320 Bewertung: 🌕🌕🌑🌑🌑 Danke an Random House Bloggerportal und Heyne Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Klappentext Endlich entspannen und ihren Liebeskummer vergessen, denkt Journalistin Cilla Storm, als sie auf Bullholmen ankommt. Und wo sollte das besser...
         </description>
         <pubDate>Sun, 08 Aug 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-08-08-buchrezension-gefaehrliche-mittsommernacht/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-08-08-buchrezension-gefaehrliche-mittsommernacht/</guid>
+        <link>http://localhost:4000/buchrezension-gefaehrliche-mittsommernacht/</link>
+        <guid isPermaLink="true">http://localhost:4000/buchrezension-gefaehrliche-mittsommernacht/</guid>
       </item>
     
       <item>
@@ -194,8 +205,8 @@
           I’ve been interested in emotions ever since I’ve become aware of them. Maybe because I was unsure how to process and interpret them, in both myself and others. How do people express emotions and why do they do it so differently? Is being scared the same as fearing? Can I...
         </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-08-06-romanian-psych-verbs-study/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-08-06-romanian-psych-verbs-study/</guid>
+        <link>http://localhost:4000/romanian-psych-verbs-study/</link>
+        <guid isPermaLink="true">http://localhost:4000/romanian-psych-verbs-study/</guid>
       </item>
     
       <item>
@@ -205,8 +216,8 @@
           This month I managed to read (only) 4 books (2 fiction, 2 non-fiction), amounting to 1383 pages and an average rating of 3.25. FICTION Playing Nice by J.P. Delaney 🌕🌕🌕🌑🌑 A couple’s pleasant little life is turned upside down by the revelation that their son was switched at birth. Though...
         </description>
         <pubDate>Sat, 31 Jul 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-07-31-july-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-07-31-july-books/</guid>
+        <link>http://localhost:4000/july-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/july-books/</guid>
       </item>
     
       <item>
@@ -216,19 +227,8 @@
           Titel: Auf Erden sind wir kurz grandios Autor: Ocean Vuong Verlag: btb Erschienen: Juli 2021 Seitenanzahl: 272 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Klappentext Ein Roman, der die amerikanische Identität neu definiert. Und der Brief eines Sohnes an die vietnamesische...
         </description>
         <pubDate>Sun, 11 Jul 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-07-11-buchrezension-auf-erden-sind-wir-kurz-grandios/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-07-11-buchrezension-auf-erden-sind-wir-kurz-grandios/</guid>
-      </item>
-    
-      <item>
-        <title>June books wrap-up</title>
-        <description>
-          
-          What a disappointing reading month June was! I read 5 books (4 fiction and 1 non-fiction) amounting to 1,715 pages and a 2.7 average rating, with ratings between 1 and 3. I haven’t read such weak books, and so many in a row, since… never! I don’t know how I...
-        </description>
-        <pubDate>Wed, 30 Jun 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2021-06-30-june-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-06-30-june-books/</guid>
+        <link>http://localhost:4000/buchrezension-auf-erden-sind-wir-kurz-grandios/</link>
+        <guid isPermaLink="true">http://localhost:4000/buchrezension-auf-erden-sind-wir-kurz-grandios/</guid>
       </item>
     
   </channel>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4 tips for creating a great data science portfolio
-tags: [data science, career]
+tags: [data science]
 comments: true
 ---
 

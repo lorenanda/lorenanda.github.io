@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 ways to keep your skills fresh after finishing a coding bootcamp
-tags: [career, data science]
+tags: [data science]
 comments: true
 readtime: true
 share-description: Tips for maintaining and developing your coding skills after you're done with formal education.
