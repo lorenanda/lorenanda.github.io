@@ -24,11 +24,11 @@ Axel Petermann zeigt anhand seiner neuesten Fälle, warum gängige Ermittlungsme
 ## Meinung
 Neben diesen Klappentext steht noch auf der ersten Seite: "Die Realität ist spannender als jeder Krimi". Diese Einleitung hat meine Erwartungen erhöht: ich habe eine aufregende und professionelle True-Crime Lektüre erwartet –– und wurde nicht enttäuscht.
 
-Die Drei Cold-Case-Ermittlungen (d.h. neue polizeiliche Ermittlungen in einem bisher ungeklärten Kriminalfall) sind sehr unterschiedlich, aber ähnlich aufregend. Der Schreibstil ist so fesselnden, dass ich hin und wieder vergessen habe, dass es um das wirkliche Leben geht, und nicht einen fiktiven Krimi.
+Die drei **Cold-Case-Ermittlungen** (d.h. neue polizeiliche Ermittlungen in einem bisher ungeklärten Kriminalfall) sind sehr unterschiedlich, aber ähnlich aufregend. Der Schreibstil ist so fesselnd, dass ich hin und wieder vergessen habe, dass es um das wirkliche Leben geht, und nicht einen fiktiven Krimi.
 
-Das Buch bietet eine authentische Darstellung der zwei zentralen Eigenschaften eines Fallanalytikers: methodisches Vorgehen und menschliches Verständnis. Zum einen erklärt der Autor detailliert seine Ermittlungsmethoden, Denkprozesse, und Schlussfolgerungen, die zur Erstellung eines Täterprofils und letztendlich Aufdeckung der Wahrheit dienen. Zum anderen erzählt die Geschichte der Opfer und ihrer Entourage mit Mitgefühl, versucht sich in die Lage der Opfer und Täter zu versetzen, um ihre psychologische Einblicke zu gewinnen. Auch gegenüber den Tätern, sowie den alten Behörden, die an der Zeit (gravierende) Fehler gemacht oder nicht tiefer emittelt haben, drückt sich der Autor wertfrei aus.
+Das Buch bietet eine authentische Darstellung der zwei zentralen **Eigenschaften eines Fallanalytikers**: methodisches Vorgehen und menschliches Verständnis. Zum einen erklärt der Autor detailliert seine Ermittlungsmethoden, Denkprozesse, und Schlussfolgerungen, die zur Erstellung eines Täterprofils und letztendlich Aufdeckung der Wahrheit dienen. Zum anderen erzählt er die Geschichte der Opfer und ihrer Entourage mit Mitgefühl, versucht sich in die Lage der Opfer und Täter zu versetzen, um ihre psychologische Einblicke zu gewinnen. Auch gegenüber den Tätern, sowie den alten Behörden, die an der Zeit (gravierende) Fehler gemacht oder nicht tiefer emittelt haben, drückt sich der Autor wertfrei aus.
 
-Diese Fälle zeigen, dass manchmal sogar die Zeit nicht alle Wunden heilt, oder vergisst. Und Petermann erzählt ihre Geschichten mit der richtigen Dosierung von Theorie, Dialog, und Action.
+Diese Fälle zeigen, dass manchmal sogar die Zeit nicht alle Wunden heilt –– oder vergisst. Und Petermann erzählt ihre Geschichten mit der richtigen Dosierung von Theorie, Dialog, und Action.
 
 ## Empfehlung
-Wenn du ein Fan von hautnahes True-Crime bist und mehr von der fachlichen Expertise eines Fallanalytikers lernen willst, dann empfehle ich dir *Im Auftrag der Toten* zu lesen.
+Wenn du ein Fan von hautnahe True-Crime bist und mehr von der fachlichen Expertise eines Fallanalytikers lernen willst, dann empfehle ich dir *Im Auftrag der Toten* zu lesen.
