@@ -9,13 +9,13 @@
 
   
 
-  <title>Building a Slackbot for live tweets with Python</title>
+  <title>Building a dockerized ETL pipeline for tweet streaming in Slack</title>
 
   
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="Learn how to build a dockerized ETL pipeline with Postgres, MongoDB, and analyze tweets sentiment with Python.">
+  <meta name="description" content="Learn how I built an ETL pipeline for sentiment analysis and database storage with Python.">
 
   
 
@@ -96,8 +96,8 @@
 
   
   <meta property="og:site_name" content="Lorena Ciutacu">
-  <meta property="og:title" content="Building a Slackbot for live tweets with Python">
-  <meta property="og:description" content="Learn how to build a dockerized ETL pipeline with Postgres, MongoDB, and analyze tweets sentiment with Python.">
+  <meta property="og:title" content="Building a dockerized ETL pipeline for tweet streaming in Slack">
+  <meta property="og:description" content="Learn how I built an ETL pipeline for sentiment analysis and database storage with Python.">
 
   
 
@@ -115,8 +115,8 @@
   <meta name="twitter:site" content="@bayesnbagels">
   <meta name="twitter:creator" content="@bayesnbagels">
 
-  <meta property="twitter:title" content="Building a Slackbot for live tweets with Python">
-  <meta property="twitter:description" content="Learn how to build a dockerized ETL pipeline with Postgres, MongoDB, and analyze tweets sentiment with Python.">
+  <meta property="twitter:title" content="Building a dockerized ETL pipeline for tweet streaming in Slack">
+  <meta property="twitter:description" content="Learn how I built an ETL pipeline for sentiment analysis and database storage with Python.">
 
   
 
@@ -557,7 +557,7 @@
         }, \
        \
         { \
-          "title"    : "Building a Slackbot for live tweets with Python", \
+          "title"    : "Building a dockerized ETL pipeline for tweet streaming in Slack", \
           "category" : "data sciencebootcampprojects", \
           "url"      : "/bootcamp7/", \
           "date"     : "November 14, 2020" \
@@ -900,7 +900,7 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>Building a Slackbot for live tweets with Python</h1>
+          <h1>Building a dockerized ETL pipeline for tweet streaming in Slack</h1>
           
 
           
@@ -981,25 +981,20 @@
 </table>
 
 <h4 id="table-of-contents">Table of contents</h4>
-
-<ul>
-  <li><a href="#0-prerequisites--tech-stack">0. Prerequisites &amp; tech stack</a></li>
-  <li><a href="#1-collecting-tweets">1. Collecting tweets</a></li>
-  <li><a href="#2-storing-tweets-in-mongodb">2. Storing tweets in MongoDB</a></li>
-  <li><a href="#3-performing-etl-job">3. Performing ETL job</a>
-    <ul>
-      <li><a href="#31-extracting-tweets-from-mongodb">3.1. Extracting tweets from MongoDB</a></li>
-      <li><a href="#32-transforming-tweets-with-sentiment-scores">3.2. Transforming tweets with sentiment scores</a></li>
-      <li><a href="#33-loading-tweets-into-postgresql">3.3. Loading tweets into PostgreSQL</a></li>
-    </ul>
-  </li>
-  <li><a href="#4-extracting-tweets-from-postgres">4. Extracting tweets from Postgres</a></li>
-  <li><a href="#5-posting-tweets-with-a-slackbot">5. Posting tweets with a Slackbot</a></li>
-  <li><a href="#6-creating-the-docker-compose-pipeline">6. Creating the Docker Compose pipeline</a></li>
-  <li><a href="#friday-lightning-talk">Friday Lightning Talk</a></li>
-</ul>
+<p><a href="#0-prerequisites--tech-stack">0. Prerequisites &amp; tech stack</a><br />
+<a href="#1-collecting-tweets">1. Collecting tweets</a><br />
+<a href="#2-storing-tweets-in-mongodb">2. Storing tweets in MongoDB</a><br />
+<a href="#3-performing-etl-job">3. Performing ETL job</a><br />
+    <a href="#31-extracting-tweets-from-mongodb">3.1. Extracting tweets from MongoDB</a><br />
+    <a href="#32-transforming-tweets-with-sentiment-scores">3.2. Transforming tweets with sentiment scores</a><br />
+    <a href="#33-loading-tweets-into-postgresql">3.3. Loading tweets into PostgreSQL</a><br />
+<a href="#4-extracting-tweets-from-postgres">4. Extracting tweets from Postgres</a><br />
+<a href="#5-posting-tweets-with-a-slackbot">5. Posting tweets with a Slackbot</a><br />
+<a href="#6-creating-the-docker-compose-pipeline">6. Creating the Docker Compose pipeline</a><br />
+<a href="#friday-lightning-talk">Friday Lightning Talk</a></p>
 
 <h2 id="0-prerequisites--tech-stack">0. Prerequisites &amp; tech stack</h2>
+<p>Here’s an overview of the apps, services, and libraries I used in this project:</p>
 
 <table>
   <thead>
@@ -1011,29 +1006,29 @@
   <tbody>
     <tr>
       <td>Twitter</td>
-      <td><code class="language-plaintext highlighter-rouge">tweepy</code> &amp; <code class="language-plaintext highlighter-rouge">vader</code></td>
+      <td><a href="https://www.tweepy.org/"><code class="language-plaintext highlighter-rouge">tweepy</code></a> &amp; <a href="https://pypi.org/project/vaderSentiment/"><code class="language-plaintext highlighter-rouge">vader</code></a></td>
     </tr>
     <tr>
       <td>Slack</td>
-      <td><code class="language-plaintext highlighter-rouge">slackclient</code></td>
+      <td><a href=""><code class="language-plaintext highlighter-rouge">slackclient</code></a></td>
     </tr>
     <tr>
-      <td><a href="(https://account.mongodb.com/account/register)">MongoDB</a></td>
-      <td><code class="language-plaintext highlighter-rouge">pymongo</code></td>
+      <td><a href="https://account.mongodb.com/account/register">MongoDB</a></td>
+      <td><a href="https://pymongo.readthedocs.io/en/stable/"><code class="language-plaintext highlighter-rouge">pymongo</code></a></td>
     </tr>
     <tr>
-      <td>PostgreSQL</td>
-      <td><code class="language-plaintext highlighter-rouge">psycopg2-binary</code> &amp; <code class="language-plaintext highlighter-rouge">sqlalchemy</code></td>
+      <td><a href="https://www.postgresql.org/download/">PostgreSQL</a></td>
+      <td><a href="https://www.psycopg.org/docs/install.html"><code class="language-plaintext highlighter-rouge">psycopg2-binary</code></a> &amp; <a href="https://www.sqlalchemy.org/"><code class="language-plaintext highlighter-rouge">sqlalchemy</code></a></td>
     </tr>
     <tr>
-      <td>Docker-Compose</td>
+      <td><a href="https://docs.docker.com/compose/">Docker-Compose</a></td>
       <td>-</td>
     </tr>
   </tbody>
 </table>
 
 <h2 id="1-collecting-tweets">1. Collecting tweets</h2>
-<p>To collect tweets, I used the <a href="https://developer.twitter.com/en/docs/twitter-api">Twitter API</a> along with the <a href="https://www.tweepy.org/"><code class="language-plaintext highlighter-rouge">tweepy</code> library</a>.</p>
+<p>To collect tweets, I used the <a href="https://developer.twitter.com/en/docs/twitter-api">Twitter API</a> along with the <code class="language-plaintext highlighter-rouge">tweepy</code> library.</p>
 
 <p>First, I <a href="https://developer.twitter.com/en/docs/apps/overview">created an app on Twitter</a> and got my credentials (API key and Access Token). Then, I wrote the <a href="https://github.com/lorenanda/tweets-docker-pipeline/tree/main/docker-compose/tweet_collector">Python code for streaming live tweets</a>, using <code class="language-plaintext highlighter-rouge">tweepy</code> with my Twitter credentials. I chose to stream the hashtag <em>#OnThisDay</em> (thought it would be interesting to get a daily notification of what happened years ago) and collected the tweet text and user handle.</p>
 
@@ -1065,7 +1060,7 @@
 <code class="language-plaintext highlighter-rouge">mongo "mongodb+srv://YourClusterName.mongodb.net/YourDatabaseName" --username YourUsername</code></li>
 </ol>
 
-<p>Second, I wrote the <a href="https://github.com/lorenanda/tweets-docker-pipeline/tree/main/docker-compose/tweet_collector">Python code for storing tweets in MongoDB</a> using the <a href="https://pymongo.readthedocs.io/en/stable/"><code class="language-plaintext highlighter-rouge">pymongo</code> library</a>.</p>
+<p>Second, I wrote the <a href="https://github.com/lorenanda/tweets-docker-pipeline/tree/main/docker-compose/tweet_collector">Python code for storing tweets in MongoDB</a> using the <code class="language-plaintext highlighter-rouge">pymongo</code> library.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pymongo</span>
 
@@ -1093,7 +1088,7 @@
         <span class="k">return</span> <span class="n">t</span>
 </code></pre></div></div>
 <h3 id="32-transforming-tweets-with-sentiment-scores">3.2. Transforming tweets with sentiment scores</h3>
-<p>To analyze the sentiment of the tweets, I used the <a href="https://pypi.org/project/vaderSentiment/"><code class="language-plaintext highlighter-rouge">VADER</code> library</a> , which returns (among others) a compound sentiment score.</p>
+<p>To analyze the sentiment of the tweets, I used the <code class="language-plaintext highlighter-rouge">VADER</code> library , which returns (among others) a compound sentiment score.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">vaderSentiment.vaderSentiment</span> <span class="kn">import</span> <span class="n">SentimentIntensityAnalyzer</span>
 
@@ -1107,7 +1102,7 @@
     <span class="k">return</span> <span class="n">tweet_sia</span>
 </code></pre></div></div>
 <h3 id="33-loading-tweets-into-postgresql">3.3. Loading tweets into PostgreSQL</h3>
-<p>To load the tweets with their sentiment scores into a Postgres database, first you need––well, a Postgres database. I <a href="https://www.postgresql.org/download/">installed Postgres</a>, then created a database and a table for tweets right from the terminal:</p>
+<p>To load the tweets with their sentiment scores into a Postgres database, first you need––well, a Postgres database. I installed Postgres, then created a database and a table for tweets right from the terminal:</p>
 
 <ol>
   <li>Connect to Postgres: <code class="language-plaintext highlighter-rouge">psql</code></li>
@@ -1168,7 +1163,7 @@
 <figure><img src="./../assets/img/tweetbyslackbot.webp" alt="" style="width:50%" />Tweet posted by Slackbot</figure>
 
 <h2 id="6-creating-the-docker-compose-pipeline">6. Creating the Docker Compose pipeline</h2>
-<p>The final touch of this project is <em>orchestration</em>. The individual Python scripts for each step work when you run them manually, but the goal is to run this pipeline from beginnning to end with only one command. This is where <a href="https://docs.docker.com/engine/reference/commandline/container/"><strong>Docker Compose</strong></a> comes in.</p>
+<p>The final touch of this project is <em>orchestration</em>. The individual Python scripts for each step work when you run them manually, but the goal is to run this pipeline from beginnning to end with only one command. This is where <strong>Docker Compose</strong> comes in.</p>
 
 <blockquote>
   <p>Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.</p>
@@ -1269,7 +1264,7 @@
   <span class="sr-only">Share: </span>
 
   
-    <a href="https://twitter.com/intent/tweet?text=Building+a+Slackbot+for+live+tweets+with+Python&url=http%3A%2F%2Flocalhost%3A4000%2Fbootcamp7%2F"
+    <a href="https://twitter.com/intent/tweet?text=Building+a+dockerized+ETL+pipeline+for+tweet+streaming+in+Slack&url=http%3A%2F%2Flocalhost%3A4000%2Fbootcamp7%2F"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
