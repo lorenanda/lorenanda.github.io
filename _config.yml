@@ -9,6 +9,7 @@ author: Lorena Ciutacu
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  About: "about"
   Work: "work"
   Blog: "blog"
   Contact: "contact"
