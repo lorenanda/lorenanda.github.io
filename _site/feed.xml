@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>My Visual Studio Code setup for technical writing</title>
+        <description>
+          
+          I write in Markdown pretty much every day, either personal blog posts or docs at my day job as a Technical Writer. In the past year, I’ve customized my writing workspace in Visual Studio Code to make writing more efficient and pleasant. In this post, I’ll share with you my...
+        </description>
+        <pubDate>Fri, 11 Feb 2022 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/vscode-setup-for-technical-writing</link>
+        <guid isPermaLink="true">http://localhost:4000/vscode-setup-for-technical-writing</guid>
+      </item>
+    
+      <item>
         <title>Im Auftrag der Toten von Axel Petermann</title>
         <description>
           
@@ -218,17 +229,6 @@
         <pubDate>Sat, 31 Jul 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/july-books/</link>
         <guid isPermaLink="true">http://localhost:4000/july-books/</guid>
-      </item>
-    
-      <item>
-        <title>Auf Erden sind wir kurz grandios von Ocean Vuong</title>
-        <description>
-          
-          Titel: Auf Erden sind wir kurz grandios Autor: Ocean Vuong Verlag: btb Erschienen: Juli 2021 Seitenanzahl: 272 Bewertung: 🌕🌕🌕🌑🌑 Danke an Random House Bloggerportal und btb Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Klappentext Ein Roman, der die amerikanische Identität neu definiert. Und der Brief eines Sohnes an die vietnamesische...
-        </description>
-        <pubDate>Sun, 11 Jul 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/buchrezension-auf-erden-sind-wir-kurz-grandios/</link>
-        <guid isPermaLink="true">http://localhost:4000/buchrezension-auf-erden-sind-wir-kurz-grandios/</guid>
       </item>
     
   </channel>
