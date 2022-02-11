@@ -9,13 +9,13 @@
 
   
 
-  <title>Exhibition of Art of Akume</title>
+  <title>How to automate every step of an incident response workflow</title>
 
   
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="This weekend, 29th to 30th of March, Crush XV hosted the exhibition of my favorite artist: Akume. He exhibited four of his sculptures: The dull flame of desire, Stabat mater, Rex tremendae, and Twisted muse.  My work is, in a sense, a form of aesthetical violence being forced on the viewer, an impulse to feel violence through...">
+  <meta name="description" content="Minimize the damage caused by IT incidents by following an incident response playbook with PagerDuty, Jira, and Mattermost.">
 
   
 
@@ -96,17 +96,17 @@
 
   
   <meta property="og:site_name" content="Lorena Ciutacu">
-  <meta property="og:title" content="Exhibition of Art of Akume">
-  <meta property="og:description" content="This weekend, 29th to 30th of March, Crush XV hosted the exhibition of my favorite artist: Akume. He exhibited four of his sculptures: The dull flame of desire, Stabat mater, Rex tremendae, and Twisted muse.  My work is, in a sense, a form of aesthetical violence being forced on the viewer, an impulse to feel violence through...">
+  <meta property="og:title" content="How to automate every step of an incident response workflow">
+  <meta property="og:description" content="Minimize the damage caused by IT incidents by following an incident response playbook with PagerDuty, Jira, and Mattermost.">
 
   
 
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Lorena Ciutacu">
-  <meta property="og:article:published_time" content="2019-03-31T00:00:00+01:00">
-  <meta property="og:url" content="http://localhost:4000/art-of-akume-exhibition/">
-  <link rel="canonical" href="http://localhost:4000/art-of-akume-exhibition/">
+  <meta property="og:article:published_time" content="2022-02-10T00:00:00+01:00">
+  <meta property="og:url" content="http://localhost:4000/automated-incident-response/">
+  <link rel="canonical" href="http://localhost:4000/automated-incident-response/">
   
 
   
@@ -115,8 +115,8 @@
   <meta name="twitter:site" content="@bayesnbagels">
   <meta name="twitter:creator" content="@bayesnbagels">
 
-  <meta property="twitter:title" content="Exhibition of Art of Akume">
-  <meta property="twitter:description" content="This weekend, 29th to 30th of March, Crush XV hosted the exhibition of my favorite artist: Akume. He exhibited four of his sculptures: The dull flame of desire, Stabat mater, Rex tremendae, and Twisted muse.  My work is, in a sense, a form of aesthetical violence being forced on the viewer, an impulse to feel violence through...">
+  <meta property="twitter:title" content="How to automate every step of an incident response workflow">
+  <meta property="twitter:description" content="Minimize the damage caused by IT incidents by following an incident response playbook with PagerDuty, Jira, and Mattermost.">
 
   
 
@@ -932,11 +932,11 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>Exhibition of Art of Akume</h1>
+          <h1>How to automate every step of an incident response workflow</h1>
           
 
           
-            <span class="post-meta">Posted on 31 March 2019</span>
+            <span class="post-meta">Posted on 10 February 2022</span>
             
             
               <!--- "ReadTime on GitHub Jekyll" (c) 2020 Ruby Griffith Ramirez, MIT License -->
@@ -947,7 +947,7 @@
 
 
   
-  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> &lt; 1 minute read</span>
+  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> 7 minute read</span>
 
 
             
@@ -972,17 +972,176 @@
       
 
       <article role="main" class="blog-post">
-        <p>This weekend, <strong>29th to 30th of March</strong>, <a href="https://www.facebook.com/crushXVbar/">Crush XV</a> hosted the exhibition of my favorite artist: <a href="http://artofakume.com/"><strong>Akume</strong>.</a> He exhibited four of his sculptures: <em>The dull flame of desire</em>, <em>Stabat mater</em>, <em>Rex tremendae</em>, and <em>Twisted muse</em>. </p>
+        <p><strong>Cyberincidents</strong> (like cyber crime, IT failure/outage, and data breaches) are the <a href="https://www.statista.com/statistics/422207/leading-business-risks-by-company-size/">number one threat of large and small companies</a>. Now imagine your company is hit by a data breach. One moment you’re minding your business as usual, the next you notice unusually high outbound traffic, some changes in important files, suspicious user activity, or you’re straight-up locked out of your accounts. How do you react?</p>
 
-<blockquote>
-  <p>My work is, in a sense, a form of aesthetical violence being forced on the viewer, an impulse to feel violence through violence and reflect.</p>
+<p>If simply thinking about this scenario triggered trepidation, you’re unprepared for such a situation. But don’t panic.</p>
 
-  <p><em>AKUME</em></p>
-</blockquote>
+<p>In this post, we’ll explain what incidents are, why it’s crucial to have an incident response playbook in place, how to create one and automate it with our workflow template.</p>
 
-<p>I have photographed Akume’s sculptures and every shooting was an exciting challenge, as I was trying to capture all the intricate details and materials, but also to find the right angle and lighting that would express the meaning behind each artwork.</p>
+<h4 id="table-of-contents">Table of contents</h4>
+<ul>
+  <li><a href="#what-is-incident-response">What is incident response?</a></li>
+  <li><a href="#why-do-you-need-an-incident-response-playbook">Why do you need an incident response playbook?</a></li>
+  <li><a href="#what-are-the-phases-of-an-incident-response-plan">What are the phases of an incident response plan?</a></li>
+  <li><a href="#why-should-you-automate-the-incident-response">Why should you automate the incident response?</a></li>
+  <li><a href="#build-an-automated-incident-response-workflow">Build an automated incident response workflow</a>
+    <ul>
+      <li><a href="#workflow-prerequisites">Workflow prerequisites</a></li>
+      <li><a href="#workflow-1---inform-the-team-about-the-incident">Workflow 1 - Inform the team about the incident</a></li>
+      <li><a href="#workflow-2---ensure-that-the-incident-is-acknowledged-internally">Workflow 2 - Ensure that the incident is acknowledged internally</a></li>
+      <li><a href="#workflow-3---mark-the-incident-as-resolved">Workflow 3 - Mark the incident as resolved</a></li>
+      <li><a href="#activate-the-workflows-in-production">Activate the workflows in production</a></li>
+    </ul>
+  </li>
+</ul>
 
-<p><a href="https://artofakume.com/about.html">Visit his website</a> for more information and inspiration!</p>
+<h2 id="what-is-incident-response">What is incident response?</h2>
+
+<p>Let’s start with a definition of the <strong>key terms</strong> you’ll encounter in this article: incident, incident response, and incident response plan.</p>
+
+<p>An <strong>incident</strong> is an event that threatens the operations, services, or functionality of an organization. For example, a server outage or cybersecurity attacks disrupt the everyday operations of an organization.</p>
+
+<p>An <strong>incident response</strong> is the reaction to an incident. This reaction represents the way the organization manages the situation: from identifying the issue, over analyzing and fixing the problem, to preventing future re-occurrences.</p>
+
+<p>An <strong>incident response plan</strong> (or <strong>playbook</strong>) is an organized, pre-established sequence of measures that the IT team takes when faced with an incident.</p>
+
+<h2 id="why-do-you-need-an-incident-response-playbook">Why do you need an incident response playbook?</h2>
+
+<p>It is a truth universally acknowledged that people don’t make good decisions under stress. The stakes are even higher at large scale, when the data of millions of users or critical business operations are impacted.</p>
+
+<p>And yet, <a href="https://www.cybintsolutions.com/cyber-security-facts-stats/">more than 77%</a> of organizations do not have an incident response plan. <a href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2021/09/13085018/Incident-Response-Analyst-Report-eng-2021.pdf">A Kaspersky report</a> revealed that 51% of companies detected an incident after impact, and 74% needed weeks up to months for remediation.</p>
+
+<p>An incident response playbook allows you to jump from (over-)thinking to acting in moments of crisis. The less decisions you need to make on the spot, the faster you can respond to the incident, minimize damage, and protect your company’s reputation.</p>
+
+<h2 id="what-are-the-phases-of-an-incident-response-plan">What are the phases of an incident response plan?</h2>
+
+<p>An efficient incident response typically consists of <a href="https://www.sans.org/white-papers/33901/">six phases</a>:</p>
+
+<ol>
+  <li><strong>Preparation</strong>: Get the IT team together, assign clear roles to each of them of what they should do in the case of an incident, and ensure that all necessary tools or services are available.</li>
+  <li><strong>Identification</strong>: This is the “Houston, we have a problem” moment. Once an incident is identified, establish what happened, where it originated, what parts of the business it affects and to what extent.</li>
+  <li><strong>Containment</strong>: Limit the incident threat from spreading to affect other processes, systems, or operations, and establish backups.</li>
+  <li><strong>Eradication</strong>: Make sure the issue is fixed and systems are patched, so thoroughly that no trace of the incident is left behind.</li>
+  <li><strong>Recovery</strong>: Once the incident is resolved, get all the services up and running again, restore connections and services to production.</li>
+  <li><strong>Learnings</strong>: Get the IT team together to discuss what they learned from managing the threat, what went well, and––most importantly perhaps––what could be improved. Add the incident and the taken measures to your internal documentation, so they can serve as reference for future issues.</li>
+</ol>
+
+<p>These six phases should also be reflected in your incident response playbook.</p>
+
+<h2 id="why-should-you-automate-the-incident-response">Why should you automate the incident response?</h2>
+
+<p>Having an incident response playbook is a first step towards managing incidents more efficiently. However, it still involves manual actions (for example, notifying all team members in due time or creating tickets). The solution to this problem is <strong>automated incident response</strong>.</p>
+
+<p>Though you can’t automate the whole process (someone has to roll up their sleeves and fix the actual issue), you can automate some <a href="https://n8n.io/blog/features-of-tasks-that-can-be-automated/#4-rule-based-tasks">low-level tasks</a> that add up to cause delays and errors. Automation can assist, supplement, or completely replace human intervention. As a result, the IT team has less trivial tasks to worry about, and instead more time to deal with the critical ones.</p>
+
+<p>By automating pretty much every step of the playbook, you achieve <strong>more efficient communication</strong> between team members and <strong>faster response times</strong>, which in turn improve the main <strong>incident response metrics</strong>: mean time to detect (MTTD),mean time to acknowledge (MTTA), and mean time to resolution / respond (MTTR).</p>
+
+<h2 id="build-an-automated-incident-response-workflow">Build an automated incident response workflow</h2>
+<p>Let’s put the theory into practice. In this part, we’ll build an automated workflow that follows the following incident response protocol:</p>
+
+<ol>
+  <li>Triage issue in the project management platform</li>
+  <li>Create a special channel in the team communication platform</li>
+  <li>Add the on-call team members to the new channel</li>
+  <li>Acknowledge the issue</li>
+  <li>Fix the issue</li>
+  <li>Resolve the issue ticket</li>
+</ol>
+
+<p>In our workflow, we’ll use the following services:</p>
+<ul>
+  <li><strong>Jira</strong> for project management and issue tickets. (Alternatively, you can use <a href="https://docs.n8n.io/nodes/n8n-nodes-base.trello/">Trello</a>)</li>
+  <li><strong>Mattermost</strong> for team communication. (Alternatively, you can use <a href="https://docs.n8n.io/nodes/n8n-nodes-base.slack/">Slack</a>)</li>
+  <li><strong>PagerDuty</strong> for managing incidents.</li>
+</ul>
+
+<p>This workflow consists of three parts, each tackling different playbook steps:</p>
+<ul>
+  <li><a href="https://n8n.io/workflows/353">Workflow 1</a> covers triaging the issue, creating a special communication channel, and tagging the on-call team (steps 1-3).</li>
+  <li><a href="https://n8n.io/workflows/354">Workflow 2</a> covers acknowledging the issue (step 4).</li>
+  <li><a href="https://n8n.io/workflows/355">workflow 3</a> covers fixing the issue and resolving the ticket automatically (steps 5-6).</li>
+</ul>
+
+<p>All put together, the final workflow look like this:</p>
+
+<figure><img src="https://lh4.googleusercontent.com/oj2w5ptHZKSZFxWznC4yhmOnfATGgCS_XB1nQEU7ARTSR1mC_ln7PCuRDMhUdRoqF_bHHymNKMR08xn4qbZvTXELvqE_IPzsVLFHOrHdud03nYO5bFFarfJivgTcS6s9aPh3To80" alt="Screenshot of n8n Editor UI showing three workflows for automated incident response" style="width:100%" /><figcaption align="center"><i>Workflows for automated incident response</i></figcaption></figure>
+
+<h3 id="workflow-prerequisites">Workflow prerequisites</h3>
+
+<p>To follow along this tutorial and implement the workflow yourself, you’ll need the following:</p>
+
+<ul>
+  <li><a href="https://n8n.io/#get-started">n8n</a>: You can download the desktop app, sign up for n8n.cloud, or install n8n self-hosted. In this tutorial, we use n8n version 0.158.0.</li>
+  <li><a href="https://docs.n8n.io/credentials/pagerDuty/">PagerDuty credentials</a>: You’ll need these for configuring the <a href=""><em>PagerDuty node</em></a> to manage incidents.</li>
+  <li><a href="https://docs.n8n.io/credentials/jira/">Jira credentials</a>: You’ll need these for configuring the <a href=""><em>Jira node</em></a> to create tickets.</li>
+  <li><a href="https://docs.n8n.io/credentials/mattermost/">Mattermost credentials</a>: You’ll need these for configuring the <a href=""><em>Mattermost node</em></a> to send notifications.</li>
+</ul>
+
+<h3 id="workflow-1---inform-the-team-about-the-incident">Workflow 1 - Inform the team about the incident</h3>
+
+<p>The first workflow automates the ChatOps practice when a new incident is detected.</p>
+
+<figure><img src="https://lh3.googleusercontent.com/HfMU_xsC1jj7JiSxI1mO2Mj-pya0GLoZEXaOonWPuGYxJPJnaVvZlTkbVL1Y3CU9W7hoV7ZEBdu-LXZIMVU48pAHCLHAICdyCFMWUqtNi75n94VL00lxW-2hMnjrOFI9nCfK4gAo" alt="Screenshot of n8n Editor UI showing the first workflow" style="width:100%" /><figcaption align="center"><i>Workflow 1</i></figcaption></figure>
+
+<ul>
+  <li><em>Webhook node</em> triggers the workflow when an incident is created in PagerDuty.</li>
+  <li><em>Mattermost node</em> creates a new channel for the specific incident.</li>
+  <li><em>Mattermost1 node</em> adds responsible users to the channel.</li>
+  <li><em>Jira node</em> creates an issue about the incident in Jira.</li>
+  <li><em>Mattermost2 node</em> posts a message in the channel with links to the PagerDuty incident and Jira issue.</li>
+  <li><em>Mattermost3 node</em> posts a message in the channel with the options (buttons) <code class="language-plaintext highlighter-rouge">Acknowledge</code> and <code class="language-plaintext highlighter-rouge">Resolve</code>.</li>
+</ul>
+
+<p>Watch the video below to see how to configure the parameters of each node:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9-069p0Q9Co" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="workflow-2---ensure-that-the-incident-is-acknowledged-internally">Workflow 2 - Ensure that the incident is acknowledged internally</h3>
+
+<p>The second workflow automates the acknowledgement of the incident by the on-call team member.</p>
+
+<figure><img src="https://lh5.googleusercontent.com/nb7RSFriFyANgR_vJkkDz2U1yq4eVE4WSoUQ29AF3VTOj0jP-YdNzJKvonBA71eb4xtUXPdxJuDJhHZWXzDtaDrhJv0SaE-V6IlUB0HEscRIqxyPg2UPVUurzRYx2qYnrD90KYJy" alt="Screenshot of n8n Editor UI showing the second workflow" style="width:100%" /><figcaption align="center"><i>Workflow 2</i></figcaption></figure>
+
+<ul>
+  <li><em>Webhook1 node</em> triggers the workflow when the button <code class="language-plaintext highlighter-rouge">Acknowledge</code> is clicked in the Mattermost channel.</li>
+  <li><em>PagerDuty node</em> updates the incident status as “Acknowledged”.</li>
+  <li><em>Mattermost4 node</em> posts a message in the channel that the incident has been acknowledged.</li>
+</ul>
+
+<h3 id="workflow-3---mark-the-incident-as-resolved">Workflow 3 - Mark the incident as resolved</h3>
+
+<p>The third workflow automates the resolution of the issue.</p>
+
+<figure><img src="https://lh3.googleusercontent.com/QDZ2aFoJb_S6ap0iybPTytCt3CipraDoAvPLvjxjUSEBjvZ2VyyNB5F4RBNBSRNEGnMVS66UXORAZC07hPXrrx_fwA7iCftOzdZ77afSrJZoss0dmb0WyUyxfYfG-rj52GPH10rx" alt="Screenshot of n8n Editor UI showing the third workflow" style="width:100%" /><figcaption align="center"><i>Workflow 3</i></figcaption></figure>
+
+<ul>
+  <li><em>Webhook2 node</em> triggers the workflow when the button <code class="language-plaintext highlighter-rouge">Resolve</code> is clicked in the Mattermost channel.</li>
+  <li><em>PagerDuty1 node</em> updates the incident status as “Resolved”.</li>
+  <li><em>Jira1 node</em></li>
+  <li><em>Mattermost5 node</em> posts a message in the channel that the issue has been closed in PagerDuty and Jira.</li>
+  <li><em>Mattermost6 node</em> posts a message in the channel that the incident has been resolved.</li>
+</ul>
+
+<h3 id="activate-the-workflows-in-production">Activate the workflows in production</h3>
+
+<p>We’re done with building the workflows! Here’s how to see them all in action, from start to end:</p>
+
+<ol>
+  <li>In the n8n Editor UI, click the <code class="language-plaintext highlighter-rouge">Execute Workflow</code> button.</li>
+  <li>Go to your PagerDuty account and create a test incident.</li>
+  <li>Back in the n8n Editor UI, you’ll see information being passed through the Webhook nodes, and the nodes of the workflows being executed.</li>
+</ol>
+
+<p>With this configuration, the workflows work only when you manually execute them. To make the workflows run automatically, every time an incident is created in PagerDuty, you need to use the <code class="language-plaintext highlighter-rouge">Production webhook</code> and activate the workflows. Here’s how to do this:</p>
+
+<ol>
+  <li>Get the Production webhook URL from the different Webhook nodes,</li>
+  <li>Update the URLs on PagerDuty and the Mattermost node from Workflow 1, Step 6,</li>
+  <li>Save the workflows</li>
+  <li>Activate the workflows.</li>
+</ol>
+
+<p>That’s it: you now have three no-code workflows that automate every step of an incident response, so the on-call team can focus on solving the problem.</p>
 
       </article>
 
@@ -992,9 +1151,9 @@
         <div class="blog-tags">
           <span>Tags:</span>
           
-            <a href="/tags#art">art</a>
+            <a href="/tags#n8n">n8n</a>
           
-            <a href="/tags#events">events</a>
+            <a href="/tags#tutorial">tutorial</a>
           
         </div>
       
@@ -1011,7 +1170,7 @@
   <span class="sr-only">Share: </span>
 
   
-    <a href="https://twitter.com/intent/tweet?text=Exhibition+of+Art+of+Akume&url=http%3A%2F%2Flocalhost%3A4000%2Fart-of-akume-exhibition%2F"
+    <a href="https://twitter.com/intent/tweet?text=How+to+automate+every+step+of+an+incident+response+workflow&url=http%3A%2F%2Flocalhost%3A4000%2Fautomated-incident-response%2F"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
@@ -1019,7 +1178,7 @@
   
 
   
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fart-of-akume-exhibition%2F"
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fautomated-incident-response%2F"
       class="btn btn-social-icon btn-facebook" title="Share on Facebook">
       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
@@ -1027,7 +1186,7 @@
   
 
   
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fart-of-akume-exhibition%2F"
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fautomated-incident-response%2F"
       class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
@@ -1045,24 +1204,16 @@
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/web-scraping-imdb-with-r/" data-toggle="tooltip" data-placement="top" title="Web-scraping IMDb with R">&larr; Web-scraping IMDb with R</a>
+          <a class="page-link" href="/buchrezension-im-auftrag-der-toten/" data-toggle="tooltip" data-placement="top" title="Im Auftrag der Toten von Axel Petermann">&larr; Im Auftrag der Toten von Axel Petermann</a>
         </li>
         
         
         <li class="page-item next">
-          <a class="page-link" href="/goodreads-reading-challenge/" data-toggle="tooltip" data-placement="top" title="Goodreads Reading Challenge 2019">Goodreads Reading Challenge 2019 &rarr;</a>
+          <a class="page-link" href="/vscode-setup-for-technical-writing" data-toggle="tooltip" data-placement="top" title="My Visual Studio Code setup for technical writing">My Visual Studio Code setup for technical writing &rarr;</a>
         </li>
         
       </ul>
       
-  
-  
-  
-
-  
-
-
-
 
     </div>
   </div>

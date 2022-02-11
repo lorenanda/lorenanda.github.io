@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to write in accessible language
-tags: [events]
+tags: [events, writing]
 comments: true
 readtime: true
 share-description: Learnings from the YouGotThis workshop "Improve Your Writing Using Accessible Language"
