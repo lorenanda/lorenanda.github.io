@@ -7,7 +7,7 @@ comments: true
 
 ![cover](../assets/img/books_jan21.jpg)
 
-For the sixth year in a row, I'm taking on the [Goodreads Reading Challenge](https://www.goodreads.com/user_challenges/25475893). My goal for 2021 is to read at least 36 books, of which [12 related to tech](/2021-01-09-tech-books-to-read-in-2021). January is usually my most productive reading month, since there's not much going on, while things are slowly getting back on track after the winter holidays, especially these days with lockdowns and other restrictions. This is why this month I managed to read **13 books**, both fiction and non-fiction. Here are my thoughts on each of them:
+For the sixth year in a row, I'm taking on the [Goodreads Reading Challenge](https://www.goodreads.com/user_challenges/25475893). My goal for 2021 is to read at least 36 books, of which [12 related to tech](/tech-books-to-read-in-2021). January is usually my most productive reading month, since there's not much going on, while things are slowly getting back on track after the winter holidays, especially these days with lockdowns and other restrictions. This is why this month I managed to read **13 books**, both fiction and non-fiction. Here are my thoughts on each of them:
 
 FICTION
 -------

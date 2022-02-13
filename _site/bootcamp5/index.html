@@ -1047,7 +1047,7 @@
   <li><strong>q (MA):</strong> the number of lagged forecast errors that should go into the model. Check with the <a href="https://www.statsmodels.org/dev/generated/statsmodels.graphics.tsaplots.plot_acf.html?highlight=plot_acf#statsmodels.graphics.tsaplots.plot_acf">Autocorrelation plot (ACF)</a>.</li>
 </ul>
 
-<p>Or you can spare yourself all this work and implement an <a href="https://alkaline-ml.com/pmdarima/index.html">auto-ARIMA</a>, which finds the best hyperparameters for you. (But, as with <a href="/2020-10-17-bootcamp3">TPOT, the library used in my previous project</a>, my advice is to be cautious with auto-ML and instead have fun learning how to tune the hyperparameters yourself.)</p>
+<p>Or you can spare yourself all this work and implement an <a href="https://alkaline-ml.com/pmdarima/index.html">auto-ARIMA</a>, which finds the best hyperparameters for you. (But, as with <a href="/bootcamp3">TPOT, the library used in my previous project</a>, my advice is to be cautious with auto-ML and instead have fun learning how to tune the hyperparameters yourself.)</p>
 
 <p>I tried both the manual and auto-ARIMA models on my data and eventually got a <strong>MAPE score of 0.22</strong> (2.2%), which means that the model is 97.8% accurate in predicting the next 365 observations, and a <strong>MAE score of 6.2</strong>, which means that the model predicts the temperatures with an error of 6.2°C. (Fun fact: at first I got an infinite MAPE score – I learned that’s because of negative values, so I had to convert the temperature from Celsius to Kelvin.)</p>
 

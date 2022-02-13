@@ -5,7 +5,7 @@ tags: [linguistics, events]
 comments: true
 ---
 
-Last Saturday **18th November** I attended [again](/2016-11-23-patholinguistics-meeting-potsdam) the [**Autumn Meeting of Patholinguistics**](https://www.herbsttreffen.vpl-ev.de/) in Potsdam, in a wonderful new location Am Neuen Palais. The theme of this edition was **"Diagnosis and treatment of dysphonia"** (also known as hoarseness), a condition of the vocal chords or the larynx which makes the voice sound breathy, strained, raspy, or lower in volume or pitch.
+Last Saturday **18th November** I attended [again](/patholinguistics-meeting-potsdam) the [**Autumn Meeting of Patholinguistics**](https://www.herbsttreffen.vpl-ev.de/) in Potsdam, in a wonderful new location Am Neuen Palais. The theme of this edition was **"Diagnosis and treatment of dysphonia"** (also known as hoarseness), a condition of the vocal chords or the larynx which makes the voice sound breathy, strained, raspy, or lower in volume or pitch.
 
 ![cover](../assets/img/11PatholinguisticsMeetup2.jpg)
 

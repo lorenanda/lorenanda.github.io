@@ -6,7 +6,7 @@ share-description: Learn how to build no-code workflows that automatically sync 
 canonical_url: https://n8n.io/blog/how-to-sync-data-between-two-systems/
 ---
 
-Whether you work in marketing, sales, or data engineering, you most likely use several apps or services for collecting and storing data from different sources. To boost productivity and reduce errors, you can automate various tasks in each system -- from [lead capturing in CRMs](/2021-09-14-crm-workflows) to [e-commerce workflows](/2021-09-02-ecommerce-workflows) and [data processing pipelines](/2021-05-04-etl-pipeline-workflow).
+Whether you work in marketing, sales, or data engineering, you most likely use several apps or services for collecting and storing data from different sources. To boost productivity and reduce errors, you can automate various tasks in each system -- from [lead capturing in CRMs](/crm-workflows) to [e-commerce workflows](/ecommerce-workflows) and [data processing pipelines](/etl-pipeline-workflow).
 
 But the challenge is consolidating data across different sources so that the information is consistent within all systems. **Data synchronization** is a process that ensures your data is up-to-date, relevant, and complete, thus helping you make informed decisions for your business. And this process, too, can be automated!
 
