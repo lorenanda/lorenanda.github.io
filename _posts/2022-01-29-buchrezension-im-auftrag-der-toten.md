@@ -5,7 +5,7 @@ share-description: Buchrezension
 tags: [books, nonfiction, deutsch, bloggerportal]
 ---
 
-<figure><img src="../assets/img/imauftrag.jpg" alt="" style="width:100%"></figure>
+<figure><img src="../assets/img/imAuftragDerToten.jpg" alt="" style="width:100%"></figure>
 
 <div align="center"><strong>Titel: </strong>Im Auftrag der Toten</div>
 <div align="center"><strong>Autor: </strong>Axel Petermann</div>
