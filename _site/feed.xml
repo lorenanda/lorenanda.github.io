@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>13 tools to use for DevSecOps automation</title>
+        <description>
+          
+          In 2021 there have been 25% more ransomware attacks than in 2020––and these are only the publicized attacks. No doubt, it’s becoming more necessary to secure your organization and software products against cyber threats and security vulnerabilities. Software security issues include bugs, authentication, unsecured authentication, data exposure, libraries with vulnerabilities,...
+        </description>
+        <pubDate>Fri, 11 Mar 2022 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/devsecops-tools/</link>
+        <guid isPermaLink="true">http://localhost:4000/devsecops-tools/</guid>
+      </item>
+    
+      <item>
         <title>Chatter von Ethan Kross</title>
         <description>
           
@@ -218,17 +229,6 @@
         <pubDate>Thu, 19 Aug 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/photography-and-instant-gratification-economy/</link>
         <guid isPermaLink="true">http://localhost:4000/photography-and-instant-gratification-economy/</guid>
-      </item>
-    
-      <item>
-        <title>Framing loneliness in the film &quot;O Homem das Multidões&quot;</title>
-        <description>
-          
-          We are all so much together, but we are all dying of loneliness. (Albert Schweitzer) In a felt previous life, I’ve studied Theater, Film, and Media Studies at the University of Vienna. One of my favourite classes was a seminar on film analysis, where I learned to observe films and...
-        </description>
-        <pubDate>Wed, 11 Aug 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/o-homem-das-multidoes-film-analysis/</link>
-        <guid isPermaLink="true">http://localhost:4000/o-homem-das-multidoes-film-analysis/</guid>
       </item>
     
   </channel>
