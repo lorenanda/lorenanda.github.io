@@ -33,15 +33,16 @@ post_search: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  linkedin: lorena-ciutacu
+  devto: lorena
   github: lorenanda
-  twitter: bayesnbagels
-  medium: lorenaciutacu
   goodreads: lorenasbooks
+  linkedin: lorena-ciutacu
+  medium: lorenaciutacu
+  twitter: bayesnbagels
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: Get my latest blog posts
+# rss-description: Get my latest blog posts
 
 # --- General options --- #
 
