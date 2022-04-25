@@ -87,7 +87,7 @@ Security monitoring is the automated process of collecting and analyzing indicat
 
 💰 [**SecurityScorecard**](https://securityscorecard.com/) has been named a 2021 Gartner Peer Insights Customers’ Choice for IT Vendor Risk Management (VRM) Tools. The tool enables organizations to prove and maintain compliance with leading regulations and standards mandates that include PCI, NIST, SOX, and GDPR. Industries, as varied as Government, Insurance, Tech, or Retail, can use SecurityScorecard. Common uses cases include scanning attack surfaces, managing third-party risks, staying in compliance. The [*SecurityScorecard node*](https://docs.n8n.io/nodes/n8n-nodes-base.securityScorecard/) allows you to manage data about the company, industry, portfolio, and reports, among others.
 
-:moneybag The [Microsoft Graph Security API](https://docs.microsoft.com/en-us/graph/security-concept-overview) allows connecting to Microsoft security products, services, and partners to streamline security operations and improve threat protection, detection, and response capabilities. With the [*Microsoft Graph Security node*](https://docs.n8n.io/nodes/n8n-nodes-base.microsoftGraphSecurity/) you can manage your secure score and control profile.
+💰 The [Microsoft Graph Security API](https://docs.microsoft.com/en-us/graph/security-concept-overview) allows connecting to Microsoft security products, services, and partners to streamline security operations and improve threat protection, detection, and response capabilities. With the [*Microsoft Graph Security node*](https://docs.n8n.io/nodes/n8n-nodes-base.microsoftGraphSecurity/) you can manage your secure score and control profile.
 
 
 ### Dashboards
