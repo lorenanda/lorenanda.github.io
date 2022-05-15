@@ -53,6 +53,13 @@ h2 {
   font-size: 1.875rem;
 }
 
+.cv-header {
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  background-color: black;
+  color: #ffffff;
+}
 
 .work-details section {
   max-width: var(--sectionWidth);
@@ -262,6 +269,12 @@ img {
   border-radius: 5px;
   box-shadow: 0 0 5px rgb(182, 182, 182);
   transition: linear 0.5s;
+}
+
+img.skill-icons {
+  box-shadow: none;
+  border-radius: 0%;
+  display: inline;
 }
 
 img.about-photo {
