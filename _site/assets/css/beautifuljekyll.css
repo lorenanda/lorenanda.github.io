@@ -57,8 +57,9 @@ h2 {
   display: table;
   margin: 0px auto 0px auto;
   padding: 5px;
-  background-color: black;
-  color: #ffffff;
+  font-size: 1.3rem;
+  box-shadow: 2px 2px 2px #000;
+  border: 1px solid #000;
 }
 
 .work-details section {
@@ -275,6 +276,7 @@ img.skill-icons {
   box-shadow: none;
   border-radius: 0%;
   display: inline;
+  filter: grayscale();
 }
 
 img.about-photo {

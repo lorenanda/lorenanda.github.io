@@ -10,17 +10,6 @@
     
     
       <item>
-        <title>Nachts im Internet von Stephen Law</title>
-        <description>
-          
-          Titel: Nachts im Internet Autor: Stephen Law Verlag: Goldmann Erschienen: April 2022 Seitenanzahl: 240 Bewertung: 🌕🌕🌑🌑🌑 Danke an Random House Bloggerportal und Goldmann Verlag für die freundliche Bereitstellung dieses Rezensionsexemplars. Klappentext Jeden Tag suchen Millionen von Menschen bei Google Antworten – auf die kleinen, alltäglichen und auf die großen Fragen...
-        </description>
-        <pubDate>Sat, 14 May 2022 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/nachts-im-internet/</link>
-        <guid isPermaLink="true">http://localhost:4000/nachts-im-internet/</guid>
-      </item>
-    
-      <item>
         <title>Der Hauptmann und der Mörder von Zhou Haohui</title>
         <description>
           
@@ -227,6 +216,17 @@
         <pubDate>Thu, 02 Sep 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/ecommerce-workflows/</link>
         <guid isPermaLink="true">http://localhost:4000/ecommerce-workflows/</guid>
+      </item>
+    
+      <item>
+        <title>August books wrap-up</title>
+        <description>
+          
+          This month I read 4 fiction books of 1602 pages and a 3.4 average rating. Two of them were some of the most depressing books I’ve read in a long while, one was one of the most enlightening, and another one was just a boring book. Quite a mix, so...
+        </description>
+        <pubDate>Tue, 31 Aug 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/august-books/</link>
+        <guid isPermaLink="true">http://localhost:4000/august-books/</guid>
       </item>
     
   </channel>
