@@ -400,6 +400,9 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/drafts/about_draft/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/blog/</loc>
 </url>
 <url>
