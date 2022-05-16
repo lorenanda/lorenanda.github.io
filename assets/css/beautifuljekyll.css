@@ -53,11 +53,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h2 {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
 }
 
 .cv-header {
@@ -65,7 +65,7 @@ h2 {
   margin: 0px auto 0px auto;
   padding: 5px;
   font-size: 1.3rem;
-  box-shadow: 2px 2px 2px #000;
+  box-shadow: 0 0 5px rgb(182 182 182);
   border: 1px solid {{ site.text-col }};
 }
 
@@ -279,7 +279,7 @@ img {
   transition: linear 0.5s;
 }
 
-img.skill-icons {
+ img.skill-icons {
   box-shadow: none;
   border-radius: 0%;
   display: inline;
@@ -329,7 +329,6 @@ figure {
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Alliance No. 2', 'Alliance No. 1', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  box-shadow: 0 2px 2px -2px {{ site.text-col }};
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
