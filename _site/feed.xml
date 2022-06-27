@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>Books for technical writers</title>
+        <description>
+          
+          For over a year now, I’ve been working as a technical writer in a tech startup developing a workflow automation tool. I’ve been part of a Developer Relations (DevRel) team, then a Marketing team, as well as some Product in-between. This organization means that I had to (re)learn how to...
+        </description>
+        <pubDate>Sun, 26 Jun 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/books-tech-writers/</link>
+        <guid isPermaLink="true">http://localhost:4000/books-tech-writers/</guid>
+      </item>
+    
+      <item>
         <title>Portugiesisches Gift von Luis Sellano</title>
         <description>
           
@@ -216,17 +227,6 @@
         <pubDate>Tue, 21 Sep 2021 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/toxic-language-workflow/</link>
         <guid isPermaLink="true">http://localhost:4000/toxic-language-workflow/</guid>
-      </item>
-    
-      <item>
-        <title>How to get started with CRM automation (with 3 no-code workflow ideas)</title>
-        <description>
-          
-          If you run a business, sell a product, or offer services, you know how important it is to nurture the relationship with your customers and gain new ones. Whether you operate alone or with a sales team, you probably also know how difficult it can be to keep track of...
-        </description>
-        <pubDate>Tue, 14 Sep 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/crm-workflows/</link>
-        <guid isPermaLink="true">http://localhost:4000/crm-workflows/</guid>
       </item>
     
   </channel>
