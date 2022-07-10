@@ -1,0 +1,22 @@
+{
+  "unversionedId": "contact",
+  "id": "contact",
+  "title": "CONTACT",
+  "description": "Email &bull;",
+  "source": "@site/docs/contact.mdx",
+  "sourceDirName": ".",
+  "slug": "/contact",
+  "permalink": "/docs/contact",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dockerized ETL pipeline",
+    "permalink": "/docs/projects/project-4"
+  }
+}

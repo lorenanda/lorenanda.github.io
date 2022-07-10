@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/2022/02/11/vscode-setup-for-technical-writing",
+  "source": "@site/blog/2022-02-11-vscode-setup-for-technical-writing.md",
+  "title": "My Visual Studio Code setup for technical writing",
+  "description": "The theme, extensions, and settings I use in my daily job.",
+  "date": "2022-02-11T00:00:00.000Z",
+  "formattedDate": "February 11, 2022",
+  "tags": [
+    {
+      "label": "writing",
+      "permalink": "/blog/tags/writing"
+    }
+  ],
+  "readingTime": 1.95,
+  "truncated": true,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "My Visual Studio Code setup for technical writing",
+    "share-description": "The theme, extensions, and settings I use in my daily job.",
+    "tags": [
+      "writing"
+    ],
+    "permalink": "vscode-setup-for-technical-writing"
+  },
+  "prevItem": {
+    "title": "13 tools to use for DevSecOps automation",
+    "permalink": "/blog/2022/03/11/devsecops-tools"
+  },
+  "nextItem": {
+    "title": "How to automate every step of an incident response workflow",
+    "permalink": "/blog/2022/02/10/automated-incident-response"
+  }
+}

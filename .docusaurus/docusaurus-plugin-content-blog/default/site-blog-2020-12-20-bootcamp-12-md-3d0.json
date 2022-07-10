@@ -1,0 +1,59 @@
+{
+  "permalink": "/blog/2020/12/20/bootcamp12",
+  "source": "@site/blog/2020-12-20-bootcamp12.md",
+  "title": "Detecting emotions from speech with neural networks",
+  "description": "Project completed in week 12 (14.12.-18.12.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-12-20T00:00:00.000Z",
+  "formattedDate": "December 20, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "NLP",
+      "permalink": "/blog/tags/nlp"
+    }
+  ],
+  "readingTime": 7.355,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Detecting emotions from speech with neural networks",
+    "gh-repo": "lorenanda/speech-emotion-recognition",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "bootcamp",
+      "tutorials",
+      "Python",
+      "NLP"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "My year in code - 2020 review",
+    "permalink": "/blog/2020/12/29/my-year-in-code"
+  },
+  "nextItem": {
+    "title": "Best practices for software engineering",
+    "permalink": "/blog/2020/12/12/bootcamp11"
+  }
+}

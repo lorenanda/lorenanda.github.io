@@ -1,0 +1,32 @@
+{
+  "permalink": "/blog/2021/03/14/book-review-designing-bots",
+  "source": "@site/blog/2021-03-14-book-review-designing-bots.md",
+  "title": "Designing Bots by Amir Shevat",
+  "description": "cover",
+  "date": "2021-03-14T00:00:00.000Z",
+  "formattedDate": "March 14, 2021",
+  "tags": [
+    {
+      "label": "books",
+      "permalink": "/blog/tags/books"
+    }
+  ],
+  "readingTime": 2.09,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Designing Bots by Amir Shevat",
+    "tags": [
+      "books"
+    ]
+  },
+  "prevItem": {
+    "title": "How to automate your reading habit just in time for World Poetry Day",
+    "permalink": "/blog/2021/03/21/poetry-workflow"
+  },
+  "nextItem": {
+    "title": "Exploring endangered languages with pandas",
+    "permalink": "/blog/2021/02/27/endangered-languages"
+  }
+}

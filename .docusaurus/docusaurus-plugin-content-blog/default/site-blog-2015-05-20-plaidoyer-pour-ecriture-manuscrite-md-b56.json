@@ -1,0 +1,39 @@
+{
+  "permalink": "/blog/2015/05/20/plaidoyer-pour-ecriture-manuscrite",
+  "source": "@site/blog/2015-05-20-plaidoyer-pour-ecriture-manuscrite.md",
+  "title": "Plaidoyer pour l’écriture manuscrite",
+  "description": "La suppression de l’apprentissage de l’écriture manuscrite dans les écoles en Finlande a déclanché un débat animé dans l’Europe entière. Il est évident que depuis l’utilisation de l’ordinateur, l’écriture cursive disparaît peu à peu au profit des claviers. Mais devons-nous capituler face à la technologie et demander aux enfants de refermer les cahiers et ouvrir les laptops ?",
+  "date": "2015-05-20T00:00:00.000Z",
+  "formattedDate": "May 20, 2015",
+  "tags": [
+    {
+      "label": "linguistics",
+      "permalink": "/blog/tags/linguistics"
+    },
+    {
+      "label": "francais",
+      "permalink": "/blog/tags/francais"
+    },
+    {
+      "label": "thoughts",
+      "permalink": "/blog/tags/thoughts"
+    }
+  ],
+  "readingTime": 1.555,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Plaidoyer pour l’écriture manuscrite",
+    "tags": [
+      "linguistics",
+      "francais",
+      "thoughts"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Learnings from the 10th Meeting of Patholinguistics in Potsdam",
+    "permalink": "/blog/2016/11/23/patholinguistics-meeting-potsdam"
+  }
+}

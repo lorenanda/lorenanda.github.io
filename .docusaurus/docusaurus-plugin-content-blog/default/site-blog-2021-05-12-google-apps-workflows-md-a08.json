@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/2021/05/12/google-apps-workflows",
+  "source": "@site/blog/2021-05-12-google-apps-workflows.md",
+  "title": "15 Google apps you can combine and automate to increase productivity",
+  "description": "Google creates some of the best services on the web for professional use cases, with G Suite being the go-to choice for many businesses. One of the  main advantages is having an ecosystem of apps for various specific uses: from organisation and productivity tools to databases and language processing services.",
+  "date": "2021-05-12T00:00:00.000Z",
+  "formattedDate": "May 12, 2021",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    }
+  ],
+  "readingTime": 4.835,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "15 Google apps you can combine and automate to increase productivity",
+    "tags": [
+      "n8n"
+    ],
+    "share-description": "Learn how to combine and automate popular Google apps for more productivity in the workplace.",
+    "canonical_url": "https://n8n.io/blog/automate-google-apps-for-productivity/"
+  },
+  "prevItem": {
+    "title": "5 tasks you can automate with the new Notion API",
+    "permalink": "/blog/2021/06/08/notion-workflows"
+  },
+  "nextItem": {
+    "title": "Automate your data processing pipeline in 9 steps",
+    "permalink": "/blog/2021/05/04/etl-pipeline-workflow"
+  }
+}

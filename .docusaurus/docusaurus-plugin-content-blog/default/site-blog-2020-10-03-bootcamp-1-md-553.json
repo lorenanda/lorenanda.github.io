@@ -1,0 +1,55 @@
+{
+  "permalink": "/blog/2020/10/03/bootcamp1",
+  "source": "@site/blog/2020-10-03-bootcamp1.md",
+  "title": "Creating animated scatterplots with Python",
+  "description": "Project completed in week 1 (28.09.-02.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-10-03T00:00:00.000Z",
+  "formattedDate": "October 3, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    }
+  ],
+  "readingTime": 2.29,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Creating animated scatterplots with Python",
+    "share-description": "Learn how animate seaborn/matplotlib scatterplots with imageio.",
+    "gh-repo": "lorenanda/animated-scatterplot",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "bootcamp",
+      "tutorials",
+      "Python"
+    ],
+    "readtime": true
+  },
+  "prevItem": {
+    "title": "Predicting Titanic survivors with decision tree classifiers",
+    "permalink": "/blog/2020/10/10/bootcamp2"
+  },
+  "nextItem": {
+    "title": "5 eye-opening books about AI ethics",
+    "permalink": "/blog/2020/08/19/books-ethics-ai"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/2021/03/21/poetry-workflow",
+  "source": "@site/blog/2021-03-21-poetry-workflow.md",
+  "title": "How to automate your reading habit just in time for World Poetry Day",
+  "description": "March 21st is World Poetry Day, a day dedicated to one of the most treasured ways of expression around the world and linguistic diversity. I have always loved reading poetry with creative rhymes and melodic rhythm, and lately I have come to appreciate free verse poetry as well. In any case, I would like to make time to read more poetry and discover new international poets.",
+  "date": "2021-03-21T00:00:00.000Z",
+  "formattedDate": "March 21, 2021",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    },
+    {
+      "label": "NLP",
+      "permalink": "/blog/tags/nlp"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 3.95,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "How to automate your reading habit just in time for World Poetry Day",
+    "tags": [
+      "n8n",
+      "NLP",
+      "tutorials"
+    ],
+    "share-description": "Learn how to create a no-code workflow that gets international poems, translates them into one language, and sends you a poem in Telegram every day.",
+    "canonical_url": "https://n8n.io/blog/world-poetry-day-workflow/"
+  },
+  "prevItem": {
+    "title": "5 workflow automations for Mattermost that we love at n8n",
+    "permalink": "/blog/2021/04/09/mattermost-workflows"
+  },
+  "nextItem": {
+    "title": "Designing Bots by Amir Shevat",
+    "permalink": "/blog/2021/03/14/book-review-designing-bots"
+  }
+}

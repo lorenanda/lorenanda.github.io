@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2020/05/26/wad-pitfalls-deeplearning",
+  "source": "@site/blog/2020-05-26-wad-pitfalls-deeplearning.md",
+  "title": "The Pitfalls of Deep Learning (WAD talk)",
+  "description": "We Are Developers is the world’s largest conference for software development. It’s a great opportunity for software engineers to connect with tech companies and learn about interesting advances in technology. This year, WAD was supposed to take place in Berlin, but due to COVID-19, the event was moved online for a Live Week (25-29 May) of exciting talks on different tech topics.",
+  "date": "2020-05-26T00:00:00.000Z",
+  "formattedDate": "May 26, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "conferences",
+      "permalink": "/blog/tags/conferences"
+    }
+  ],
+  "readingTime": 2.54,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "The Pitfalls of Deep Learning (WAD talk)",
+    "tags": [
+      "data science",
+      "conferences"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "4 tips for creating a great data science portfolio",
+    "permalink": "/blog/2020/07/29/tips-for-datascience-portfolio"
+  },
+  "nextItem": {
+    "title": "Diversity in IT Jobs (WAD talk)",
+    "permalink": "/blog/2020/05/25/wad-diversity-it"
+  }
+}

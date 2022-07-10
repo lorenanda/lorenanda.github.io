@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/2021/08/06/romanian-psych-verbs-study",
+  "source": "@site/blog/2021-08-06-romanian-psych-verbs-study.md",
+  "title": "Clustering and classification of emotion verbs",
+  "description": "I've been interested in emotions ever since I've become aware of them. Maybe because I was unsure how to process and interpret them, in both myself and others. How do people express emotions and why do they do it so differently? Is being scared the same as fearing? Can I really understand or experience sirva vigad if the word doesn't exist in my native language?",
+  "date": "2021-08-06T00:00:00.000Z",
+  "formattedDate": "August 6, 2021",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "linguistics",
+      "permalink": "/blog/tags/linguistics"
+    },
+    {
+      "label": "NLP",
+      "permalink": "/blog/tags/nlp"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    }
+  ],
+  "readingTime": 8.775,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Clustering and classification of emotion verbs",
+    "gh-repo": "lorenanda/psych-verbs",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "linguistics",
+      "NLP",
+      "Python"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "6 e-commerce workflows to power up your Shopify store",
+    "permalink": "/blog/2021/09/02/ecommerce-workflows"
+  },
+  "nextItem": {
+    "title": "5 tasks you can automate with the new Notion API",
+    "permalink": "/blog/2021/06/08/notion-workflows"
+  }
+}

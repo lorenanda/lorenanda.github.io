@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/2021/10/17/market-basket-analysis-with-apriori-algorithm",
+  "source": "@site/blog/2021-10-17-market-basket-analysis-with-apriori-algorithm.mdx",
+  "title": "Market basket analysis with the Apriori algorithm in Python",
+  "description": "In my previous post, I wrote about using spectral biclustering for making product recommendations. In this post, I'll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso's book Mastering Machine Learning Algorithms.",
+  "date": "2021-10-17T00:00:00.000Z",
+  "formattedDate": "October 17, 2021",
+  "tags": [
+    {
+      "label": "algorithms",
+      "permalink": "/blog/tags/algorithms"
+    },
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 6.16,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Market basket analysis with the Apriori algorithm in Python",
+    "tags": [
+      "algorithms",
+      "data science",
+      "Python",
+      "tutorials"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "5 ways to keep your skills fresh after finishing a coding bootcamp",
+    "permalink": "/blog/2021/11/14/keep-your-skills-fresh-after-coding-bootcamp"
+  },
+  "nextItem": {
+    "title": "Making product recommendations using Spectral Biclustering in Python",
+    "permalink": "/blog/2021/10/03/spectral-biclustering-for-marketing-in-python"
+  }
+}

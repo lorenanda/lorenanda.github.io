@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/2020/10/17/bootcamp3",
+  "source": "@site/blog/2020-10-17-bootcamp3.md",
+  "title": "Predicting bike share demand with linear regression",
+  "description": "Project completed in week 3 (12.10.-16.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-10-17T00:00:00.000Z",
+  "formattedDate": "October 17, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    }
+  ],
+  "readingTime": 2.72,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Predicting bike share demand with linear regression",
+    "gh-repo": "lorenanda/bike-demand-prediction",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "bootcamp",
+      "tutorials",
+      "Python"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Building a lyrics scraper and classifier in Python",
+    "permalink": "/blog/2020/10/24/bootcamp4"
+  },
+  "nextItem": {
+    "title": "Predicting Titanic survivors with decision tree classifiers",
+    "permalink": "/blog/2020/10/10/bootcamp2"
+  }
+}

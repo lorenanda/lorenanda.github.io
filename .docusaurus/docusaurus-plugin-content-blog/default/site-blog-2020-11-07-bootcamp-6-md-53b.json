@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/2020/11/07/bootcamp6",
+  "source": "@site/blog/2020-11-07-bootcamp6.md",
+  "title": "Creating a Metabase dashboard on Postgres and AWS",
+  "description": "Project completed in week 6 (02.11.-06.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-11-07T00:00:00.000Z",
+  "formattedDate": "November 7, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    }
+  ],
+  "readingTime": 3.375,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Creating a Metabase dashboard on Postgres and AWS",
+    "gh-repo": "lorenanda/northwind-dashboard",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "bootcamp",
+      "Python"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Building a dockerized ETL pipeline for tweet streaming in Slack",
+    "permalink": "/blog/2020/11/14/bootcamp7"
+  },
+  "nextItem": {
+    "title": "Forecasting the weather in Berlin with ARIMA models",
+    "permalink": "/blog/2020/10/31/bootcamp5"
+  }
+}

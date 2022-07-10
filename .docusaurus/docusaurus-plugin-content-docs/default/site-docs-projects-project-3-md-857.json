@@ -1,0 +1,26 @@
+{
+  "unversionedId": "projects/project-3",
+  "id": "projects/project-3",
+  "title": "Band lyrics classification",
+  "description": "multinomial naive Bayes, CLI bots, and greatest hits",
+  "source": "@site/docs/projects/project-3.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/project-3",
+  "permalink": "/docs/projects/project-3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Movie recommender system",
+    "permalink": "/docs/projects/project-2"
+  },
+  "next": {
+    "title": "Dockerized ETL pipeline",
+    "permalink": "/docs/projects/project-4"
+  }
+}

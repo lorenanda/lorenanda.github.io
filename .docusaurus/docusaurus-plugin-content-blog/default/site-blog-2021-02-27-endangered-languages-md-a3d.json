@@ -1,0 +1,53 @@
+{
+  "permalink": "/blog/2021/02/27/endangered-languages",
+  "source": "@site/blog/2021-02-27-endangered-languages.md",
+  "title": "Exploring endangered languages with pandas",
+  "description": "On the occasion of the International Mother Language Day (21st February), I did and exploratory analysis and data visualisation of the World Language Family Map dataset with pandas and matplotlib.",
+  "date": "2021-02-27T00:00:00.000Z",
+  "formattedDate": "February 27, 2021",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "linguistics",
+      "permalink": "/blog/tags/linguistics"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 3.125,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Exploring endangered languages with pandas",
+    "gh-repo": "lorenanda/world-languages",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "linguistics",
+      "Python",
+      "tutorials"
+    ]
+  },
+  "prevItem": {
+    "title": "Designing Bots by Amir Shevat",
+    "permalink": "/blog/2021/03/14/book-review-designing-bots"
+  },
+  "nextItem": {
+    "title": "Pourquoi est-il important de protéger les langues en danger",
+    "permalink": "/blog/2021/02/21/langues-en-danger"
+  }
+}

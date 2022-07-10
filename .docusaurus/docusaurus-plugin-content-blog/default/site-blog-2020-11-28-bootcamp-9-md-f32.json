@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/2020/11/28/bootcamp9",
+  "source": "@site/blog/2020-11-28-bootcamp9.md",
+  "title": "Classifying clothes images with neural networks",
+  "description": "Project completed in week 9 (23.11.-27.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-11-28T00:00:00.000Z",
+  "formattedDate": "November 28, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    }
+  ],
+  "readingTime": 4.055,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Classifying clothes images with neural networks",
+    "gh-repo": "lorenanda/fashion-mnist",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "bootcamp",
+      "tutorials",
+      "Python"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Creating a movie recommender system with Python and Flask",
+    "permalink": "/blog/2020/12/05/bootcamp10"
+  },
+  "nextItem": {
+    "title": "Creating a Markov chain Monte Carlo simulation in Python",
+    "permalink": "/blog/2020/11/21/bootcamp8"
+  }
+}

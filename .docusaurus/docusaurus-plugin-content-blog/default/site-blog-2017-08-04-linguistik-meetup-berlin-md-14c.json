@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2017/08/04/linguistik-meetup-berlin",
+  "source": "@site/blog/2017-08-04-linguistik-meetup-berlin.md",
+  "title": "Talking about semantic dementia @ 4th Linguistics Meetup in Berlin",
+  "description": "It's a hot morning on August 4th in Berlin, summer holidays are already on... But at the Institute of German Language and Linguistics of Humboldt Uni there's much ado about something: the 4th Linguistics Meetup Berlin-Potsdam!",
+  "date": "2017-08-04T00:00:00.000Z",
+  "formattedDate": "August 4, 2017",
+  "tags": [
+    {
+      "label": "linguistics",
+      "permalink": "/blog/tags/linguistics"
+    },
+    {
+      "label": "conferences",
+      "permalink": "/blog/tags/conferences"
+    }
+  ],
+  "readingTime": 3.92,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Talking about semantic dementia @ 4th Linguistics Meetup in Berlin",
+    "tags": [
+      "linguistics",
+      "conferences"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "The effects of anesthesia on language",
+    "permalink": "/blog/2017/09/11/effects-of-anesthesia-on-language"
+  },
+  "nextItem": {
+    "title": "Research findings about bilingualism in 2016",
+    "permalink": "/blog/2016/12/21/bilingualism-research-2016"
+  }
+}

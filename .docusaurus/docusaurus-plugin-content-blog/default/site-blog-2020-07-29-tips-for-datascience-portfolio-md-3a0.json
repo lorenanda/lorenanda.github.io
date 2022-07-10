@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2020/07/29/tips-for-datascience-portfolio",
+  "source": "@site/blog/2020-07-29-tips-for-datascience-portfolio.md",
+  "title": "4 tips for creating a great data science portfolio",
+  "description": "It is a truth universally acknowledged that a data scientist in possession of a good portfolio must be in want of a job. A curated selection of your projects is the best way to showcase your work, interests, and thinking to potential employers. But what makes a \"good portfolio\"?",
+  "date": "2020-07-29T00:00:00.000Z",
+  "formattedDate": "July 29, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "thoughts",
+      "permalink": "/blog/tags/thoughts"
+    }
+  ],
+  "readingTime": 3.745,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "4 tips for creating a great data science portfolio",
+    "tags": [
+      "data science",
+      "thoughts"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Women in Data Symposium - Skills to Last a Decade",
+    "permalink": "/blog/2020/07/31/womenindata-symposium"
+  },
+  "nextItem": {
+    "title": "The Pitfalls of Deep Learning (WAD talk)",
+    "permalink": "/blog/2020/05/26/wad-pitfalls-deeplearning"
+  }
+}

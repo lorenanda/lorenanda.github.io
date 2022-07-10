@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2020/08/19/books-ethics-ai",
+  "source": "@site/blog/2020-08-19-books-ethics-ai.md",
+  "title": "5 eye-opening books about AI ethics",
+  "description": "Artificial Intelligence is undoubtedly an exciting field. We are making machines think like humans, mimic our actions, and solve problems more efficiently than us, at this at an unprecedented level and speed. But beyond the hype, I can’t help but wonder",
+  "date": "2020-08-19T00:00:00.000Z",
+  "formattedDate": "August 19, 2020",
+  "tags": [
+    {
+      "label": "books",
+      "permalink": "/blog/tags/books"
+    },
+    {
+      "label": "AI",
+      "permalink": "/blog/tags/ai"
+    }
+  ],
+  "readingTime": 1.725,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "5 eye-opening books about AI ethics",
+    "tags": [
+      "books",
+      "AI"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Creating animated scatterplots with Python",
+    "permalink": "/blog/2020/10/03/bootcamp1"
+  },
+  "nextItem": {
+    "title": "Women in Data Symposium - Skills to Last a Decade",
+    "permalink": "/blog/2020/07/31/womenindata-symposium"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/2018/08/04/poster-linguistik-meetup-potsdam",
+  "source": "@site/blog/2018-08-04-poster-linguistik-meetup-potsdam.md",
+  "title": "Talking about psych-verbs @ 5th Linguistics Meetup in Potsdam",
+  "description": "Wednesday marked the first day of the last summer month and I celebrated by presenting a poster at the 5th Linguistics Meetup Berlin-Potsdam, hosted at the Potsdam University.",
+  "date": "2018-08-04T00:00:00.000Z",
+  "formattedDate": "August 4, 2018",
+  "tags": [
+    {
+      "label": "linguistics",
+      "permalink": "/blog/tags/linguistics"
+    },
+    {
+      "label": "conferences",
+      "permalink": "/blog/tags/conferences"
+    }
+  ],
+  "readingTime": 0.36,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Talking about psych-verbs @ 5th Linguistics Meetup in Potsdam",
+    "gh-repo": "lorenanda/psych-verbs",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "linguistics",
+      "conferences"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Analyzing my reading habits from Goodreads data",
+    "permalink": "/blog/2018/10/21/tableau-visualisation-goodreads"
+  },
+  "nextItem": {
+    "title": "Talking about autism in Austrian newspapers @ 8th ULAB Conference in Edinburgh",
+    "permalink": "/blog/2018/04/11/ulab-conference-edinburgh"
+  }
+}

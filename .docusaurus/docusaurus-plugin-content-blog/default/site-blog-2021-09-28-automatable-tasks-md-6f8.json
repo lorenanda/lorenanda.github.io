@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/2021/09/28/automatable-tasks",
+  "source": "@site/blog/2021-09-28-automatable-tasks.md",
+  "title": "6 features of tasks that can be automated",
+  "description": "You're working long hours now, six in the morning to six in the afternoon. Sometimes even eight in the afternoon, six days a week. Sometimes seven days a week. It's a long hustle but it keeps you busy.",
+  "date": "2021-09-28T00:00:00.000Z",
+  "formattedDate": "September 28, 2021",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    }
+  ],
+  "readingTime": 4.415,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "6 features of tasks that can be automated",
+    "tags": [
+      "n8n"
+    ],
+    "share-description": "Stop doing that! If your work doesn’t spark joy, you should automate it (or do something else entirely)–but first, check if it meets these six criteria.",
+    "canonical_url": "https://n8n.io/blog/features-of-tasks-that-can-be-automated/"
+  },
+  "prevItem": {
+    "title": "Making product recommendations using Spectral Biclustering in Python",
+    "permalink": "/blog/2021/10/03/spectral-biclustering-for-marketing-in-python"
+  },
+  "nextItem": {
+    "title": "Create a toxic language detector for Telegram in 4 steps",
+    "permalink": "/blog/2021/09/21/toxic-language-workflow"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "permalink": "/blog/2022/02/10/automated-incident-response",
+  "source": "@site/blog/2022-02-10-automated-incident-response.md",
+  "title": "How to automate every step of an incident response workflow",
+  "description": "Minimize the damage caused by IT incidents by following an incident response playbook with PagerDuty, Jira, and Mattermost.",
+  "date": "2022-02-10T00:00:00.000Z",
+  "formattedDate": "February 10, 2022",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 7.065,
+  "truncated": true,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "How to automate every step of an incident response workflow",
+    "share-description": "Minimize the damage caused by IT incidents by following an incident response playbook with PagerDuty, Jira, and Mattermost.",
+    "tags": [
+      "n8n",
+      "tutorials"
+    ],
+    "canonical_url": "https://n8n.io/blog/automated-incident-response-workflow/"
+  },
+  "prevItem": {
+    "title": "My Visual Studio Code setup for technical writing",
+    "permalink": "/blog/2022/02/11/vscode-setup-for-technical-writing"
+  },
+  "nextItem": {
+    "title": "How hyperautomation will transform business operations",
+    "permalink": "/blog/2022/01/27/hyperautomation-trends"
+  }
+}

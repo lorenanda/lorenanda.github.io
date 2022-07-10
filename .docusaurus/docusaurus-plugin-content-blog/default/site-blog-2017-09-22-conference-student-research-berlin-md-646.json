@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2017/09/22/conference-student-research-berlin",
+  "source": "@site/blog/2017-09-22-conference-student-research-berlin.md",
+  "title": "Talking about the brains of interpreters @ 2nd Conference for Student Research in Berlin",
+  "description": "I am typing this post from a coffee shop around Humboldt University of Berlin, sipping the fifth coffee today and leafing through my notes from the 2nd Conference for Student Research (Forschung Vermitteln-Communicating Research).",
+  "date": "2017-09-22T00:00:00.000Z",
+  "formattedDate": "September 22, 2017",
+  "tags": [
+    {
+      "label": "linguistics",
+      "permalink": "/blog/tags/linguistics"
+    },
+    {
+      "label": "conferences",
+      "permalink": "/blog/tags/conferences"
+    }
+  ],
+  "readingTime": 2.1,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Talking about the brains of interpreters @ 2nd Conference for Student Research in Berlin",
+    "tags": [
+      "linguistics",
+      "conferences"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Expolingua Berlin",
+    "permalink": "/blog/2017/11/17/expolingua-berlin"
+  },
+  "nextItem": {
+    "title": "The effects of anesthesia on language",
+    "permalink": "/blog/2017/09/11/effects-of-anesthesia-on-language"
+  }
+}

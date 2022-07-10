@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/2021/01/21/kaggle-playground-jan",
+  "source": "@site/blog/2021-01-21-kaggle-playground-jan.md",
+  "title": "January's regression challenge for Kaggle playground",
+  "description": "At the beginning of the new year 2021, Kaggle created a new format of competitions aimed at beginners. On the 1st of each month, a month-long Playground competition is launched, where you can practice your ML skills on simple tabular datasets. Apart from competitive experience, the top 3 teams get to win some Kaggle merchandise!",
+  "date": "2021-01-21T00:00:00.000Z",
+  "formattedDate": "January 21, 2021",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 1.905,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "January's regression challenge for Kaggle playground",
+    "gh-repo": "lorenanda/kaggle-playground",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "Python",
+      "tutorials"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Pourquoi est-il important de protéger les langues en danger",
+    "permalink": "/blog/2021/02/21/langues-en-danger"
+  },
+  "nextItem": {
+    "title": "My year in code - 2020 review",
+    "permalink": "/blog/2020/12/29/my-year-in-code"
+  }
+}

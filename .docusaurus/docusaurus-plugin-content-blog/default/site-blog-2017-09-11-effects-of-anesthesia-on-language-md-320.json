@@ -1,0 +1,33 @@
+{
+  "permalink": "/blog/2017/09/11/effects-of-anesthesia-on-language",
+  "source": "@site/blog/2017-09-11-effects-of-anesthesia-on-language.md",
+  "title": "The effects of anesthesia on language",
+  "description": "Imagine you go for a nap, only to wake up speaking in a foreign language!",
+  "date": "2017-09-11T00:00:00.000Z",
+  "formattedDate": "September 11, 2017",
+  "tags": [
+    {
+      "label": "linguistics",
+      "permalink": "/blog/tags/linguistics"
+    }
+  ],
+  "readingTime": 2.88,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "The effects of anesthesia on language",
+    "tags": [
+      "linguistics"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Talking about the brains of interpreters @ 2nd Conference for Student Research in Berlin",
+    "permalink": "/blog/2017/09/22/conference-student-research-berlin"
+  },
+  "nextItem": {
+    "title": "Talking about semantic dementia @ 4th Linguistics Meetup in Berlin",
+    "permalink": "/blog/2017/08/04/linguistik-meetup-berlin"
+  }
+}

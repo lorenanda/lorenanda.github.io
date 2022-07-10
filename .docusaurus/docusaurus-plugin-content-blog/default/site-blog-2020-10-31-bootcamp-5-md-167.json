@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/2020/10/31/bootcamp5",
+  "source": "@site/blog/2020-10-31-bootcamp5.md",
+  "title": "Forecasting the weather in Berlin with ARIMA models",
+  "description": "Project completed in week 5 (26.10.-30.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-10-31T00:00:00.000Z",
+  "formattedDate": "October 31, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    }
+  ],
+  "readingTime": 3.485,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Forecasting the weather in Berlin with ARIMA models",
+    "gh-repo": "lorenanda/weather-forecast",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "bootcamp",
+      "tutorials",
+      "Python"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Creating a Metabase dashboard on Postgres and AWS",
+    "permalink": "/blog/2020/11/07/bootcamp6"
+  },
+  "nextItem": {
+    "title": "Building a lyrics scraper and classifier in Python",
+    "permalink": "/blog/2020/10/24/bootcamp4"
+  }
+}

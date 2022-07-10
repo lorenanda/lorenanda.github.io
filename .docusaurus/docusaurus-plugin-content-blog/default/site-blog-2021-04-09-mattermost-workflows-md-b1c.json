@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/2021/04/09/mattermost-workflows",
+  "source": "@site/blog/2021-04-09-mattermost-workflows.md",
+  "title": "5 workflow automations for Mattermost that we love at n8n",
+  "description": "n8n is a fair-code licensed tool that helps you automate tasks, sync data between various sources, and react to events --- all via a visual workflow editor. Our team has been using Mattermost for internal communication since the very beginning, and in time we have developed a ChatOps practice by integrating Mattermost with our workflows.",
+  "date": "2021-04-09T00:00:00.000Z",
+  "formattedDate": "April 9, 2021",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    }
+  ],
+  "readingTime": 5.015,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "5 workflow automations for Mattermost that we love at n8n",
+    "tags": [
+      "n8n"
+    ],
+    "share-description": "Discover five of our favorite use cases of n8n with Mattermost, for both work productivity and team engagement.",
+    "canonical_url": "https://n8n.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-n8n/"
+  },
+  "prevItem": {
+    "title": "6 findings from analysing the Oscars speeches of the best directors",
+    "permalink": "/blog/2021/04/25/oscars-speech-analysis-with-python"
+  },
+  "nextItem": {
+    "title": "How to automate your reading habit just in time for World Poetry Day",
+    "permalink": "/blog/2021/03/21/poetry-workflow"
+  }
+}

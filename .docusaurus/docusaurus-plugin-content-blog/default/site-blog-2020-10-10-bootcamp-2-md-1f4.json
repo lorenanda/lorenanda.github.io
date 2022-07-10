@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/2020/10/10/bootcamp2",
+  "source": "@site/blog/2020-10-10-bootcamp2.md",
+  "title": "Predicting Titanic survivors with decision tree classifiers",
+  "description": "Project completed in week 2 (05.10.-09.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-10-10T00:00:00.000Z",
+  "formattedDate": "October 10, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    }
+  ],
+  "readingTime": 3.06,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Predicting Titanic survivors with decision tree classifiers",
+    "gh-repo": "lorenanda/titanic",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "bootcamp",
+      "tutorials",
+      "Python"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Predicting bike share demand with linear regression",
+    "permalink": "/blog/2020/10/17/bootcamp3"
+  },
+  "nextItem": {
+    "title": "Creating animated scatterplots with Python",
+    "permalink": "/blog/2020/10/03/bootcamp1"
+  }
+}

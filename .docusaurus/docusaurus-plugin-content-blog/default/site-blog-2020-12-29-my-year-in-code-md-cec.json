@@ -1,0 +1,33 @@
+{
+  "permalink": "/blog/2020/12/29/my-year-in-code",
+  "source": "@site/blog/2020-12-29-my-year-in-code.md",
+  "title": "My year in code - 2020 review",
+  "description": "2020 has definitely been an objectively crappy year... But in terms of programming experience, this year has been by far my most productive and enriching! It was my third year of coding, and second year of doing for work. I've learned a lot on the job and through self-study, developed my Python skills and even learned two new languages. Here's how my coding year progressed:",
+  "date": "2020-12-29T00:00:00.000Z",
+  "formattedDate": "December 29, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    }
+  ],
+  "readingTime": 3.585,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "My year in code - 2020 review",
+    "tags": [
+      "data science"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "January's regression challenge for Kaggle playground",
+    "permalink": "/blog/2021/01/21/kaggle-playground-jan"
+  },
+  "nextItem": {
+    "title": "Detecting emotions from speech with neural networks",
+    "permalink": "/blog/2020/12/20/bootcamp12"
+  }
+}

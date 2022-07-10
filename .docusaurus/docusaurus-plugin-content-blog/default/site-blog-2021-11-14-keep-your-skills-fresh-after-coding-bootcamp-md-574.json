@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2021/11/14/keep-your-skills-fresh-after-coding-bootcamp",
+  "source": "@site/blog/2021-11-14-keep-your-skills-fresh-after-coding-bootcamp.md",
+  "title": "5 ways to keep your skills fresh after finishing a coding bootcamp",
+  "description": "One year ago at this time, I was nervously making last-minute changes to slides for a presentation. Not just any presentation, but one of my final project(https://github.com/lorenanda/speech-emotion-recognition)) for the Data Science Bootcamp at SPICED Academy, where I spent three full months learning about different machine learning algorithms and Python best practices.",
+  "date": "2021-11-14T00:00:00.000Z",
+  "formattedDate": "November 14, 2021",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "thoughts",
+      "permalink": "/blog/tags/thoughts"
+    }
+  ],
+  "readingTime": 2.855,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "5 ways to keep your skills fresh after finishing a coding bootcamp",
+    "tags": [
+      "data science",
+      "thoughts"
+    ],
+    "share-description": "Tips for maintaining and developing your coding skills after you're done with formal education."
+  },
+  "prevItem": {
+    "title": "How to synchronize data between two systems (one-way vs. two-way sync)",
+    "permalink": "/blog/2021/11/18/data-sync-workflows"
+  },
+  "nextItem": {
+    "title": "Market basket analysis with the Apriori algorithm in Python",
+    "permalink": "/blog/2021/10/17/market-basket-analysis-with-apriori-algorithm"
+  }
+}

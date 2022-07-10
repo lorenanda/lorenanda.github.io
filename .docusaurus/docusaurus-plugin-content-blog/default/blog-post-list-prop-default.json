@@ -1,0 +1,25 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "How use math equations in Docusaurus",
+      "permalink": "/blog/2022/07/10/mathjax-katex"
+    },
+    {
+      "title": "How to connect Google Sheets with MySQL",
+      "permalink": "/blog/2022/07/07/connect-mysql-sheets"
+    },
+    {
+      "title": "How to automatically import JSON into Google Sheets",
+      "permalink": "/blog/2022/06/30/import-json-spreadsheet"
+    },
+    {
+      "title": "How to automate database activity monitoring and alerting",
+      "permalink": "/blog/2022/06/28/database-activity-monitoring"
+    },
+    {
+      "title": "Resources for technical writers",
+      "permalink": "/blog/2022/06/26/resources-technical-writers"
+    }
+  ]
+}

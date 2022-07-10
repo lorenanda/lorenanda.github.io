@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2022/06/21/webscraping-workflow",
+  "source": "@site/blog/2022-06-21-webscraping-workflow.md",
+  "title": "How to scrape data from a website with n8n",
+  "description": "Learn web scraping basics:\\ what it is, how it works, what tools you can use, and how to build your own low-code workflow to scrape an online store.",
+  "date": "2022-06-21T00:00:00.000Z",
+  "formattedDate": "June 21, 2022",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 9.335,
+  "truncated": true,
+  "authors": [],
+  "frontMatter": {
+    "title": "How to scrape data from a website with n8n",
+    "description": "Learn web scraping basics:\\ what it is, how it works, what tools you can use, and how to build your own low-code workflow to scrape an online store.",
+    "tags": [
+      "n8n",
+      "tutorials"
+    ],
+    "canonical_url": "https://blog.n8n.io/how-to-scrape-data-from-a-website/"
+  },
+  "prevItem": {
+    "title": "Resources for technical writers",
+    "permalink": "/blog/2022/06/26/resources-technical-writers"
+  },
+  "nextItem": {
+    "title": "Webhooks explained",
+    "permalink": "/blog/2022/06/14/webhooks-explained"
+  }
+}

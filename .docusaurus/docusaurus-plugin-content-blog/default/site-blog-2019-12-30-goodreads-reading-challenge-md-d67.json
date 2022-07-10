@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/2019/12/30/goodreads-reading-challenge",
+  "source": "@site/blog/2019-12-30-goodreads-reading-challenge.md",
+  "title": "Goodreads Reading Challenge 2019",
+  "description": "As the year is almost over, it's time to review my one and only resolution that I've been sticking to for the past four years: the Goodreads Reading Challenge. For 2019 I set quite a reasonable goal of reading 24 books, an average of two per month.",
+  "date": "2019-12-30T00:00:00.000Z",
+  "formattedDate": "December 30, 2019",
+  "tags": [
+    {
+      "label": "analytics",
+      "permalink": "/blog/tags/analytics"
+    },
+    {
+      "label": "books",
+      "permalink": "/blog/tags/books"
+    },
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "DataStudio",
+      "permalink": "/blog/tags/data-studio"
+    }
+  ],
+  "readingTime": 2.265,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Goodreads Reading Challenge 2019",
+    "tags": [
+      "analytics",
+      "books",
+      "data science",
+      "DataStudio"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Der Stand der Bibliotheken in Deutschland",
+    "permalink": "/blog/2020/04/23/weltbuchtag"
+  },
+  "nextItem": {
+    "title": "Web-scraping IMDb with R",
+    "permalink": "/blog/2019/03/29/web-scraping-imdb-with-r"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2022/06/28/database-activity-monitoring",
+  "source": "@site/blog/2022-06-28-database-activity-monitoring.md",
+  "title": "How to automate database activity monitoring and alerting",
+  "description": "Learn what database activity monitoring is, why it's important, and how to automatically monitor a Postgres database containing IoT data with n8n workflows.",
+  "date": "2022-06-28T00:00:00.000Z",
+  "formattedDate": "June 28, 2022",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 8.595,
+  "truncated": true,
+  "authors": [],
+  "frontMatter": {
+    "title": "How to automate database activity monitoring and alerting",
+    "description": "Learn what database activity monitoring is, why it's important, and how to automatically monitor a Postgres database containing IoT data with n8n workflows.",
+    "tags": [
+      "n8n",
+      "tutorials"
+    ],
+    "canonical-url": "https://n8n.io/blog/database-activity-monitoring"
+  },
+  "prevItem": {
+    "title": "How to automatically import JSON into Google Sheets",
+    "permalink": "/blog/2022/06/30/import-json-spreadsheet"
+  },
+  "nextItem": {
+    "title": "Resources for technical writers",
+    "permalink": "/blog/2022/06/26/resources-technical-writers"
+  }
+}

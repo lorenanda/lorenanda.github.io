@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/2022/06/14/webhooks-explained",
+  "source": "@site/blog/2022-06-14-webhooks-explained.md",
+  "title": "Webhooks explained",
+  "description": "Learn what webhooks are, how they work, when to use them, and how to automate your workflows using the webhook nodes in n8n.",
+  "date": "2022-06-14T00:00:00.000Z",
+  "formattedDate": "June 14, 2022",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    }
+  ],
+  "readingTime": 6.57,
+  "truncated": true,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Webhooks explained",
+    "share-description": "Learn what webhooks are, how they work, when to use them, and how to automate your workflows using the webhook nodes in n8n.",
+    "tags": [
+      "n8n"
+    ],
+    "canonical_url": "https://blog.n8n.io/webhooks-for-workflow-automation/"
+  },
+  "prevItem": {
+    "title": "How to scrape data from a website with n8n",
+    "permalink": "/blog/2022/06/21/webscraping-workflow"
+  },
+  "nextItem": {
+    "title": "13 tools to use for DevSecOps automation",
+    "permalink": "/blog/2022/03/11/devsecops-tools"
+  }
+}

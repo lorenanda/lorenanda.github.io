@@ -1,0 +1,26 @@
+{
+  "unversionedId": "projects/project-2",
+  "id": "projects/project-2",
+  "title": "Movie recommender system",
+  "description": "matrix factorization, front-end fun, and blockbusters",
+  "source": "@site/docs/projects/project-2.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/project-2",
+  "permalink": "/docs/projects/project-2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Speech emotion recognition",
+    "permalink": "/docs/projects/project-1"
+  },
+  "next": {
+    "title": "Band lyrics classification",
+    "permalink": "/docs/projects/project-3"
+  }
+}

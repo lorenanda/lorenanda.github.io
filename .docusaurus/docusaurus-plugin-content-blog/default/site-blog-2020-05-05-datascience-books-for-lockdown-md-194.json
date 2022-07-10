@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2020/05/05/datascience-books-for-lockdown",
+  "source": "@site/blog/2020-05-05-datascience-books-for-lockdown.md",
+  "title": "10 data science books to read during lockdown",
+  "description": "cover",
+  "date": "2020-05-05T00:00:00.000Z",
+  "formattedDate": "May 5, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "books",
+      "permalink": "/blog/tags/books"
+    }
+  ],
+  "readingTime": 2.515,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "10 data science books to read during lockdown",
+    "tags": [
+      "data science",
+      "books"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Diversity in IT Jobs (WAD talk)",
+    "permalink": "/blog/2020/05/25/wad-diversity-it"
+  },
+  "nextItem": {
+    "title": "Der Stand der Bibliotheken in Deutschland",
+    "permalink": "/blog/2020/04/23/weltbuchtag"
+  }
+}

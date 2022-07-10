@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/2020/12/12/bootcamp11",
+  "source": "@site/blog/2020-12-12-bootcamp11.md",
+  "title": "Best practices for software engineering",
+  "description": "Project completed in week 11 (06.12.-11.12.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-12-12T00:00:00.000Z",
+  "formattedDate": "December 12, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "swe",
+      "permalink": "/blog/tags/swe"
+    }
+  ],
+  "readingTime": 1.48,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Best practices for software engineering",
+    "tags": [
+      "data science",
+      "bootcamp",
+      "swe"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Detecting emotions from speech with neural networks",
+    "permalink": "/blog/2020/12/20/bootcamp12"
+  },
+  "nextItem": {
+    "title": "Creating a movie recommender system with Python and Flask",
+    "permalink": "/blog/2020/12/05/bootcamp10"
+  }
+}

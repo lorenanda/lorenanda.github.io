@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/2019/03/29/web-scraping-imdb-with-r",
+  "source": "@site/blog/2019-03-29-web-scraping-imdb-with-r.md",
+  "title": "Web-scraping IMDb with R",
+  "description": "Web scraping is a method of automatically gathering data from websites in a structured manner and storing it into a local database or spreadsheet. Why would you do this? Because you're lazy. Or because it's really impossible to copy-paste all the data you need from the website.",
+  "date": "2019-03-29T00:00:00.000Z",
+  "formattedDate": "March 29, 2019",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "R",
+      "permalink": "/blog/tags/r"
+    }
+  ],
+  "readingTime": 4.345,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Web-scraping IMDb with R",
+    "tags": [
+      "data science",
+      "tutorials",
+      "R"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Goodreads Reading Challenge 2019",
+    "permalink": "/blog/2019/12/30/goodreads-reading-challenge"
+  },
+  "nextItem": {
+    "title": "Analyzing my reading habits from Goodreads data",
+    "permalink": "/blog/2018/10/21/tableau-visualisation-goodreads"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "permalink": "/blog/2020/11/21/bootcamp8",
+  "source": "@site/blog/2020-11-21-bootcamp8.md",
+  "title": "Creating a Markov chain Monte Carlo simulation in Python",
+  "description": "Project completed in week 8 (16.11.-20.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-11-21T00:00:00.000Z",
+  "formattedDate": "November 21, 2020",
+  "tags": [
+    {
+      "label": "algorithms",
+      "permalink": "/blog/tags/algorithms"
+    },
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    }
+  ],
+  "readingTime": 3.23,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Creating a Markov chain Monte Carlo simulation in Python",
+    "gh-repo": "lorenanda/Supermarket_MCMC_simulation",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "algorithms",
+      "data science",
+      "bootcamp",
+      "tutorials",
+      "Python"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Classifying clothes images with neural networks",
+    "permalink": "/blog/2020/11/28/bootcamp9"
+  },
+  "nextItem": {
+    "title": "Building a dockerized ETL pipeline for tweet streaming in Slack",
+    "permalink": "/blog/2020/11/14/bootcamp7"
+  }
+}

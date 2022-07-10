@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/2021/10/03/spectral-biclustering-for-marketing-in-python",
+  "source": "@site/blog/2021-10-03-spectral-biclustering-for-marketing-in-python.mdx",
+  "title": "Making product recommendations using Spectral Biclustering in Python",
+  "description": "My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from user data and establish connections between their features or actions that otherwise would go unnoticed.",
+  "date": "2021-10-03T00:00:00.000Z",
+  "formattedDate": "October 3, 2021",
+  "tags": [
+    {
+      "label": "algorithms",
+      "permalink": "/blog/tags/algorithms"
+    },
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 4.01,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Making product recommendations using Spectral Biclustering in Python",
+    "tags": [
+      "algorithms",
+      "data science",
+      "Python",
+      "tutorials"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Market basket analysis with the Apriori algorithm in Python",
+    "permalink": "/blog/2021/10/17/market-basket-analysis-with-apriori-algorithm"
+  },
+  "nextItem": {
+    "title": "6 features of tasks that can be automated",
+    "permalink": "/blog/2021/09/28/automatable-tasks"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/2022/07/10/mathjax-katex",
+  "source": "@site/blog/2022-07-10-mathjax-katex.md",
+  "title": "How use math equations in Docusaurus",
+  "description": "Learn how to convert MathJax for Jekyll to KaTeX for Docusaurus for using math equations in text.",
+  "date": "2022-07-10T00:00:00.000Z",
+  "formattedDate": "July 10, 2022",
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    },
+    {
+      "label": "jekyll",
+      "permalink": "/blog/tags/jekyll"
+    },
+    {
+      "label": "markdown",
+      "permalink": "/blog/tags/markdown"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 1.625,
+  "truncated": true,
+  "authors": [],
+  "frontMatter": {
+    "title": "How use math equations in Docusaurus",
+    "description": "Learn how to convert MathJax for Jekyll to KaTeX for Docusaurus for using math equations in text.",
+    "tags": [
+      "docusaurus",
+      "jekyll",
+      "markdown",
+      "tutorials"
+    ]
+  },
+  "nextItem": {
+    "title": "How to connect Google Sheets with MySQL",
+    "permalink": "/blog/2022/07/07/connect-mysql-sheets"
+  }
+}

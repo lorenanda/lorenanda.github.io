@@ -1,0 +1,96 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "ABOUT",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "PROJECTS",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Speech emotion recognition",
+            "href": "/docs/projects/project-1",
+            "docId": "projects/project-1"
+          },
+          {
+            "type": "link",
+            "label": "Movie recommender system",
+            "href": "/docs/projects/project-2",
+            "docId": "projects/project-2"
+          },
+          {
+            "type": "link",
+            "label": "Band lyrics classification",
+            "href": "/docs/projects/project-3",
+            "docId": "projects/project-3"
+          },
+          {
+            "type": "link",
+            "label": "Dockerized ETL pipeline",
+            "href": "/docs/projects/project-4",
+            "docId": "projects/project-4"
+          }
+        ],
+        "href": "/docs/category/projects"
+      },
+      {
+        "type": "link",
+        "label": "CONTACT",
+        "href": "/docs/contact",
+        "docId": "contact"
+      }
+    ]
+  },
+  "docs": {
+    "contact": {
+      "id": "contact",
+      "title": "CONTACT",
+      "description": "Email &bull;",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "ABOUT",
+      "description": "I'm a technical writer and data scientist particulary interested in NLP, AI, open source, and DevSecOps.",
+      "sidebar": "tutorialSidebar"
+    },
+    "projects/project-1": {
+      "id": "projects/project-1",
+      "title": "Speech emotion recognition",
+      "description": "neural networks, voice processing, and drama",
+      "sidebar": "tutorialSidebar"
+    },
+    "projects/project-2": {
+      "id": "projects/project-2",
+      "title": "Movie recommender system",
+      "description": "matrix factorization, front-end fun, and blockbusters",
+      "sidebar": "tutorialSidebar"
+    },
+    "projects/project-3": {
+      "id": "projects/project-3",
+      "title": "Band lyrics classification",
+      "description": "multinomial naive Bayes, CLI bots, and greatest hits",
+      "sidebar": "tutorialSidebar"
+    },
+    "projects/project-4": {
+      "id": "projects/project-4",
+      "title": "Dockerized ETL pipeline",
+      "description": "sentiment analysis, data engineering, and tweets",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

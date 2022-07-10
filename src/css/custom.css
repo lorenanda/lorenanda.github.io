@@ -1,0 +1,75 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+  --ifm-color-primary: #9b8900;
+  --ifm-color-primary-dark: #9b8900;
+  --ifm-color-primary-darker: #9b8900;
+  --ifm-color-primary-darkest: #9b8900;
+  --ifm-color-primary-light: #9b8900;
+  --ifm-color-primary-lighter: #9b8900;
+  --ifm-color-primary-lightest: #9b8900;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --background-color: rgb(34, 34, 34);
+  --text-color: #fff;
+  --ifm-color-primary: #13fce9;
+  --ifm-color-primary-dark: #dec400;
+  --ifm-color-primary-darker: #dec400;
+  --ifm-color-primary-darkest: #dec400;
+  --ifm-color-primary-light: #dec400;
+  --ifm-color-primary-lighter: #dec400;
+  --ifm-color-primary-lightest: #dec400;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.navbar, .hero, .main-wrapper, .footer, .button.button--secondary {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.navbar__title, .navbar__link {
+  color: var(--text-color);
+}
+
+[data-theme='dark'] .navbar, .hero, .main-wrapper, .footer, .button.button--secondary {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+[data-theme='dark'] .navbar__title, .navbar__link {
+  color: var(--text-color);
+}
+
+/*
+.button.button--secondary {
+  color: var(--ifm-color-primary-lightest);
+  border-color: #242526;
+  background-color: #fff;
+}
+*/
+
+@font-face {
+  font-family: "Alliance No. 2";
+  src: url("../fonts/alliance_no2_light.otf");
+}
+
+
+body, h1, h2, h3 {
+  font-family: 'Alliance No. 2', 'Alliance No. 1', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.table-of-contents__left-border {
+  border-left: none;
+}

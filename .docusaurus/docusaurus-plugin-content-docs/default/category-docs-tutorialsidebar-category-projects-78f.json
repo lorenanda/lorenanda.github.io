@@ -1,0 +1,15 @@
+{
+  "title": "PROJECTS",
+  "slug": "/category/projects",
+  "permalink": "/docs/category/projects",
+  "navigation": {
+    "previous": {
+      "title": "ABOUT",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Speech emotion recognition",
+      "permalink": "/docs/projects/project-1"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/2021/09/21/toxic-language-workflow",
+  "source": "@site/blog/2021-09-21-toxic-language-workflow.md",
+  "title": "Create a toxic language detector for Telegram in 4 steps",
+  "description": "When was the last time you talked to someone online, be it friends, coworkers, or even strangers? Nowadays, you most likely do it every day.",
+  "date": "2021-09-21T00:00:00.000Z",
+  "formattedDate": "September 21, 2021",
+  "tags": [
+    {
+      "label": "AI",
+      "permalink": "/blog/tags/ai"
+    },
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "NLP",
+      "permalink": "/blog/tags/nlp"
+    }
+  ],
+  "readingTime": 6.77,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Create a toxic language detector for Telegram in 4 steps",
+    "tags": [
+      "AI",
+      "n8n",
+      "tutorials",
+      "NLP"
+    ],
+    "share-description": "Leverage the power of automation and machine learning to enable kinder online discussions.",
+    "canonical_url": "https://n8n.io/blog/create-a-toxic-language-detector-for-telegram/"
+  },
+  "prevItem": {
+    "title": "6 features of tasks that can be automated",
+    "permalink": "/blog/2021/09/28/automatable-tasks"
+  },
+  "nextItem": {
+    "title": "How to get started with CRM automation (with 3 no-code workflow ideas)",
+    "permalink": "/blog/2021/09/14/crm-workflows"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/2021/09/02/ecommerce-workflows",
+  "source": "@site/blog/2021-09-02-ecommerce-workflows.md",
+  "title": "6 e-commerce workflows to power up your Shopify store",
+  "description": "The online shopping trend has been driven by increasing digitalization in the past years, and the COVID-19 outbreak has only fueled e-commerce growth. Consumers around the world are turning to online stores for pretty much all product categories, due to in-person restrictions or contamination concerns.",
+  "date": "2021-09-02T00:00:00.000Z",
+  "formattedDate": "September 2, 2021",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    }
+  ],
+  "readingTime": 6.845,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "6 e-commerce workflows to power up your Shopify store",
+    "tags": [
+      "n8n"
+    ],
+    "share-description": "Want to power up your online business and win back time? Discover how no-code workflow automation can help!",
+    "canonical_url": "https://n8n.io/blog/no-code-ecommerce-workflow-automations/"
+  },
+  "prevItem": {
+    "title": "How to get started with CRM automation (with 3 no-code workflow ideas)",
+    "permalink": "/blog/2021/09/14/crm-workflows"
+  },
+  "nextItem": {
+    "title": "Clustering and classification of emotion verbs",
+    "permalink": "/blog/2021/08/06/romanian-psych-verbs-study"
+  }
+}

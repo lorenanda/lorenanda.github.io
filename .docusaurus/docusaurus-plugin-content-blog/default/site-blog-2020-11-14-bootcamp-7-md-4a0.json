@@ -1,0 +1,56 @@
+{
+  "permalink": "/blog/2020/11/14/bootcamp7",
+  "source": "@site/blog/2020-11-14-bootcamp7.md",
+  "title": "Building a dockerized ETL pipeline for tweet streaming in Slack",
+  "description": "Project completed in week 7 (09.11.-13.11.20) of the Data Science Bootcamp at Spiced Academy in Berlin.",
+  "date": "2020-11-14T08:30:00.000Z",
+  "formattedDate": "November 14, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "bootcamp",
+      "permalink": "/blog/tags/bootcamp"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    },
+    {
+      "label": "Python",
+      "permalink": "/blog/tags/python"
+    }
+  ],
+  "readingTime": 6.675,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Building a dockerized ETL pipeline for tweet streaming in Slack",
+    "share-description": "Learn how I built an ETL pipeline for sentiment analysis and database storage with Python.",
+    "gh-repo": "lorenanda/tweets-docker-pipeline",
+    "gh-badge": [
+      "star",
+      "fork",
+      "follow"
+    ],
+    "tags": [
+      "data science",
+      "bootcamp",
+      "tutorials",
+      "Python"
+    ],
+    "date": "2020-11-14 8:30:00 +0000",
+    "last_modified_at": "2022-01-30 8:30:00 +0000"
+  },
+  "prevItem": {
+    "title": "Creating a Markov chain Monte Carlo simulation in Python",
+    "permalink": "/blog/2020/11/21/bootcamp8"
+  },
+  "nextItem": {
+    "title": "Creating a Metabase dashboard on Postgres and AWS",
+    "permalink": "/blog/2020/11/07/bootcamp6"
+  }
+}

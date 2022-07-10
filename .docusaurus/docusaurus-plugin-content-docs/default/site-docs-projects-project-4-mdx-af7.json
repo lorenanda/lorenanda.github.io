@@ -1,0 +1,26 @@
+{
+  "unversionedId": "projects/project-4",
+  "id": "projects/project-4",
+  "title": "Dockerized ETL pipeline",
+  "description": "sentiment analysis, data engineering, and tweets",
+  "source": "@site/docs/projects/project-4.mdx",
+  "sourceDirName": "projects",
+  "slug": "/projects/project-4",
+  "permalink": "/docs/projects/project-4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Band lyrics classification",
+    "permalink": "/docs/projects/project-3"
+  },
+  "next": {
+    "title": "CONTACT",
+    "permalink": "/docs/contact"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/2020/04/23/weltbuchtag",
+  "source": "@site/blog/2020-04-23-weltbuchtag.md",
+  "title": "Der Stand der Bibliotheken in Deutschland",
+  "description": "Am 23. April 2020 feiern alle Bücherwürmer den Welttag des Buches! Letztes Jahr habe ich zu diesem Anlass eine Infografik zum Stand der Buchproduktion in Österreich erstellt. Dieses Jahr liegt mein Fokus auf der Situation der Bibliotheken in Deutschland.",
+  "date": "2020-04-23T00:00:00.000Z",
+  "formattedDate": "April 23, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "analytics",
+      "permalink": "/blog/tags/analytics"
+    },
+    {
+      "label": "DataStudio",
+      "permalink": "/blog/tags/data-studio"
+    },
+    {
+      "label": "deutsch",
+      "permalink": "/blog/tags/deutsch"
+    }
+  ],
+  "readingTime": 1.375,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Der Stand der Bibliotheken in Deutschland",
+    "tags": [
+      "data science",
+      "analytics",
+      "DataStudio",
+      "deutsch"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "10 data science books to read during lockdown",
+    "permalink": "/blog/2020/05/05/datascience-books-for-lockdown"
+  },
+  "nextItem": {
+    "title": "Goodreads Reading Challenge 2019",
+    "permalink": "/blog/2019/12/30/goodreads-reading-challenge"
+  }
+}

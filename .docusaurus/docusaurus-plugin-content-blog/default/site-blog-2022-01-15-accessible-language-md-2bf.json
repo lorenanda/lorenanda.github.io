@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2022/01/15/accessible-language",
+  "source": "@site/blog/2022-01-15-accessible-language.md",
+  "title": "How to write in accessible language",
+  "description": "As a technical writer creating tutorials and courses for users of all levels, I'm constantly re-evaluating my content, looking for ways to make it more accessible and easy to understand. I had one such oportunity yesterday, when I attended the workshop Improve Your Writing Using Accessible Language, held by Amy Dickens and organized by You Got This. In this post, I'll share with you my learnings from the workshop, combining the speaker's slides with my personal notes.",
+  "date": "2022-01-15T00:00:00.000Z",
+  "formattedDate": "January 15, 2022",
+  "tags": [
+    {
+      "label": "conferences",
+      "permalink": "/blog/tags/conferences"
+    },
+    {
+      "label": "writing",
+      "permalink": "/blog/tags/writing"
+    }
+  ],
+  "readingTime": 4.03,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "How to write in accessible language",
+    "tags": [
+      "conferences",
+      "writing"
+    ],
+    "share-description": "Learnings from the YouGotThis workshop \"Improve Your Writing Using Accessible Language\""
+  },
+  "prevItem": {
+    "title": "How hyperautomation will transform business operations",
+    "permalink": "/blog/2022/01/27/hyperautomation-trends"
+  },
+  "nextItem": {
+    "title": "How to synchronize data between two systems (one-way vs. two-way sync)",
+    "permalink": "/blog/2021/11/18/data-sync-workflows"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/2021/02/21/langues-en-danger",
+  "source": "@site/blog/2021-02-21-langues-en-danger.md",
+  "title": "Pourquoi est-il important de protéger les langues en danger",
+  "description": "À l'occassion de la Journée internationale de la langue maternelle (21 février), j'ai écrit un essay pour attirer l'attention sur la diversité linguistique et l'importance de préserver les langues maternelles de chacun(e).",
+  "date": "2021-02-21T00:00:00.000Z",
+  "formattedDate": "February 21, 2021",
+  "tags": [
+    {
+      "label": "linguistics",
+      "permalink": "/blog/tags/linguistics"
+    },
+    {
+      "label": "francais",
+      "permalink": "/blog/tags/francais"
+    },
+    {
+      "label": "thoughts",
+      "permalink": "/blog/tags/thoughts"
+    }
+  ],
+  "readingTime": 4.115,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Pourquoi est-il important de protéger les langues en danger",
+    "tags": [
+      "linguistics",
+      "francais",
+      "thoughts"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Exploring endangered languages with pandas",
+    "permalink": "/blog/2021/02/27/endangered-languages"
+  },
+  "nextItem": {
+    "title": "January's regression challenge for Kaggle playground",
+    "permalink": "/blog/2021/01/21/kaggle-playground-jan"
+  }
+}

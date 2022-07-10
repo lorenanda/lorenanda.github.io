@@ -1,0 +1,26 @@
+{
+  "unversionedId": "projects/project-1",
+  "id": "projects/project-1",
+  "title": "Speech emotion recognition",
+  "description": "neural networks, voice processing, and drama",
+  "source": "@site/docs/projects/project-1.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/project-1",
+  "permalink": "/docs/projects/project-1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PROJECTS",
+    "permalink": "/docs/category/projects"
+  },
+  "next": {
+    "title": "Movie recommender system",
+    "permalink": "/docs/projects/project-2"
+  }
+}

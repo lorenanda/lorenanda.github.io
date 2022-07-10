@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2022/06/26/resources-technical-writers",
+  "source": "@site/blog/2022-06-26-resources-technical-writers.md",
+  "title": "Resources for technical writers",
+  "description": "Books, podcasts, and courses to help technical writers hone their writing skills and collaborate with DevRel and Marketing teams.",
+  "date": "2022-06-26T00:00:00.000Z",
+  "formattedDate": "June 26, 2022",
+  "tags": [
+    {
+      "label": "books",
+      "permalink": "/blog/tags/books"
+    },
+    {
+      "label": "writing",
+      "permalink": "/blog/tags/writing"
+    }
+  ],
+  "readingTime": 2.19,
+  "truncated": true,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Resources for technical writers",
+    "share-description": "Books, podcasts, and courses to help technical writers hone their writing skills and collaborate with DevRel and Marketing teams.",
+    "tags": [
+      "books",
+      "writing"
+    ]
+  },
+  "prevItem": {
+    "title": "How to automate database activity monitoring and alerting",
+    "permalink": "/blog/2022/06/28/database-activity-monitoring"
+  },
+  "nextItem": {
+    "title": "How to scrape data from a website with n8n",
+    "permalink": "/blog/2022/06/21/webscraping-workflow"
+  }
+}

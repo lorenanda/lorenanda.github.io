@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/2022/01/27/hyperautomation-trends",
+  "source": "@site/blog/2022-01-27-hyperautomation-trends.md",
+  "title": "How hyperautomation will transform business operations",
+  "description": "Discover the four trends in hyperautomation and how low-code tools help businesses increase productivity and scale operations.",
+  "date": "2022-01-27T00:00:00.000Z",
+  "formattedDate": "January 27, 2022",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    }
+  ],
+  "readingTime": 6.05,
+  "truncated": true,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "How hyperautomation will transform business operations",
+    "share-description": "Discover the four trends in hyperautomation and how low-code tools help businesses increase productivity and scale operations.",
+    "tags": [
+      "n8n"
+    ],
+    "canonical_url": "https://n8n.io/blog/hyperautomation-trends/"
+  },
+  "prevItem": {
+    "title": "How to automate every step of an incident response workflow",
+    "permalink": "/blog/2022/02/10/automated-incident-response"
+  },
+  "nextItem": {
+    "title": "How to write in accessible language",
+    "permalink": "/blog/2022/01/15/accessible-language"
+  }
+}

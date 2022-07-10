@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/2018/10/21/tableau-visualisation-goodreads",
+  "source": "@site/blog/2018-10-21-tableau-visualisation-goodreads.md",
+  "title": "Analyzing my reading habits from Goodreads data",
+  "description": "Goodreads is an amazing platform for tracking and organizing your reading, discovering new books, and sharing reviews or recommandations with friends.",
+  "date": "2018-10-21T00:00:00.000Z",
+  "formattedDate": "October 21, 2018",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "analytics",
+      "permalink": "/blog/tags/analytics"
+    },
+    {
+      "label": "Tableau",
+      "permalink": "/blog/tags/tableau"
+    }
+  ],
+  "readingTime": 3.105,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Analyzing my reading habits from Goodreads data",
+    "tags": [
+      "data science",
+      "analytics",
+      "Tableau"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "Web-scraping IMDb with R",
+    "permalink": "/blog/2019/03/29/web-scraping-imdb-with-r"
+  },
+  "nextItem": {
+    "title": "Talking about psych-verbs @ 5th Linguistics Meetup in Potsdam",
+    "permalink": "/blog/2018/08/04/poster-linguistik-meetup-potsdam"
+  }
+}

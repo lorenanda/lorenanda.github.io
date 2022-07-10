@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2022/06/30/import-json-spreadsheet",
+  "source": "@site/blog/2022-06-30-import-json-spreadsheet.md",
+  "title": "How to automatically import JSON into Google Sheets",
+  "description": "Discover three ways to import JSON data into Google Sheets or a CSV file, and five no-code workflows for automating these tasks.",
+  "date": "2022-06-30T00:00:00.000Z",
+  "formattedDate": "June 30, 2022",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 7.69,
+  "truncated": true,
+  "authors": [],
+  "frontMatter": {
+    "title": "How to automatically import JSON into Google Sheets",
+    "description": "Discover three ways to import JSON data into Google Sheets or a CSV file, and five no-code workflows for automating these tasks.",
+    "tags": [
+      "n8n",
+      "tutorials"
+    ],
+    "canonical-url": "https://blog.n8n.io/google-sheets-import-json/"
+  },
+  "prevItem": {
+    "title": "How to connect Google Sheets with MySQL",
+    "permalink": "/blog/2022/07/07/connect-mysql-sheets"
+  },
+  "nextItem": {
+    "title": "How to automate database activity monitoring and alerting",
+    "permalink": "/blog/2022/06/28/database-activity-monitoring"
+  }
+}

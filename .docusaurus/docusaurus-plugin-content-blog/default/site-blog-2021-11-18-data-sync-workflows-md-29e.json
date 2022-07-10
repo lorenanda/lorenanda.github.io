@@ -1,0 +1,39 @@
+{
+  "permalink": "/blog/2021/11/18/data-sync-workflows",
+  "source": "@site/blog/2021-11-18-data-sync-workflows.md",
+  "title": "How to synchronize data between two systems (one-way vs. two-way sync)",
+  "description": "Whether you work in marketing, sales, or data engineering, you most likely use several apps or services for collecting and storing data from different sources. To boost productivity and reduce errors, you can automate various tasks in each system -- from lead capturing in CRMs to e-commerce workflows and data processing pipelines.",
+  "date": "2021-11-18T00:00:00.000Z",
+  "formattedDate": "November 18, 2021",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    },
+    {
+      "label": "tutorials",
+      "permalink": "/blog/tags/tutorials"
+    }
+  ],
+  "readingTime": 9.735,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "How to synchronize data between two systems (one-way vs. two-way sync)",
+    "tags": [
+      "n8n",
+      "tutorials"
+    ],
+    "share-description": "Learn how to build no-code workflows that automatically sync data between your CRMs.",
+    "canonical_url": "https://n8n.io/blog/how-to-sync-data-between-two-systems/"
+  },
+  "prevItem": {
+    "title": "How to write in accessible language",
+    "permalink": "/blog/2022/01/15/accessible-language"
+  },
+  "nextItem": {
+    "title": "5 ways to keep your skills fresh after finishing a coding bootcamp",
+    "permalink": "/blog/2021/11/14/keep-your-skills-fresh-after-coding-bootcamp"
+  }
+}

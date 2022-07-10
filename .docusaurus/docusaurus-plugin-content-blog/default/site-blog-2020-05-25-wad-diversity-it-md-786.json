@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2020/05/25/wad-diversity-it",
+  "source": "@site/blog/2020-05-25-wad-diversity-it.md",
+  "title": "Diversity in IT Jobs (WAD talk)",
+  "description": "We Are Developers is the world's largest conference for software development. It's a great opportunity for software engineers to connect with tech companies and learn about interesting advances in technology. This year, it was supposed to take place in Berlin, but due to COVID-19, it was moved online for a Live Week (25-29 May) of exciting talks on different tech topics.",
+  "date": "2020-05-25T00:00:00.000Z",
+  "formattedDate": "May 25, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "conferences",
+      "permalink": "/blog/tags/conferences"
+    }
+  ],
+  "readingTime": 1.525,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Diversity in IT Jobs (WAD talk)",
+    "tags": [
+      "data science",
+      "conferences"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "The Pitfalls of Deep Learning (WAD talk)",
+    "permalink": "/blog/2020/05/26/wad-pitfalls-deeplearning"
+  },
+  "nextItem": {
+    "title": "10 data science books to read during lockdown",
+    "permalink": "/blog/2020/05/05/datascience-books-for-lockdown"
+  }
+}

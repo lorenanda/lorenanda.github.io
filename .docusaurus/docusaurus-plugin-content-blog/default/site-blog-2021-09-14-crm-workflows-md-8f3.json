@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/2021/09/14/crm-workflows",
+  "source": "@site/blog/2021-09-14-crm-workflows.md",
+  "title": "How to get started with CRM automation (with 3 no-code workflow ideas)",
+  "description": "If you run a business, sell a product, or offer services, you know how important it is to nurture the relationship with your customers and gain new ones. Whether you operate alone or with a sales team, you probably also know how difficult it can be to keep track of your leads, customers, and orders.",
+  "date": "2021-09-14T00:00:00.000Z",
+  "formattedDate": "September 14, 2021",
+  "tags": [
+    {
+      "label": "n8n",
+      "permalink": "/blog/tags/n-8-n"
+    }
+  ],
+  "readingTime": 10.01,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "How to get started with CRM automation (with 3 no-code workflow ideas)",
+    "tags": [
+      "n8n"
+    ],
+    "share-description": "Discover how you can automatically capture insightful information from your sales funnel and save your sales team hours of work every week.",
+    "canonical_url": "https://n8n.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+  },
+  "prevItem": {
+    "title": "Create a toxic language detector for Telegram in 4 steps",
+    "permalink": "/blog/2021/09/21/toxic-language-workflow"
+  },
+  "nextItem": {
+    "title": "6 e-commerce workflows to power up your Shopify store",
+    "permalink": "/blog/2021/09/02/ecommerce-workflows"
+  }
+}

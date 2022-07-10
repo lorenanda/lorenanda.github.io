@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/2020/07/31/womenindata-symposium",
+  "source": "@site/blog/2020-07-31-womenindata-symposium.md",
+  "title": "Women in Data Symposium - Skills to Last a Decade",
+  "description": "Women in Data is an international non-profit organization dedicated to increasing diversity in data-related careers by organizing conferences, networking events, and mentorship programs around the world. The Berlin Chapter of WiD was just founded in May this year and I was very excited to join as a Marketing Coordinator.",
+  "date": "2020-07-31T00:00:00.000Z",
+  "formattedDate": "July 31, 2020",
+  "tags": [
+    {
+      "label": "data science",
+      "permalink": "/blog/tags/data-science"
+    },
+    {
+      "label": "conferences",
+      "permalink": "/blog/tags/conferences"
+    }
+  ],
+  "readingTime": 0.685,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "layout": "post",
+    "title": "Women in Data Symposium - Skills to Last a Decade",
+    "tags": [
+      "data science",
+      "conferences"
+    ],
+    "comments": true
+  },
+  "prevItem": {
+    "title": "5 eye-opening books about AI ethics",
+    "permalink": "/blog/2020/08/19/books-ethics-ai"
+  },
+  "nextItem": {
+    "title": "4 tips for creating a great data science portfolio",
+    "permalink": "/blog/2020/07/29/tips-for-datascience-portfolio"
+  }
+}
