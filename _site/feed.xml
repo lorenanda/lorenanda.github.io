@@ -10,6 +10,50 @@
     
     
       <item>
+        <title>How use math equations in Docusaurus</title>
+        <description>
+          
+          One of the challenges I encountered when moving my website from Jekyll to Docusaurus was rendering math equations in some of my blog posts (for example, about the apriori algorithm). In Jekyll, I used MathJax with Liquid to render them. This didn’t work in Docusaurus, so instead I had to...
+        </description>
+        <pubDate>Sun, 10 Jul 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/mathjax-katex/</link>
+        <guid isPermaLink="true">http://localhost:4000/mathjax-katex/</guid>
+      </item>
+    
+      <item>
+        <title>How to connect Google Sheets with MySQL</title>
+        <description>
+          
+          If you’ve been struggling to connect your MySQL database with Google Sheets, you’ve come to the right place. Establishing a connection from Google Sheets to MySQL allows you to avoid manually updating data in one source and importing/exporting data sets, thus reducing human errors. Connecting Google Sheets with MySQL is...
+        </description>
+        <pubDate>Thu, 07 Jul 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/connect-mysql-sheets/</link>
+        <guid isPermaLink="true">http://localhost:4000/connect-mysql-sheets/</guid>
+      </item>
+    
+      <item>
+        <title>How to automatically import JSON into Google Sheets</title>
+        <description>
+          
+          JavaScript Object Notation (JSON) is a standard text-based format that is used to store and represent structured data. JSON is commonly used in web applications, and is one of the most popular API formats. Data in JSON format is not practical if you want to share that data in a...
+        </description>
+        <pubDate>Thu, 30 Jun 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/import-json-spreadsheet/</link>
+        <guid isPermaLink="true">http://localhost:4000/import-json-spreadsheet/</guid>
+      </item>
+    
+      <item>
+        <title>How to automate database activity monitoring and alerting</title>
+        <description>
+          
+          Database activity monitoring (DAM) is increasingly valued in organizations that work with data, as it helps ensure that mission-critical processes run optimally and issues are detected on time. Established and new companies are offering a variety of DAM tools and solutions, tailored to the needs of customers across industries. The...
+        </description>
+        <pubDate>Tue, 28 Jun 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/database-activity-monitoring/</link>
+        <guid isPermaLink="true">http://localhost:4000/database-activity-monitoring/</guid>
+      </item>
+    
+      <item>
         <title>Resources for technical writers</title>
         <description>
           
@@ -18,6 +62,28 @@
         <pubDate>Sun, 26 Jun 2022 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/resources-technical-writers/</link>
         <guid isPermaLink="true">http://localhost:4000/resources-technical-writers/</guid>
+      </item>
+    
+      <item>
+        <title>How to scrape data from a website with n8n</title>
+        <description>
+          
+          It’s no secret (anymore) that data is precious. Structured data is particularly valuable for companies and professionals in pretty much any industry, as it offers them the raw material for making predictions, identifying trends, and shaping their target audience. One method for getting hold of structure data, that has been...
+        </description>
+        <pubDate>Tue, 21 Jun 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/webscraping-workflow/</link>
+        <guid isPermaLink="true">http://localhost:4000/webscraping-workflow/</guid>
+      </item>
+    
+      <item>
+        <title>Webhooks explained</title>
+        <description>
+          
+          Since being introduced in 2007, webhooks have revolutionized the web. These user-defined callbacks made it possible to access real-time data from an app, creating new infrastructure and opening up endless possibilities for web developers. In this post, you’ll learn the basics about webhooks: what they are, how they work, how...
+        </description>
+        <pubDate>Tue, 14 Jun 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/webhooks-explained/</link>
+        <guid isPermaLink="true">http://localhost:4000/webhooks-explained/</guid>
       </item>
     
       <item>
@@ -161,72 +227,6 @@
         <pubDate>Sun, 14 Nov 2021 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/keep-your-skills-fresh-after-coding-bootcamp/</link>
         <guid isPermaLink="true">http://localhost:4000/keep-your-skills-fresh-after-coding-bootcamp/</guid>
-      </item>
-    
-      <item>
-        <title>October books wrap-up</title>
-        <description>
-          
-          Breath: The New Science of a Lost Art by James Nestor 🌕🌕🌗🌑🌑 Journalist James Nestor travels the world to learn and experiment how to breathe properly. From his readings and talks with pulmonauts (people who use breathing techniques for self-improvement), yogis, and athletes, Nestor makes the case that the way...
-        </description>
-        <pubDate>Sun, 31 Oct 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/october-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/october-books/</guid>
-      </item>
-    
-      <item>
-        <title>Market basket analysis with the Apriori algorithm in Python</title>
-        <description>
-          
-          In my previous post, I wrote about using spectral biclustering for making product recommendations. In this post, I’ll build on that marketing example and use the Apriori algorithm for analyzing product purchases This example is, again, taken from Giuseppe Bonaccorso’s book Mastering Machine Learning Algorithms\(^1\). Table of contents Market Basket...
-        </description>
-        <pubDate>Sun, 17 Oct 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/market-basket-analysis-with-apriori-algorithm/</link>
-        <guid isPermaLink="true">http://localhost:4000/market-basket-analysis-with-apriori-algorithm/</guid>
-      </item>
-    
-      <item>
-        <title>Making product recommendations using Spectral Biclustering in Python</title>
-        <description>
-          
-          My roles in data analytics/science so far have always been focused on online marketing applications, such as analyzing the impact of ad campaigns, the engagement of users with a website, or the performance of blog posts. Machine Learning algorithms and Python libraries like scikit-learn can help marketers derive insights from...
-        </description>
-        <pubDate>Sun, 03 Oct 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/spectral-biclustering-for-marketing-in-python/</link>
-        <guid isPermaLink="true">http://localhost:4000/spectral-biclustering-for-marketing-in-python/</guid>
-      </item>
-    
-      <item>
-        <title>September books wrap-up</title>
-        <description>
-          
-          The beginning of autumn found me in a reading slump. I couldn’t decide what to read next and didn’t feel like reading the books I had started. Eventually, I went to my local library and simply picked up three books that caught my eye. They turned out to be ok,...
-        </description>
-        <pubDate>Thu, 30 Sep 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/september-books/</link>
-        <guid isPermaLink="true">http://localhost:4000/september-books/</guid>
-      </item>
-    
-      <item>
-        <title>6 features of tasks that can be automated</title>
-        <description>
-          
-          You’re working long hours now, six in the morning to six in the afternoon. Sometimes even eight in the afternoon, six days a week. Sometimes seven days a week. It’s a long hustle but it keeps you busy. Busy but unfulfilled, because many of the things you do are plain...
-        </description>
-        <pubDate>Tue, 28 Sep 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/automatable-tasks/</link>
-        <guid isPermaLink="true">http://localhost:4000/automatable-tasks/</guid>
-      </item>
-    
-      <item>
-        <title>Create a toxic language detector for Telegram in 4 steps</title>
-        <description>
-          
-          When was the last time you talked to someone online, be it friends, coworkers, or even strangers? Nowadays, you most likely do it every day. Toxic language online Online communication platforms like Telegram, Reddit, or Discord have made it possible for people from all over the world to connect and...
-        </description>
-        <pubDate>Tue, 21 Sep 2021 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/toxic-language-workflow/</link>
-        <guid isPermaLink="true">http://localhost:4000/toxic-language-workflow/</guid>
       </item>
     
   </channel>
