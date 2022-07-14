@@ -2,7 +2,7 @@
 layout: post
 title: How to automate every step of an incident response workflow
 share-description: Minimize the damage caused by IT incidents by following an incident response playbook with PagerDuty, Jira, and Mattermost.
-tags: [n8n, tutorials]
+tags: [automation, n8n, tutorials]
 canonical_url: https://n8n.io/blog/automated-incident-response-workflow/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: How to automate database activity monitoring and alerting
 description: Learn what database activity monitoring is, why it's important, and how to automatically monitor a Postgres database containing IoT data with n8n workflows.
-tags: [n8n, tutorials]
+tags: [automation, n8n, tutorials]
 canonical-url: https://n8n.io/blog/database-activity-monitoring
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 6 e-commerce workflows to power up your Shopify store
-tags: [tutorials, n8n]
+tags: [automation, n8n, tutorials]
 share-description: Want to power up your online business and win back time? Discover how no-code workflow automation can help!
 canonical_url: https://n8n.io/blog/no-code-ecommerce-workflow-automations/
 ---

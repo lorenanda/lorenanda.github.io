@@ -1,7 +1,7 @@
 ---
 title: How to scrape data from a website with n8n
 description: Learn web scraping basics:\ what it is, how it works, what tools you can use, and how to build your own low-code workflow to scrape an online store.
-tags: [n8n, tutorials]
+tags: [automation, n8n, tutorials]
 canonical_url: https://blog.n8n.io/how-to-scrape-data-from-a-website/
 ---
 

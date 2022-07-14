@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 workflow automations for Mattermost that we love at n8n
-tags: [n8n]
+tags: [automation, n8n]
 share-description: Discover five of our favorite use cases of n8n with Mattermost, for both work productivity and team engagement.
 canonical_url: https://n8n.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-n8n/
 ---

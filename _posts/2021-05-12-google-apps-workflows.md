@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 15 Google apps you can combine and automate to increase productivity
-tags: [tutorials, n8n]
+tags: [automation, n8n, tutorials]
 share-description: Learn how to combine and automate popular Google apps for more productivity in the workplace.
 canonical_url: https://n8n.io/blog/automate-google-apps-for-productivity/
 ---

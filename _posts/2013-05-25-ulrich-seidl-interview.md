@@ -2,7 +2,7 @@
 layout: post
 title: An evening with Ulrich Seidl in Vienna
 subtitle: Exhibition
-tags: [art, events, francais]
+tags: [art, francais]
 comments: true
 ---
 

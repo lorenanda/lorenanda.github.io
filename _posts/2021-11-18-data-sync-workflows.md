@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to synchronize data between two systems (one-way vs. two-way sync)
-tags: [tutorials, n8n]
+tags: [automation, n8n, tutorials]
 share-description: Learn how to build no-code workflows that automatically sync data between your CRMs.
 canonical_url: https://n8n.io/blog/how-to-sync-data-between-two-systems/
 ---

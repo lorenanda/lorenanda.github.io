@@ -2,7 +2,7 @@
 layout: post
 title: Webhooks explained
 share-description: Learn what webhooks are, how they work, when to use them, and how to automate your workflows using the webhook nodes in n8n.
-tags: [n8n]
+tags: [automation, n8n]
 canonical_url: https://blog.n8n.io/webhooks-for-workflow-automation/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: How to connect Google Sheets with MySQL
 description: Discover two ways to connect MySQL with Google Sheets, and learn to build no-code workflows for automating it.
-tags: [n8n, tutorials]
+tags: [automation, n8n, tutorials]
 canonical-url: https://blog.n8n.io/google-sheets-to-mysql/
 ---
 

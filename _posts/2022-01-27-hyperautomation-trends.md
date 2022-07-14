@@ -2,7 +2,7 @@
 layout: post
 title: How hyperautomation will transform business operations
 share-description: Discover the four trends in hyperautomation and how low-code tools help businesses increase productivity and scale operations.
-tags: [n8n]
+tags: [automation, n8n]
 canonical_url: https://n8n.io/blog/hyperautomation-trends/
 ---
 

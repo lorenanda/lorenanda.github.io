@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create a toxic language detector for Telegram in 4 steps
-tags: [tutorials, n8n]
+tags: [automation, n8n, tutorials]
 share-description: Leverage the power of automation and machine learning to enable kinder online discussions.
 canonical_url: https://n8n.io/blog/create-a-toxic-language-detector-for-telegram/
 ---

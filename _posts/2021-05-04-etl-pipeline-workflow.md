@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automate your data processing pipeline in 9 steps
-tags: [tutorials, n8n]
+tags: [automation, n8n, tutorials]
 share-description: Learn how to build an n8n workflow that processes text, stores data in two databases, and sends messages to Slack.
 canonical_url: https://n8n.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-n8n/
 ---

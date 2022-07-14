@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to get started with CRM automation (with 3 no-code workflow ideas)
-tags: [tutorials, n8n]
+tags: [automation, n8n, tutorials]
 share-description: Discover how you can automatically capture insightful information from your sales funnel and save your sales team hours of work every week.
 canonical_url: https://n8n.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/
 ---

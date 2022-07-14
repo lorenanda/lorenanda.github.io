@@ -1,7 +1,7 @@
 ---
 title: How to automatically import JSON into Google Sheets
 description: Discover three ways to import JSON data into Google Sheets or a CSV file, and five no-code workflows for automating these tasks.
-tags: [n8n, tutorials]
+tags: [automation, n8n, tutorials]
 canonical-url: https://blog.n8n.io/google-sheets-import-json/
 ---
 

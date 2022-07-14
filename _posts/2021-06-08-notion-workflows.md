@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 tasks you can automate with the new Notion API
-tags: [tutorials, n8n]
+tags: [automation, n8n, tutorials]
 share-description: Notion's API opens new possibilities. Discover what workflows you can automate now!
 canonical_url: https://n8n.io/blog/5-tasks-you-can-automate-with-notion-api/
 ---
