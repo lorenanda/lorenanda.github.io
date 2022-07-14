@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Plaidoyer pour l’écriture manuscrite
-tags: [linguistics, francais, thoughts]
+tags: [francais, linguistics, writing]
 comments: true
 ---
 

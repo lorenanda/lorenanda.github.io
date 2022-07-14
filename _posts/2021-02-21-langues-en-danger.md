@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pourquoi est-il important de protéger les langues en danger
-tags: [linguistics, francais, thoughts]
+title: L'importance de protéger les langues en danger
+tags: [francais, linguistics]
 comments: true
 ---
 
