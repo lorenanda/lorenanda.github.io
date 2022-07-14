@@ -10,7 +10,7 @@
     
     
       <item>
-        <title>How use math equations in Docusaurus</title>
+        <title>How to use math equations in Docusaurus</title>
         <description>
           
           One of the challenges I encountered when moving my website from Jekyll to Docusaurus was rendering math equations in some of my blog posts (for example, about the apriori algorithm). In Jekyll, I used MathJax with Liquid to render them. This didn’t work in Docusaurus, so instead I had to...
@@ -175,7 +175,7 @@
       </item>
     
       <item>
-        <title>What is hyperautomation and how it will transform business operations</title>
+        <title>How hyperautomation will transform business operations</title>
         <description>
           
           Are you trying to convince your manager to invest (more) in automation? Or are you the manager who went a bit over budget with automation tools and you’re wondering if it was worth it? Or maybe you’re just exploring the vast space of workflow automation tools and wondering: “Is this...
@@ -194,6 +194,17 @@
         <pubDate>Sat, 22 Jan 2022 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/buchrezension-rituale/</link>
         <guid isPermaLink="true">http://localhost:4000/buchrezension-rituale/</guid>
+      </item>
+    
+      <item>
+        <title>7 no-code workflow automations for Amazon Web Services</title>
+        <description>
+          
+          Cloud computing has significantly changed the way companies operate. The option of using networks of remote servers hosted on the internet to store, manage, and process data enables organizations to scale and accelerate their digital transformation. The leading cloud infrastructure service provider is Amazon Web Services (AWS), which covers more...
+        </description>
+        <pubDate>Tue, 18 Jan 2022 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/aws-workflows/</link>
+        <guid isPermaLink="true">http://localhost:4000/aws-workflows/</guid>
       </item>
     
       <item>
@@ -216,17 +227,6 @@
         <pubDate>Thu, 18 Nov 2021 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/data-sync-workflows/</link>
         <guid isPermaLink="true">http://localhost:4000/data-sync-workflows/</guid>
-      </item>
-    
-      <item>
-        <title>5 ways to keep your skills fresh after finishing a coding bootcamp</title>
-        <description>
-          
-          One year ago at this time, I was nervously making last-minute changes to slides for a presentation. Not just any presentation, but one of my final project for the Data Science Bootcamp at SPICED Academy, where I spent three full months learning about different machine learning algorithms and Python best...
-        </description>
-        <pubDate>Sun, 14 Nov 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/keep-your-skills-fresh-after-coding-bootcamp/</link>
-        <guid isPermaLink="true">http://localhost:4000/keep-your-skills-fresh-after-coding-bootcamp/</guid>
       </item>
     
   </channel>

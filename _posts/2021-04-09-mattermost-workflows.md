@@ -28,8 +28,6 @@ We created a workflow that runs every Monday morning, randomly divides the membe
 
 Read our [blog post](https://n8n.io/blog/how-to-host-virtual-coffee-breaks-with-n8n/) to learn how to set up this workflow for your team.
 
-![A Mattermost chat window with a message posted by the n8n bot announcing the groups for the weekly coffee chats.](https://lh3.googleusercontent.com/rWSStaBE_XIZRga1oLejTKwjxxyY1gJFgIvbNY2lTGRFo6284-UmqlzQ4T49SdgDQnrd0uZMyzs39B33GPtrTZyaq65YNamjLuSjHLWxD1vKAo_fWCrObdYbfIt9fnSX1stNAqVA "Coffee chats")
-
 ## Track Twitter mentions
 
 We love to see how people all over the world use n8n for creative workflows. Many users share their workflows on Twitter and we want to keep track of these mentions, so that our team gets inspired and knows how to improve the product.
@@ -37,8 +35,6 @@ We love to see how people all over the world use n8n for creative workflows. Man
 To this end, we created a workflow that searches for tweets that mention @n8n_io and posts them into a dedicated Mattermost channel every minute.
 
 Read our [blog post](https://n8n.io/blog/creating-triggers-for-n8n-workflows-using-polling/) to learn how to set up this workflow for yourself.
-
-![A Mattermost chat window with snippets of tweets posted by the n8n bot.](https://lh4.googleusercontent.com/QgGGOrdAh8T3bE0nKsLoXtrATieTdm6IcrCdNRk26_rtdKGyGhdt4aC4Y8qWIMEag5emfcKU99juS7fcgYqShyTKfIUtzpvhkkThYcgs8TeiIv4GroLKlUG_fNJFdSncVuVTFN-G "Twitter notifications")
 
 ## Announce version releases
 
@@ -48,8 +44,6 @@ In order to keep everyone up to date with the latest changes, we automated the a
 
 Announcements like these put a smile on our face!
 
-![A Mattermost chat window with messages about n8n version releases posted by the n8n bot.](https://lh4.googleusercontent.com/7T3eD-6aJpPbAk7f98oJ__dzNFEKx4sqPc5Wso5cmjF2xzRCnqFL5rgfxbhXnDH8ZY6YrX_52Oi7CxmPhdBiaqlpVD_K-QOxzr7c4S-zjA-4_0_kBDp3hw9C8Tgs99JtFFw8ycq5 "Release announcements")
-
 ## Custom slash commands
 
 Mattermost provides [slash commands](https://docs.mattermost.com/developer/slash-commands.html), which are useful for performing operations quickly by simply typing a word. On top of the basic ones, we created several custom slash commands integrated with n8n workflows for different purposes.
@@ -57,8 +51,6 @@ Mattermost provides [slash commands](https://docs.mattermost.com/developer/slash
 ### /brand command
 
 The `/brand` command returns n8n's brand assets --- like our brand color, icon and logo, marketing copy, and useful administrative links. This slash command is especially useful to the Design and Marketing teams, when in need of a quick reference.
-
-![Messages showing n8n's brand color, logo, and description, posted by the n8n bot in a Mattermost channel.](https://lh5.googleusercontent.com/LONNZmN16A_3bFKNPdc3oVWR-joyUfM7L5J9D5A4y_ZqSDio7de1vRperrj6jDYRmNGzEDmQEBwNtxCLdoaZsDV_DQ8dL2o1kDPRex3oF_eDGrbeuTDFf8ipISWmj3wmU-7cIzpJ "/brand command")
 
 ### /call command
 
@@ -68,7 +60,6 @@ When someone invokes it, it posts their Whereby URL in the Mattermost channel wi
 
 Read our [blog post](https://n8n.io/blog/the-ultimate-guide-to-automate-your-video-collaboration-with-whereby-mattermost-and-n8n/) to learn how to set up this workflow for your team.
 
-![](https://lh4.googleusercontent.com/txLmgows1iMSroXKH_pgg9JBSSsJ53IMAnTNEacDLY4ifWjK0BXKjtWNBH3QA3YB8hdEtqo5ifVxeIThemyph8PF7HUiMh7YrW21d1skkBVUWgFThtt-r2fNbBGACSMVphlz0gdU)
 
 ### /devrel command
 
@@ -76,13 +67,11 @@ Our DevRel team handles many projects in parallel, from the documentation and bl
 
 To get help, we created the slash command `/devrel`, which returns a link to a request form where team members can describe their issue or question, which is then converted into a Jira ticket for the team.
 
-![Message showing a link to a typeform posted in a Mattermost chat window.](https://lh3.googleusercontent.com/SqNvNjxelPSVB3_v3kw3uz6EO9WP1iZN9qapz_AycAoSAV5vr1CCDNqc7hhP7f8YEMLSGouiA8x_lU64R1jEF2UtLgZU7ammBVvOhFz29CyU_kveNJgJ3T1kfGVXq0WwwrYnov8L "/devrel command")
 
 ### /docs command
 
 Our developers and technical writers are constantly writing and updating the documentation of n8n nodes. To help them keep track of the documentation status, we created the slash command `/docs`, which returns the number of undocumented nodes and the current coverage of the documentation in the Mattermost channel.
 
-![Message about the number of undocumented nodes and current coverage, posted by the n8n bot in a Mattermost channel.](https://lh6.googleusercontent.com/U0-yNrlfWJlLHAlz8p8hW_dm1ESIsbqyQ0JiYeT5K8K2VIrt_hJEr_EtzXI1WaCwG0pW4rLN-EYig9JiscPUxGKwH6fQmJgK0HKoXdlvykxeWFrK7sZ776NTO2uJp_beGlUOjb9r "/docs command")
 
 ### /graphic command
 
@@ -92,8 +81,9 @@ For that, we created a custom slash command `/graphic` that only requires the ve
 
 This workflow is particularly helpful for design and marketing teams.
 
-![Tweet posted by n8n_io announcing the release of version 0.110.3, with an attached image showing the version number and three logos of new nodes.](https://lh6.googleusercontent.com/RyMd5siNUWLAWs7MIaWcuzmTnl1_5PXvQYWbLFkIqmj2xy2zkXNm_AuHMtFwXq77_GLwhLLOtSo7dR8u6w6E1rQp0PD0uKC3NqZSMcwcBf1knWtG5xibUvxPnHDHS1DMzd3Ce7_L "/graphic command")
 
 ## Conclusion
 
 To sum up, we showed you five different n8n workflows used with Mattermost that make our lives easier and team happier. n8n's open ecosystem of integrations allows you to connect and incorporate Mattermost with your favorite services and products to create a unified automation workflow for a wide range of use cases.
+
+> This post was originally published on the [Mattermost blog](https://mattermost.com/blog/5-workflow-automations-for-mattermost-that-we-love-at-n8n/).

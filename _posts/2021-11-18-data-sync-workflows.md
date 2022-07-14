@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to synchronize data between two systems (one-way vs. two-way sync)
-tags: [tutorial, n8n]
+tags: [tutorials, n8n]
 share-description: Learn how to build no-code workflows that automatically sync data between your CRMs.
 canonical_url: https://n8n.io/blog/how-to-sync-data-between-two-systems/
 ---
@@ -12,7 +12,7 @@ But the challenge is consolidating data across different sources so that the inf
 
 Data from two systems can be synced in one direction (one-way sync) or in two directions (two-way sync). In n8n, the [***Merge node***](https://docs.n8n.io/nodes/n8n-nodes-base.merge/#node-reference) can help in the process of syncing data. This node allows you to choose between eight different ways of merging data from two sources in order to then synchronize them.
 
-![Aggregation of data from different sources](https://lh5.googleusercontent.com/pVQllhQSrEHv9Yadov5cJ2fOuq5wRDHJO8IHXipC-5m1XzIVs6q9qMjj_-QScgrnhHMA2CaTbhXmGNYXWqTcNX3Um_CMEp2D7mmW_xi1f6eCCjsiZgypayDQFBCEtfiT2C1yRDWc)
+![Aggregation of data from different sources](/assets/img/n8n_datasync_drawing.png)
 
 In this tutorial, you'll learn step-by-step how to build **one-way sync and two-way sync workflows with no code** in n8n. The use case for this post is synchronizing data between two CRMs ([Pipedrive](https://www.pipedrive.com/) and [HubSpot](https://www.hubspot.com/)), but the underlying principle can be applied to any other apps.
 
@@ -37,7 +37,7 @@ Let's consider a common business use case: storing information about customers (
 
 [This workflow](https://n8n.io/workflows/1334) syncs contact information from Pipedrive to HubSpot, so that when the information is updated in Pipedrive, then it's updated in HubSpot as well. The workflow for this use case looks like this:
 
-![Explanation of one-way sync workflow](https://lh6.googleusercontent.com/7BcbLxqyoDdkcftthZtLON4HYjcZwXbC0YdYwF4iknR3GunevHY-665MBNHl_MMww5RcYeI5tm2n-8RlO9RbMyTWOKPcn1mguTBqxkU2Kb8qp7oNM-N2XKXVRbbZut1NKgdm0r0n)
+![Explanation of one-way sync workflow](/assets/img/n8n_datasync_workflows.png)
 
 
 1\. The *Cron node* schedules the workflow to run every minute.
@@ -60,8 +60,6 @@ In the *Pipedrive node*, add your [credentials](https://docs.n8n.io/credentials/
 -   *Operation*: Get All
 -   *Return All*: Toggle to True
 
-![Configuration of Pipedrive node to get data](https://lh6.googleusercontent.com/q84g65S-bvZiMbrXdjH80l5VClW5tLSDUc8iQSLG6IIxdO6y-MUC15NRV-vvD4T0RW72Yx_MnfMiwv5bNhP5xkK_OmMJpT_CCz4wPOijS0NnaghczWMzsRY2EUl6m8bZCndfemX3)
-
 
 #### 2\. Get data from the target CRM
 
@@ -70,9 +68,6 @@ In the *HubSpot node*, add your [credentials](https://docs.n8n.io/credentials/hu
 -   *Resource*: Contact
 -   *Operation*: Get All
 -   *Return All*: Toggle to True
-
-![Configuration of HubSpot node to get data](https://lh5.googleusercontent.com/ZIJvzR3xprkrs-ZV4yEiVeIF9GFhS-_8CdglzDDac2CEbHCSSI4KXzKnpTZpuKdQL0T-rBXpqG3ZV4b-uMFZxZag-aKIkF3ctd343iIvDecv5mGNJrZfcAbAJjSoZQc_rJWHLCWq)
-
 
 In HubSpot, we have three contacts, which are also in Pipedrive. We want to add the fourth person from Pipedrive into HubSpot.
 
@@ -88,8 +83,7 @@ To match data between two systems, the *Merge node* needs a piece of information
 
 For this reason, the key values must be different in each row. The key column can be, for example, the customer's email address, an SKU, or the order number.
 
-![Illustration of the one-way sync process](https://lh3.googleusercontent.com/vm_eLbw8B78reV-yAMxzqko0QqaxwAqeJzHlZe3cTz62A0w0KaAtk6cJjEsm5kRqBpUdWyrqPED1bJ3SbVJXpA_qqeUKA7IQcHLPIkmtx5MR1pFMWyN3nuuvNBvgzS9C-c4qo3fl)
-
+![Illustration of the one-way sync process](/assets/img/n8n_datasync_systems.png)
 
 In our case, the key column between Pipedrive and HubSpot is *email*, so we'll merge data based on this column.
 
@@ -107,17 +101,9 @@ Back to the workflow, in the *Merge node*, configure the following parameters:
 
 In n8n, all the data that is passed between nodes is an array of objects. When you execute a node, the returned data is displayed in Table view and JSON view.
 
-![Table view](https://lh3.googleusercontent.com/FY7FCNc8fGL9hAUnCPYjlssa4S0jXdk3scajPIzNP4jYAkGJcarNf0WTs14gzrua99HHlAawtnwym9tqjBzyX7U7uqkr-cAyIenRzMJRxksRp9aDHDk3wy1zLVsyAp8muNZgkKI4)
-
-
-![Table view](https://lh6.googleusercontent.com/y1GeYbW5PRF2twcI0YNU-l7nI979iSfZ8r7g8IXnZ4fRvSMAcbnB7fhKbKxILPZ4lWIaSS4qDlk9ZpjFaoXEz8olIhLuomO5eB3mTVEuqb8YV12nqG6M2ompz_xSuxCx7WXDo1kC)
-
-
 **Dot notation** is a way to access the properties of an object. The dot-notation syntax is `object.property`, so the reference is made from outermost to innermost.
 
 In the example above, the object (column name) *email* contains three properties: *label*, *value*, and *primary*. To reference the *email* value (email address), we write the dot notation `email[0].value`. The `[0]` references the first item of the email array.
-
-![Configuration of Merge node](https://lh5.googleusercontent.com/DYr5aXAXQzqVqDuHBxMhBQcXxqBTnNFVqSGuJ5R_vynqzmR_ZDbYWR6c6HK9UdbPpiPMFZ-YAyGQ3OxkmDQZvnmpmIKNMk72ePg74JqSI494xIUAbPWE0HK4awfusSetGmDUd4C_)
 
 The merge operation *Remove Key Matches* returns the data of three contacts.
 
@@ -131,8 +117,6 @@ To update contact information in HubSpot, configure the following parameters in 
 -   *Operation*: Create/Update
 -   *Email > Add Expression > Current Node > Output Data > JSON > email > [Item: 0] > value*: {% raw %}`{{$json["email"][0]["value"]}}`{% endraw %}
 -   *Additional Fields > Add Field > First Name > Add Expression > Current Node > Output Data > JSON > first_name*: {% raw %}`{{$json["first_name"]}}`{% endraw %}
-
-![Configuration of HubSpot node to update data](https://lh4.googleusercontent.com/nrBLg2_gGG1VMjmcdt79gjVxvNs1vMR774UAJiEDhpmgin759JZwd9uJRkuJml_Ev7PdX6fa1889yy68PnM8x7lktiaESIKzc7m6ApaNFxFdmhs3WRN2awKTMolqHnJXhOuTChsa)
 
 
 ## Two-way synchronization
@@ -149,7 +133,7 @@ In [this workflow](https://n8n.io/workflows/1333), the information about Pipedri
 
 In a two-way sync workflow in n8n, you essentially have two parallel workflows, each including a *Merge node* that takes input from the opposite and inline workflow. For our use case, the workflow looks like this:
 
-![Two-way sync workflow](https://lh3.googleusercontent.com/1G8i36FX7LOj8DogIRb4uIybZy-vt_MHLVQJ1oOz8F87g-TnK3pyvayN6aZBUxq2VIyATDlVOSsN5LxuXlSzU1IDuDUYEX2AEZ6ZW3fvjrTZgRwqrfo0CgIE2Jcs0gkh177EHUrZ)
+![Two-way sync workflow](/assets/img/n8n_datasync_workflow2.png)
 
 
 The first part of the workflow starts with the *Pipedrive node*, which fetches the data when information about a person is updated in the CRM. The second part of the workflow starts with the *HubSpot node*, which fetches the data when information about a contact is updated in HubSpot.
@@ -193,9 +177,6 @@ The second *Merge2 node* is connected to HubSpot, so it takes Input 1 from Piped
 -   *Property Input 1*: email[0].value
 -   *Property Input 2*: identity-profiles[0].identities[0].value
 
-![Output of Merge node](https://lh3.googleusercontent.com/11OxKlPm-ppZRl_JLW7411BgYxWtMk3TKIQcKT97r131qBvTj43GQp2afCCpr3j9jo3mHrtGjz7sO5emoyjrA5oBqBeJK2OwPGGkcOr88zdDbJlj9SZasZHVaVfuwNGW-JKF-IpF)
-
-
 #### 3\. Update data in both CRMs
 
 Once the data is merged, you need to update the information in both systems.
@@ -214,9 +195,6 @@ To update contact information in HubSpot, configure the following parameters in 
 -   *Email > Add Expression*: {% raw %}`{{$json["email"][0]["value"]}}`{% endraw %}
 -   *Additional Fields > Add Field > First Name > Add Expression*: {% raw %}`{{$json["properties"]["firstname"]["value"]}}`{% endraw %}
 
-![Output of updated HubSpot node](https://lh5.googleusercontent.com/x1qJVl98Xge8U5CvoiiTCtilRr2HdHb67JBTy0W0Tpze0DtwUblelTAchKFetNUUzXmS2KYgwakyxmaqQixQ3uGTcck5I3_fB9BvOjC8UoTHZP7dx_n9h_OKCwfVHn_u2Es1EvTB)
-
-
 Now both Pipedrive and HubSpot contain the latest, up-to-date information about contacts.
 
 ## What's next?
@@ -224,3 +202,5 @@ Now both Pipedrive and HubSpot contain the latest, up-to-date information about 
 In this tutorial, you've learned how to build one-way and two-sync workflows to synchronize data between two CRMs. You can further adapt these workflows for different business needs.
 
 For example, you can sync data between different databases like [Postgres](https://docs.n8n.io/nodes/n8n-nodes-base.postgres/) or [MongoDB](https://docs.n8n.io/nodes/n8n-nodes-base.mongoDb/), sales data between [Salesforce](https://docs.n8n.io/nodes/n8n-nodes-base.salesforce/) and [Shopify](https://docs.n8n.io/nodes/n8n-nodes-base.shopify/), or marketing data between [Google BigQuery](https://docs.n8n.io/nodes/n8n-nodes-base.googleBigQuery/) and [MailChimp](https://docs.n8n.io/nodes/n8n-nodes-base.mailchimp/).
+
+> This post was originally published on the [n8n blog](https://n8n.io/blog/how-to-sync-data-between-two-systems/).

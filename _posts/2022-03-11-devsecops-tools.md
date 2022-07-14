@@ -2,28 +2,15 @@
 layout: post
 title: 13 tools to use for DevSecOps automation
 share-description: Discover the open-source and commercial tools that can help you embed security in your DevOps pipeline.
-tags: [n8n, tutorial]
+tags: [n8n, tutorials]
 canonical_url: https://n8n.io/blog/devsecops-tools/
 ---
-
-![cover image](https://n8n.io/blog/content/images/size/w2000/2022/03/secopstools_cover.svg)
 
 In 2021 there have been [25%](https://cdn.statcdn.com/Infographic/images/normal/26148.jpeg) more ransomware attacks than in 2020––and these are only the publicized attacks. No doubt, it’s becoming more necessary to secure your organization and software products against cyber threats and security vulnerabilities.
 
 **Software security issues** include bugs, authentication, unsecured authentication, data exposure, libraries with vulnerabilities, and misconfigured settings. All these can be exploited by malicious actors who want to gain access to your system. That's why it's crucial to have a solid security development plan to protect against (or at least warn about) **external threats**, such as ransomware, malware, phishing, and DDoS attacks.
 
 The good news is, you most probably don't have to start from zero, but build on your existing development processes. In this post, we'll explain the DevSecOps methodology and its benefits, and introduce you to some of the most popular tools that you can use to automate your incident response and security operations.
-
-#### Table of Contents
-- [DevOps vs SecOps vs DevSecOps](#devops-vs-secops-vs-devsecops)
-- [Advantages of DevSecOps](#advantages-of-devsecops)
-- [Tools for DevSecOps automation](#tools-for-devsecops-automation)
-  - [Threat modeling](#threat-modeling)
-  - [Alerting](#alerting)
-  - [Monitoring](#monitoring)
-  - [Dashboards](#dashboards)
-- [Start automating!](#start-automating)
-
 
 ## DevOps vs SecOps vs DevSecOps
 
@@ -60,21 +47,15 @@ Threat modeling tools help you identify security threats to a system or patterns
 
 🔓 [**Cortex**](https://github.com/TheHive-Project/CortexDocs) offers a powerful observable (e.g. URL, file, IP) analysis mechanism, with which you can analyze collected observables, respond to threats, and interact with the constituency and other teams. Cortex can also be used in conjunction with TheHive to analyze tens to hundreds of observables. The [*Cortex node*](https://docs.n8n.io/nodes/n8n-nodes-base.cortex/) allows you to execute analyzers and responders, and get job details and reports. For example, you can use it to build [a workflow that analyzes a URL and gets job details](https://n8n.io/workflows/809).
 
-![](https://community.n8n.io/uploads/default/optimized/2X/4/4f73bbb0a2c1dbf169cf9c9029ab419617a227e6_2_690x369.jpeg)
-
 ### Alerting
 
 Security incidents can occur at every stage of software development, due to internal mishaps or external threats. Whatever the case, it's critical to become aware of potential security vulnerabilities as soon as they arise. Tools that automatically issue alerts when a threat or vulnerability is detected can help your team investigate and fix it as soon as possible, thus minimizing the critical mean time to respond (MTTR).
 
 💰 [**SIGNL4**](https://www.signl4.com/) is a plug-and-play cloud solution produced by Derdack. It automatically notifies teams on their mobile devices in case of critical events. The [*SIGNL4 node*](https://docs.n8n.io/nodes/n8n-nodes-base.signl4/) allows you to send and resolve alerts. For example, you can build workflows that automatically [store database alerts in Notion](https://n8n.io/workflows/1122) or [monitor files changes and send alerts](https://n8n.io/workflows/967).
 
-![](https://n8n.io/blog/content/images/size/w1000/2022/03/secopstools_workflow_signl4.png)
-
 🔓 [**Rundeck**](https://www.rundeck.com/) is an open-source runbook automation tool for incident management, business continuity, and self-service operations. This tool is typically used in security and compliance, helping organizations maintain compliance controls, control access to sensitive data, and audit activity logs. Use the [*Rundeck node*](https://docs.n8n.io/nodes/n8n-nodes-base.rundeck/) to automatically execute jobs and get their metadata.
 
 🔓 Rundeck is actually created by [**PagerDuty**](https://www.pagerduty.com/), a cloud computing company that produces a SaaS incident response platform for IT departments. The [*PagerDuty node*](https://docs.n8n.io/nodes/n8n-nodes-base.pagerDuty/) allows you to manage incidents and incident notes, log entries, and users. For example, you can use it in a [workflow that automates every step of an incident response playbook](https://n8n.io/blog/automated-incident-response-workflow).
-
-![](https://n8n.io/blog/content/images/size/w1000/2022/03/irplan_all.png)
 
 
 ### Monitoring
@@ -96,13 +77,9 @@ An image is more compelling than raw numbers. When it comes to security, this ca
 
 💰 [**Elastic Security**](https://www.elastic.co/security) helps security teams to prevent, detect, and respond to threats quickly and at cloud scale. The [*Elastic Security node*](https://docs.n8n.io/nodes/n8n-nodes-base.elasticSecurity/) allows you to automatically manage cases and comments, add or remove tags, and create connectors. You can supplement the n8n workflows with Elastic Security dashboards that give you a visual breakdown of the alerts.
 
-<figure><img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltec0e916e79b25bd3/5e470e8a7c62095ce7b37118/Securingendpoints-blog-canvas-dashboard-overview-Elastic-Endpoint-Alerts-1.jpg" alt="" style="width:100%"><figcaption align = "center"><i>Elastic Security dashboard</i></figcaption></figure>
-
 🔓 [Grafana](https://grafana.com/) is a multi-platform open source analytics and interactive visualization web application that provides charts, graphs, and alerts for the web when connected to supported data sources. Use the [*Grafana node*](https://docs.n8n.io/nodes/n8n-nodes-base.grafana/) to manage your dashboards, teams, and users.
 
 💰 [**Splunk**](https://www.splunk.com/) is a service for searching, monitoring, and analyzing machine-generated data via a Web-style interface. It indexes and correlates information in a container that makes it searchable, and makes it possible to generate alerts, reports, and visualizations. The [*Splunk node*](https://docs.n8n.io/nodes/n8n-nodes-base.splunk/) allows you to manage fired alerts, users, as well as search configurations, jobs, and results. Similarly to Elastic Security, you can visualize critical incidents and activities in Splunk dashboards.
-
-<figure><img src="https://www.splunk.com/content/dam/splunk2/en_us/screenshots/security/unified-security-operations/the-ultimate-command-center-dashboard-featured.jpg" alt="" style="width:100%"><figcaption align = "center"><i>Splunk dashboard</i></figcaption></figure>
 
 ## Start automating!
 

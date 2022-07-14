@@ -57,29 +57,21 @@ In the following sections, we'll show you NUMBER workflows for importing JSON da
 
 [This workflow](https://app.n8n.io/workflows/1737) gets data from an API and stores it into Google Sheets. Feel free to copy-paste the workflow in your n8n editor, and continue reading the instructions to understand how it works and how you can tweak it.
 
-![workflow](./blog_images/importjson_workflow_apisheetscsv.png)
-
 The workflow consists of three nodes:
 
 1. [**HTTP Request node**](https://docs.n8n.io/integrations/core-nodes/n8n-nodes-base.httprequest/) makes a GET request to the [Random User API](https://randomuser.me/api/).
 
-  If you access the API link in your browser, you should get information about a fictional person in JSON format, which looks like this:
+    If you access the API link in your browser, you should get information about a fictional person in JSON format, which looks like this:
 
-  ```
-  {"results":[{"gender":"male","name":{"title":"Mr","first":"Giorgio","last":"Jeuring"},"location":{"street":{"number":9927,"name":"Beckershagen"},"city":"Winneweer","state":"Drenthe","country":"Netherlands","postcode":59748,"coordinates":{"latitude":"47.5171","longitude":"-140.6882"},"timezone":{"offset":"-6:00","description":"Central Time (US & Canada), Mexico City"}},"email":"giorgio.jeuring@example.com","login":{"uuid":"553f1f08-61d6-48fc-b9d7-5f21f844f0ce","username":"ticklishladybug384","password":"mondeo","salt":"yfYyG0YB","md5":"7f53e13d5002fbc2005bea41767dc68e","sha1":"255e2838819b92038ba4ccb04a38f2aa93aba868","sha256":"5a3532ccc6fb3bde566b5e38023a509cefdd0fa9214508ac08141c7e759677dc"},"dob":{"date":"1997-01-01T03:37:12.559Z","age":26},"registered":{"date":"2004-08-28T03:29:17.926Z","age":18},"phone":"(952)-290-7836","cell":"(367)-506-5505","id":{"name":"BSN","value":"65540109"},"picture":{"large":"https://randomuser.me/api/portraits/men/10.jpg","medium":"https://randomuser.me/api/portraits/med/men/10.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/10.jpg"},"nat":"NL"}],"info":{"seed":"6176dc854625bdf5","results":1,"page":1,"version":"1.3"}}
-  ```
+    ```
+    {"results":[{"gender":"male","name":{"title":"Mr","first":"Giorgio","last":"Jeuring"},"location":{"street":{"number":9927,"name":"Beckershagen"},"city":"Winneweer","state":"Drenthe","country":"Netherlands","postcode":59748,"coordinates":{"latitude":"47.5171","longitude":"-140.6882"},"timezone":{"offset":"-6:00","description":"Central Time (US & Canada), Mexico City"}},"email":"giorgio.jeuring@example.com","login":{"uuid":"553f1f08-61d6-48fc-b9d7-5f21f844f0ce","username":"ticklishladybug384","password":"mondeo","salt":"yfYyG0YB","md5":"7f53e13d5002fbc2005bea41767dc68e","sha1":"255e2838819b92038ba4ccb04a38f2aa93aba868","sha256":"5a3532ccc6fb3bde566b5e38023a509cefdd0fa9214508ac08141c7e759677dc"},"dob":{"date":"1997-01-01T03:37:12.559Z","age":26},"registered":{"date":"2004-08-28T03:29:17.926Z","age":18},"phone":"(952)-290-7836","cell":"(367)-506-5505","id":{"name":"BSN","value":"65540109"},"picture":{"large":"https://randomuser.me/api/portraits/men/10.jpg","medium":"https://randomuser.me/api/portraits/med/men/10.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/10.jpg"},"nat":"NL"}],"info":{"seed":"6176dc854625bdf5","results":1,"page":1,"version":"1.3"}}
+    ```
 
-  In the n8n workflow, the execution of the HTTP Request node returns the result like this:
+    In the n8n workflow, the execution of the HTTP Request node returns the result like this:
 
-  ![http request node result](./blog_images/importjson_httprequestnode.png)
+    This result includes a lot of information, but you probably don't need all of it, and want to save only the person's name and country.
 
-  This result includes a lot of information, but you probably don't need all of it, and want to save only the person's name and country.
-
-2. [**Set node**](https://docs.n8n.io/integrations/core-nodes/n8n-nodes-base.set/) sets the values you want to store from all the data you get from the API. In this case, it sets values for the name and country of the fictional person.
-
-  ![set node result](./blog_images/importjson_setnode.png)
-
-  This is the data that you have to store in Google Sheets.
+2. [**Set node**](https://docs.n8n.io/integrations/core-nodes/n8n-nodes-base.set/) sets the values you want to store from all the data you get from the API. In this case, it sets values for the name and country of the fictional person. This is the data that you have to store in Google Sheets.
 
 3. [**Google Sheets node**](https://docs.n8n.io/integrations/nodes/n8n-nodes-base.googlesheets/) appends the set data to a sheet.  
    Before executing the node, go to the sheet you want to import data into and create two columns with the names of the values set in the Set node (*name* and *country*). Then, when you execute the node, you should see the name and country data being filled in under the column names in the sheet.
@@ -90,13 +82,9 @@ Instead of (or in addition to) importing JSON data into Google Sheets, you can  
 
 When you execute the Spreadsheet node, it should return a CSV file that you can view and download.
 
-![spreadsheet node](./blog_images/importjson_spreadsheetnode.png)
-
 ### Workflow to convert a CSV file to a JSON file
 
 [This workflow](https://app.n8n.io/workflows/1732) converts a local CSV file to a JSON file. The catch here is to convert the data from JSON (the format in which the contents of the CSV file are returned) to binary (the format in which the JSON file is written).
-
-![workflow](./blog_images/importjson_workflow_csvfilejsonfile.png)
 
 1. [**Read Binary File node**](https://docs.n8n.io/integrations/core-nodes/n8n-nodes-base.readbinaryfile/) reads the local CSV file.
 2. [**Spreadsheet File node**](https://docs.n8n.io/integrations/core-nodes/n8n-nodes-base.spreadsheetfile/) reads the content of the CSV file.
@@ -179,14 +167,12 @@ For this example, you can copy the JSON code from the HTTP Request node and past
 
 To import the JSON data into Google Sheets (or a CSV file), you can use [this workflow](https://app.n8n.io/workflows/1736) that consists of only three nodes.
 
-![workflow](./blog_images/importjson_workflow_jsonfilecsvfile.png)
 
 1. **Read Binary File node** reads the local CSV file.
 2. **Move Binary Data node** converts the data from binary to JSON format.
-3. a) **Google Sheets node** appends the data to a spreadsheet.
+3. a) **Google Sheets node** appends the data to a spreadsheet.  
    b) **Spreadsheet File node** writes the data to a CSV file that you can view and download.
 
-![workflow](./blog_images/importjson_workflow_jsonfilesheets.png)
 
 ### Workflow to import a JSON file from Gmail into Google Sheets
 
@@ -194,7 +180,6 @@ It's also possible to import data into Google Sheets (or a CSV file) from JSON f
 
 [This workflow](https://app.n8n.io/workflows/1734) does just that using the [**Gmail node**](https://docs.n8n.io/integrations/nodes/n8n-nodes-base.gmail/), which reads the contents of an email, including the attached JSON file. From there, the configuration of the Move Binary Data and Google Sheets nodes is similar to the one in the previous workflows.
 
-![workflow](./blog_images/importjson_workflow_gmailsheets.png)
 
 ## What's next?
 

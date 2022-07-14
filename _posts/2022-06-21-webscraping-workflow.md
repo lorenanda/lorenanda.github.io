@@ -102,9 +102,9 @@ Now that you have the HTML code of the website, you need to extract the data you
 - Source Property: JSON
 - JSON Property: data
   This is the property name set in the HTTP Request node.
-- Extraction Values:
-  - Key: books
-    CSS Selector: .row > li
+- Extraction Values:  
+  - Key: books  
+    CSS Selector: .row > li  
     To get the selector (the reference of the data you want to extract), [inspect the page in your browser](https://blog.hubspot.com/website/how-to-inspect).
 
 When you execute the node, the result should look like this:
@@ -114,7 +114,7 @@ When you execute the node, the result should look like this:
 The HTML Extract node returns one item that contains the HTML code of all the books on the page. However, you need each book to be an item, so that you can extract each title and price. To do this, use the **Item Lists node** with the following parameters:
 
 - Operation: Split Out Items
-- Field To Split Out: books
+- Field To Split Out: books  
   This is the name of the key in the extraction value set in the previous HTML Extract node.
 - Include: No Other Fields
 
@@ -126,12 +126,12 @@ Now that you have a list of 20 items (books), you need to extract the title and 
 
 - Source Data: JSON
 - JSON Property: books
-- Extraction Values:
-  - Key: title
-    CSS Selector: h3
-    Return Value: Text
-  - Key: price
-    CSS Selector: article > div.product_price > p.price_color
+- Extraction Values:  
+  - Key: title  
+    CSS Selector: h3  
+    Return Value: Text  
+  - Key: price  
+    CSS Selector: article > div.product_price > p.price_color  
     Return Value: Text
 
 When you execute the node, the result should look like this:
@@ -144,8 +144,8 @@ Now you have a nice table that contains the titles and prices of 20 books in sto
 
 - Operation: Sort
 - Type: Simple
-- Fields To Sort By:
-  - Field Name: price
+- Fields To Sort By:  
+  - Field Name: price  
   - Order: Descending
 
 When you execute the node, the result should look like this:
@@ -179,7 +179,7 @@ Finally, you might want to send the CSV file with the scraped book data via emai
 - Subject: bookstore csv (or any other subject line you'd like)
 - Message: Hey, here's the scraped data from the online bookstore website.
 - To Email: the email address you want to send to
-- Additional Fields > Attachments > Property: data
+- Additional Fields > Attachments > Property: data  
   This is the name of the binary property set in the Spreadsheet File node.
 
 When you execute the node, the result should look like this:

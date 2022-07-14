@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is hyperautomation and how it will transform business operations
+title: How hyperautomation will transform business operations
 share-description: Discover the four trends in hyperautomation and how low-code tools help businesses increase productivity and scale operations.
 tags: [n8n]
 canonical_url: https://n8n.io/blog/hyperautomation-trends/
@@ -9,16 +9,6 @@ canonical_url: https://n8n.io/blog/hyperautomation-trends/
 Are you trying to convince your manager to invest (more) in automation? Or are you the manager who went a bit over budget with automation tools and you're wondering if it was worth it? Or maybe you're just exploring the vast space of workflow automation tools and wondering: "Is this the future of real work, or is it just fantasy?"
 
 In this post we’ll share with you the **key facts you need to know about hyperautomation**: what it is, why it is important, what are examples of hyperautomation tools, how businesses can use them, and how hyperautomation is predicted to evolve in the next few years.
-
-#### Table of Contents
-[What is hyperautomation?](#what-is-hyperautomation)
-[How are businesses leveraging hyperautomation?](#how-are-businesses-leveraging-hyperautomation)
-[What is the future of hyperautomation?](#what-is-the-future-of-hyperautomation)
-&nbsp; &nbsp; &nbsp;[1\. Orchestrated automation processes](#1-orchestrated-automation-processes)	
-&nbsp; &nbsp; &nbsp;[2\. Automation marketplaces](#2-automation-marketplaces)		
-&nbsp; &nbsp; &nbsp;[3\. Vendor-agnostic hyperautomation](#3-vendor-agnostic-hyperautomation)		
-&nbsp; &nbsp; &nbsp;[4\. Infrastructure automation](#4-infrastructure-automation)
-[Start automating!](#start-automating)
 
 ## What is hyperautomation?
 [Gartner defines](https://www.gartner.com/en/information-technology/glossary/hyperautomation) **hyperautomation** as "a business-driven, disciplined approach that organizations use to rapidly identify, vet and automate as many business and IT processes as possible. Hyperautomation involves the orchestrated use of multiple technologies, tools or platforms."
@@ -36,9 +26,6 @@ Examples of **hyperautomation tools** are:
 **Automation** refers to the accomplishment of a specific task without manual or human intervention. For example, you can use a no-code [workflow that creates tickets from form submissions](https://n8n.io/workflows/791) automatically, instead of doing this manually. Automation is well-suited for [repetitive, boring, regular, rule-based, software-based, and time-consuming tasks](https://n8n.io/features-of-tasks-that-can-be-automated) at small scale.
 
 **Hyperautomation** refers to the combination and connection of several automated workflows, thus creating an orchestrated automation. This orchestration feature takes automation to the *hyper* level, allowing businesses to scale individual processes. Taking the example above a step further, you can add this workflow alongside an ML model or service that detects the sentiment of user reviews, a chatbot that assists customers, an application that processes text from invoices, and a database synchronization to keep the information up-to-date -- all these forming a hyperautomated business.
-
-The drawing below illustrates the relationship between hyperautomation and automation:
-![illustration of automation vs hyperautomation](../../../Pictures/Untitled-2022-01-18-1644.png)
 
 ## Why do we need hyperautomation?
 The examples above highlight the two main benefits of hyperautomation: **increased productivity** and **seamless scaling of business operations**. Without automation orchestration, business departments risk working out of sync, thus impacting the overall progress and costs of the organization.
@@ -90,3 +77,5 @@ To create a solid infrastructure for these processes, businesses will rely on hy
 Going back to the questions in the introduction, we hope the information in this post helps you make a compelling case for automation in your workplace, rest assured that your investment in automation tools is worth every penny, and dare to explore the hyperautomation space.
 
 One more thing: 3% of hyperautomation professionals characterize their organization as having a high impact on hyperautomation governance. Are you going to be among them?
+
+> This post was originally published on the [n8n blog](https://blog.n8n.io/hyperautomation-trends/).

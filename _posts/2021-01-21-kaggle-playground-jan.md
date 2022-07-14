@@ -3,7 +3,7 @@ layout: post
 title: January's regression challenge for Kaggle playground
 gh-repo: lorenanda/kaggle-playground
 gh-badge: [star, fork, follow]
-tags: [data science, tutorial]
+tags: [data science, tutorials]
 comments: true
 ---
 

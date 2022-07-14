@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create a toxic language detector for Telegram in 4 steps
-tags: [tutorial, n8n]
+tags: [tutorials, n8n]
 share-description: Leverage the power of automation and machine learning to enable kinder online discussions.
 canonical_url: https://n8n.io/blog/create-a-toxic-language-detector-for-telegram/
 ---
@@ -114,3 +114,5 @@ Now the bully will be publicly admonished in Telegram (once again, sorry, bot, y
 In this post, you've learned about the challenge and importance of monitoring toxic language in online communities and how you can build a no-code Telegram bot for this purpose. The use case in this tutorial is fairly simplistic, but this kind of toxic language detector can be implemented in various platforms at scale.
 
 For example, you could tweak this workflow and connect the *Google Perspective node* to Discord, Discourse, or DISQUS to detect toxic language in online communities and forums, or even to Gmail to filter out toxic emails. You can take different actions to toxic messages, for example forwarding them to a moderator, storing them in a database, flagging or banning the user depending on their message scores.
+
+> This post was originally published on the [n8n blog](https://n8n.io/blog/create-a-toxic-language-detector-for-telegram/).

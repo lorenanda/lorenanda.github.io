@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 15 Google apps you can combine and automate to increase productivity
-tags: [tutorial, n8n]
+tags: [tutorials, n8n]
 share-description: Learn how to combine and automate popular Google apps for more productivity in the workplace.
 canonical_url: https://n8n.io/blog/automate-google-apps-for-productivity/
 ---
@@ -54,3 +54,5 @@ Let's face it: we could all be a bit tidier in our digital workspace. But it see
 A solution to this problem is automating the regular file flow, so you don't have to worry about it anymore. For example, you can start with [this workflow](https://n8n.io/workflows/1035) to get the [**Google Slides**](https://docs.n8n.io/nodes/n8n-nodes-base.googleSlides/) of your weekly presentation, add the [**Google Drive** node](https://docs.n8n.io/nodes/n8n-nodes-base.googleDrive/) to store the slides in a shared team folder and the [**Gmail** node](https://docs.n8n.io/nodes/n8n-nodes-base.gmail/) to email them to the team members.
 
 You can also connect the [**Google Drive** node](https://docs.n8n.io/nodes/n8n-nodes-base.googleDrive/) with other apps to automatically save files sent to you in a specific folder. Even your personal budget can be automated, as you can learn from [this tutorial](https://n8n.io/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-n8n/) that shows you step-by-step how to add your expense receipts to [**Google Sheets**](https://docs.n8n.io/nodes/n8n-nodes-base.googleSheets/).
+
+> This post was originally published on the [n8n blog](https://n8n.io/blog/automate-google-apps-for-productivity/).

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 6 e-commerce workflows to power up your Shopify store
-tags: [tutorial, n8n]
+tags: [tutorials, n8n]
 share-description: Want to power up your online business and win back time? Discover how no-code workflow automation can help!
 canonical_url: https://n8n.io/blog/no-code-ecommerce-workflow-automations/
 ---
@@ -107,3 +107,5 @@ When your online shop generates a steady flow of orders, it's necessary to keep 
 ## What's next?
 
 In this post, we talked about the growing popularity of e-commerce and possibilities for automation. Whether as a full-time business or a fun side hustle, if you want to sell goods online -- from art prints to clothing and cosmetic products -- e-commerce platforms like Shopify and WooCommerce enable you to set up an online shop with only a few clicks.
+
+> This post was originally published on the [n8n blog](https://n8n.io/blog/no-code-ecommerce-workflow-automations/).

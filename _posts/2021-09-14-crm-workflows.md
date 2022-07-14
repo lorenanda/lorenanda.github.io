@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to get started with CRM automation (with 3 no-code workflow ideas)
-tags: [tutorial, n8n]
+tags: [tutorials, n8n]
 share-description: Discover how you can automatically capture insightful information from your sales funnel and save your sales team hours of work every week.
 canonical_url: https://n8n.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/
 ---
@@ -12,12 +12,6 @@ We're here to show you that you can optimize your sales and customer workflows w
 
 A **customer relationship management (CRM)** tool is pretty self-explanatory: it helps you manage the relationships with your customers. This means that it stores information on your customers (such as name, title, company, role), the relation they have with your company (e.g., lead, opportunity, deal), and the status of the relationship (e.g., closes, open, waiting), and the monetary value of closed deals (like quote and price).
 
-[The CRM software market is forecast to grow to $43.5 bn in 2024](https://www.statista.com/statistics/605933/worldwide-customer-relationship-management-market-forecast/), proving the increasing popularity and necessity of CRM tools for companies.
-
-![](https://lh3.googleusercontent.com/VLLc8EAiYXhhfRHvUiNpOGW_kPGMmCQldNOf0hYQf8Ah_hCpOTxTuzmnZySPTioCopf8jTMsc57CEs0Mwf1qk37qnMqGg6djctaChzx1pxGM-9Wz5Ob_CStaNUrlRrrw9t9U8N7T=s0)
-
-[*Global CRM software market growth*](https://www.statista.com/statistics/605933/worldwide-customer-relationship-management-market-forecast/)‌‌
-
 Most commonly, CRMs are used by sales teams to track their sales activities and milestones in the sales funnel, from lead to deal.
 
 ## Why and when you should use a CRM
@@ -25,8 +19,6 @@ Most commonly, CRMs are used by sales teams to track their sales activities and 
 To better understand the value of a CRM, let's take a business example.
 
 Say you have a creative business specializing in professional corporate photography. Your **visitors** can book shootings on your website [(which offers plenty of opportunities for automation)](https://n8n.io/blog/no-code-ecommerce-workflow-automations/), but you also actively network to find new **opportunities**. At a business event you've attended, you've met Marketing and Branding employees from different companies (**contacts**). Of these, a couple have expressed interest in your professional photo shootings for their team, qualifying them as **leads** for your business. This means they could become your **customers**, which is awesome! Now you need to follow up with them, make them an **offer** they can't refuse, and eventually close the **deal**.
-
-![Sales funnel](https://lh4.googleusercontent.com/LZfwmishdMdwdXF4JJl_30FZmTFEZeLdZlQB9Wb1Aeb1kZ2WFEbqjbKrGEVfCXnxz_Edn7g6EcbJtIKQ8yG2Red91qek0wc2O7R4GiH1mv5RfbK36QCClVLmhM-1A44urIjNU7RC=s0)
 
 How can you and your sales team keep track of all these steps, for each lead, while also making sure that you nurture the relationship with your (potential) customers and organize the logistics with your team of photographers? If you think a digital calendar, a paper agenda, and a spreadsheet could do the job, you wouldn't be completely wrong. Sure they can help you organize your time and contacts, but provide limited features, are error-prone and even unmanageable in the long run.
 
@@ -50,8 +42,6 @@ Now that you've seen the advantages of using a CRM, it's time to start implement
 ### 1\. Choose the right CRM for your use case
 
 On a first look, you might get overwhelmed by all the CRM providers available on the market. There are options for different team sizes, departments, and budgets. To help you get an overview of their features, we compiled a list of 10 of the most popular CRMs, which also come with n8n integrations that allow you to perform common CRUD (create, read, update, delete) operations on your saved contacts, companies, deals, and more.
-
-![](https://lh3.googleusercontent.com/QTroBlryabnuUQQNrLAJ7be2dc7ZVdsSNxNNR_QPxOtDaiSQqo9oZMAM2P0jMESJoUcXuIzFi3euSdmVSzCI_6DsJv7GzvfjpzWlho_EqOLasts3GdqPVkUXQo-OvsZxJc-q0xtj=s0)
 
 
 1.  [**Agile CRM**](https://www.agilecrm.com/) is an all-in-one CRM software for marketing, sales, and service. With the [*Agile CRM node*](https://docs.n8n.io/nodes/n8n-nodes-base.agileCrm/) you can manage company, contact, and deal details in your workflows.
@@ -90,16 +80,12 @@ Typeforms are a presentable and efficient way of capturing leads and feedback fr
 
 [This workflow](https://n8n.io/workflows/1223) is triggered when a typeform is submitted, then it saves the sender's information into HubSpot as a new contact.
 
-![](https://lh5.googleusercontent.com/PRdrxY-rTttiDAjsMJ0i7iiDUSuXHSiojy-ylUgmc60VYL5Q9m1L9dxenQX3rA5AN1PDJLkUU3T5bz64B0EYysViR9Q7tmg_ZU6iPdptPFiUdMYhBn8Y2yJwOoZEIvp8yJN7AOTT=s0)
-
 
 ### Send reminders after meetings with prospects
 
 We mentioned that a common problem within sales teams is synchronization and information transfer since salespeople might forget to note down details from their conversations with leads, jumping from one call to another.
 
 [This workflow](https://n8n.io/workflows/1221) is triggered when a client meeting is scheduled via Calendly. Then, an activity is automatically created in Pipedrive, to keep track of the lead cycle. Fifteen minutes after the end of the meeting, a message is sent to the responsible salesperson in Slack, reminding them to write down their notes and insights from the meeting with the lead.
-
-![](https://lh3.googleusercontent.com/Vkzn9lQV4jVUABY_Dr4GrJJCeyX2JhAtD2UIeu6Hag-xq0V_xptw_dRQt_461UlS1n3V03seb8qIvM7vcigLpBO0VSyKktunfTqkDi7K8PVoDR-yh8hi6L6dDji_gPyCLYPRC1Y2=s0)
 
 
 ### Process newly created deals based on their stage, value, and priority
@@ -119,10 +105,10 @@ The second branching follows two cases:
 -   If the deal is for a new business and has a value above 500, a high-priority ticket assigned to an experienced team member is created in HubSpot
 -   If the deal is for an existing business and has a value below 500, a low-priority ticket is created.
 
-![](https://lh3.googleusercontent.com/oWE5yw3Dr0itlQEWlBCP6TwfV3PTR9cgUy_zqUqtse-u33q5S2yLwX6yOZnTIufR8G0CyWCNHIAlDDjfS4VWaz66ceNdiQoBKH3HLv7uaN_b7ZHRAye22gTQ8W-KvYKV5iDjfhbw=s0)
-
 Apart from Typeform, you can also use the [*Eventbrite Trigger node*](https://docs.n8n.io/nodes/n8n-nodes-base.eventbriteTrigger/)to capture the contact information of people who registered for an event, or the [*SurveyMonkey Trigger node*](https://docs.n8n.io/nodes/n8n-nodes-base.surveyMonkeyTrigger/) to save the responses of a survey.
 
 ## What's next?
 
 In this post, you've learned about the advantages of CRM tools, when and why you should use a CRM, and what workflows you can automate with different CRMs. You've seen how automating different processes in the sales funnel can increase your productivity and minimize the time between the first contact and a closed deal.
+
+> This post was originally published on the [n8n blog](https://n8n.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/).

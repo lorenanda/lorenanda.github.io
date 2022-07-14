@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 6 features of tasks that can be automated
-tags: [n8n]
+tags: [automation, n8n]
 share-description: Stop doing that! If your work doesn’t spark joy, you should automate it (or do something else entirely)–but first, check if it meets these six criteria.
 canonical_url: https://n8n.io/blog/features-of-tasks-that-can-be-automated/
 ---
@@ -33,9 +33,6 @@ It's the end of yet another month and you need to calculate yet another budget f
 
 If the task has to be done at the same time or interval and it involves the same sequence of steps, then it could be automated. In fact, we've already built a [workflow](https://n8n.io/workflows/1207) for the use case mentioned above.
 
-[![Workflow for creating backups on GitHub](https://f000.backblazeb2.com/file/n8n-website-images/5c7c9905bf8d406b9f222a375c1b8dda.png)](https://n8n.io/workflows/1222 "Workflow for creating backups on GitHub")
-
-
 ## 4\. Rule-based tasks
 
 Most automation-friendly tasks are rule-based, meaning they follow a logical sequence of steps in the form of "if A, then B, else C". This is the kind of low-level decision-making that can be established by a human and, if you know that the process won't change, delegated to a machine.
@@ -54,7 +51,6 @@ I don't know about you, but for me, the most annoying thing about boring tasks i
 
 For example, in one of my previous roles, I was responsible for creating reports, which involved aggregating data from different sources (Google Analytics, BigQuery, Salesforce, Postgres), calculating some custom metrics, and sending the results to management or clients. This kind of reporting could take up to two hours, every month/quarter/year--or only a few minutes once to set up a [workflow](https://n8n.io/workflows/892) in n8n.
 
-[![Workflow for running inventories on Shopify orders](https://f000.backblazeb2.com/file/n8n-website-images/338ebf4b187a49f2a376b91394ea62a6.png)](https://n8n.io/workflows/1207 "Workflow for running inventories on Shopify orders")
-
-
 In this post, you've learned how to identify tasks that can be automated. To sum up, automatable tasks are **repetitive, boring, regular, rule-based, software-based, and time-consuming**.
+
+> This post was originally published on the [n8n blog](https://n8n.io/blog/features-of-tasks-that-can-be-automated/).

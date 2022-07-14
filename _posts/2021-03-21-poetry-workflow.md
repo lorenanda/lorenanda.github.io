@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to automate your reading habit just in time for World Poetry Day
-tags: [tutorial, n8n]
+tags: [tutorials, n8n]
 share-description: Learn how to create a no-code workflow that gets international poems, translates them into one language, and sends you a poem in Telegram every day.
 canonical_url: https://n8n.io/blog/world-poetry-day-workflow/
 ---
@@ -79,3 +79,5 @@ Finally, save and activate the workflow, so that it runs every day at the schedu
 ## What's next?
 
 That was it! Now you know how to get international poems, translate them, and send them to a Telegram chat to get your daily dose of poetry.
+
+> This post was originally published on the the [n8n blog](https://n8n.io/blog/world-poetry-day-workflow/).

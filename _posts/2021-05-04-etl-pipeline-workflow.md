@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automate your data processing pipeline in 9 steps
-tags: [tutorial, n8n]
+tags: [tutorials, n8n]
 share-description: Learn how to build an n8n workflow that processes text, stores data in two databases, and sends messages to Slack.
 canonical_url: https://n8n.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-n8n/
 ---
@@ -210,3 +210,5 @@ Finally, execute the whole workflow and activate it, so that it runs as schedule
 Congrats -- you now have an automated workflow that informs you every day about positive historical events that happened on that day! As usual, you can tweak and extend this workflow, for example by keeping track of whether a tweet has been processed already, adding an action for the condition when the IF node is false, or cleaning the text of the collected tweets to check whether it influences the sentiment score.
 
 Of course, you can also build other ETL pipelines for various business use cases, such as product feedback at scale, Jira ticket automation based on customer sentiment, or regular database querying for reporting.
+
+> This post was originally published on the [n8n blog](https://n8n.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-n8n/).

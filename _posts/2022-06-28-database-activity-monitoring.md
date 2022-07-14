@@ -95,19 +95,19 @@ The workflow consists of three nodes:
    - Mode: Every Minute
 2. [**Function node**](https://docs.n8n.io/integrations/core-nodes/n8n-nodes-base.cron/) generates sensor data (sensor id (preset), a randomly generated value, timestamp, and notification (preset as false)). In the JavaScript Code field, copy-paste the following code:
    
-  ```javascript
-  var today = new Date();
-  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-  var dateTime = date+' '+time;
+   ```javascript
+   var today = new Date();
+   var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+   var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+   var dateTime = date+' '+time;
 
-  items[0].json.sensor_id = 'humidity01';
-  items[0].json.value = Math.ceil(Math.random()*100);
-  items[0].json.time_stamp = dateTime;
-  items[0].json.notification = false;
+   items[0].json.sensor_id = 'humidity01';
+   items[0].json.value = Math.ceil(Math.random()*100);
+   items[0].json.time_stamp = dateTime;
+   items[0].json.notification = false;
 
-  return items;
-  ```
+   return items;
+   ```
 
 3. [**Postgres node**](https://docs.n8n.io/integrations/nodes/n8n-nodes-base.postgres/) inserts the data into a Postgres database. The node has the following parameters:
    - Operation: Insert
@@ -138,7 +138,7 @@ The workflow consists of five nodes:
    - Operation: Send
    - From: phone number of the sender
    - To: phone number of the receiver
-   - Message > Add Expression: `🚨 The Sensor ({{$node["Postgres"].json["sensor_id"]}}) showed a reading of {{$node["Postgres"].json["value"]}}.`
+   - Message > Add Expression: {% raw %} `🚨 The Sensor ({{$node["Postgres"].json["sensor_id"]}}) showed a reading of {{$node["Postgres"].json["value"]}}.`{% endraw %}
 
   ![twilio message](https://blog.n8n.io/content/images/2022/06/dbmonitoring_twiliomsg.jpeg)
 
@@ -148,7 +148,7 @@ The workflow consists of five nodes:
    - Keep Only Set: toggle to true
    - Add Value > Number:
      - Name: id
-     - Value > Add Expression: `{{$node["Postgres2"].json["id"]}}`
+     - Value > Add Expression: {% raw %} `{{$node["Postgres2"].json["id"]}}` {% endraw %}
    - Add Value > Boolean:
      - Name: notification
      - Value: toggle to true

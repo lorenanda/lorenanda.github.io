@@ -28,11 +28,11 @@ Connecting Google Sheets with MySQL is also a way to limit access to a data sour
 
 1. Set up your MySQL database and get the connectivity data:
 
-  - Server
-  - Database name
-  - Username
-  - Password
-  - Port Number
+     - Server
+     - Database name
+     - Username
+     - Password
+     - Port Number
 
 2. In your Google Sheet, select Extensions > Apps Script.  
   This opens a new untitled project in Apps Script in your browser. The project includes a place-holder function in the code editor.
@@ -44,8 +44,6 @@ Connecting Google Sheets with MySQL is also a way to limit access to a data sour
 ## Method 2: n8n automated workflows to connect MySQL to Google Sheets
 
 Next, we'll show you two workflows that automatically import data from Google Sheets into MySQL, and the other way around.
-
-![mysql workflows](./blog_images/n8n_mysql_workflows.png)
 
 **Prerequisites for building the workflows:**
 
@@ -59,12 +57,11 @@ Next, we'll show you two workflows that automatically import data from Google Sh
 
 1. **Cron node** executes the workflow every Monday at 5am. You can change the time interval by tweaking the following parameters:
 
-- Mode: Every Week
-- Hour: 5
-- Minute: 0
-- Weekday: Monday
+      - Mode: Every Week
+      - Hour: 5
+      - Minute: 0
+      - Weekday: Monday
    
-
 2. **Google Sheets node** reads data from a spreadsheet.
 
 3. **MySQL node** inserts the data from Google Sheets into a MySQL table.
@@ -77,7 +74,7 @@ Next, we'll show you two workflows that automatically import data from Google Sh
 1. **Cron node** executes the workflow at regular preset time intervals.
 2. **MySQL node** selects all book titles and prices from the books table in the database. You can change what data you want to extract from the table by tweaking the following parameters:
    
-  - Query: `SELECT * FROM books;`
+     - Query: `SELECT * FROM books;`
 
 3. **Google Sheets node** appends the data from the MySQL table to a sheet.
   Alternatively, you can update data or create new records in the the sheet by selecting the operation *Create or Update*. Note that in this case, you need to have a key column (for example, a unique ID) based on which to compare the new and existing data.

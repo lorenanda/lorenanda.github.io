@@ -2,7 +2,7 @@
 layout: post
 title: How to automate every step of an incident response workflow
 share-description: Minimize the damage caused by IT incidents by following an incident response playbook with PagerDuty, Jira, and Mattermost.
-tags: [n8n, tutorial]
+tags: [n8n, tutorials]
 canonical_url: https://n8n.io/blog/automated-incident-response-workflow/
 ---
 
@@ -85,7 +85,7 @@ This workflow consists of three parts, each tackling different playbook steps:
 
 All put together, the final workflow look like this:
 
-<figure><img src="https://lh4.googleusercontent.com/oj2w5ptHZKSZFxWznC4yhmOnfATGgCS_XB1nQEU7ARTSR1mC_ln7PCuRDMhUdRoqF_bHHymNKMR08xn4qbZvTXELvqE_IPzsVLFHOrHdud03nYO5bFFarfJivgTcS6s9aPh3To80" alt="Screenshot of n8n Editor UI showing three workflows for automated incident response" style="width:100%"><figcaption align = "center"><i>Workflows for automated incident response</i></figcaption></figure>
+<figure><img src="/assets/img/n8n_incres_workflows.png" alt="Screenshot of n8n Editor UI showing three workflows for automated incident response" style="width:100%"><figcaption align = "center"><i>Workflows for automated incident response</i></figcaption></figure>
 
 ### Workflow prerequisites
 
@@ -100,7 +100,7 @@ To follow along this tutorial and implement the workflow yourself, you'll need t
 
 The first workflow automates the ChatOps practice when a new incident is detected.
 
-<figure><img src="https://lh3.googleusercontent.com/HfMU_xsC1jj7JiSxI1mO2Mj-pya0GLoZEXaOonWPuGYxJPJnaVvZlTkbVL1Y3CU9W7hoV7ZEBdu-LXZIMVU48pAHCLHAICdyCFMWUqtNi75n94VL00lxW-2hMnjrOFI9nCfK4gAo" alt="Screenshot of n8n Editor UI showing the first workflow" style="width:100%"><figcaption align = "center"><i>Workflow 1</i></figcaption></figure>
+<figure><img src="/_site/assets/img/n8n_incres_workflow1.png" alt="Screenshot of n8n Editor UI showing the first workflow" style="width:100%"><figcaption align = "center"><i>Workflow 1</i></figcaption></figure>
 
 - *Webhook node* triggers the workflow when an incident is created in PagerDuty.
 - *Mattermost node* creates a new channel for the specific incident.
@@ -109,15 +109,11 @@ The first workflow automates the ChatOps practice when a new incident is detecte
 - *Mattermost2 node* posts a message in the channel with links to the PagerDuty incident and Jira issue.
 - *Mattermost3 node* posts a message in the channel with the options (buttons) `Acknowledge` and `Resolve`.
 
-Watch the video below to see how to configure the parameters of each node:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9-069p0Q9Co" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Workflow 2 - Ensure that the incident is acknowledged internally
 
 The second workflow automates the acknowledgement of the incident by the on-call team member.
 
-<figure><img src="https://lh5.googleusercontent.com/nb7RSFriFyANgR_vJkkDz2U1yq4eVE4WSoUQ29AF3VTOj0jP-YdNzJKvonBA71eb4xtUXPdxJuDJhHZWXzDtaDrhJv0SaE-V6IlUB0HEscRIqxyPg2UPVUurzRYx2qYnrD90KYJy" alt="Screenshot of n8n Editor UI showing the second workflow" style="width:100%"><figcaption align = "center"><i>Workflow 2</i></figcaption></figure>
+<figure><img src="/_site/assets/img/n8n_incres_workflow2.png" alt="Screenshot of n8n Editor UI showing the second workflow" style="width:100%"><figcaption align = "center"><i>Workflow 2</i></figcaption></figure>
 
 - *Webhook1 node* triggers the workflow when the button `Acknowledge` is clicked in the Mattermost channel.
 - *PagerDuty node* updates the incident status as "Acknowledged".
@@ -127,7 +123,7 @@ The second workflow automates the acknowledgement of the incident by the on-call
 
 The third workflow automates the resolution of the issue.
 
-<figure><img src="https://lh3.googleusercontent.com/QDZ2aFoJb_S6ap0iybPTytCt3CipraDoAvPLvjxjUSEBjvZ2VyyNB5F4RBNBSRNEGnMVS66UXORAZC07hPXrrx_fwA7iCftOzdZ77afSrJZoss0dmb0WyUyxfYfG-rj52GPH10rx" alt="Screenshot of n8n Editor UI showing the third workflow" style="width:100%"><figcaption align = "center"><i>Workflow 3</i></figcaption></figure>
+<figure><img src="/_site/assets/img/n8n_incres_workflow3.png" alt="Screenshot of n8n Editor UI showing the third workflow" style="width:100%"><figcaption align = "center"><i>Workflow 3</i></figcaption></figure>
 
 - *Webhook2 node* triggers the workflow when the button `Resolve` is clicked in the Mattermost channel.
 - *PagerDuty1 node* updates the incident status as "Resolved".
@@ -151,3 +147,5 @@ With this configuration, the workflows work only when you manually execute them.
 4. Activate the workflows.
 
 That's it: you now have three no-code workflows that automate every step of an incident response, so the on-call team can focus on solving the problem.
+
+> This post was originally published on the [n8n blog](https://blog.n8n.io/automated-incident-response-workflow/).

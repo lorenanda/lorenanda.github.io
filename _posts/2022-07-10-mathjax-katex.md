@@ -1,5 +1,5 @@
 ---
-title: How use math equations in Docusaurus
+title: How to use math equations in Docusaurus
 description: Learn how to convert MathJax for Jekyll to KaTeX for Docusaurus for using math equations in text.
 tags: [docusaurus, jekyll, markdown, tutorials]
 ---
