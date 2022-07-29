@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="ahrefs-site-verification" content="a93710dfb78b4003a90dbc831e6a339e0e4e6b6d5593721f0b473b85966e116f">
+  
+
+  
+
+  <title>A statistical evaluation of sportiness level across age groups</title>
+
+  
+  <meta name="author" content="Lorena Ciutacu">
+  
+
+  <meta name="description" content="Abstract Introduction Method Analysis in SPSS Results Discussion Abstract This experiment examined the level of sportiness of individuals from three age groups: young, middle-aged, and old. Thirty participants (10 from each age group) rated their level of sportiness in the past year on a scale from 1 to 10. Age...">
+
+  
+
+  
+  <meta name="keywords" content="technical writer, data scientist, women in data, berlin startup">
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Lorena Ciutacu" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="Lorena Ciutacu">
+  <meta property="og:title" content="A statistical evaluation of sportiness level across age groups">
+  <meta property="og:description" content="Abstract Introduction Method Analysis in SPSS Results Discussion Abstract This experiment examined the level of sportiness of individuals from three age groups: young, middle-aged, and old. Thirty participants (10 from each age group) rated their level of sportiness in the past year on a scale from 1 to 10. Age...">
+
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Lorena Ciutacu">
+  <meta property="og:article:published_time" content="2017-07-21T00:00:00+02:00">
+  <meta property="og:url" content="http://localhost:4000/stats-spss-part3/">
+  <link rel="canonical" href="http://localhost:4000/stats-spss-part3/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  <meta property="twitter:title" content="A statistical evaluation of sportiness level across age groups">
+  <meta property="twitter:description" content="Abstract Introduction Method Analysis in SPSS Results Discussion Abstract This experiment examined the level of sportiness of individuals from three age groups: young, middle-aged, and old. Thirty participants (10 from each age group) rated their level of sportiness in the past year on a scale from 1 to 10. Age...">
+
+  
+
+  
+
+
+  
+
+  
+
+  
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">Lorena Ciutacu</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    [...]
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "How to use math equations in Docusaurus", \
+          "category" : "docusaurusjekyllmarkdowntutorials", \
+          "url"      : "/mathjax-katex/", \
+          "date"     : "July 10, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to connect Google Sheets with MySQL", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/connect-mysql-sheets/", \
+          "date"     : "July  7, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to automatically import JSON into Google Sheets", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/import-json-spreadsheet/", \
+          "date"     : "June 30, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to automate database activity monitoring and alerting", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/database-activity-monitoring/", \
+          "date"     : "June 28, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Resources for technical writers", \
+          "category" : "booksnonfictionwriting", \
+          "url"      : "/resources-technical-writers/", \
+          "date"     : "June 26, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to scrape data from a website with n8n", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/webscraping-workflow/", \
+          "date"     : "June 21, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Webhooks explained", \
+          "category" : "automationn8n", \
+          "url"      : "/webhooks-explained/", \
+          "date"     : "June 14, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Portugiesisches Gift von Luis Sellano", \
+          "category" : "booksfictiondeutschbloggerportal", \
+          "url"      : "/buchrezension-portugiesisches-gift/", \
+          "date"     : "May 26, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Nachts im Internet von Stephen Law", \
+          "category" : "booksnonfictiondeutschbloggerportal", \
+          "url"      : "/nachts-im-internet/", \
+          "date"     : "May 15, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Der Hauptmann und der Mörder von Zhou Haohui", \
+          "category" : "booksfictiondeutschbloggerportal", \
+          "url"      : "/buchrezension-184-hauptmann-und-moerder/", \
+          "date"     : "April 16, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "13 tools to use for DevSecOps automation", \
+          "category" : "n8ntutorials", \
+          "url"      : "/devsecops-tools/", \
+          "date"     : "March 11, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Chatter von Ethan Kross", \
+          "category" : "booksnonfictiondeutschbloggerportal", \
+          "url"      : "/buchrezension-chatter/", \
+          "date"     : "February 21, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "My Visual Studio Code setup for technical writing", \
+          "category" : "writing", \
+          "url"      : "/vscode-setup-for-technical-writing", \
+          "date"     : "February 11, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to automate every step of an incident response workflow", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/automated-incident-response/", \
+          "date"     : "February 10, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Im Auftrag der Toten von Axel Petermann", \
+          "category" : "booksnonfictiondeutschbloggerportal", \
+          "url"      : "/buchrezension-im-auftrag-der-toten/", \
+          "date"     : "January 29, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How hyperautomation will transform business operations", \
+          "category" : "automationn8n", \
+          "url"      : "/hyperautomation-trends/", \
+          "date"     : "January 27, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Rituale von Christine Dohler", \
+          "category" : "booksnonfictiondeutschbloggerportal", \
+          "url"      : "/buchrezension-rituale/", \
+          "date"     : "January 22, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "7 no-code workflow automations for Amazon Web Services", \
+          "category" : "automationn8n", \
+          "url"      : "/aws-workflows/", \
+          "date"     : "January 18, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to write in accessible language", \
+          "category" : "writing", \
+          "url"      : "/accessible-language/", \
+          "date"     : "January 15, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How to synchronize data between two systems (one-way vs. two-way sync)", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/data-sync-workflows/", \
+          "date"     : "November 18, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "5 ways to keep your skills fresh after finishing a coding bootcamp", \
+          "category" : "data science", \
+          "url"      : "/keep-your-skills-fresh-after-coding-bootcamp/", \
+          "date"     : "November 14, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "October books wrap-up", \
+          "category" : "booksnonfictionreviews", \
+          "url"      : "/october-books/", \
+          "date"     : "October 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Market basket analysis with the Apriori algorithm in Python", \
+          "category" : "algorithmsdata sciencepythontutorials", \
+          "url"      : "/market-basket-analysis-with-apriori-algorithm/", \
+          "date"     : "October 17, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Making product recommendations using Spectral Biclustering in Python", \
+          "category" : "algorithmsdata sciencepythontutorials", \
+          "url"      : "/spectral-biclustering-for-marketing-in-python/", \
+          "date"     : "October  3, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "September books wrap-up", \
+          "category" : "booksnonfictionfiction", \
+          "url"      : "/september-books/", \
+          "date"     : "September 30, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "6 features of tasks that can be automated", \
+          "category" : "automationn8n", \
+          "url"      : "/automatable-tasks/", \
+          "date"     : "September 28, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Create a toxic language detector for Telegram in 4 steps", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/toxic-language-workflow/", \
+          "date"     : "September 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "How to get started with CRM automation (with 3 no-code workflow ideas)", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/crm-workflows/", \
+          "date"     : "September 14, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "6 e-commerce workflows to power up your Shopify store", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/ecommerce-workflows/", \
+          "date"     : "September  2, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "August books wrap-up", \
+          "category" : "booksfictionreviews", \
+          "url"      : "/august-books/", \
+          "date"     : "August 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Photography in the instant gratification economy", \
+          "category" : "photography", \
+          "url"      : "/photography-and-instant-gratification-economy/", \
+          "date"     : "August 19, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Framing loneliness in the film &quot;O Homem das Multidões&quot;", \
+          "category" : "film", \
+          "url"      : "/o-homem-das-multidoes-film-analysis/", \
+          "date"     : "August 11, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Gefährliche Mittsommernacht von Christoffer Holst", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-gefaehrliche-mittsommernacht/", \
+          "date"     : "August  8, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Clustering and classification of Romanian psych-verbs", \
+          "category" : "data sciencelinguistics", \
+          "url"      : "/romanian-psych-verbs-study/", \
+          "date"     : "August  6, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "July books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/july-books/", \
+          "date"     : "July 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Auf Erden sind wir kurz grandios von Ocean Vuong", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-auf-erden-sind-wir-kurz-grandios/", \
+          "date"     : "July 11, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "June books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/june-books/", \
+          "date"     : "June 30, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Der Weg des Siegers von Ronny Schönig", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-der-weg-des-siegers/", \
+          "date"     : "June 20, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "5 tasks you can automate with the new Notion API", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/notion-workflows/", \
+          "date"     : "June  8, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "May books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/may-books/", \
+          "date"     : "May 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Roboterland von Jenny Kleeman", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-roboterland/", \
+          "date"     : "May 23, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Achtsam morden am Rande der Welt von Karsten Dusse", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-achtsam-morden/", \
+          "date"     : "May 16, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "15 Google apps you can combine and automate to increase productivity", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/google-apps-workflows/", \
+          "date"     : "May 12, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Die Tote im Kaffeehaus von Beate Maxian", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-die-tote-im-kaffeehaus/", \
+          "date"     : "May  9, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Automate your data processing pipeline in 9 steps", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/etl-pipeline-workflow/", \
+          "date"     : "May  4, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Trauma von Angélique Mundt", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-trauma/", \
+          "date"     : "May  2, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "April books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/april-books/", \
+          "date"     : "April 30, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "6 findings from analysing the Oscars speeches of the best directors", \
+          "category" : "data sciencepython", \
+          "url"      : "/oscars-speech-analysis-with-python/", \
+          "date"     : "April 25, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "5 workflow automations for Mattermost that we love at n8n", \
+          "category" : "automationn8n", \
+          "url"      : "/mattermost-workflows/", \
+          "date"     : "April  9, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Klima von David Klass", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-klima/", \
+          "date"     : "April  7, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "March books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/march-books/", \
+          "date"     : "March 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Die Zukunft ist smart von Holger Volland", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-die-zukunft-ist-smart/", \
+          "date"     : "March 28, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "How to automate your reading habit just in time for World Poetry Day", \
+          "category" : "automationn8ntutorials", \
+          "url"      : "/poetry-workflow/", \
+          "date"     : "March 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Designing Bots by Amir Shevat", \
+          "category" : "booksnonfictionreviews", \
+          "url"      : "/book-review-designing-bots/", \
+          "date"     : "March 14, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Elmet von Fiona Mozley", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-elmet/", \
+          "date"     : "March  7, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Terror von Bernd Schmidt", \
+          "category" : "booksnonfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-terror/", \
+          "date"     : "March  3, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "February books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/february-books/", \
+          "date"     : "February 28, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Exploring endangered languages with pandas", \
+          "category" : "data sciencelinguisticspythontutorials", \
+          "url"      : "/endangered-languages/", \
+          "date"     : "February 27, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "99 Nächte in Logar von Jamil Jan Kochai", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-99naechte/", \
+          "date"     : "February 24, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "L&#39;importance de protéger les langues en danger", \
+          "category" : "francaislinguistics", \
+          "url"      : "/langues-en-danger/", \
+          "date"     : "February 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "Die Mauern von Porto von Mario Lima", \
+          "category" : "booksfictiondeutschreviewsbloggerportal", \
+          "url"      : "/buchrezension-diemauernvonporto/", \
+          "date"     : "February 12, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "January books wrap-up", \
+          "category" : "booksfictionnonfictionreviews", \
+          "url"      : "/january-books/", \
+          "date"     : "January 31, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "January&#39;s regression challenge for Kaggle playground", \
+          "category" : "data sciencepythontutorials", \
+          "url"      : "/kaggle-playground-jan/", \
+          "date"     : "January 21, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "12 tech books to read in 2021", \
+          "category" : "booksnonfiction", \
+          "url"      : "/tech-books-to-read-in-2021/", \
+          "date"     : "January  9, 2021" \
+        }, \
+       \
+        { \
+          "title"    : "My year in code - 2020 review", \
+          "category" : "data science", \
+          "url"      : "/my-year-in-code/", \
+          "date"     : "December 29, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Detecting emotions from speech with neural networks", \
+          "category" : "bootcampdata sciencepython", \
+          "url"      : "/bootcamp12/", \
+          "date"     : "December 20, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Best practices for software engineering", \
+          "category" : "data sciencebootcamp", \
+          "url"      : "/bootcamp11/", \
+          "date"     : "December 12, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating a movie recommender system with Python and Flask", \
+          "category" : "data sciencebootcamppython", \
+          "url"      : "/bootcamp10/", \
+          "date"     : "December  5, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Classifying clothes images with neural networks", \
+          "category" : "data sciencebootcamppython", \
+          "url"      : "/bootcamp9/", \
+          "date"     : "November 28, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating a Markov chain Monte Carlo simulation in Python", \
+          "category" : "algorithmsdata sciencebootcamppython", \
+          "url"      : "/bootcamp8/", \
+          "date"     : "November 21, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Building a dockerized ETL pipeline for tweet streaming in Slack", \
+          "category" : "data sciencebootcamppython", \
+          "url"      : "/bootcamp7/", \
+          "date"     : "November 14, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating a Metabase dashboard on Postgres and AWS", \
+          "category" : "data sciencebootcamppython", \
+          "url"      : "/bootcamp6/", \
+          "date"     : "November  7, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Forecasting the weather in Berlin with ARIMA models", \
+          "category" : "data sciencebootcamppython", \
+          "url"      : "/bootcamp5/", \
+          "date"     : "October 31, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Building a lyrics scraper and classifier in Python", \
+          "category" : "data sciencebootcamppython", \
+          "url"      : "/bootcamp4/", \
+          "date"     : "October 24, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Predicting bike share demand with linear regression", \
+          "category" : "data sciencebootcamppython", \
+          "url"      : "/bootcamp3/", \
+          "date"     : "October 17, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Predicting Titanic survivors with decision tree classifiers", \
+          "category" : "data sciencebootcamppython", \
+          "url"      : "/bootcamp2/", \
+          "date"     : "October 10, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Creating animated scatterplots with Python", \
+          "category" : "data sciencebootcamppython", \
+          "url"      : "/bootcamp1/", \
+          "date"     : "October  3, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "5 eye-opening books about AI ethics", \
+          "category" : "booksnonfiction", \
+          "url"      : "/books-ethics-ai/", \
+          "date"     : "August 19, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Women in Data Symposium - Skills to Last a Decade", \
+          "category" : "data scienceconferences", \
+          "url"      : "/womenindata-symposium/", \
+          "date"     : "July 31, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "4 tips for creating a great data science portfolio", \
+          "category" : "data science", \
+          "url"      : "/tips-for-datascience-portfolio/", \
+          "date"     : "July 29, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Die geheimen Muster der Sprache von Rottler/Martin", \
+          "category" : "bookslinguisticsdeutschreviews", \
+          "url"      : "/buchrezension-geheimen-muster-sprache/", \
+          "date"     : "June 27, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Invisible Women by Caroline Criado Perez", \
+          "category" : "booksdata sciencereviews", \
+          "url"      : "/book-review-invisible-women/", \
+          "date"     : "June 10, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "The Pitfalls of Deep Learning (WAD talk)", \
+          "category" : "data scienceconferences", \
+          "url"      : "/wad-pitfalls-deeplearning/", \
+          "date"     : "May 26, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Diversity in IT Jobs (WAD talk)", \
+          "category" : "data scienceconferences", \
+          "url"      : "/wad-diversity-it/", \
+          "date"     : "May 25, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "10 data science books to read during lockdown", \
+          "category" : "data sciencebooksnonfiction", \
+          "url"      : "/datascience-books-for-lockdown/", \
+          "date"     : "May  5, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Der Stand der Bibliotheken in Deutschland", \
+          "category" : "data sciencedeutsch", \
+          "url"      : "/weltbuchtag/", \
+          "date"     : "April 23, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Goodreads Reading Challenge 2019", \
+          "category" : "data sciencebooks", \
+          "url"      : "/goodreads-reading-challenge/", \
+          "date"     : "December 30, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Exhibition of Art of Akume", \
+          "category" : "", \
+          "url"      : "/art-of-akume-exhibition/", \
+          "date"     : "March 31, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Web-scraping IMDb with R", \
+          "category" : "data scienceRtutorials", \
+          "url"      : "/web-scraping-imdb-with-r/", \
+          "date"     : "March 29, 2019" \
+        }, \
+       \
+        { \
+          "title"    : "Analysing my reading habits from Goodreads data", \
+          "category" : "data science", \
+          "url"      : "/tableau-visualisation-goodreads/", \
+          "date"     : "October 21, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "A preliminary exploration of the semantics of Romanian psych-verbs", \
+          "category" : "linguisticsdata scienceconferences", \
+          "url"      : "/poster-linguistik-meetup-potsdam/", \
+          "date"     : "August  4, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "Autism as figure of speech in Austrian newspapers (a critical discourse analysis)", \
+          "category" : "linguisticsconferences", \
+          "url"      : "/ulab-conference-edinburgh/", \
+          "date"     : "April 11, 2018" \
+        }, \
+       \
+        { \
+          "title"    : "Learnings from the 11th Meeting of Patholinguistics in Potsdam", \
+          "category" : "linguisticsconferences", \
+          "url"      : "/patholinguistics-conference-potsdam/", \
+          "date"     : "November 20, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Expolingua Berlin", \
+          "category" : "linguisticsconferences", \
+          "url"      : "/expolingua-berlin/", \
+          "date"     : "November 17, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "What&#39;s going on in the brain of a conference interpreter?", \
+          "category" : "linguisticsconferences", \
+          "url"      : "/conference-student-research-berlin/", \
+          "date"     : "September 22, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "The effects of anesthesia on language", \
+          "category" : "linguistics", \
+          "url"      : "/effects-of-anesthesia-on-language/", \
+          "date"     : "September 11, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "The impairment of concrete and abstract words in semantic dementia", \
+          "category" : "linguisticsconferences", \
+          "url"      : "/linguistik-meetup-berlin/", \
+          "date"     : "August  4, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "A statistical evaluation of sportiness level across age groups", \
+          "category" : "spssstats", \
+          "url"      : "/stats-spss-part3/", \
+          "date"     : "July 21, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "How does the mental lexicon differ between healthy aging individuals and patients with semantic dementia?", \
+          "category" : "linguistics", \
+          "url"      : "/mental-lexicon-differences/", \
+          "date"     : "April 20, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Xenolinguistics by D.R. Slattery", \
+          "category" : "linguisticsbooksreviews", \
+          "url"      : "/xenolinguistics-book-review/", \
+          "date"     : "December 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "A year of research findings about bilingualism", \
+          "category" : "linguistics", \
+          "url"      : "/bilingualism-research-2016/", \
+          "date"     : "December 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Conference - Languages of trauma in visual media", \
+          "category" : "linguisticsconferences", \
+          "url"      : "/conference-languages-of-trauma/", \
+          "date"     : "November 28, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Learnings from the 10th Meeting of Patholinguistics in Potsdam", \
+          "category" : "linguisticsconferences", \
+          "url"      : "/patholinguistics-meeting-potsdam/", \
+          "date"     : "November 23, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Tales on Blindness by Cláudia Alves", \
+          "category" : "film", \
+          "url"      : "/film-review-tales-on-blindness/", \
+          "date"     : "July  1, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Plaidoyer pour l’écriture manuscrite", \
+          "category" : "francaislinguisticswriting", \
+          "url"      : "/plaidoyer-pour-ecriture-manuscrite/", \
+          "date"     : "May 20, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "Die sechste Jahreszeit von Jan Soldat", \
+          "category" : "filmdeutsch", \
+          "url"      : "/filmkritik-jan-soldat/", \
+          "date"     : "April 27, 2015" \
+        }, \
+       \
+        { \
+          "title"    : "La vision des États-Unis d’Europe chez Victor Hugo", \
+          "category" : "francais", \
+          "url"      : "/vision-europe-victorhugo/", \
+          "date"     : "July 14, 2014" \
+        }, \
+       \
+        { \
+          "title"    : "Alexander Rodchenko @ Westlicht Wien", \
+          "category" : "photographyfrancaisdeutsch", \
+          "url"      : "/alexander-rodchenko-westlicht/", \
+          "date"     : "October 30, 2013" \
+        }, \
+       \
+        { \
+          "title"    : "Linda McCartney @ Kunsthaus Wien", \
+          "category" : "photographyfrancaisdeutsch", \
+          "url"      : "/linda-mccartney-kunsthaus/", \
+          "date"     : "July 26, 2013" \
+        }, \
+       \
+        { \
+          "title"    : "Photo and camera auction @ Westlicht Wien", \
+          "category" : "francaisphotography", \
+          "url"      : "/foto-auktion-westlicht-wien/", \
+          "date"     : "May 30, 2013" \
+        }, \
+       \
+        { \
+          "title"    : "An evening with Ulrich Seidl in Vienna", \
+          "category" : "filmfrancais", \
+          "url"      : "/ulrich-seidl-interview/", \
+          "date"     : "May 25, 2013" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "ABOUT", \
+          "category" : "page", \
+          "url"      : "/about/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "BLOG", \
+          "category" : "page", \
+          "url"      : "/blog/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1 1970" \
+        }, \
+       \
+        { \
+          "title"    : "ARCHIVE", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>A statistical evaluation of sportiness level across age groups</h1>
+          
+
+          
+            <span class="post-meta">Posted on 21 July 2017</span>
+            
+            
+              <!--- "ReadTime on GitHub Jekyll" (c) 2020 Ruby Griffith Ramirez, MIT License -->
+
+
+
+
+
+
+  
+  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> 7 minute read</span>
+
+
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md ">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
+      
+
+      
+
+      <article role="main" class="blog-post">
+        <ul>
+  <li><a href="#abstract">Abstract</a></li>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#method">Method</a></li>
+  <li><a href="#analysis-in-spss">Analysis in SPSS</a></li>
+  <li><a href="#results">Results</a></li>
+  <li><a href="#discussion">Discussion</a></li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>This experiment examined the level of sportiness of individuals from three age groups: young, middle-aged, and old. Thirty participants (10 from each age group) rated their level of sportiness in the past year on a scale from 1 to 10. Age was found to have a significant effect on sportiness levels, with the youngest individuals having significantly higher levels than the older groups, but this difference was not significant between the middle-aged and the old individuals.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Generally, the level of physical activity decreases with age. To evaluate this assumption in the general population, individuals from different ages (young, middle aged, old) were asked to rate their general sportiness during the past
+year on a scale from 1 (lowest) to 10.</p>
+
+<ul>
+  <li><strong>Null hypothesis (H0):</strong> Mean level of sportiness is the same for all age groups.</li>
+  <li><strong>Alternative hypothesis (H1):</strong> Mean level of sportiness is not the same for all age groups.</li>
+  <li><strong>Alternative hypothesis (H2):</strong> There is a difference in sportiness levels between the young group and the old group.</li>
+</ul>
+
+<h2 id="method">Method</h2>
+
+<ul>
+  <li><strong>Participants</strong>: 30 subjects (10 young, 10 middle-aged, 10 old).</li>
+  <li><strong>Materials</strong>: Online survey including questions about age and self-evaluation of physical activity on a scale from 1 to 10, where 10 represents the highest level of sportiness.</li>
+  <li><strong>Design</strong>: The outcome (dependent) variable is the level of sportiness, measured at level from 1 to 10. The grouping factor (independent variable) is age, at three levels (young, middle-aged, old). The middle-aged group is the control group. The experiment has one condition.</li>
+  <li><strong>Procedure</strong>: Participants from each age group rated their general sportiness during the past year on a scale from 1 to 10.</li>
+  <li>
+    <p><strong>Analysis</strong>: Since the experiment has one factor and one outcome variable with three conditions, a one-way ANOVA was conducted. The assumptions of ANOVA (i.e., under which the F statistic is reliable) are the same as for all parametric tests (Field 2009:359):</p>
+
+    <ul>
+      <li>The dependent variable (in this case, the level of sportiness) is metric, measured on an interval scale.</li>
+      <li>Homogeneity of variances: the variances in each experimental condition should be equal.</li>
+      <li>Independence of observations: the samples should be independent.</li>
+      <li>Normality: The distributions within groups should be normally distributed.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="analysis-in-spss">Analysis in SPSS</h2>
+
+<p>Therefore, the selected options for ANOVA in SPSS are (Field, 2009:379):</p>
+
+<ul>
+  <li><strong>Descriptive</strong>, to obtain the means, standard deviations, standard errors, ranges and confidence intervals of each mean, which assist in interpreting the results.</li>
+  <li><strong>Homogeneity of variance</strong>, to test this assumption.</li>
+  <li><strong>Brown-Forsythe and Welch</strong>, which are alternative versions of the F-ratio, useful in case the assumption of homoscedasticity is broken.</li>
+  <li><strong>Means plot</strong>, to obtain a line graph of the group means before the analysis.</li>
+  <li><strong>Exclude cases analysis by analysis</strong>, to exclude all cases that have a missing value for either the independent or the dependent variable used in this analysis.</li>
+</ul>
+
+<p>The F-ratio of ANOVA indicates whether the model fitted to the data accounts for more variation than extraneous factors, but it does not specify where the differences between groups lie (Field 2009:360). Therefore, it is necessary to run planned comparisons or post-hoc tests, which consist of pairwise comparisons that are designed to compare all different combinations of the treatment groups 2009:372). In this case, a post-hoc test was run, because there were no hypotheses prior to collecting the data. The following post-hoc tests were selected:</p>
+
+<ul>
+  <li><strong>R-E-G-W-Q</strong>, which controls the Type I error rate, has good statistical power, and is used when the sample sizes are equal and population variances are similar.</li>
+  <li><strong>Tukey</strong>, which is similar to R-E-G-W-Q, but with less statistical power.</li>
+  <li><strong>Dunnett</strong>, which controls both experimental groups against the control group and controls Type I error rate. The parameters in SPSS were:
+    <ul>
+      <li>Control category: First (i.e., the control group is coded first).</li>
+      <li>Test: 2-tailed (because Hypotheses 1 and 2 are two-tailed).</li>
+    </ul>
+  </li>
+  <li><strong>Games-Howell</strong>, which has good statistical power and is run if the population variances might not be similar (Field 2009:375).</li>
+</ul>
+
+<p>A <strong>planned comparison</strong> was run as well for practice reasons, depicted in the table below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Group</th>
+      <th>Contrast 1</th>
+      <th>Contrast 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>middle-aged</td>
+      <td>-2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>young</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>old</td>
+      <td>1</td>
+      <td>-1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In this test, the groups to be compared are coded with positive or negative values (weights), so that groups coded with positive weights are compared against groups coded with negative weights, and the sum of weights for a comparison should be 0 (Field 2009:365).</p>
+
+<p>In Contrast 1, the control group (middle-aged) was compared to the two test groups (young and old). The groups were coded with values so that their sum equals 0. The control group was coded first (because it was the group coded as 1 in the variables list) as -2. Next, the young group (coded as 2 in the variables list) was coded as 1. Finally, the old group (coded as 3 in the variables list) was coded as 1.</p>
+
+<p>In Contrast 2, only the two test groups (young and old) were compared. Like in Contrast 1, the groups were coded in the same order and with values so that their sum equals 0. First, the control group was coded as 0 (to mark that it is excluded from the calculation), then the young group was coded as 1, and finally the old group was coded as -1.</p>
+
+<h2 id="results">Results</h2>
+
+<p>First, the mean of sportiness by age group was observed. The line graph depicted in Figure 5 indicates that the mean of sportiness is different between the three groups, namely the young group shows the highest level of sportiness (M = 7.80, SD = 1.317), followed by the middle-aged group (M = 5.20, SD = 1.54), and lastly the old group (M = 2, SD = .816). The error bars do not overlap, which indicates that there are between-group differences.</p>
+
+<p><img src="../assets/img/statsspss_figure5.png" alt="" /></p>
+
+<p>The assumption of homoscedasticity is met, as indicated by Levene’s test Sig. &gt; .05 (Table 6).</p>
+
+<p><img src="../assets/img/statsspss_table6.png" alt="" /></p>
+
+<p>Table 7 shows the ANOVA summary table.</p>
+
+<p><img src="../assets/img/statsspss_table7.png" alt="" /></p>
+
+<p>Within Groups shows the unsystematic variation within the data (Field, 2009:383), due to natural individual differences indicated by the residual sum of squares (SSR = 43.20) and the average amount of unsystematic variation is indicated by the mean squares (MSR = 1.60). The between-group effect labeled Combined is the overall experimental effect, represented by the sum of squares for the model (SSM = 168.80) and mean squares (MSR = 84.40).</p>
+
+<p>The F-ratio for the combine between-group effect indicates whether the group means are the same (F(2)= 52.75). The likelihood of an F-ratio of 52.75 to occur if there was no effect in the population is 0 (Sig. &lt; .001), which means that the level of sportiness is significantly different between the age groups. For the linear trend (Linear Term, tests whether the means increase across groups in a linear way) F(1) = 32, Sig. &lt; .001, which indicates that the level of sportiness decreases with age. For the quadratic trend (Quadratic Term, tests whether the pattern of trends is curvilinear) F = 73.50, Sig. &lt; .001, so the contrast is significant (Field, 2009:383).</p>
+
+<p>Thus, the null hypothesis is rejected.</p>
+
+<p>Table 8 reports the contrasts, where Assume equal variances represents the value of the contrasts.</p>
+
+<p><img src="../assets/img/statsspss_table8.png" alt="" /></p>
+
+<p>This table is considered because the assumption of homogeneity of variance was met. For Contrast 1 (control group vs. test groups) Sig. (2-tailed) = .545, which means that the levels of sportiness do not differ significantly between middle-aged individuals and old and young individuals. For Contrast 2 (young vs. old) Sig. (2-tailed) &lt; .001, which means that sportiness differs significantly between old and young individuals.</p>
+
+<p>The post-hoc tests (Table 9) Tukey HSD and Games-Howell indicate that all groups differ significantly from each other (Sig. &lt; .05). However, Dunnett’s test indicates that the old group and middle-aged group do not differ significantly (Sig. = 1), which is in contradiction with the results in the planned contrasts.</p>
+
+<p><img src="../assets/img/statsspss_table9.png" alt="" /></p>
+
+<p>In Table 10, Tukey’s test and the R-E-G-W-Q test are two tests that display subsets of groups that have the same means. In each subset only one group is displayed, which means that its mean is different than the means of the other two groups. The groups in the subsets have unequal means (Sig. = 1), so there are no two groups that are similar. The Harmonic Mean Sample Size represents the relation between variance and sample size, in order to reduce bias that might arise due to unequal sample sizes (Field, 2009:387).</p>
+
+<p><img src="../assets/img/statsspss_table10.png" alt="" /></p>
+
+<h2 id="discussion">Discussion</h2>
+
+<p>The data provided statistically significant evidence that mean levels of sportiness are significantly different across age groups and there was a significant effect of age on levels of sportiness, F(2)= 52.75, p &lt; .05. There was a significant linear trend (F(1) = 32, p &lt; .05), indicating that the level of sportiness decreases with age: the older, the lower physical activity.</p>
+
+<p>The level of sportiness of the young group was significantly higher than that of than the old group, t(27) = 10.25, p &lt; .05, whereas the level of sportiness of the middle-aged group was not significantly higher than that of the old group, t(27) = -.612, p &gt; .05.</p>
+
+<p>However, this study has several limitations. First, the sample size in each group (N = 10) is small, so the results cannot be generalized. Second, the results are based on self-reported data, which allows for over-/underestimates of individual sportiness levels by the participants. These factors should be controlled for in future studies investigating the effect of age on sportiness.</p>
+
+      </article>
+
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
+
+      
+        <div class="blog-tags">
+          <span>Tags:</span>
+          
+            <a href="/tags#spss">spss</a>
+          
+            <a href="/tags#stats">stats</a>
+          
+        </div>
+      
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=A+statistical+evaluation+of+sportiness+level+across+age+groups&url=http%3A%2F%2Flocalhost%3A4000%2Fstats-spss-part3%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fstats-spss-part3%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fstats-spss-part3%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a class="page-link" href="/mental-lexicon-differences/" data-toggle="tooltip" data-placement="top" title="How does the mental lexicon differ between healthy aging individuals and patients with semantic dementia?">&larr; How does the mental lexicon differ between healthy aging individuals and patients with semantic dementia?</a>
+        </li>
+        
+        
+        <li class="page-item next">
+          <a class="page-link" href="/linguistik-meetup-berlin/" data-toggle="tooltip" data-placement="top" title="The impairment of concrete and abstract words in semantic dementia">The impairment of concrete and abstract words in semantic dementia &rarr;</a>
+        </li>
+        
+      </ul>
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="https://linkedin.com/in/lorena-ciutacu" title="LinkedIn">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">LinkedIn</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/lorenanda" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://gitlab.com/aloci" title="GitLab">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitLab</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://medium.com/@lorenaciutacu" title="Medium">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Medium</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="https://dev.to/@lorena" title="DEV">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-dev fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">DEV</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.goodreads.com/lorenasbooks" title="Goodreads">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-goodreads fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Goodreads</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+    
+      
+        Lorena Ciutacu
+        ©
+      
+      2012-2022
+
+      
+
+      
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Die sechste Jahreszeit von Jan Soldat
-tags: [art, deutsch, reviews]
+tags: [film, deutsch]
 comments: true
 ---
 

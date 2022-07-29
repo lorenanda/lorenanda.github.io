@@ -203,7 +203,7 @@ h1, h2, h3, h4 {
 
 
 a {
-  color: #716d6d; /*#716d6d;*/
+  color: #7a8b8c; /*#7a8b8c;*/
   /*background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgba(0, 255, 0, 0.35) calc(50% - 9px), rgba(0, 255, 0, 0.35) 100%);
   transition: all 120ms ease-in-out 0s;
   padding: 2px 0px 1px;
@@ -216,7 +216,7 @@ a:hover,
 a:focus {
   font-weight: bold;
   text-decoration: none;
-  color: #716d6d;/*#716d6d;*/
+  color: #7a8b8c;/*#7a8b8c;*/
   /*text-shadow:: rgb(0, 187, 0) 1px 1px 0px;
   background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgb(0, 255, 0) calc(50% - 9px), rgb(0, 255, 0) 100%);
   background-position: 0px 100%;
@@ -224,7 +224,7 @@ a:focus {
 }
 
 blockquote {
-  color: #716d6d;
+  color: #7a8b8c;
   font-style: italic;
 }
 
@@ -247,12 +247,12 @@ blockquote p:first-child {
 ::-moz-selection {
   color: #FFF;
   text-shadow: none;
-  background-color: #716d6d;
+  background-color: #7a8b8c;
 }
 ::selection {
   color: #FFF;
   text-shadow: none;
-  background-color: #716d6d;
+  background-color: #7a8b8c;
 }
 img::selection {
   color: #FFF;
@@ -505,7 +505,7 @@ figure {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: #716d6d;
+  color: #7a8b8c;
 }
 
 .navbar-custom .avatar-container {
@@ -530,7 +530,7 @@ figure {
   margin-left: -50%;
   
     border-radius: 50%;
-    box-shadow: 0 0 0.5rem #716d6d;
+    box-shadow: 0 0 0.5rem #7a8b8c;
     -webkit-box-shadow: 0 0 0.3125rem #000;
     -moz-box-shadow: 0 0 0.5rem #000;
   
@@ -556,7 +556,7 @@ figure {
   .navbar-custom.top-nav-regular .avatar-container .avatar-img-border {
     width: 100%;
     
-    box-shadow: 1px 1px 2px #716d6d;
+    box-shadow: 1px 1px 2px #7a8b8c;
     -webkit-box-shadow: 1px 1px 2px #000;
     -moz-box-shadow: 1px 1px 2px #000;
     
@@ -578,7 +578,7 @@ footer {
 }
 
 footer p.text-muted {
-  color: #716d6d !important;
+  color: #000 !important;
 }
 
 footer a {
@@ -648,7 +648,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #716d6d;
+  color: #7a8b8c;
 }
 
 .post-preview .post-title {
@@ -662,7 +662,7 @@ footer .footer-custom-content {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #716d6d;
+  color: #7a8b8c;
   font-size: 1.125rem;
   font-style: italic;
   margin: 0 0 0.625rem;
@@ -810,11 +810,11 @@ footer .footer-custom-content {
 
 #full-tags-list .tag-entry a:hover {
   font-size: 1.25rem;
-  color: #716d6d;
+  color: #7a8b8c;
 }
 
 #full-tags-list .tag-entry .entry-date {
-  color: #716d6d;
+  color: #7a8b8c;
   font-style: italic;
   font-size: 1rem;
 }
@@ -931,7 +931,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   background-color: #FFF;
   margin: 0 0 2.5rem;
   padding: 1.25rem 0;
-  box-shadow: 0 0 0.3125rem #716d6d;
+  box-shadow: 0 0 0.3125rem #7a8b8c;
 }
 /* Many phones are 320 or 360px, so make sure images are a proper aspect ratio in those cases */
 .header-section.has-img .intro-header.no-img {
@@ -1012,7 +1012,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
-  color: #716d6d;
+  color: #7a8b8c;
   font-weight: bold;
 }
 
@@ -1022,7 +1022,7 @@ table {
   padding: 0;
 }
 table tr {
-  border-top: 1px solid #716d6d;
+  border-top: 1px solid #7a8b8c;
   background-color: #FFF;
   margin: 0;
   padding: 0;
@@ -1030,13 +1030,13 @@ table tr {
 
 table tr th {
   font-weight: bold;
-  border: 1px solid #716d6d;
+  border: 1px solid #7a8b8c;
   text-align: left;
   margin: 0;
   padding: 0.375rem 0.8125rem;
 }
 table tr td {
-  border: 1px solid #716d6d;
+  border: 1px solid #7a8b8c;
   text-align: left;
   margin: 0;
   padding: 0.375rem 0.8125rem;
@@ -1078,7 +1078,7 @@ pre {
     rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
   background-size: auto 3em;
   background-position-y: 0.625rem;
-  border-left: 0.4375rem solid #716d6d;
+  border-left: 0.4375rem solid #7a8b8c;
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
@@ -1094,7 +1094,7 @@ pre {
 .highlight pre.lineno {
   color: rgba(0,0,0,0.3);
   border-radius: 0;
-  border-right: 2px solid #716d6d;
+  border-right: 2px solid #7a8b8c;
 }
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
@@ -1172,7 +1172,7 @@ pre {
   font-size: 0.875rem;
   padding: 0.625rem;
   font-style: italic;
-  color: #716d6d;
+  color: #7a8b8c;
   margin: 0;
   display: block;
   border-bottom-right-radius: 0.3125rem;
@@ -1183,7 +1183,7 @@ pre {
   max-width: 25%;
   border-width: 0.25rem;
   border-radius: 0.1875rem;
-  border-color: #716d6d;
+  border-color: #7a8b8c;
 }
 
 .blog-post blockquote {
@@ -1222,7 +1222,7 @@ pre {
   cursor: pointer;
   right: 25%;
   margin-right: 2rem;
-  color: #716d6d;
+  color: #7a8b8c;
   font-size: 2rem;
   line-height: 2rem;
   font-weight: bold;
@@ -1267,7 +1267,7 @@ pre {
 }
 
 #nav-search-input::placeholder {
-  color: #716d6d;
+  color: #7a8b8c;
 }
 
 #search-results-container {

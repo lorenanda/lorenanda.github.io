@@ -2,7 +2,7 @@
 layout: post
 title: Alexander Rodchenko @ Westlicht Wien
 subtitle: Photo exhibition
-tags: [art, events, francais, deutsch, reviews]
+tags: [photography, francais, deutsch]
 comments: true
 ---
 

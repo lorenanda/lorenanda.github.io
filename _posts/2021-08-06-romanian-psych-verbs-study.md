@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Clustering and classification of emotion verbs
+title: Clustering and classification of Romanian psych-verbs
 gh-repo: lorenanda/psych-verbs
 gh-badge: [star, fork, follow]
-tags: [data science, linguistics, projects]
+tags: [data science, linguistics]
 comments: true
 ---
 
@@ -89,7 +89,7 @@ First, I ran a **descriptive analysis**, where I looked at the distribution of v
 
 The pair plot above depicts three histograms of Duration, Arousal, and Value, as well as six scatterplots with regression lines of the combinations of the three features.
 
-### Clustering
+### Clustering of emotion verbs
 Second, I used **K-Means clustering** to identify clusters of verbs based on their duration, arousal, and valence ratings. The question here was whether some emotion verbs are closer (i.e. more similar) based on their values, rather than on the emotion category they belong to. The K-means
 
 <figure><img src="../assets/img/psychverbs_kmeans.svg" alt="psych verbs kmeans" style="width:100%"><figcaption align = "center"><i>K-Means clustering of psych-verbs by feature</i></figcaption></figure>
@@ -141,7 +141,7 @@ In the third green cluster, there are 8 pairs of directly related verbs:
     to bore (26) - to get bored (40)
 
 
-### Classification / Regression
+### Classification / Regression of emotion verbs
 Third, I attempted to classify psych-vers by using K-Nearest Neighbor (KNN), logistic regression (LR), decision trees (DT), and random forest classifiers. I say "attempted" because I was aware from the start that my data set was way too small to be fit for ML models, so I was expecting low results.
 
 |model|accuracy|
@@ -153,7 +153,7 @@ Third, I attempted to classify psych-vers by using K-Nearest Neighbor (KNN), log
 
 <figure><img src="../assets/img/psychverbs_decisiontree.svg" alt="psych verbs decision tree" style="width:100%"><figcaption align = "center"><i>Decision tree for psych-verbs</i></figcaption></figure>
 
-## Findings
+## Findings about emotion verbs
 ### Means
 - The average and median **duration** of the verbs is 2.2, and most commonly 1.8, so the verbs in the dataset express emotions that are perceived to last only a short time.
 - The average, median, and mode of **arousal** is around 3.3, which means that the verbs express emotions that are not particularly intense.
@@ -186,5 +186,3 @@ Though this experiment revealed new findings, this subject can be explored furth
 
 ### Applications
 Initially, my main interest was to explore the linguistic structure of psych-verbs, but while working on the data analysis and reading research on emotions, I realized the findings of my study could be used for natural language processing (NLP) tasks, such as sentiment analysis and emotion recognition. For example, detecting signs of depression or anxiety in texts (e.g., forums, clinical notes).
-
----

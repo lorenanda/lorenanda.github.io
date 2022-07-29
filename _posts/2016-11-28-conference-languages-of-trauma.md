@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Learning about languages of trauma
-tags: [linguistics, events]
+title: Conference - Languages of trauma in visual media
+tags: [linguistics, conferences]
 comments: true
 ---
 

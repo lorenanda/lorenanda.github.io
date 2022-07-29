@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Photography in the instant gratification economy
-tags: [art]
+tags: [photography]
 comments: true
 ---
 

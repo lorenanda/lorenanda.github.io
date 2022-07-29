@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Expolingua Berlin
-tags: [linguistics, events]
+tags: [linguistics, conferences]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linda McCartney @ Kunsthaus Wien
-tags: [art, events, francais, deutsch, reviews]
+tags: [photography, francais, deutsch]
 comments: true
 ---
 

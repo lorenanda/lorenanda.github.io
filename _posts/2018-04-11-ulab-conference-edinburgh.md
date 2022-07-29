@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Talking about autism in Austrian newspapers @ 8th ULAB Conference in Edinburgh
-tags: [linguistics, events]
+title: Autism as figure of speech in Austrian newspapers (a critical discourse analysis)
+description: Talk at the 8th ULAB Conference in Edinburgh
+tags: [linguistics, conferences]
 comments: true
 ---
 
@@ -9,13 +10,11 @@ comments: true
 
 I've just come back, tired but inspired, from the **[ULAB Conference](http://lingstudents.co.uk/ulab2018/)**** in Edinburgh**, where for three days I've learned about research projects on various linguistics topics of students from Britain mainly.
 
-## Programme
-
 The [programme](http://lingstudents.co.uk/wp-content/uploads/2018/03/ULAB2018_programme.pdf) included **three keynotes** (Prof. Antonella Sorace on adult bilingualism,  Prof. Frederik Kortlandt on relative chronology, and Prof. Simon King on personalised speech communication aids), **poster sessions** and** talks** on sociolinguistics, discourse analysis, computational linguistics, typology, and psycholinguistics. Oh! and of course, there were social events: a walk to Arthur's seat, ceilidh, dinner, city tour, pub quiz... So I had the chance to meet many amazing people who inspired me to pursue research and also have fun along the way 🙂 Hopefully again at the next ULAB'19 hosted by the University of London at Queen Mary!
 
 ![goodies bag](../assets/img/ulabBag.jpg)
 
-## My talk
+## My talk: Autism as figure of speech in Austrian newspapers
 
 On the second day, I gave a **talk** on the use of the word **'autistic' as figure of speech in Austrian newspapers. **This was a paper that I wrote for a seminar on critical discourse analysis as an undergrad at the University of Vienna. I had noticed how often people would say that someone or something is/ seems autistic, with no relation to the condition of autism spectrum disorder. I found this word used quite often not only is speech, but also in the media. After the initial reaction "What is this even supposed to mean!?" I set out to look closer at the contexts in which this adjective in used and by what group of people. I chose the three most read Austrian newspapers from different categories:
 
@@ -33,6 +32,8 @@ I searched the online archive between 2014-2016 of each newspaper with the keywo
 -   "[soon everyday object won't just stay autistically in the corner and wait for signal](https://derstandard.at/1392687503825/Softwarebrueder-fuer-das-geloggte-Leben)" → subordinate, dependent, isolated
 -   "[to describe this novel as borderline autistic is not really wrong](http://derstandard.at/2000024799189/Salman-Rushdie-Erzaehlen-als-letztes-Mittel)" → still not sure what this is supposed to mean
 
-After I analysed the 23 articles, I found that 'autistic' was used in various types of texts (reviews, interviews, reports), in various non-medical contexts (politics, art, music, literature, science, architecture) to illustrate asocial behavior, (self-)isolation, distance, or disinterest. Most articles were published in DS, the newspaper with the youngest readership and highest educational level, and generally by persons from the upper social class. Thus, the word 'autistic' is used as a figure of speech with a negative connotation, and to display an elevated vocabulary of the speaker. I find this usage problematic because it reduces the complex ASD to a few negative characteristics, it objectifies persons with ASD, thus communicating a superficial view of ASD which leads to marginalization and oppression, where 'autistic' becomes a synonym for 'outsider', and 'atypical'. Just something to think about...
+After I analysed the 23 articles, I found that 'autistic' was used in various types of texts (reviews, interviews, reports), in various non-medical contexts (politics, art, music, literature, science, architecture) to illustrate asocial behavior, (self-)isolation, distance, or disinterest. Most articles were published in DS, the newspaper with the youngest readership and highest educational level, and generally by persons from the upper social class.
+
+Thus, the word 'autistic' is used as a figure of speech with a negative connotation, and to display an elevated vocabulary of the speaker. I find this usage problematic because it reduces the complex ASD to a few negative characteristics, it objectifies persons with ASD, thus communicating a superficial view of ASD which leads to marginalization and oppression, where 'autistic' becomes a synonym for 'outsider', and 'atypical'. Just something to think about...
 
 ![Edinburgh](../assets/img/edinburgh.jpg)

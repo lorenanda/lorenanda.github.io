@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Pitfalls of Deep Learning (WAD talk)
-tags: [data science, events]
+tags: [data science, conferences]
 comments: true
 ---
 

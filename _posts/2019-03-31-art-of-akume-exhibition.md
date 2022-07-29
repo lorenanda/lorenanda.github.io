@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Exhibition of Art of Akume
-tags: [art, events]
 comments: true
 ---
 

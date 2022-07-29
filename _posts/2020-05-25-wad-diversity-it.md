@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diversity in IT Jobs (WAD talk)
-tags: [data science, events]
+tags: [data science, conferences]
 comments: true
 ---
 

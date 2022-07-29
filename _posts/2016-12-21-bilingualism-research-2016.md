@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Research findings about bilingualism in 2016
+title: A year of research findings about bilingualism
 tags: [linguistics]
 comments: true
 ---

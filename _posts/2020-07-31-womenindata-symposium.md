@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Women in Data Symposium - Skills to Last a Decade
-tags: [data science, events]
+tags: [data science, conferences]
 comments: true
 ---
 

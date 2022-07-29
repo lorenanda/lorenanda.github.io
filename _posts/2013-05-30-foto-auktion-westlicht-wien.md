@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Photo and camera auction @ Westlicht Wien
-tags: [art, events, francais]
+tags: [francais, photography]
 comments: true
 ---
 

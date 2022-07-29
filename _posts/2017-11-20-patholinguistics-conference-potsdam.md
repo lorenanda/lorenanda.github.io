@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learnings from the 11th Meeting of Patholinguistics in Potsdam
-tags: [linguistics, events]
+tags: [linguistics, conferences]
 comments: true
 ---
 
@@ -12,11 +12,13 @@ Last Saturday **18th November** I attended [again](/patholinguistics-meeting-
 ## Talks
 
 As I've learned from the **keynote lecture of Susanne Voigt-Zimmermann** (who btw had the terrible idea of "warming up our vocal chords" before her talk by making us stand up and sing *Bunt sind schon die Wälder...*), there is a triad of **symptoms of dysphonia**: 
+
 * changes in voice timbre, 
 * limited voice performance, 
 * discomfort when speaking. 
 
 The **causes of dysphonia** are of two types: 
+
 * organic (e.g. inflammation, polyps, cysts, nodules) 
 * functional (e.g. poor muscles, stress, vocal strain if you sing/talk for a long  time or cheer too enthusiastically). 
 

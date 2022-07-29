@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learnings from the 10th Meeting of Patholinguistics in Potsdam
-tags: [linguistics, events]
+tags: [linguistics, conferences]
 comments: true
 ---
 
