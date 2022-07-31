@@ -6,7 +6,7 @@ tags: [linguistics]
 
 - [Introduction](#introduction)
 - [The neural representation of the mental lexicon](#the-neural-representation-of-the-mental-lexicon)
-  - [Aoncrete words](#aoncrete-words)
+  - [Concrete words](#concrete-words)
   - [Abstract words](#abstract-words)
 - [Understanding semantic dementia](#understanding-semantic-dementia)
 - [Semantic knowledge in aging individuals with(out) semantic dementia](#semantic-knowledge-in-aging-individuals-without-semantic-dementia)
@@ -37,7 +37,7 @@ All lexical concepts that are learned throughout life are stored in the mental l
 
 Word processing can be influenced by three factors: frequency (i.e., how often a word is used), familiarity (i.e., to what extent an individual knows the meaning of a word), age of acquisition (i.e., the age at which the word was learned). Words are characterized in terms of concreteness (i.e., “the directness with which words refer to concrete entities” (Kemmerer, 2015:351)) and imageability (i.e., “the ease and speed with which words elicit mental images in various modalities” (Kemmerer, 2015:352)). These two features have different semantic representations: concreteness is bimodal, “capturing the categorical ontological distinction between concrete and abstract concepts, whereas the distribution of imageability ratings is unimodal, indexing the graded amount of sensory (primarily visual) associations of words” (Vigliocco, 2014:1768). 
 
-### Aoncrete words
+### Concrete words
 
 Numerous studies have tried to underpin the brain areas in which abstract and concrete words are represented using brain imaging methods. The most common are functional magnetic resonance imaging (fMRI) which measures the blood oxygenation level dependent (BOLD) signal (increased brain activity requires more oxygenated blood), and positron emission tomography (PET) which measures “regional cerebral blood flow–and, by inference, regional neural activity–by tracking the distribution of a radioactive isotope throughout the brain” (Kemmerer, 2015:44).
 
