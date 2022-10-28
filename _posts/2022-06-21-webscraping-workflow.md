@@ -48,7 +48,7 @@ The downside of browser extensions like these is that they usually have limited 
 
 ### Using custom code and web scraping libraries
 
-If you know how to code, you can use libraries dedicated to web scraping in different programming languages, such as [rvest](https://rvest.tidyverse.org/) in **R**, or [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [ScraPy](https://scrapy.org/), and [Selenium](https://selenium-python.readthedocs.io/) in **Python**. For example, you can scrape and analyze [movie information using rvest](https://lorenaciutacu.com/web-scraping-imdb-with-r/) or [music lyrics using BeautifulSoup](https://github.com/lorenanda/lyrics-classification).
+If you know how to code, you can use libraries dedicated to web scraping in different programming languages, such as [rvest](https://rvest.tidyverse.org/) in **R**, or [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [ScraPy](https://scrapy.org/), and [Selenium](https://selenium-python.readthedocs.io/) in **Python**. For example, you can scrape and analyze [movie information using rvest](/_posts/2019-03-29-web-scraping-imdb-with-r.md) or [music lyrics using BeautifulSoup](https://github.com/lorenanda/lyrics-classification).
 
 The advantage of using libraries like these is that you have more flexibility and control over what you scrape and how to process data – plus it's free. The downside to this approach is that it requires programming skills, and writing custom code can be time-consuming or become overly complicated for a basic scraping use case.
 
