@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>On &quot;No one reads the docs&quot;</title>
+        <description>
+          
+          The idea for this post was prompted by Daniel Beck’s blog post What do you say to “no one reads the docs?”. In it, he proposed opening an inquiry and responding with “Have you been interviewing users? What else have they been telling you?”. I thought of two alternative answers:...
+        </description>
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/no-one-reads-the-docs/</link>
+        <guid isPermaLink="true">http://localhost:4000/no-one-reads-the-docs/</guid>
+      </item>
+    
+      <item>
         <title>How to use math equations in Docusaurus</title>
         <description>
           
@@ -216,17 +227,6 @@
         <pubDate>Sat, 15 Jan 2022 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/accessible-language/</link>
         <guid isPermaLink="true">http://localhost:4000/accessible-language/</guid>
-      </item>
-    
-      <item>
-        <title>How to synchronize data between two systems (one-way vs. two-way sync)</title>
-        <description>
-          
-          Whether you work in marketing, sales, or data engineering, you most likely use several apps or services for collecting and storing data from different sources. To boost productivity and reduce errors, you can automate various tasks in each system – from lead capturing in CRMs to e-commerce workflows and data...
-        </description>
-        <pubDate>Thu, 18 Nov 2021 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/data-sync-workflows/</link>
-        <guid isPermaLink="true">http://localhost:4000/data-sync-workflows/</guid>
       </item>
     
   </channel>
