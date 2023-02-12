@@ -1,7 +1,7 @@
 ---
 title: On "No one reads the docs"
 description: Two responses to "No one reads the docs"
-tags: [docusaurus, jekyll, markdown, tutorials]
+tags: [writing]
 ---
 
 The idea for this post was prompted by Daniel Beck’s blog post [*What do you say to "no one reads the docs?"*](https://ddbeck.com/no-one-reads-the-docs/). In it, he proposed opening an inquiry and responding with "Have you been interviewing users? What else have they been telling you?".
