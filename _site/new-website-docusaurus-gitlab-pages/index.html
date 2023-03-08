@@ -9,13 +9,13 @@
 
   
 
-  <title>Building a lyrics scraper and classifier in Python</title>
+  <title>Building a website with Docusaurus and GitLab Pages</title>
 
   
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="Project completed in week 4 (19.10.-23.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I was super excited about this week, because it was about language models and first steps into NLP, my favorite ML topic! The challenge was to create a Python program that scrapes lyrics from...">
+  <meta name="description" content="I created the website you’re seeing now over two years ago, using Jekyll and GitHub Pages. For a start, I used the Beautiful Jekyll theme, but in time I edited it to match my personal style. Creating a GitLab project To keep organized, I use different branches branches: main for...">
 
   
 
@@ -74,17 +74,17 @@
 
   
   <meta property="og:site_name" content="Lorena Ciutacu">
-  <meta property="og:title" content="Building a lyrics scraper and classifier in Python">
-  <meta property="og:description" content="Project completed in week 4 (19.10.-23.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I was super excited about this week, because it was about language models and first steps into NLP, my favorite ML topic! The challenge was to create a Python program that scrapes lyrics from...">
+  <meta property="og:title" content="Building a website with Docusaurus and GitLab Pages">
+  <meta property="og:description" content="I created the website you’re seeing now over two years ago, using Jekyll and GitHub Pages. For a start, I used the Beautiful Jekyll theme, but in time I edited it to match my personal style. Creating a GitLab project To keep organized, I use different branches branches: main for...">
 
   
 
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Lorena Ciutacu">
-  <meta property="og:article:published_time" content="2020-10-24T00:00:00+02:00">
-  <meta property="og:url" content="http://localhost:4000/bootcamp4/">
-  <link rel="canonical" href="http://localhost:4000/bootcamp4/">
+  <meta property="og:article:published_time" content="2023-01-29T00:00:00+01:00">
+  <meta property="og:url" content="http://localhost:4000/new-website-docusaurus-gitlab-pages/">
+  <link rel="canonical" href="http://localhost:4000/new-website-docusaurus-gitlab-pages/">
   
 
   
@@ -93,8 +93,8 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="Building a lyrics scraper and classifier in Python">
-  <meta property="twitter:description" content="Project completed in week 4 (19.10.-23.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin. I was super excited about this week, because it was about language models and first steps into NLP, my favorite ML topic! The challenge was to create a Python program that scrapes lyrics from...">
+  <meta property="twitter:title" content="Building a website with Docusaurus and GitLab Pages">
+  <meta property="twitter:description" content="I created the website you’re seeing now over two years ago, using Jekyll and GitHub Pages. For a start, I used the Beautiful Jekyll theme, but in time I edited it to match my personal style. Creating a GitLab project To keep organized, I use different branches branches: main for...">
 
   
 
@@ -1001,11 +1001,11 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>Building a lyrics scraper and classifier in Python</h1>
+          <h1>Building a website with Docusaurus and GitLab Pages</h1>
           
 
           
-            <span class="post-meta">Posted on 24 October 2020</span>
+            <span class="post-meta">Posted on 29 January 2023</span>
             
             
               <!--- "ReadTime on GitHub Jekyll" (c) 2020 Ruby Griffith Ramirez, MIT License -->
@@ -1016,7 +1016,7 @@
 
 
   
-  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> 2 minute read</span>
+  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> 1 minute read</span>
 
 
             
@@ -1037,126 +1037,58 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
 
       
-        
-        
-        
-
-        <div id="header-gh-btns">
-          
-            
-              
-                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=lyrics-classification&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                
-            
-              
-                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&repo=lyrics-classification&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                
-            
-              
-                  <iframe src="https://ghbtns.com/github-btn.html?user=lorenanda&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
-              
-            
-          
-        </div>
-      
 
       
 
       <article role="main" class="blog-post">
-        <blockquote>
-  <p>Project completed in week 4 (19.10.-23.10.20) of the Data Science Bootcamp at Spiced Academy in Berlin.</p>
-</blockquote>
+        <p>I <a href="https://github.com/lorenanda/lorenanda.github.io">created the website</a> you’re seeing now over two years ago, using <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a>. For a start, I used the <a href="https://beautifuljekyll.com/">Beautiful Jekyll theme</a>, but in time I edited it to match my personal style.</p>
 
-<p>I was super excited about this week, because it was about language models and first steps into NLP, my favorite ML topic! The challenge was to create a Python program that scrapes lyrics from a website, preprocesses them, and predicts the artist from the text.</p>
+<h2 id="creating-a-gitlab-project">Creating a GitLab project</h2>
 
-<h3 id="web-scraping">Web Scraping</h3>
-
-<p>The first step in this project was to build a web-scraper in Python with BeautifulSoup. I found this to be the most difficult and frustrating part, from finding a good lyrics website that doesn’t contain tens of duplicate lyrics, to implementing BeautifulSoup, and transforming the code from a JupyterNotebook into a Python file.</p>
-
-<h3 id="text-processing">Text Processing</h3>
-
-<p>Next, I had to clean and preprocess the scraped lyrics, in order to feed them to the classification model. I used TextHero and SpaCy to tokenize the text, make the words lowercase, remove punctuation, numbers, and stop words (i.e. filling words or words that don’t change the meaning of a sentence, like <em>the, a, to</em>). This step was quite easy, mainly because the lyrics were in English. But remember:</p>
-
-<blockquote>
-  <p>NLP != English NLP</p>
-</blockquote>
-
-<p>Another important part of text processing was to check for class imbalance, i.e. if and artist had far more observations than another. Class imbalance can skew the prediction in the way that the model would predict the majority. There are four main ways to deal with class imbalance:</p>
+<p>To keep organized, I use different branches branches:</p>
 
 <ul>
-  <li><strong>over-sampling</strong>: collect more samples for the minority class.</li>
-  <li><strong>under-sampling</strong>: reduce the number of samples in the majority class.</li>
-  <li><strong>SMOTE</strong>: generate new samples by interpolation.</li>
-  <li><strong>weighting</strong>: assign higher weights to observation from the minority class during training.</li>
+  <li><code class="language-plaintext highlighter-rouge">main</code> for everything - the branch of it all.</li>
+  <li><code class="language-plaintext highlighter-rouge">blog</code> for blog posts (adding new ones, updating existing ones, and fixing typos).</li>
+  <li><code class="language-plaintext highlighter-rouge">content</code> for website content (updating the about page and adding new projects).</li>
+  <li><code class="language-plaintext highlighter-rouge">design</code> for design and frontend stuff (changing fonts and colors).</li>
+  <li><code class="language-plaintext highlighter-rouge">features</code> for different features (adding Vale or a contact form).</li>
+  <li><code class="language-plaintext highlighter-rouge">pages</code> for configuring <a href="#deploying-docusaurus-with-gitlab-pages">GitLab pages for deploying the website</a>.</li>
 </ul>
 
-<p>In my case, I had more lyrics by Metallica than by Iron Maiden. I went with under-sampling and, after dropping the duplicates, I randomly removed 15 more songs by Metallica. This way, I ended up with 86 songs by each band.</p>
+<h2 id="deploying-docusaurus-with-gitlab-pages">Deploying Docusaurus with GitLab Pages</h2>
 
-<h3 id="naive-bayes-classifier">Naive Bayes Classifier</h3>
+<ol>
+  <li>In the project root directory, I created a new file <code class="language-plaintext highlighter-rouge">gitlab-ci.yml</code>.</li>
+  <li>
+    <p>In the <code class="language-plaintext highlighter-rouge">gitlab-ci.yml</code> file, I used the following configuration:</p>
 
-<p>Now that that the dataset was made of clean lyrics, it was ready to train a classification model. I used the <a href="https://scikit-learn.org/stable/modules/naive_bayes.html#multinomial-naive-bayes">Multinomial Naive Bayes Classifier</a> (MNBC), a probabilistic model based on Bayes’ Theorem, which assumes strong independence between the features and uses a multinomial distribution for each of the features. MNBC is typically used in text classification for calculating the probability of a word occurring in a text. For this, the words are <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer">vectorized</a> or <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html">transformed</a> into numbers. My model achieved an accuracy of <strong>96.7% on the train set </strong>and <strong>68.4% on the test set</strong>. This means that the model overfit.</p>
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="na">image</span><span class="pi">:</span> <span class="s">node:15.12-alpine3.13</span>
 
-<h3 id="text-analysis-ofmetallicaandiron-maidenlyrics">Text analysis of Metallica and Iron Maiden lyrics</h3>
+ <span class="na">stages</span><span class="pi">:</span>
+     <span class="pi">-</span> <span class="s">deploy</span>
 
-<p>Just for fun, I also used NLTK, SpaCy, and VADER to explore the lyrics. Specifically, I looks for similarities and differences between the two bands. It turned out that <em>Iron Maiden</em> have a richer vocabulary and use more long words than <em>Metallica</em>. The latter are slightly more negative, but overall the similarity score of the two bands was 0.99.</p>
+ <span class="na">pages</span><span class="pi">:</span>
+     <span class="na">stage</span><span class="pi">:</span> <span class="s">deploy</span>
+     <span class="na">script</span><span class="pi">:</span>
+         <span class="pi">-</span> <span class="s">npm install</span>
+         <span class="pi">-</span> <span class="s">npm run build</span>
+         <span class="pi">-</span> <span class="s">mv ./build ./public</span>
+     <span class="na">artifacts</span><span class="pi">:</span>
+         <span class="na">paths</span><span class="pi">:</span>
+             <span class="pi">-</span> <span class="s">public</span>
+         <span class="na">only</span><span class="pi">:</span>
+             <span class="pi">-</span> <span class="s">main</span>
+</code></pre></div>    </div>
 
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Feature</strong></td>
-      <td><strong>Metallica</strong></td>
-      <td><strong>Iron Maiden</strong></td>
-    </tr>
-    <tr>
-      <td>lexical richness</td>
-      <td>0.05</td>
-      <td>0.08</td>
-    </tr>
-    <tr>
-      <td>long words</td>
-      <td>15</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <td>polarity</td>
-      <td>-0.06</td>
-      <td>0.08</td>
-    </tr>
-    <tr>
-      <td>subjectivity</td>
-      <td>0.50</td>
-      <td>0.51</td>
-    </tr>
-    <tr>
-      <td>negativity</td>
-      <td>0.24</td>
-      <td>0.18</td>
-    </tr>
-    <tr>
-      <td>neutrality</td>
-      <td>0.63</td>
-      <td>0.69</td>
-    </tr>
-    <tr>
-      <td>positivity</td>
-      <td>0.13</td>
-      <td>0.13</td>
-    </tr>
-    <tr>
-      <td>compound sentiment</td>
-      <td>-1</td>
-      <td>-1</td>
-    </tr>
-  </tbody>
-</table>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">only: main</code> means that the script will run only for changes made in the main branch. If I wanted to run the pipeline for other branches, I’d add the names of the respective branches.</li>
+    </ul>
+  </li>
+  <li>In the <code class="language-plaintext highlighter-rouge">docusaurus.config</code> file,</li>
+  <li>Access the page: <a href="https://aloci.gitlab.io/lc-docusaurus"><code class="language-plaintext highlighter-rouge">https://aloci.gitlab.io/lc-docusaurus</code></a>.</li>
+</ol>
 
-<p>The most fun part was identifying named entities in text with SpaCy. Though SpaCy recognized dates and time adverbs pretty well, it mistagged some words in hilarious/creepy ways.</p>
-
-<h2 id="friday-lightning-talk">Friday Lightning Talk</h2>
-
-<p>At the end of this week, I presented my text analysis of lyrics, to give an overview of NLTK and SpaCy functions for linguistic analysis. As usual, I also got inspiration from my colleagues’ projects on how to improve the command line interface for my webscraper/artist predictor!</p>
-
-<p><a href="https://lorenaciutacu.files.wordpress.com/2020/10/ironmaiden_wordcould.png"><img src="https://lorenaciutacu.files.wordpress.com/2020/10/ironmaiden_wordcould.png?w=369" alt="" /></a></p>
 
       </article>
 
@@ -1166,11 +1098,11 @@
         <div class="blog-tags">
           <span>Tags:</span>
           
-            <a href="/tags#data science">data science</a>
+            <a href="/tags#docusaurus">docusaurus</a>
           
-            <a href="/tags#bootcamp">bootcamp</a>
+            <a href="/tags#jekyll">jekyll</a>
           
-            <a href="/tags#python">python</a>
+            <a href="/tags#tutorial">tutorial</a>
           
         </div>
       
@@ -1187,7 +1119,7 @@
   <span class="sr-only">Share: </span>
 
   
-    <a href="https://twitter.com/intent/tweet?text=Building+a+lyrics+scraper+and+classifier+in+Python&url=http%3A%2F%2Flocalhost%3A4000%2Fbootcamp4%2F"
+    <a href="https://twitter.com/intent/tweet?text=Building+a+website+with+Docusaurus+and+GitLab+Pages&url=http%3A%2F%2Flocalhost%3A4000%2Fnew-website-docusaurus-gitlab-pages%2F"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
@@ -1195,7 +1127,7 @@
   
 
   
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fbootcamp4%2F"
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fnew-website-docusaurus-gitlab-pages%2F"
       class="btn btn-social-icon btn-facebook" title="Share on Facebook">
       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
@@ -1203,7 +1135,7 @@
   
 
   
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fbootcamp4%2F"
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fnew-website-docusaurus-gitlab-pages%2F"
       class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
@@ -1221,24 +1153,16 @@
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/bootcamp3/" data-toggle="tooltip" data-placement="top" title="Predicting bike share demand with linear regression">&larr; Predicting bike share demand with linear regression</a>
+          <a class="page-link" href="/mathjax-katex/" data-toggle="tooltip" data-placement="top" title="How to use math equations in Docusaurus">&larr; How to use math equations in Docusaurus</a>
         </li>
         
         
         <li class="page-item next">
-          <a class="page-link" href="/bootcamp5/" data-toggle="tooltip" data-placement="top" title="Forecasting the weather in Berlin with ARIMA models">Forecasting the weather in Berlin with ARIMA models &rarr;</a>
+          <a class="page-link" href="/no-one-reads-the-docs/" data-toggle="tooltip" data-placement="top" title="On "No one reads the docs"">On "No one reads the docs" &rarr;</a>
         </li>
         
       </ul>
       
-  
-  
-  
-
-  
-
-
-
 
     </div>
   </div>
