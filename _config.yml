@@ -11,7 +11,7 @@ author: Lorena Ciutacu
 navbar-links:
   About: "about"
   Blog: "blog"
-  Yoga: "yoga"
+  #Yoga: "yoga"
   Photography: https://inictuoculi.photography/
 
 # --- Logo --- #
