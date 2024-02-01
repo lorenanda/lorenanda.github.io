@@ -10,6 +10,17 @@
     
     
       <item>
+        <title>Namasté from your new yoga teacher</title>
+        <description>
+          
+          In 2013 I attended my first yoga class. In 2023 I taught my first class. For the past decade I’ve been on a soul-searching spiritual journey through different yoga, meditation, and transcendental experiences. Earlier this month I took the leap to become a yoga teacher, and completed a 200h yoga...
+        </description>
+        <pubDate>Fri, 27 Oct 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/200h-ytt/</link>
+        <guid isPermaLink="true">http://localhost:4000/200h-ytt/</guid>
+      </item>
+    
+      <item>
         <title>On &quot;No one reads the docs&quot;</title>
         <description>
           
@@ -216,17 +227,6 @@
         <pubDate>Sat, 22 Jan 2022 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/buchrezension-rituale/</link>
         <guid isPermaLink="true">http://localhost:4000/buchrezension-rituale/</guid>
-      </item>
-    
-      <item>
-        <title>7 no-code workflow automations for Amazon Web Services</title>
-        <description>
-          
-          Cloud computing has significantly changed the way companies operate. The option of using networks of remote servers hosted on the internet to store, manage, and process data enables organizations to scale and accelerate their digital transformation. The leading cloud infrastructure service provider is Amazon Web Services (AWS), which covers more...
-        </description>
-        <pubDate>Tue, 18 Jan 2022 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/aws-workflows/</link>
-        <guid isPermaLink="true">http://localhost:4000/aws-workflows/</guid>
       </item>
     
   </channel>
