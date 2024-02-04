@@ -13,7 +13,7 @@ The meetup doesn't set a theme, talks and posters are accepted from all branches
 
 ![cover](../assets/img/linguistikMeetupBerlin.jpg)
 
-I participated with a **talk about the impairment of concrete and abstract words in semantic dementia** (SD). My interest in this topic was sparked a couple of months ago in a seminar on the development of the mental lexicon. Since I'm fascinated by all (language) disorders, I chose to write the term paper on SD. You can find my presentation slides [here](https://github.com/lorenanda/lorenanda.github.io/_posts/_pdfs/ciutacu_linguistikmeetup.pptx.pdf).
+I participated with a **talk about the impairment of concrete and abstract words in semantic dementia** (SD). My interest in this topic was sparked a couple of months ago in a seminar on the development of the mental lexicon. Since I'm fascinated by all (language) disorders, I chose to write the term paper on SD. You can find my presentation slides [here](../pdfs/conference_linguistikmeetup_2017.pdf).
 
 - [What is semantic dementia?](#what-is-semantic-dementia)
 - [Signs of semantic dementia](#signs-of-semantic-dementia)

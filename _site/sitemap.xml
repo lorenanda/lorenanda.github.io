@@ -471,4 +471,12 @@
 <url>
 <loc>http://localhost:4000/yoga/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/pdfs/conference_linguistikmeetup_2017.pdf</loc>
+<lastmod>2024-02-04T12:44:18+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/pdfs/yoga_restorative.pdf</loc>
+<lastmod>2024-02-04T12:46:09+01:00</lastmod>
+</url>
 </urlset>
