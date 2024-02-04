@@ -10,7 +10,7 @@ author: Lorena Ciutacu
 
 navbar-links:
   CV: "about"
-  Blog: "blog"
+  #Blog: "blog"
   Yoga: "yoga"
   Photography: https://inictuoculi.photography/
 
