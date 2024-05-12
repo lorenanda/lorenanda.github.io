@@ -35,7 +35,7 @@
         <title>Building a website with Docusaurus and GitLab Pages</title>
         <description>
           
-          I created the website you’re seeing now over two years ago, using Jekyll and GitHub Pages. For a start, I used the Beautiful Jekyll theme, but in time I edited it to match my personal style. Creating a GitLab project To keep organized, I use different branches branches: main for...
+          Just for fun, I built a new personal site: https://aloci.gitlab.io/lc-docusaurus. In the GitLab project, to keep organized I use different branches branches: main for everything - the branch of it all. blog for blog posts (adding new ones, updating existing ones, and fixing typos). content for website content (updating the...
         </description>
         <pubDate>Sun, 29 Jan 2023 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/new-website-docusaurus-gitlab-pages/</link>

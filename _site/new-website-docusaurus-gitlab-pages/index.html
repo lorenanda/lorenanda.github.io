@@ -15,7 +15,7 @@
   <meta name="author" content="Lorena Ciutacu">
   
 
-  <meta name="description" content="I created the website you’re seeing now over two years ago, using Jekyll and GitHub Pages. For a start, I used the Beautiful Jekyll theme, but in time I edited it to match my personal style. Creating a GitLab project To keep organized, I use different branches branches: main for...">
+  <meta name="description" content="Just for fun, I built a new personal site: https://aloci.gitlab.io/lc-docusaurus. In the GitLab project, to keep organized I use different branches branches: main for everything - the branch of it all. blog for blog posts (adding new ones, updating existing ones, and fixing typos). content for website content (updating the...">
 
   
 
@@ -75,7 +75,7 @@
   
   <meta property="og:site_name" content="Lorena Ciutacu">
   <meta property="og:title" content="Building a website with Docusaurus and GitLab Pages">
-  <meta property="og:description" content="I created the website you’re seeing now over two years ago, using Jekyll and GitHub Pages. For a start, I used the Beautiful Jekyll theme, but in time I edited it to match my personal style. Creating a GitLab project To keep organized, I use different branches branches: main for...">
+  <meta property="og:description" content="Just for fun, I built a new personal site: https://aloci.gitlab.io/lc-docusaurus. In the GitLab project, to keep organized I use different branches branches: main for everything - the branch of it all. blog for blog posts (adding new ones, updating existing ones, and fixing typos). content for website content (updating the...">
 
   
 
@@ -94,7 +94,7 @@
   <meta name="twitter:creator" content="@">
 
   <meta property="twitter:title" content="Building a website with Docusaurus and GitLab Pages">
-  <meta property="twitter:description" content="I created the website you’re seeing now over two years ago, using Jekyll and GitHub Pages. For a start, I used the Beautiful Jekyll theme, but in time I edited it to match my personal style. Creating a GitLab project To keep organized, I use different branches branches: main for...">
+  <meta property="twitter:description" content="Just for fun, I built a new personal site: https://aloci.gitlab.io/lc-docusaurus. In the GitLab project, to keep organized I use different branches branches: main for everything - the branch of it all. blog for blog posts (adding new ones, updating existing ones, and fixing typos). content for website content (updating the...">
 
   
 
@@ -122,6 +122,9 @@
     <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="/about">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Posts</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/yoga">Yoga</a>
@@ -963,7 +966,7 @@
         }, \
        \
         { \
-          "title"    : "BLOG", \
+          "title"    : "POSTS", \
           "category" : "page", \
           "url"      : "/blog/", \
           "date"     : "January 1 1970" \
@@ -1033,7 +1036,7 @@
 
 
   
-  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> 1 minute read</span>
+  <span class="post-meta"><span class="d-none d-md-inline middot">&middot;</span> &lt; 1 minute read</span>
 
 
             
@@ -1058,11 +1061,9 @@
       
 
       <article role="main" class="blog-post">
-        <p>I <a href="https://github.com/lorenanda/lorenanda.github.io">created the website</a> you’re seeing now over two years ago, using <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a>. For a start, I used the <a href="https://beautifuljekyll.com/">Beautiful Jekyll theme</a>, but in time I edited it to match my personal style.</p>
+        <p>Just for fun, I built a new personal site: <a href="https://aloci.gitlab.io/lc-docusaurus"><code class="language-plaintext highlighter-rouge">https://aloci.gitlab.io/lc-docusaurus</code></a>.</p>
 
-<h2 id="creating-a-gitlab-project">Creating a GitLab project</h2>
-
-<p>To keep organized, I use different branches branches:</p>
+<p>In the GitLab project, to keep organized I use different branches branches:</p>
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">main</code> for everything - the branch of it all.</li>
@@ -1073,39 +1074,27 @@
   <li><code class="language-plaintext highlighter-rouge">pages</code> for configuring <a href="#deploying-docusaurus-with-gitlab-pages">GitLab pages for deploying the website</a>.</li>
 </ul>
 
-<h2 id="deploying-docusaurus-with-gitlab-pages">Deploying Docusaurus with GitLab Pages</h2>
+<p>To deploy the website with GitLab pages, in the project root directory I created a new file <code class="language-plaintext highlighter-rouge">gitlab-ci.yml</code> with the following configuration:</p>
 
-<ol>
-  <li>In the project root directory, I created a new file <code class="language-plaintext highlighter-rouge">gitlab-ci.yml</code>.</li>
-  <li>
-    <p>In the <code class="language-plaintext highlighter-rouge">gitlab-ci.yml</code> file, I used the following configuration:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```yaml
+image: node:15.12-alpine3.13
 
-    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="na">image</span><span class="pi">:</span> <span class="s">node:15.12-alpine3.13</span>
+stages:
+    - deploy
 
- <span class="na">stages</span><span class="pi">:</span>
-     <span class="pi">-</span> <span class="s">deploy</span>
-
- <span class="na">pages</span><span class="pi">:</span>
-     <span class="na">stage</span><span class="pi">:</span> <span class="s">deploy</span>
-     <span class="na">script</span><span class="pi">:</span>
-         <span class="pi">-</span> <span class="s">npm install</span>
-         <span class="pi">-</span> <span class="s">npm run build</span>
-         <span class="pi">-</span> <span class="s">mv ./build ./public</span>
-     <span class="na">artifacts</span><span class="pi">:</span>
-         <span class="na">paths</span><span class="pi">:</span>
-             <span class="pi">-</span> <span class="s">public</span>
-         <span class="na">only</span><span class="pi">:</span>
-             <span class="pi">-</span> <span class="s">main</span>
-</code></pre></div>    </div>
-
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">only: main</code> means that the script will run only for changes made in the main branch. If I wanted to run the pipeline for other branches, I’d add the names of the respective branches.</li>
-    </ul>
-  </li>
-  <li>In the <code class="language-plaintext highlighter-rouge">docusaurus.config</code> file,</li>
-  <li>Access the page: <a href="https://aloci.gitlab.io/lc-docusaurus"><code class="language-plaintext highlighter-rouge">https://aloci.gitlab.io/lc-docusaurus</code></a>.</li>
-</ol>
-
+pages:
+    stage: deploy
+    script:
+        - npm install
+        - npm run build
+        - mv ./build ./public
+    artifacts:
+        paths:
+            - public
+        only:
+            - main
+```
+</code></pre></div></div>
 
       </article>
 
