@@ -17,21 +17,21 @@ In the GitLab project, to keep organized I use different branches branches:
 
 To deploy the website with GitLab pages, in the project root directory I created a new file `gitlab-ci.yml` with the following configuration:
     
-    ```yaml
-    image: node:15.12-alpine3.13
+```yaml
+image: node:15.12-alpine3.13
 
-    stages:
-        - deploy
+stages:
+    - deploy
 
-    pages:
-        stage: deploy
-        script:
-            - npm install
-            - npm run build
-            - mv ./build ./public
-        artifacts:
-            paths:
-                - public
-            only:
-                - main
-    ```
+pages:
+    stage: deploy
+    script:
+        - npm install
+        - npm run build
+        - mv ./build ./public
+    artifacts:
+        paths:
+            - public
+        only:
+            - main
+```

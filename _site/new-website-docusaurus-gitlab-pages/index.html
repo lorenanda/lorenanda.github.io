@@ -1076,24 +1076,22 @@
 
 <p>To deploy the website with GitLab pages, in the project root directory I created a new file <code class="language-plaintext highlighter-rouge">gitlab-ci.yml</code> with the following configuration:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```yaml
-image: node:15.12-alpine3.13
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">image</span><span class="pi">:</span> <span class="s">node:15.12-alpine3.13</span>
 
-stages:
-    - deploy
+<span class="na">stages</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">deploy</span>
 
-pages:
-    stage: deploy
-    script:
-        - npm install
-        - npm run build
-        - mv ./build ./public
-    artifacts:
-        paths:
-            - public
-        only:
-            - main
-```
+<span class="na">pages</span><span class="pi">:</span>
+    <span class="na">stage</span><span class="pi">:</span> <span class="s">deploy</span>
+    <span class="na">script</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s">npm install</span>
+        <span class="pi">-</span> <span class="s">npm run build</span>
+        <span class="pi">-</span> <span class="s">mv ./build ./public</span>
+    <span class="na">artifacts</span><span class="pi">:</span>
+        <span class="na">paths</span><span class="pi">:</span>
+            <span class="pi">-</span> <span class="s">public</span>
+        <span class="na">only</span><span class="pi">:</span>
+            <span class="pi">-</span> <span class="s">main</span>
 </code></pre></div></div>
 
       </article>
