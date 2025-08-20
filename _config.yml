@@ -9,9 +9,8 @@ author: Lorena Ciutacu
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  CV: "about"
+  About: "about"
   Posts: "blog"
-  Yoga: "yoga"
   Photography: https://inictuoculi.photography/
 
 # --- Logo --- #
